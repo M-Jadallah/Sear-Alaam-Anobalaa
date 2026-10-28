@@ -110,7 +110,7 @@ def create_app(db_path=None, source_path=None):
             # Source reads materialize the canonical text. Bound concurrent
             # SQLite handlers as well as inference on the shared 2GB server.
             anyio.to_thread.current_default_thread_limiter().total_tokens = 2
-        app.add_event_handler("startup", bound_database_threads)
+        app.router.add_event_handler("startup", bound_database_threads)
     app.include_router(reading_router(database))
     app.include_router(smart_router(database))
     app.include_router(pilot_router(database))
