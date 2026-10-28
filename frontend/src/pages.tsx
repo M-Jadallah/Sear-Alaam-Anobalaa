@@ -394,7 +394,7 @@ export function TopicPage() {
   const evidence = useApi<List>(
     `/api/topics/${id}/evidence?${params({ status, page })}`,
   );
-  const pilotEvidence = useApi<Omit<List, 'items'> & { items: TopicAudit[] }>(status === 'rejected' ? null : `/api/pilot/reviews?${params({ topic_id: id, eligible_only: 'true', status: status === 'candidate' ? 'pending' : status, page: pilotPage, page_size: 10 })}`);
+  const pilotEvidence = useApi<Omit<List, 'items'> & { items: TopicAudit[] }>(status === 'rejected' ? null : `/api/pilot/evidence?${params({ topic_id: id, status: status === 'candidate' ? 'pending' : status, page: pilotPage, page_size: 10 })}`);
   return (
     <>
       <Link className="text-link back" to="/topics">
@@ -586,8 +586,10 @@ export function SourcePage({ stats }: { stats?: Stats }) {
         </p>
         <p>
           الفهرسة اللفظية لا تضمن جميع الموضوعات أو جميع مواضع ذكر الأعلام.
-          البحث بالمعنى أداة استرجاع اختيارية ولا يعتمد التصنيفات أو الهويات تلقائيًا. راجع شروط OpenITI وحقوق الطبعة والتحقيق قبل
-          النشر العام؛ التشغيل الحالي محلي.
+          البحث بالمعنى أداة استرجاع اختيارية ولا يعتمد التصنيفات أو الهويات تلقائيًا.
+          تُنسب النسخة الرقمية إلى OpenITI؛ تذكر إرشادات المشروع رخصة{' '}
+          <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noreferrer">CC BY-NC-SA 4.0</a>.
+          {' '}تُراجع حقوق الطبعة والتحقيق مستقلة عن رخصة النسخة الرقمية، وتظل الإضافات التحريرية مميزة عن الأصل.
         </p>
       </section>
     </>

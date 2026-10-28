@@ -53,6 +53,12 @@ test('HTTPS visitor -> admin login -> protected review -> logout, desktop and mo
   await page.screenshot({ path: path.join(evidence, 'login-mobile.png'), fullPage: true });
   await page.goto(url + '/reader/1');
   await expect(page.locator('main')).toContainText('أبو عبيدة');
+  const publicResponse = await request.get(url + '/api/pilot/evidence?page_size=1');
+  expect(publicResponse.status()).toBe(200);
+  const publicEvidence = await publicResponse.json();
+  expect(publicEvidence.items.length).toBe(1);
+  await page.goto(url + '/topics/' + publicEvidence.items[0].topic_id);
+  await expect(page.getByLabel('شواهد الموضوع من العينة')).toBeVisible();
   expect(errors).toEqual([]);
   expect((await request.get(url + '/api/reviews')).status()).toBe(401);
 });

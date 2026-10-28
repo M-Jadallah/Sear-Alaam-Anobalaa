@@ -25,7 +25,7 @@ def prune_images(images, previous):
         package = "sear-alaam-anobalaa-" + kind
         path = "users/M-Jadallah/packages/container/" + package
         details = github(path)
-        if details.get("visibility") != "private" or details.get("repository", {}).get("full_name", "").lower() != "m-jadallah/sear-alaam-anobalaa":
+        if details.get("visibility") != "private" or (details.get("repository") or {}).get("full_name", "").lower() != "m-jadallah/sear-alaam-anobalaa":
             continue
         keep = {images[kind].split("@", 1)[1]}
         if previous.get(kind):

@@ -29,6 +29,9 @@ def main():
     semantic = request("/api/semantic/status")[2]
     assert semantic["ready"] and semantic["paragraph_status"]["ready"], semantic
     assert request("/api/reviews")[0] == 401
+    witnesses = request("/api/pilot/evidence?page_size=100")[2]
+    assert witnesses["total"] > 0
+    assert all(row["human_status"] != "rejected" and row["agent_decision"] != "exclude" for row in witnesses["items"])
     code, headers, session = request("/api/auth/login", {"username": os.environ["SIYAR_ADMIN_USERNAME"], "password": os.environ["SIYAR_ADMIN_PASSWORD"]})
     assert code == 200
     cookie = next(value for key, value in headers.items() if key.lower() == "set-cookie").split(";", 1)[0]

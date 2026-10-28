@@ -56,6 +56,12 @@ jobs:
           SIYAR_CPU_THREADS: '2'
           SIYAR_ONNX_TOKENIZER: rust
         run: python -m backend.semantic prepare --runtime onnx-portable --directory deploy/artifacts/semantic --batch-size 8
+      - name: Save completed assets before evaluation and container testing
+        if: steps.offline-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: deploy/artifacts
+          key: ${{ steps.offline-cache.outputs.cache-primary-key }}
       - name: Verify retrieval accuracy and offline operation
         env:
           SIYAR_MODEL_DIR: ${{ github.workspace }}/deploy/artifacts/models
@@ -68,12 +74,6 @@ jobs:
           python -c "import json; d=json.load(open('deploy/test-output/semantic-evaluation.json')); assert d['goals']['descriptive_hit_at_10_at_least_80_percent'], d['descriptive_questions']"
           python -m pytest tests/test_semantic_offline.py tests/test_onnx_lightweight.py -q
           python -m pytest tests/test_rust_tokenizer.py -q
-      - name: Save completed assets before container testing
-        if: steps.offline-cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v4
-        with:
-          path: deploy/artifacts
-          key: ${{ steps.offline-cache.outputs.cache-primary-key }}
       - name: Build AMD64 images locally on CI
         run: |
           docker build --platform linux/amd64 -f deploy/api.Dockerfile -t ghcr.io/m-jadallah/sear-alaam-anobalaa-api:sha-${{ github.sha }} .

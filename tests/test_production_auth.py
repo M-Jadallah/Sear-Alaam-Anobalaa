@@ -34,6 +34,8 @@ def test_public_search_and_private_review_endpoints(production):
         assert production.get(path).status_code == 401
     assert production.post("/api/reviews/topic-hits/1", json={"review_status": "reviewed"}).status_code == 401
     assert production.get("/api/auth/me").json()["authenticated"] is False
+    assert production.get("/api/pilot/evidence").status_code == 200
+    assert production.get("/api/pilot/evidence?status=rejected").status_code == 422
 
 
 def test_csrf_logout_and_server_assigned_reviewer(production, book):

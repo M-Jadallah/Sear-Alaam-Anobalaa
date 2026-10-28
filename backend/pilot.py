@@ -412,6 +412,12 @@ def pilot_router(db_path):
             rows=db.execute("SELECT e.*,t.name topic_name"+sql+" ORDER BY e.id LIMIT ? OFFSET ?",(*args,page_size,(page-1)*page_size))
             return {"items":[_serialize(db,row) for row in rows],"total":total,"page":page,"page_size":page_size}
 
+    @router.get('/api/pilot/evidence')
+    def public_evidence(biography_id:int|None=None,topic_id:int|None=None,batch_id:str|None=None,status:Literal['all','pending','reviewed']='all',page:int=Query(1,ge=1),page_size:int=Query(20,ge=1,le=100)):
+        # Published, eligible witnesses remain public; moderation queues and
+        # rejected/excluded records stay behind authenticated review endpoints.
+        return reviews(biography_id=biography_id,topic_id=topic_id,batch_id=batch_id,eligible_only=True,status=status,page=page,page_size=page_size)
+
     @router.get('/api/pilot/coverage')
     def coverage(biography_id:int|None=None,batch_id:str|None=None,status:Literal['pending','reviewed','all']='pending',page:int=Query(1,ge=1),page_size:int=Query(10,ge=1,le=100)):
         with closing(connect(db_path)) as db:
