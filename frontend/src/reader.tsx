@@ -17,9 +17,11 @@ import { ManualTag } from "./manual-tag";
 import { FormattedText, citationFor } from "./formatted-text";
 import { PilotReader, PilotTopicsPanel } from './pilot-reader';
 import { usableDiacritics, vocalizedRunText } from './diacritics-text';
+import { useAuth } from './auth';
 import type { PilotPresentation, PilotTopics } from './pilot-types';
 
 export function ReaderPage({ section = false }: { section?: boolean }) {
+  const { session } = useAuth();
   const { id } = useParams();
   const [query] = useSearchParams();
   const [fontSize, setFontSize] = useState(23);
@@ -336,12 +338,12 @@ export function ReaderPage({ section = false }: { section?: boolean }) {
                   >
                     تظليل المقطع
                   </Link>
-                  <button
+                  {session?.authenticated ? <button
                     className="button subtle"
                     onClick={() => setManual(s)}
                   >
                     ربط بموضوع
-                  </button>
+                  </button> : <Link className="text-link" to={`/login?next=${encodeURIComponent('/reader/' + id)}`}>دخول المدير لإضافة وسم</Link>}
                 </div>
               ))}
               <Pagination

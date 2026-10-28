@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useAllTopics, postReview, number } from "./api";
 import type { Row } from "./api";
 import { LoadState } from "./components";
+import { useAuth } from './auth';
 
 export function ManualTag({
   segment,
@@ -14,7 +15,9 @@ export function ManualTag({
   const [topic, setTopic] = useState(0);
   const [start, setStart] = useState(segment.source_char_start ?? 0);
   const [end, setEnd] = useState(segment.source_char_end ?? 0);
-  const [reviewer, setReviewer] = useState("");
+  const { session } = useAuth();
+  const isAdmin = session?.mode === 'production';
+  const [reviewer, setReviewer] = useState(isAdmin ? session.username ?? '' : '');
   const [note, setNote] = useState("");
   const [status, setStatus] = useState("candidate");
   const [error, setError] = useState("");
@@ -72,6 +75,7 @@ export function ManualTag({
           <input
             aria-label="مراجع الوسم اليدوي"
             value={reviewer}
+            readOnly={isAdmin}
             onChange={(e) => setReviewer(e.target.value)}
             maxLength={100}
           />

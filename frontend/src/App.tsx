@@ -180,7 +180,7 @@ function AppShell() {
           </p>
           <span>
             <i />
-            نسخة محلية · بلا خدمات مدفوعة
+            بحث موثق · بلا خدمات مدفوعة
           </span>
         </div>
       </aside>
@@ -212,7 +212,7 @@ function AppShell() {
           </div>
           <span className="local">
             <i />
-            نسخة محلية
+            {session?.mode === 'production' ? 'نسخة منشورة' : session ? 'نسخة محلية' : 'المكتبة'}
             <Monitor size={18} />
           </span>
         </div>

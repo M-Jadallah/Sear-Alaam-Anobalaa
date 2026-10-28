@@ -163,9 +163,10 @@ def download_models():
         api = "https://huggingface.co/api/models/" + name + "/revision/" + revision
         with urllib.request.urlopen(api, timeout=60) as response:
             details = json.load(response)
-        extensions = (".json", ".txt", ".model") if runtime_backend() == "onnxruntime-cpu-int8-portable-v2" else (".json", ".safetensors", ".txt", ".model")
+        extensions = (".json", ".txt", ".model") if runtime_backend() == "onnxruntime-cpu-int8-rowwise-v3" else (".json", ".safetensors", ".txt", ".model")
         names = [item["rfilename"] for item in details["siblings"]
-                 if item["rfilename"].endswith(extensions)
+                 if (item["rfilename"].endswith(extensions)
+                     or Path(item["rfilename"]).name in {"README.md", "LICENSE", "LICENSE.md", "LICENSE.txt", "NOTICE"})
                  and not item["rfilename"].startswith(("onnx/", "openvino/"))]
         def fetch(relative):
             relative_path = Path(relative)
@@ -198,7 +199,7 @@ def download_models():
         for path in sorted(destination.rglob("*")):
             if path.is_file() and ".cache" not in path.parts:
                 files.append({"path": path.relative_to(destination).as_posix(), "size": path.stat().st_size, "sha256": file_sha256(path)})
-        if runtime_backend() == "onnxruntime-cpu-int8-portable-v2":
+        if runtime_backend() == "onnxruntime-cpu-int8-rowwise-v3":
             if not {"tokenizer.json", "config.json"}.issubset({item["path"] for item in files}):
                 raise RuntimeError("ملفات محول النص المحلي غير مكتملة.")
         elif not any(item["path"].endswith(".safetensors") for item in files):
@@ -530,7 +531,7 @@ def main():
     args = parser.parse_args()
     try:
         if args.runtime:
-            atomic_json(MODEL_DIR / "runtime.json", {"runtime": {"onnx": "onnxruntime-cpu-int8-v1", "onnx-portable": "onnxruntime-cpu-int8-portable-v2", "torch": "torch-fp32-v1"}[args.runtime]})
+            atomic_json(MODEL_DIR / "runtime.json", {"runtime": {"onnx": "onnxruntime-cpu-int8-v1", "onnx-portable": "onnxruntime-cpu-int8-rowwise-v3", "torch": "torch-fp32-v1"}[args.runtime]})
         result = semantic_status(args.db, args.directory) if args.command == "status" else download_models() if args.command == "download" else prepare(args.db, args.directory, not args.offline, args.batch_size)
         if args.command == "prepare" and not args.context_only:
             from .semantic_paragraphs import prepare_paragraphs

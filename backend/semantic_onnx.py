@@ -5,7 +5,72 @@ import os
 import urllib.request
 
 RUNTIME = "onnxruntime-cpu-int8-v1"
-PORTABLE_RUNTIME = "onnxruntime-cpu-int8-portable-v2"
+PORTABLE_RUNTIME = "onnxruntime-cpu-int8-rowwise-v3"
+
+
+def quantize_portable(source, target):
+    import tempfile
+    import numpy as np
+    import onnx
+    from onnx import helper, numpy_helper, TensorProto
+    from onnxruntime.quantization import QuantType, quantize_dynamic
+    # Per-tensor vocabulary quantization loses low-amplitude word vectors when
+    # a rare row has an outlier. Quantize each vocabulary row independently,
+    # gather its scale, then dequantize only the requested token rows.
+    graph = onnx.load(str(source))
+    initializers = {value.name: value for value in graph.graph.initializer}
+    replacements = {}
+    additions = []
+    for node in graph.graph.node:
+        if node.op_type != "Gather" or node.input[0] not in initializers:
+            continue
+        weight = initializers[node.input[0]]
+        if weight.name in replacements or weight.data_type != TensorProto.FLOAT or len(weight.dims) != 2 or weight.dims[0] < 1024:
+            continue
+        users = [other for other in graph.graph.node if weight.name in other.input]
+        if any(other.op_type != "Gather" or any(attr.name == "axis" and attr.i != 0 for attr in other.attribute) for other in users):
+            continue
+        values = numpy_helper.to_array(weight)
+        quantized = np.empty(values.shape, dtype=np.int8)
+        scales = np.empty(values.shape[0], dtype=np.float32)
+        for start in range(0, len(values), 4096):
+            batch = values[start:start + 4096]
+            scale = np.maximum(np.max(np.abs(batch), axis=1) / 127, np.finfo(np.float32).tiny)
+            scales[start:start + len(batch)] = scale
+            quantized[start:start + len(batch)] = np.clip(np.rint(batch / scale[:, None]), -127, 127).astype(np.int8)
+        qname, sname = weight.name + "_row_int8", weight.name + "_row_scales"
+        additions.extend([numpy_helper.from_array(quantized, qname), numpy_helper.from_array(scales, sname)])
+        replacements[weight.name] = (qname, sname)
+    nodes = []
+    for index, node in enumerate(graph.graph.node):
+        if node.op_type == "Gather" and node.input[0] in replacements:
+            qname, sname = replacements[node.input[0]]
+            output = node.output[0]
+            prefix = "siyar_row_embedding_" + str(index)
+            axes = prefix + "_axes"
+            additions.append(numpy_helper.from_array(np.array([-1], dtype=np.int64), axes))
+            nodes.extend([
+                helper.make_node("Gather", [qname, node.input[1]], [prefix + "_q"], axis=0),
+                helper.make_node("Gather", [sname, node.input[1]], [prefix + "_scale"], axis=0),
+                helper.make_node("Unsqueeze", [prefix + "_scale", axes], [prefix + "_expanded"]),
+                helper.make_node("Cast", [prefix + "_q"], [prefix + "_float"], to=TensorProto.FLOAT),
+                helper.make_node("Mul", [prefix + "_float", prefix + "_expanded"], [output]),
+            ])
+        else:
+            nodes.append(node)
+    retained = [value for value in graph.graph.initializer if value.name not in replacements]
+    del graph.graph.node[:]
+    graph.graph.node.extend(nodes)
+    del graph.graph.initializer[:]
+    graph.graph.initializer.extend(retained + additions)
+    with tempfile.TemporaryDirectory() as temporary:
+        staged = Path(temporary) / "rowwise.onnx"
+        onnx.save(graph, str(staged))
+        del graph
+        # Per-channel signed 7-bit weights avoid AVX2 accumulation saturation;
+        # the format occupies one byte per weight on every x86 CPU.
+        quantize_dynamic(str(staged), str(target), weight_type=QuantType.QInt8,
+                         per_channel=True, reduce_range=True, op_types_to_quantize=["MatMul"])
 
 
 def validate_onnx_manifest(manifest):
@@ -18,7 +83,7 @@ def validate_onnx_manifest(manifest):
         kind = item["kind"]
         name, revision, filename = expected[kind]
         if manifest["runtime"] == PORTABLE_RUNTIME:
-            filename = "model_u8u8.onnx"
+            filename = "model_rowwise_int8.onnx"
         if item.get("model") != name or item.get("revision") != revision:
             raise RuntimeError("إصدار نموذج ONNX لا يطابق الإصدار المثبت.")
         relative = Path(item["file"])
@@ -37,7 +102,7 @@ def download_onnx_models():
     entries = []
     for kind, name, revision, filename in (("embed", EMBED_MODEL, EMBED_REVISION, "model_qint8_avx512_vnni.onnx"), ("rerank", RERANK_MODEL, RERANK_REVISION, "model_quint8_avx2.onnx")):
         if portable:
-            filename = "model_u8u8.onnx"
+            filename = "model_rowwise_int8.onnx"
         directory = MODEL_DIR / ("onnx-" + kind + "-" + revision)
         directory.mkdir(parents=True, exist_ok=True)
         target = directory / filename
@@ -57,15 +122,14 @@ def download_onnx_models():
                 if expected and received != expected:
                     raise RuntimeError("لم يكتمل تنزيل ONNX.")
             if portable:
-                # Build-only dependencies. Generic U8U8 avoids AVX512/VNNI-specific assumptions.
-                from onnxruntime.quantization import QuantType, quantize_dynamic
+                # Build-only dependencies. Row-wise embeddings and signed 7-bit MatMul weights run without AVX512.
                 quantized = target.with_suffix(".quantizing.onnx")
-                quantize_dynamic(str(temporary), str(quantized), weight_type=QuantType.QUInt8, per_channel=False, op_types_to_quantize=["MatMul"])
+                quantize_portable(temporary, quantized)
                 os.replace(quantized, target)
                 temporary.unlink()
             else:
                 os.replace(temporary, target)
-        entries.append({"kind": kind, "model": name, "revision": revision, "file": str(target.relative_to(MODEL_DIR)), "sha256": file_sha256(target), "size": target.stat().st_size})
+        entries.append({"kind": kind, "model": name, "revision": revision, "file": target.relative_to(MODEL_DIR).as_posix(), "sha256": file_sha256(target), "size": target.stat().st_size})
     manifest = {"runtime": PORTABLE_RUNTIME if portable else RUNTIME, "models": entries, "fingerprint": _json_hash(entries)}
     atomic_json(MODEL_DIR / "onnx-manifest.json", manifest)
     return manifest

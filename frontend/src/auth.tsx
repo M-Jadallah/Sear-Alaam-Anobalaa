@@ -42,7 +42,7 @@ export function LoginPage() {
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
   const next = query.get('next');
-  const destination = next === '/pilot/reviews' ? next : '/reviews';
+  const destination = next && (next === '/pilot/reviews' || /^\/reader\/[1-9][0-9]*$/.test(next)) ? next : '/reviews';
   if (session?.authenticated) return <Navigate replace to={destination} />;
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault(); setBusy(true); setError('');

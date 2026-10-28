@@ -53,6 +53,9 @@ test('HTTPS visitor -> admin login -> protected review -> logout, desktop and mo
   await page.screenshot({ path: path.join(evidence, 'login-mobile.png'), fullPage: true });
   await page.goto(url + '/reader/1');
   await expect(page.locator('main')).toContainText('أبو عبيدة');
+  await page.getByRole('button', { name: 'استعراض المقاطع وحدودها' }).click();
+  await expect(page.getByRole('link', { name: 'دخول المدير لإضافة وسم' }).first()).toBeVisible();
+  await expect(page.getByRole('button', { name: 'ربط بموضوع', exact: true })).toHaveCount(0);
   const publicResponse = await request.get(url + '/api/pilot/evidence?page_size=1');
   expect(publicResponse.status()).toBe(200);
   const publicEvidence = await publicResponse.json();

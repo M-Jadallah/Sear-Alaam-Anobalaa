@@ -49,7 +49,7 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: deploy/artifacts
-          key: portable-int8-v2-${{ runner.os }}-${{ hashFiles('backend/semantic*.py', 'backend/reading*.py', 'backend/diacritics.py', 'requirements-production.txt', 'deploy/seed/manifest.json') }}
+          key: rowwise-int8-v3-${{ runner.os }}-${{ hashFiles('backend/semantic*.py', 'backend/reading*.py', 'backend/diacritics.py', 'requirements-production.txt', 'deploy/seed/manifest.json') }}
       - name: Prepare both indexes outside VPS
         env:
           SIYAR_MODEL_DIR: ${{ github.workspace }}/deploy/artifacts/models
