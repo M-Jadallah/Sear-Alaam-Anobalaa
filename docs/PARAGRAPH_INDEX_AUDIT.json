@@ -1,0 +1,25 @@
+{
+  "scope": "all canonical paragraph segments",
+  "tokenizer": "stored model-token counts; no tokenizer or model loaded",
+  "index_directory": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\semantic\\paragraphs-788ce81e39bc79b34e32",
+  "renderer_version": "openiti-reading-v1",
+  "canonical_segments": 129006,
+  "nonempty_segments": 129002,
+  "segments_with_windows": 129002,
+  "windows": 129146,
+  "display_nonspace_codepoints": 9443590,
+  "covered_nonspace_codepoints": 9443590,
+  "uncovered": [],
+  "invalid_windows": [],
+  "vectors_validated": false,
+  "sources": [
+    {
+      "id": 1,
+      "sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+      "char_count": 12665488
+    }
+  ],
+  "windows_complete_metadata": true,
+  "complete": true,
+  "elapsed_seconds": 16.904
+}

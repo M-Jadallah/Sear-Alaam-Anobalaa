@@ -1,0 +1,58 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 17,
+  "source_char_start": 1634907,
+  "source_char_end": 1635157,
+  "reviewer": "codex-team",
+  "version": "pilot-reading-v2",
+  "paragraph_groups": [
+    {
+      "start": 1634907,
+      "end": 1634964
+    },
+    {
+      "start": 1634964,
+      "end": 1634985
+    },
+    {
+      "start": 1634985,
+      "end": 1635147
+    },
+    {
+      "start": 1635147,
+      "end": 1635157
+    }
+  ],
+  "paragraph_notes": [
+    {
+      "start": 1634907,
+      "end": 1634964,
+      "context_start": 1634907,
+      "context_end": 1634985,
+      "reason": "عنوان المصدر مستقل عن بيان الاحتمال الآخر لنسبه."
+    },
+    {
+      "start": 1634964,
+      "end": 1634985,
+      "context_start": 1634907,
+      "context_end": 1635147,
+      "reason": "قوله أو ابن أبي البكير تعقيب على اسم العنوان قبل افتتاح نقل ابن سعد."
+    },
+    {
+      "start": 1634985,
+      "end": 1635147,
+      "context_start": 1634964,
+      "context_end": 1635157,
+      "reason": "قول ابن سعد في المؤاخاة، ثم شهود خالد ومقتله وسنه؛ يجمع عائد الضمير والاسم ضمن خبر الترجمة."
+    },
+    {
+      "start": 1635147,
+      "end": 1635157,
+      "context_start": 1634985,
+      "context_end": 1635157,
+      "reason": "عبارة أخوهما تمهيد للعنوان التالي وتبقى جزءًا من النطاق المصدري الحالي."
+    }
+  ],
+  "criticism": [],
+  "heading_overrides": []
+}

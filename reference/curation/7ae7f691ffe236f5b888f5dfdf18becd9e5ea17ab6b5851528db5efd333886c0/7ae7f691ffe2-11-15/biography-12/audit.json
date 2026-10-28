@@ -1,0 +1,29 @@
+{
+  "authoring_sha256": "7b5195697a42181f104c9b2b6a35c8f22f8dffbd5fe552c47c71aa1b9c7d200c",
+  "reviewer": "codex-independent-root",
+  "all_segments_checked": true,
+  "all_footnotes_checked": true,
+  "findings": [
+    {
+      "note": "صُحّح تعبير ملاحظة فقرة العنوان الذي أوهم الإحالة إلى ترجمة تالية؛ فُحصت النسخة المصححة.",
+      "resolved": true
+    },
+    {
+      "note": "رواية بدر تختلف عن تعيين هشام، ويبقى عدم ذكر ابن عقبة غير مساوق لنفي الشهود؛ استُبقي القول وتعقيب ابن سعد في السياق.",
+      "resolved": true
+    },
+    {
+      "note": "الأرقام الثلاثة باقية ظاهرة بوصفها ملتبسة لعدم تحقق المتون، ونسبة الفردوس إلى حارثة لا السائب محفوظة.",
+      "resolved": true
+    }
+  ],
+  "checks": {
+    "source_coverage": true,
+    "paragraphs": true,
+    "criticism_context": true,
+    "topic_evidence": true,
+    "negative_cases": true,
+    "diacritics": true,
+    "paragraph_context": true
+  }
+}

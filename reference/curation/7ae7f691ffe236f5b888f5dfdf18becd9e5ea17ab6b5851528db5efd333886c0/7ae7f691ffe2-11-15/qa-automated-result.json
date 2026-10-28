@@ -1,0 +1,60 @@
+{
+  "revision": "9dbaab09a35e34ac0f1019a5adea50a039e3ede84dd6c3fe4cd5442606146569",
+  "gold_frozen_sha256": "a5e8e5f8ee14276337fe0d4fa9071757bdfe8a80190d8389754248cdfc38a6d5",
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "url": "http://127.0.0.1:5174",
+  "results": [
+    {
+      "id": 11,
+      "witness": {
+        "question": "إلى أين هاجر عبد الله بن مظعون وأي هجرة كانت؟",
+        "start": 1617089,
+        "end": 1617129
+      },
+      "desktop": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-11-15\\qa-preview-images\\9dbaab09a35e34ac0f1019a5adea50a039e3ede84dd6c3fe4cd5442606146569\\biography-11-desktop.png",
+      "mobile": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-11-15\\qa-preview-images\\9dbaab09a35e34ac0f1019a5adea50a039e3ede84dd6c3fe4cd5442606146569\\biography-11-mobile.png"
+    },
+    {
+      "id": 12,
+      "witness": {
+        "question": "من آخى النبي بين السائب وبينه؟",
+        "start": 1617524,
+        "end": 1617557
+      },
+      "desktop": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-11-15\\qa-preview-images\\9dbaab09a35e34ac0f1019a5adea50a039e3ede84dd6c3fe4cd5442606146569\\biography-12-desktop.png",
+      "mobile": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-11-15\\qa-preview-images\\9dbaab09a35e34ac0f1019a5adea50a039e3ede84dd6c3fe4cd5442606146569\\biography-12-mobile.png"
+    },
+    {
+      "id": 13,
+      "witness": {
+        "question": "كم مرة هاجر أبو حذيفة إلى الحبشة ومن ولد له بها؟",
+        "start": 1618176,
+        "end": 1618236
+      },
+      "desktop": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-11-15\\qa-preview-images\\9dbaab09a35e34ac0f1019a5adea50a039e3ede84dd6c3fe4cd5442606146569\\biography-13-desktop.png",
+      "mobile": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-11-15\\qa-preview-images\\9dbaab09a35e34ac0f1019a5adea50a039e3ede84dd6c3fe4cd5442606146569\\biography-13-mobile.png"
+    },
+    {
+      "id": 14,
+      "witness": {
+        "question": "لماذا كان سالم يؤم المهاجرين الذين قدموا من مكة؟",
+        "start": 1620261,
+        "end": 1620352
+      },
+      "desktop": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-11-15\\qa-preview-images\\9dbaab09a35e34ac0f1019a5adea50a039e3ede84dd6c3fe4cd5442606146569\\biography-14-desktop.png",
+      "mobile": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-11-15\\qa-preview-images\\9dbaab09a35e34ac0f1019a5adea50a039e3ede84dd6c3fe4cd5442606146569\\biography-14-mobile.png"
+    },
+    {
+      "id": 15,
+      "witness": {
+        "question": "ما الشرط الذي ذكره وحشي لعتقه؟",
+        "start": 1626432,
+        "end": 1626466
+      },
+      "desktop": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-11-15\\qa-preview-images\\9dbaab09a35e34ac0f1019a5adea50a039e3ede84dd6c3fe4cd5442606146569\\biography-15-desktop.png",
+      "mobile": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-11-15\\qa-preview-images\\9dbaab09a35e34ac0f1019a5adea50a039e3ede84dd6c3fe4cd5442606146569\\biography-15-mobile.png"
+    }
+  ],
+  "errors": [],
+  "limitation": "فحص آلي مساعد فقط؛ لا يغني عن مراجعة بصرية مستقلة أو فحص جميع بوابات QA."
+}

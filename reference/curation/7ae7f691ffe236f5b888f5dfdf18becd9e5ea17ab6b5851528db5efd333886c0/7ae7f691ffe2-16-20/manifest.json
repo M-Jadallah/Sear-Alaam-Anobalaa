@@ -1,0 +1,61 @@
+{
+  "version": "curation-batch-v2",
+  "batch_id": "7ae7f691ffe2-16-20",
+  "source_id": 1,
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "start_ordinal": 16,
+  "end_ordinal": 20,
+  "curator": "codex-team",
+  "biographies": [
+    {
+      "id": 16,
+      "source_ordinal": 16,
+      "heading": "16 - عاقل بن البكير بن عبد يا ليل بن ناشب الليثي *",
+      "source_char_start": 1633869,
+      "source_char_end": 1634907,
+      "status": "pending",
+      "directory": "biography-16",
+      "baseline_sha256": "30a94069f1f4d69858b60cc1d7526142cb3918f3a8c5cf6c2c32fcd697116c7b"
+    },
+    {
+      "id": 17,
+      "source_ordinal": 17,
+      "heading": "17 - خالد بن البكير بن عبد يا ليل بن ناشب الليثي *",
+      "source_char_start": 1634907,
+      "source_char_end": 1635157,
+      "status": "pending",
+      "directory": "biography-17",
+      "baseline_sha256": "a96d120c14d6ec4c3d568727fb8991651d94180d3f4a80da757b1eabacb0526d"
+    },
+    {
+      "id": 18,
+      "source_ordinal": 18,
+      "heading": "18 - إياس بن أبي البكير بن عبد يا ليل الليثي **",
+      "source_char_start": 1635157,
+      "source_char_end": 1635388,
+      "status": "pending",
+      "directory": "biography-18",
+      "baseline_sha256": "30fc4c17838012967816f6ee06aa097cf2e411593b7b3e1d2fe11089642141bf"
+    },
+    {
+      "id": 19,
+      "source_ordinal": 19,
+      "heading": "19 - عامر بن أبي البكير الليثي *",
+      "source_char_start": 1635388,
+      "source_char_end": 1635647,
+      "status": "pending",
+      "directory": "biography-19",
+      "baseline_sha256": "3c4d2b3dce539b8afdea16e2a4ae21c7ccd488977124738a2c69ef77b62d908c"
+    },
+    {
+      "id": 20,
+      "source_ordinal": 20,
+      "heading": "20 - مسطح بن أثاثة بن عباد بن المطلب المطلبي **",
+      "source_char_start": 1635647,
+      "source_char_end": 1636137,
+      "status": "pending",
+      "directory": "biography-20",
+      "baseline_sha256": "69f2be47486b202dc5fc3caebff9275f489e6b8e5ffd82569e95330389b58f9c"
+    }
+  ]
+}

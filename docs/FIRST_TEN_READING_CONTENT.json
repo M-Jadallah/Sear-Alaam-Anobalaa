@@ -1,0 +1,1211 @@
+{
+  "scope": "published source ordinals 1–10; agent editorial reading only",
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "original_files_unchanged": true,
+  "totals": {
+    "source_chars": 127211,
+    "insertion_sites": 70403,
+    "paragraphs_before": 557,
+    "paragraphs_after": 543,
+    "criticism": 73,
+    "words": {
+      "total": 23024,
+      "checked": 23024,
+      "complete": 22382,
+      "uncertain": 126,
+      "not_applicable": 516
+    }
+  },
+  "records": [
+    {
+      "biography_id": 1,
+      "source_ordinal": 1,
+      "heading": "1 - أبو عبيدة بن الجراح عامر بن عبد الله * (م، ق) .",
+      "source_char_start": 1486504,
+      "source_char_end": 1501973,
+      "source_chars": 15469,
+      "word_coverage": {
+        "total": 2793,
+        "checked": 2793,
+        "complete": 2716,
+        "uncertain": 7,
+        "not_applicable": 70
+      },
+      "insertion_sites": 8586,
+      "paragraphs_before": 58,
+      "paragraphs_after": 58,
+      "paragraph_reasons": 58,
+      "criticism": 11,
+      "curator": "/root/vocalize_abu_talha",
+      "independent_reviewer": "/root/vocalize_zubair_abdurrahman",
+      "revision": "9ebeceb013402ed9e66a712b103a984312aa24da518d9b47d95a32affc219361",
+      "uncertainties": [
+        {
+          "start": 1492956,
+          "end": 1492963,
+          "status": "uncertain",
+          "reason": "نسبة راوٍ؛ لا أحسم ضبط اسم الموضع المنسوب إليه من السياق وحده.",
+          "literal": "الترقفي"
+        },
+        {
+          "start": 1493032,
+          "end": 1493036,
+          "status": "uncertain",
+          "reason": "كنية راوٍ في الإسناد؛ لا أحسم حركة أول الكنية من مجرد موافقة لفظ الحسبة الشائع.",
+          "literal": "حسبة"
+        },
+        {
+          "start": 1493049,
+          "end": 1493053,
+          "status": "uncertain",
+          "reason": "اسم راوٍ في الإسناد يحتمل وزن الصفة أو التصغير؛ أبقيته على الأصل للمراجعة.",
+          "literal": "أكيس"
+        },
+        {
+          "start": 1495730,
+          "end": 1495737,
+          "status": "uncertain",
+          "reason": "اسم مصدر في احتجاج معاذ؛ لا أحسم حركة الجيم أو وزنه من هذا السياق وحده.",
+          "literal": "المعجزة"
+        },
+        {
+          "start": 1497227,
+          "end": 1497232,
+          "status": "uncertain",
+          "reason": "اسم راوٍ في سلسلة النقل؛ لا تكفي بنية الاسم المكتوبة لحسم حركة أوله.",
+          "literal": "نمران"
+        },
+        {
+          "start": 1498590,
+          "end": 1498595,
+          "status": "uncertain",
+          "reason": "اسم زوجة صاحب الترجمة في الخبر؛ لم يحسم السياق ضبط الاسم فحفظته كما ورد.",
+          "literal": "تحيفة"
+        },
+        {
+          "start": 1501759,
+          "end": 1501763,
+          "status": "uncertain",
+          "reason": "عدد سنة الوفاة مرسوم ثمان قبل عشرة دون الياء المتوقعة في تركيب العدد المؤنث؛ أبقيت الكلمة على ضبط المصدر دون إضافة حرف أو حسم حركة على رسم ناقص.",
+          "literal": "ثمان"
+        }
+      ]
+    },
+    {
+      "biography_id": 2,
+      "source_ordinal": 2,
+      "heading": "2 - طلحة بن عبيد الله بن عثمان بن عمرو التيمي * (ع)",
+      "source_char_start": 1501973,
+      "source_char_end": 1516215,
+      "source_chars": 14242,
+      "word_coverage": {
+        "total": 2579,
+        "checked": 2579,
+        "complete": 2505,
+        "uncertain": 13,
+        "not_applicable": 61
+      },
+      "insertion_sites": 7896,
+      "paragraphs_before": 61,
+      "paragraphs_after": 61,
+      "paragraph_reasons": 61,
+      "criticism": 9,
+      "curator": "/root/vocalize_abu_talha",
+      "independent_reviewer": "/root/vocalize_zubair_abdurrahman",
+      "revision": "9ebeceb013402ed9e66a712b103a984312aa24da518d9b47d95a32affc219361",
+      "uncertainties": [
+        {
+          "start": 1502609,
+          "end": 1502613,
+          "status": "uncertain",
+          "reason": "اسم راوٍ منقول برسم مندة؛ حفظت رسمه وضبطه دون تحويل التاء المربوطة إلى هاء أو افتراض نطق غير محسوم.",
+          "literal": "مندة"
+        },
+        {
+          "start": 1503524,
+          "end": 1503533,
+          "status": "uncertain",
+          "reason": "نسبة راوٍ؛ لا أحسم حركات اسم الموضع المنسوب إليه من السياق المكتوب وحده.",
+          "literal": "الأبرقوهي"
+        },
+        {
+          "start": 1503568,
+          "end": 1503575,
+          "status": "uncertain",
+          "reason": "لقب راوٍ في الإسناد يحتمل ضبطًا خاصًا، فلا أحسمه بموافقة لفظ لغوي شائع.",
+          "literal": "الطلابة"
+        },
+        {
+          "start": 1507713,
+          "end": 1507718,
+          "status": "uncertain",
+          "reason": "صيغة إغراء في خطاب الزوجة؛ لم أحسم حركة النون مع الإضافة فحفظتها على ضبط المصدر.",
+          "literal": "فشأنك"
+        },
+        {
+          "start": 1510338,
+          "end": 1510345,
+          "status": "uncertain",
+          "reason": "رسم قافية الشعر بالهاء؛ لا أبدلها تاءً مربوطة ولا أفرض ضبط وصل غير محسوم.",
+          "literal": "والخبره"
+        },
+        {
+          "start": 1510389,
+          "end": 1510395,
+          "status": "uncertain",
+          "reason": "رسم قافية الشعر بالهاء؛ حفظت الكلمة دون تغيير الإملاء أو افتراض الوقف والوصل.",
+          "literal": "الهجره"
+        },
+        {
+          "start": 1510440,
+          "end": 1510444,
+          "status": "uncertain",
+          "reason": "لفظ في بيت الشعر لا يحسم سياقه المراد والوجه الإعرابي، فبقي كما ورد.",
+          "literal": "نصره"
+        },
+        {
+          "start": 1510488,
+          "end": 1510492,
+          "status": "uncertain",
+          "reason": "اسم قبيلة في قافية مرسومة بالهاء؛ لا أعيد رسمه أو أحسم ضبط نهايته.",
+          "literal": "زهره"
+        },
+        {
+          "start": 1510526,
+          "end": 1510533,
+          "status": "uncertain",
+          "reason": "رسم مضطرب ظاهرًا في بيت الشعر؛ لم أحذف حرفًا أو أعيد بناء اللفظ ليستقيم الوزن أو المعنى.",
+          "literal": "قبرههما"
+        },
+        {
+          "start": 1510534,
+          "end": 1510538,
+          "status": "uncertain",
+          "reason": "لفظ قافية مجاور للرسم قبرههما؛ أبقيته بلا إضافات لعدم حسم التركيب الذي قبله.",
+          "literal": "قبره"
+        },
+        {
+          "start": 1511237,
+          "end": 1511242,
+          "status": "uncertain",
+          "reason": "لفظ المصدر في تعليق المؤلف غير مألوف بهذا الرسم؛ لم أصححه إلى لفظ آخر أو أضبطه تخمينًا.",
+          "literal": "تمغفل"
+        },
+        {
+          "start": 1511478,
+          "end": 1511483,
+          "status": "uncertain",
+          "reason": "اسم علم في الإسناد؛ لا يكفي الرسم لحسم حركاته.",
+          "literal": "جاوان"
+        },
+        {
+          "start": 1512160,
+          "end": 1512164,
+          "status": "uncertain",
+          "reason": "لفظ في سياق نزف الجرح؛ لا أحسم بابه الصرفي من هذا السياق وحده.",
+          "literal": "ينسح"
+        }
+      ]
+    },
+    {
+      "biography_id": 3,
+      "source_ordinal": 3,
+      "heading": "3 - الزبير بن العوام بن خويلد بن أسد بن عبد العزى * (ع)",
+      "source_char_start": 1516215,
+      "source_char_end": 1538102,
+      "source_chars": 21887,
+      "word_coverage": {
+        "total": 3920,
+        "checked": 3920,
+        "complete": 3812,
+        "uncertain": 21,
+        "not_applicable": 87
+      },
+      "insertion_sites": 12062,
+      "paragraphs_before": 114,
+      "paragraphs_after": 113,
+      "paragraph_reasons": 113,
+      "criticism": 8,
+      "curator": "/root/vocalize_zubair_abdurrahman",
+      "independent_reviewer": "/root/vocalize_abu_talha",
+      "revision": "356f91d028f6d22d0ad81fd753596e174f91a5e1742e5b9a72ba8a2f27e5e292",
+      "uncertainties": [
+        {
+          "start": 1516614,
+          "end": 1516618,
+          "status": "uncertain",
+          "reason": "الموضع في ابن ثمان سنين مرسوم بلا الياء المتوقعة في الإضافة؛ لا أضيف حرفًا أو أفرض ضبطًا يعالج نقص الرسم.",
+          "literal": "ثمان"
+        },
+        {
+          "start": 1517952,
+          "end": 1517956,
+          "status": "uncertain",
+          "reason": "اسم أعجمي محتمل الأوجه الصوتية؛ لا يحسم السياق حركاته الداخلية.",
+          "literal": "سنقر"
+        },
+        {
+          "start": 1518673,
+          "end": 1518677,
+          "status": "uncertain",
+          "reason": "لفظ نادر في وصف تقارب المواليد؛ لا أحسم ضبطه من الشرح وحده.",
+          "literal": "عذار"
+        },
+        {
+          "start": 1519411,
+          "end": 1519417,
+          "status": "uncertain",
+          "reason": "لفظ شعري نادر لا أحسم صيغته بالحركات دون شاهد ضبط مستقل.",
+          "literal": "مشمعلا"
+        },
+        {
+          "start": 1520257,
+          "end": 1520263,
+          "status": "uncertain",
+          "reason": "رسم المصدر بلا همزة في لباس الحرب؛ لا أصلحه أو أفرض قراءة بتشكيل متوهم.",
+          "literal": "اللامة"
+        },
+        {
+          "start": 1524024,
+          "end": 1524028,
+          "status": "uncertain",
+          "reason": "اسم لباس معرب نادر لا يحسم السياق حركاته الداخلية.",
+          "literal": "يلمق"
+        },
+        {
+          "start": 1524202,
+          "end": 1524208,
+          "status": "uncertain",
+          "reason": "يحتمل في خبر الغزو الإعقاب أو التعاقب؛ لا أحسم الصيغة من العبارة المختصرة.",
+          "literal": "يعقبون"
+        },
+        {
+          "start": 1526928,
+          "end": 1526932,
+          "status": "uncertain",
+          "reason": "كنية راوٍ لا يحسم السياق ضبط أولها وصيغة الاسم.",
+          "literal": "غزية"
+        },
+        {
+          "start": 1529278,
+          "end": 1529282,
+          "status": "uncertain",
+          "reason": "تركيب تملك الملك طلحة محتمل في هذا الرسم؛ حفظت الأصل دون اختيار بناء الفعل.",
+          "literal": "تملك"
+        },
+        {
+          "start": 1529283,
+          "end": 1529288,
+          "status": "uncertain",
+          "reason": "يرتبط بتركيب تملك الملك طلحة الملتبس، فلا أحسم ضبطه بعيدًا عنه.",
+          "literal": "الملك"
+        },
+        {
+          "start": 1529303,
+          "end": 1529307,
+          "status": "uncertain",
+          "reason": "هذا الموضع وحده في تركيب تملك الملك طلحة لم يحسم وجهه الإعرابي، بخلاف المواضع الصريحة الأخرى.",
+          "literal": "طلحة"
+        },
+        {
+          "start": 1530482,
+          "end": 1530484,
+          "status": "uncertain",
+          "reason": "رسم البيت بلا همزة؛ لا أضيف همزة أو أفرض ضبطًا يعالج الرسم خارج المسموح.",
+          "literal": "ان"
+        },
+        {
+          "start": 1530651,
+          "end": 1530656,
+          "status": "uncertain",
+          "reason": "اسم شخص في رواية المقتل لا يحسم السياق حركاته الداخلية.",
+          "literal": "النعر"
+        },
+        {
+          "start": 1530987,
+          "end": 1530992,
+          "status": "uncertain",
+          "reason": "اسم شخص في رواية المقتل لا يحسم السياق حركاته الداخلية.",
+          "literal": "النعر"
+        },
+        {
+          "start": 1531263,
+          "end": 1531266,
+          "status": "uncertain",
+          "reason": "اسم راوٍ محتمل الضبط لا أحسمه من النسب وحده.",
+          "literal": "جون"
+        },
+        {
+          "start": 1533743,
+          "end": 1533747,
+          "status": "uncertain",
+          "reason": "تركيب شعري متردد في وظيفة القبر والوادي؛ أبقيت اللفظ على الأصل دون فرض حركة إعرابية.",
+          "literal": "قبره"
+        },
+        {
+          "start": 1534048,
+          "end": 1534055,
+          "status": "uncertain",
+          "reason": "نسبة نادرة لا أحسم حركاتها الداخلية من هذا السياق.",
+          "literal": "القحذمي"
+        },
+        {
+          "start": 1534413,
+          "end": 1534419,
+          "status": "uncertain",
+          "reason": "وصف نادر في التعليق على القاتل لا أحسم بناءه الصوتي.",
+          "literal": "المعثر"
+        },
+        {
+          "start": 1534866,
+          "end": 1534870,
+          "status": "uncertain",
+          "reason": "لم يحسم السياق المختصر بناء الفعل للمعلوم أو للمجهول، فلا أختار صيغة بحركات جديدة.",
+          "literal": "يهول"
+        },
+        {
+          "start": 1534877,
+          "end": 1534881,
+          "status": "uncertain",
+          "reason": "متصل بلفظ يهول وبذكر المنام، ولم أحسم بناءه للمعلوم أو المجهول.",
+          "literal": "ويرى"
+        },
+        {
+          "start": 1535448,
+          "end": 1535453,
+          "status": "uncertain",
+          "reason": "الرسم وسياق الانتقال من الوصية إلى الحكاية يحتملان وجهًا في البناء؛ أبقيته دون حسم.",
+          "literal": "فأوصي"
+        }
+      ]
+    },
+    {
+      "biography_id": 4,
+      "source_ordinal": 4,
+      "heading": "4 - عبد الرحمن بن عوف بن عبد عوف الزهري * (ع)",
+      "source_char_start": 1538102,
+      "source_char_end": 1557904,
+      "source_chars": 19802,
+      "word_coverage": {
+        "total": 3620,
+        "checked": 3620,
+        "complete": 3526,
+        "uncertain": 15,
+        "not_applicable": 79
+      },
+      "insertion_sites": 11025,
+      "paragraphs_before": 91,
+      "paragraphs_after": 91,
+      "paragraph_reasons": 91,
+      "criticism": 18,
+      "curator": "/root",
+      "independent_reviewer": "/root/vocalize_abu_talha",
+      "revision": "40e8df3490fba0f0704f5916ae49cf5b5777ef7a907a1d8a34acce2c51948c1f",
+      "uncertainties": [
+        {
+          "start": 1538997,
+          "end": 1539001,
+          "status": "uncertain",
+          "reason": "نسبة راو في الإسناد لا يحدد السياق ضبطها؛ لا أصحح رسمها.",
+          "literal": "صصرى"
+        },
+        {
+          "start": 1539024,
+          "end": 1539028,
+          "status": "uncertain",
+          "reason": "اسم أسرة راو كما ورد؛ الرسم لا يكفي لحسم النطق.",
+          "literal": "البن"
+        },
+        {
+          "start": 1539177,
+          "end": 1539181,
+          "status": "uncertain",
+          "reason": "اسم أسرة راو كما ورد؛ الرسم لا يكفي لحسم النطق.",
+          "literal": "البن"
+        },
+        {
+          "start": 1539527,
+          "end": 1539531,
+          "status": "uncertain",
+          "reason": "اسم الكاتب في الرواية؛ لا أحسم ضبط العلم من الرسم وحده.",
+          "literal": "لجزء"
+        },
+        {
+          "start": 1540265,
+          "end": 1540269,
+          "status": "uncertain",
+          "reason": "اسم راو ورد في طريق آخر؛ يحفظ دون حسم نطقه.",
+          "literal": "قشير"
+        },
+        {
+          "start": 1544556,
+          "end": 1544561,
+          "status": "uncertain",
+          "reason": "اسم راو مرسوم بالتاء المربوطة؛ لا يبدل الرسم لتوافق اسمًا شائعًا.",
+          "literal": "حموية"
+        },
+        {
+          "start": 1544945,
+          "end": 1544948,
+          "status": "uncertain",
+          "reason": "تركيب دخول القافلة ورجة أهل المدينة لا يحسم بناء الفعل من هذا الرسم وحده.",
+          "literal": "سمع"
+        },
+        {
+          "start": 1549191,
+          "end": 1549195,
+          "status": "uncertain",
+          "reason": "اللفظ في عبارة ورقة الفردوس يحتاج بيانًا معجميًا؛ لا أصححه أو أفرض معنى آخر.",
+          "literal": "ورقة"
+        },
+        {
+          "start": 1556504,
+          "end": 1556509,
+          "status": "uncertain",
+          "reason": "لفظ مفسر بالكدر لكن وجه حركة النون لا يحسم من الرسم والسياق وحدهما.",
+          "literal": "رنقها"
+        },
+        {
+          "start": 1556518,
+          "end": 1556523,
+          "status": "uncertain",
+          "reason": "اسم الكدر كما في الأصل؛ أترك ضبطه التفصيلي للمراجعة.",
+          "literal": "الرنق"
+        },
+        {
+          "start": 1556640,
+          "end": 1556647,
+          "status": "uncertain",
+          "reason": "لفظ ندبة مرسوم متصلًا؛ لا أقسم حروفه أو أحسم وجوه ندبته بإضافات غير موثقة.",
+          "literal": "واجبلاه"
+        },
+        {
+          "start": 1556838,
+          "end": 1556843,
+          "status": "uncertain",
+          "reason": "السياق في الميراث يرجح الثمن لكن الرسم يسمح بلفظ الثمن النقدي؛ أبقيه للمراجعة دون فرض.",
+          "literal": "ثمنهن"
+        },
+        {
+          "start": 1557758,
+          "end": 1557762,
+          "status": "uncertain",
+          "reason": "لفظ الأصل في مقارنة الشاكر والصابر غير محسوم ولا يصحح اسما من عندنا.",
+          "literal": "وآوي"
+        },
+        {
+          "start": 1557817,
+          "end": 1557823,
+          "status": "uncertain",
+          "reason": "نسبة راو كما رسمها المصدر؛ لا تصحح إلى نسبة أخرى تشبهها.",
+          "literal": "الجافي"
+        },
+        {
+          "start": 1557836,
+          "end": 1557842,
+          "status": "uncertain",
+          "reason": "علم في آخر الإسناد لا تحسم حركاته من سياق النقل.",
+          "literal": "أترقان"
+        }
+      ]
+    },
+    {
+      "biography_id": 5,
+      "source_ordinal": 5,
+      "heading": "5 - سعد بن أبي وقاص مالك بن أهيب الزهري * (ع)",
+      "source_char_start": 1557904,
+      "source_char_end": 1584562,
+      "source_chars": 26658,
+      "word_coverage": {
+        "total": 4865,
+        "checked": 4865,
+        "complete": 4717,
+        "uncertain": 45,
+        "not_applicable": 103
+      },
+      "insertion_sites": 14624,
+      "paragraphs_before": 109,
+      "paragraphs_after": 106,
+      "paragraph_reasons": 106,
+      "criticism": 9,
+      "curator": "/root/published_reading_revision",
+      "independent_reviewer": "/root",
+      "revision": "8c599139cea2ad7b2908d660b52d0b43592f7c0e8421bf4399e23f715b3627aa",
+      "uncertainties": [
+        {
+          "start": 1558033,
+          "end": 1558036,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "لأي"
+        },
+        {
+          "start": 1558455,
+          "end": 1558461,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "المسيب"
+        },
+        {
+          "start": 1560551,
+          "end": 1560555,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "أذرح"
+        },
+        {
+          "start": 1560583,
+          "end": 1560587,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "بسرغ"
+        },
+        {
+          "start": 1560805,
+          "end": 1560809,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "جريح"
+        },
+        {
+          "start": 1561060,
+          "end": 1561064,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "عمان"
+        },
+        {
+          "start": 1561213,
+          "end": 1561219,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "المسيب"
+        },
+        {
+          "start": 1562219,
+          "end": 1562225,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "المسيب"
+        },
+        {
+          "start": 1562267,
+          "end": 1562271,
+          "status": "uncertain",
+          "reason": "الرسم المنقول بألف لا أحسم حركته في جملة ما أسلم أحدا، ولا أصلحه إلى رسم آخر.",
+          "literal": "أحدا"
+        },
+        {
+          "start": 1563796,
+          "end": 1563802,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "المسيب"
+        },
+        {
+          "start": 1564251,
+          "end": 1564257,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "المسيب"
+        },
+        {
+          "start": 1564452,
+          "end": 1564458,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "زنجويه"
+        },
+        {
+          "start": 1565217,
+          "end": 1565223,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "المسيب"
+        },
+        {
+          "start": 1566053,
+          "end": 1566056,
+          "status": "uncertain",
+          "reason": "لفظ نداء الأب برسم المصدر لا أبدله ولا أحسم ضبط آخره.",
+          "literal": "أبة"
+        },
+        {
+          "start": 1566502,
+          "end": 1566506,
+          "status": "uncertain",
+          "reason": "المعنى الحركي في وصف الترس يحتمل أكثر من ضبط، فأبقيته على الأصل.",
+          "literal": "يحوي"
+        },
+        {
+          "start": 1566574,
+          "end": 1566577,
+          "status": "uncertain",
+          "reason": "الرسم في سياق عدم إصابة الجبهة يحتاج تحقيقًا، فلا أضيف همزة أو ألفًا أو حركة مرجحة.",
+          "literal": "يخط"
+        },
+        {
+          "start": 1566831,
+          "end": 1566834,
+          "status": "uncertain",
+          "reason": "حدود السب وفاعله في هذه الجملة الموجزة غير محسومة بالضبط وحده؛ حفظت الرسم.",
+          "literal": "فسب"
+        },
+        {
+          "start": 1566835,
+          "end": 1566838,
+          "status": "uncertain",
+          "reason": "القراءة المحتملة للسب المتكرر غير محسومة؛ لم أحول المنقول إلى تقرير جديد.",
+          "literal": "وسب"
+        },
+        {
+          "start": 1568095,
+          "end": 1568099,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "سريج"
+        },
+        {
+          "start": 1568330,
+          "end": 1568334,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "سعير"
+        },
+        {
+          "start": 1568338,
+          "end": 1568343,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "الخمس"
+        },
+        {
+          "start": 1568553,
+          "end": 1568559,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "المذهب"
+        },
+        {
+          "start": 1568676,
+          "end": 1568680,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "يساف"
+        },
+        {
+          "start": 1569160,
+          "end": 1569164,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "يساف"
+        },
+        {
+          "start": 1569308,
+          "end": 1569315,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "النعالي"
+        },
+        {
+          "start": 1570228,
+          "end": 1570232,
+          "status": "uncertain",
+          "reason": "الرسم يحتمل فاعلًا مقدرًا أو بناء للمجهول؛ أبقيت الكلمة بلا إضافات لعدم حسمه هنا.",
+          "literal": "طوقه"
+        },
+        {
+          "start": 1572229,
+          "end": 1572232,
+          "status": "uncertain",
+          "reason": "لفظ نداء الأم بهاء المصدر غير مصحح إلى تاء ولا محسوم الضبط.",
+          "literal": "أمه"
+        },
+        {
+          "start": 1572253,
+          "end": 1572256,
+          "status": "uncertain",
+          "reason": "لفظ نداء الأم بهاء المصدر غير مصحح إلى تاء ولا محسوم الضبط.",
+          "literal": "أمه"
+        },
+        {
+          "start": 1572332,
+          "end": 1572336,
+          "status": "uncertain",
+          "reason": "يحتمل الضبط في وصف الإجهاد أكثر من وجه؛ بقي على المصدر.",
+          "literal": "جهدت"
+        },
+        {
+          "start": 1572363,
+          "end": 1572366,
+          "status": "uncertain",
+          "reason": "لفظ نداء الأم بهاء المصدر غير مصحح إلى تاء ولا محسوم الضبط.",
+          "literal": "أمه"
+        },
+        {
+          "start": 1573534,
+          "end": 1573540,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "البسري"
+        },
+        {
+          "start": 1573787,
+          "end": 1573792,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "مغراء"
+        },
+        {
+          "start": 1575426,
+          "end": 1575429,
+          "status": "uncertain",
+          "reason": "موضع الشكوى إن كنت ما علمتك يحتاج تقدير خطاب/تكلم؛ لا أحسمه خلاف سياقه المضطرب.",
+          "literal": "كنت"
+        },
+        {
+          "start": 1575433,
+          "end": 1575438,
+          "status": "uncertain",
+          "reason": "موضع الشكوى إن كنت ما علمتك لا أحسم حركة ضميره مع اضطراب تركيب الجملة.",
+          "literal": "علمتك"
+        },
+        {
+          "start": 1575746,
+          "end": 1575752,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "المسيب"
+        },
+        {
+          "start": 1576139,
+          "end": 1576142,
+          "status": "uncertain",
+          "reason": "الموقع منصوب بعد لأراك، ورسم لاق دون ألف يحتمل نقلًا يحتاج تحقيقًا؛ لا أضيف ألفًا أو ضبطًا مجزومًا.",
+          "literal": "لاق"
+        },
+        {
+          "start": 1576948,
+          "end": 1576952,
+          "status": "uncertain",
+          "reason": "لفظة شعرية تحتاج تحقيقًا معجميًا؛ بقيت بغير ترجيح.",
+          "literal": "معصم"
+        },
+        {
+          "start": 1577784,
+          "end": 1577788,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "ماسي"
+        },
+        {
+          "start": 1577911,
+          "end": 1577917,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "المسيب"
+        },
+        {
+          "start": 1578292,
+          "end": 1578295,
+          "status": "uncertain",
+          "reason": "لفظ نداء الأم بهاء المصدر غير مصحح إلى تاء ولا محسوم الضبط.",
+          "literal": "أمه"
+        },
+        {
+          "start": 1579861,
+          "end": 1579867,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "المذهب"
+        },
+        {
+          "start": 1580026,
+          "end": 1580029,
+          "status": "uncertain",
+          "reason": "النداء أي بني برسم الياء الأصلية قد يضبط للتصغير أو غيره؛ لا أحسمه هنا.",
+          "literal": "بني"
+        },
+        {
+          "start": 1582729,
+          "end": 1582733,
+          "status": "uncertain",
+          "reason": "الرسم المنقول بألف لا أحسم حركته في جملة ما أسلم أحدا، ولا أصلحه إلى رسم آخر.",
+          "literal": "أحدا"
+        },
+        {
+          "start": 1583397,
+          "end": 1583400,
+          "status": "uncertain",
+          "reason": "النداء أي بني برسم الياء الأصلية قد يضبط للتصغير أو غيره؛ لا أحسمه هنا.",
+          "literal": "بني"
+        },
+        {
+          "start": 1583759,
+          "end": 1583763,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "زبيد"
+        }
+      ]
+    },
+    {
+      "biography_id": 6,
+      "source_ordinal": 6,
+      "heading": "6 - سعيد بن زيد بن عمرو بن نفيل العدوي * (ع)",
+      "source_char_start": 1584562,
+      "source_char_end": 1602898,
+      "source_chars": 18336,
+      "word_coverage": {
+        "total": 3310,
+        "checked": 3310,
+        "complete": 3238,
+        "uncertain": 12,
+        "not_applicable": 60
+      },
+      "insertion_sites": 10326,
+      "paragraphs_before": 73,
+      "paragraphs_after": 67,
+      "paragraph_reasons": 67,
+      "criticism": 11,
+      "curator": "/root/published_reading_revision",
+      "independent_reviewer": "/root",
+      "revision": "8c599139cea2ad7b2908d660b52d0b43592f7c0e8421bf4399e23f715b3627aa",
+      "uncertainties": [
+        {
+          "start": 1585285,
+          "end": 1585289,
+          "status": "uncertain",
+          "reason": "رسم ثمان في تركيب سنة ثمان عشرة يحتمل نقلًا يحتاج تحقيقًا؛ لا أزيد ياء ولا أحسم الإعراب الناقص من الرسم.",
+          "literal": "ثمان"
+        },
+        {
+          "start": 1585388,
+          "end": 1585394,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "رزقويه"
+        },
+        {
+          "start": 1586070,
+          "end": 1586074,
+          "status": "uncertain",
+          "reason": "اللفظ برسمه يحتمل فاعلًا مقدرًا أو بناء للمجهول؛ لا أحسم ضبطه بلا قرينة إضافية.",
+          "literal": "طوقه"
+        },
+        {
+          "start": 1592421,
+          "end": 1592426,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "ميفعة"
+        },
+        {
+          "start": 1592652,
+          "end": 1592656,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "بلدح"
+        },
+        {
+          "start": 1596669,
+          "end": 1596673,
+          "status": "uncertain",
+          "reason": "اللفظ برسمه يحتمل فاعلًا مقدرًا أو بناء للمجهول؛ لا أحسم ضبطه بلا قرينة إضافية.",
+          "literal": "طوقه"
+        },
+        {
+          "start": 1597098,
+          "end": 1597103,
+          "status": "uncertain",
+          "reason": "الرسم بألف بعد لم يكن يخالف رفع الاسم المتوقع؛ أبقيه حرفيًا دون تصحيح أو حركة مرجحة.",
+          "literal": "سعيدا"
+        },
+        {
+          "start": 1597188,
+          "end": 1597193,
+          "status": "uncertain",
+          "reason": "الرسم بألف بعد لم يكن يخالف رفع الاسم المتوقع؛ أبقيه حرفيًا دون تصحيح أو حركة مرجحة.",
+          "literal": "سعيدا"
+        },
+        {
+          "start": 1597790,
+          "end": 1597796,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "المذهب"
+        },
+        {
+          "start": 1597897,
+          "end": 1597901,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "يساف"
+        },
+        {
+          "start": 1602077,
+          "end": 1602083,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "السمري"
+        },
+        {
+          "start": 1602478,
+          "end": 1602482,
+          "status": "uncertain",
+          "reason": "اسم أو نسبة أو موضع في هذا السياق لا أحسم تمام ضبطه دون تحقيق خارجي؛ حُفظ رسمه وحركات المصدر.",
+          "literal": "شقير"
+        }
+      ]
+    },
+    {
+      "biography_id": 7,
+      "source_ordinal": 7,
+      "heading": "7 - مصعب بن عمير * بن هاشم بن عبد مناف البدري",
+      "source_char_start": 1604701,
+      "source_char_end": 1607196,
+      "source_chars": 2495,
+      "word_coverage": {
+        "total": 451,
+        "checked": 451,
+        "complete": 436,
+        "uncertain": 6,
+        "not_applicable": 9
+      },
+      "insertion_sites": 1401,
+      "paragraphs_before": 8,
+      "paragraphs_after": 9,
+      "paragraph_reasons": 9,
+      "criticism": 0,
+      "curator": "/root",
+      "independent_reviewer": "/root/vocalize_abu_talha",
+      "revision": "8404d9576eaf0324a3534848c33a10ac6682cd288ebea850a3f8b259d7cdd544",
+      "uncertainties": [
+        {
+          "start": 1605476,
+          "end": 1605482,
+          "status": "uncertain",
+          "reason": "لفظ في وصف جني الثمرة؛ لم أحسم حركة عين الفعل من سياق الرواية وحده.",
+          "literal": "يهدبها"
+        },
+        {
+          "start": 1606362,
+          "end": 1606365,
+          "status": "uncertain",
+          "reason": "لفظ في وصف شدة العيش؛ أبقيت بنية اللفظ كما وردت بدل ضبط معجمي غير محقق.",
+          "literal": "ظلف"
+        },
+        {
+          "start": 1606639,
+          "end": 1606644,
+          "status": "uncertain",
+          "reason": "تحتمل صيغة الفعل وجهًا مبنيًا للمعلوم أو للمجهول مع به؛ لا أحسمها من السياق وحده.",
+          "literal": "ينقطع"
+        },
+        {
+          "start": 1606669,
+          "end": 1606674,
+          "status": "uncertain",
+          "reason": "لفظ هيئة حمله على القسي؛ لا أحسم باب الفعل أو تضعيفه دون قرينة كافية.",
+          "literal": "فنعرض"
+        },
+        {
+          "start": 1606889,
+          "end": 1606893,
+          "status": "uncertain",
+          "reason": "جمع في وصف قطع الجلد؛ لم أحسم ضبط المفرد والجمع من الرسم وحده.",
+          "literal": "شقات"
+        },
+        {
+          "start": 1607012,
+          "end": 1607016,
+          "status": "uncertain",
+          "reason": "اسم القاتل كما في المصدر؛ أبقيت ضبط الاسم للمراجعة دون حسم الهوية أو تصويب رسمه.",
+          "literal": "قمئة"
+        }
+      ]
+    },
+    {
+      "biography_id": 8,
+      "source_ordinal": 8,
+      "heading": "8 - أبو سلمة بن عبد الأسد بن هلال * (ت، ق)",
+      "source_char_start": 1608650,
+      "source_char_end": 1611117,
+      "source_chars": 2467,
+      "word_coverage": {
+        "total": 445,
+        "checked": 445,
+        "complete": 430,
+        "uncertain": 2,
+        "not_applicable": 13
+      },
+      "insertion_sites": 1367,
+      "paragraphs_before": 11,
+      "paragraphs_after": 10,
+      "paragraph_reasons": 10,
+      "criticism": 1,
+      "curator": "/root",
+      "independent_reviewer": "/root/vocalize_abu_talha",
+      "revision": "8404d9576eaf0324a3534848c33a10ac6682cd288ebea850a3f8b259d7cdd544",
+      "uncertainties": [
+        {
+          "start": 1610108,
+          "end": 1610114,
+          "status": "uncertain",
+          "reason": "لم يحسم المصدر ضبط صيغة الأمر في هذا الموضع بين أوجه النطق المتداولة؛ أبقيت الكلمة كلها على أصلها دون استبدال الهمزة أو تخمين الحركات.",
+          "literal": "فأجرني"
+        },
+        {
+          "start": 1610857,
+          "end": 1610860,
+          "status": "uncertain",
+          "reason": "اسم موضع في خبر السرية؛ المصدر غير مشكول والسياق يحدد وظيفته ولا يحسم نطقه، فلم أنقل إليه ضبط اسم آخر.",
+          "literal": "قطن"
+        }
+      ]
+    },
+    {
+      "biography_id": 9,
+      "source_ordinal": 9,
+      "heading": "9 - عثمان بن مظعون بن حبيب بن وهب الجمحي *",
+      "source_char_start": 1611117,
+      "source_char_end": 1616214,
+      "source_chars": 5097,
+      "word_coverage": {
+        "total": 919,
+        "checked": 919,
+        "complete": 887,
+        "uncertain": 5,
+        "not_applicable": 27
+      },
+      "insertion_sites": 2710,
+      "paragraphs_before": 26,
+      "paragraphs_after": 23,
+      "paragraph_reasons": 23,
+      "criticism": 5,
+      "curator": "/root",
+      "independent_reviewer": "/root/vocalize_abu_talha",
+      "revision": "8404d9576eaf0324a3534848c33a10ac6682cd288ebea850a3f8b259d7cdd544",
+      "uncertainties": [
+        {
+          "start": 1611768,
+          "end": 1611774,
+          "status": "uncertain",
+          "reason": "ضبط اسم الأب يحتاج تثبتًا مستقلًا لا يفصله هذا السياق غير المشكول؛ أبقيته دون حركات إضافية.",
+          "literal": "المسيب"
+        },
+        {
+          "start": 1612949,
+          "end": 1612953,
+          "status": "uncertain",
+          "reason": "يحتمل اللفظ معنى الملابسة أو اللبس؛ لا أحسم حركة عين الفعل من هذا السياق وحده، فحفظت ضبط المصدر بلا إضافات.",
+          "literal": "تلبس"
+        },
+        {
+          "start": 1614035,
+          "end": 1614039,
+          "status": "uncertain",
+          "reason": "تقدير الابتداء أو الظرفية في جملة أما ليله فقائم غير مصرح به في المصدر؛ أبقيت الكلمة حتى المراجعة بدل فرض وجه إعرابي.",
+          "literal": "ليله"
+        },
+        {
+          "start": 1614052,
+          "end": 1614057,
+          "status": "uncertain",
+          "reason": "تتبع جملة نهاره فصائم تقدير قرينتها ليله فقائم؛ تركت اللفظ الأصلي كاملًا دون حسم موضع الخلاف الإعرابي.",
+          "literal": "نهاره"
+        },
+        {
+          "start": 1615071,
+          "end": 1615075,
+          "status": "uncertain",
+          "reason": "يحتمل اللفظ معنى الملابسة أو اللبس؛ لا أحسم حركة عين الفعل من هذا السياق وحده، فحفظت ضبط المصدر بلا إضافات.",
+          "literal": "تلبس"
+        }
+      ]
+    },
+    {
+      "biography_id": 10,
+      "source_ordinal": 10,
+      "heading": "10 - قدامة بن مظعون أبو عمرو الجمحي *",
+      "source_char_start": 1616214,
+      "source_char_end": 1616972,
+      "source_chars": 758,
+      "word_coverage": {
+        "total": 122,
+        "checked": 122,
+        "complete": 115,
+        "uncertain": 0,
+        "not_applicable": 7
+      },
+      "insertion_sites": 406,
+      "paragraphs_before": 6,
+      "paragraphs_after": 5,
+      "paragraph_reasons": 5,
+      "criticism": 1,
+      "curator": "/root",
+      "independent_reviewer": "/root/vocalize_abu_talha",
+      "revision": "8404d9576eaf0324a3534848c33a10ac6682cd288ebea850a3f8b259d7cdd544",
+      "uncertainties": []
+    }
+  ],
+  "batches": [
+    {
+      "batch_id": "reading-7ae7f691ffe2-1-2-52a5d4ea39c4",
+      "revision": "9ebeceb013402ed9e66a712b103a984312aa24da518d9b47d95a32affc219361",
+      "gates": {
+        "authoring_valid": true,
+        "audit_valid": true,
+        "preview_current": true,
+        "qa_current": true,
+        "published": true
+      }
+    },
+    {
+      "batch_id": "reading-7ae7f691ffe2-3-3-a63733d5700a",
+      "revision": "356f91d028f6d22d0ad81fd753596e174f91a5e1742e5b9a72ba8a2f27e5e292",
+      "gates": {
+        "authoring_valid": true,
+        "audit_valid": true,
+        "preview_current": true,
+        "qa_current": true,
+        "published": true
+      }
+    },
+    {
+      "batch_id": "reading-7ae7f691ffe2-4-4-36e71356407c",
+      "revision": "40e8df3490fba0f0704f5916ae49cf5b5777ef7a907a1d8a34acce2c51948c1f",
+      "gates": {
+        "authoring_valid": true,
+        "audit_valid": true,
+        "preview_current": true,
+        "qa_current": true,
+        "published": true
+      }
+    },
+    {
+      "batch_id": "reading-7ae7f691ffe2-5-6-2ddbf981efa5",
+      "revision": "8c599139cea2ad7b2908d660b52d0b43592f7c0e8421bf4399e23f715b3627aa",
+      "gates": {
+        "authoring_valid": true,
+        "audit_valid": true,
+        "preview_current": true,
+        "qa_current": true,
+        "published": true
+      }
+    },
+    {
+      "batch_id": "reading-7ae7f691ffe2-7-10-eec353900a9b",
+      "revision": "8404d9576eaf0324a3534848c33a10ac6682cd288ebea850a3f8b259d7cdd544",
+      "gates": {
+        "authoring_valid": true,
+        "audit_valid": true,
+        "preview_current": true,
+        "qa_current": true,
+        "published": true
+      }
+    }
+  ],
+  "human_linguistic_approval": false,
+  "topic_and_identity_review_unchanged": true
+}

@@ -1,0 +1,21 @@
+{
+  "authoring_sha256": "bd5ee1366f047f7d52c7c8677f6eeb3ee085c445eedde8d46767725ca0d065ca",
+  "reviewer": "/root/author11",
+  "all_segments_checked": true,
+  "all_footnotes_checked": true,
+  "findings": [
+    {
+      "note": "قرأت الأصل مع حد الترجمتين المجاورتين؛ تفقدت ربط المؤاخاة وشهود بدر وفتح مصر والوفاة، وقرار اللفظ السابق 816، والرقم الملتبس، وضبط الكلمات مع إبقاء جزأي اسم الجد غير محسومين.",
+      "resolved": true
+    }
+  ],
+  "checks": {
+    "source_coverage": true,
+    "paragraphs": true,
+    "criticism_context": true,
+    "topic_evidence": true,
+    "negative_cases": true,
+    "diacritics": true,
+    "paragraph_context": true
+  }
+}

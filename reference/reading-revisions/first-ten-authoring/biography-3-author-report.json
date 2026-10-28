@@ -1,0 +1,22 @@
+{
+  "source_characters": 21887,
+  "all_source_lines_read": 445,
+  "insertion_sites": 12062,
+  "coverage": {
+    "total_words": 3920,
+    "checked_words": 3920,
+    "complete_words": 3812,
+    "uncertain_words": 21,
+    "not_applicable": 87
+  },
+  "paragraph_groups_before": 114,
+  "paragraph_groups_after": 113,
+  "author": "/root/vocalize_zubair_abdurrahman",
+  "independent_audit_signed": false,
+  "self_review_corrections": [
+    "أصلحت سهو حذف الواو من يطول قبل التثبيت إلى يُطَوِّلِ",
+    "رفعت حصة في بلغ حصة عاتكة على أنها الفاعل",
+    "تركت فأوصي وتركيب تملك الملك طلحة معلقين بدل حسم البناء والإعراب"
+  ],
+  "topic_and_source_data_changed": false
+}

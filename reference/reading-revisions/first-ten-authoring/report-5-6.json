@@ -1,0 +1,40 @@
+{
+  "author": "/root/published_reading_revision",
+  "records": [
+    {
+      "biography_id": 5,
+      "source_chars": 26658,
+      "paragraphs_before": 109,
+      "paragraphs_after": 106,
+      "coverage": {
+        "total_words": 4865,
+        "checked_words": 4865,
+        "complete_words": 4717,
+        "uncertain_words": 45,
+        "not_applicable": 103
+      },
+      "insertions": 14624,
+      "uncertainty_count": 45,
+      "manually_authored_source_counterpart": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\reading-revisions\\first-ten-authoring\\biography-5.txt",
+      "independent_audit_signed": false
+    },
+    {
+      "biography_id": 6,
+      "source_chars": 18336,
+      "paragraphs_before": 73,
+      "paragraphs_after": 67,
+      "coverage": {
+        "total_words": 3310,
+        "checked_words": 3310,
+        "complete_words": 3238,
+        "uncertain_words": 12,
+        "not_applicable": 60
+      },
+      "insertions": 10326,
+      "uncertainty_count": 12,
+      "manually_authored_source_counterpart": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\reading-revisions\\first-ten-authoring\\biography-6.txt",
+      "independent_audit_signed": false
+    }
+  ],
+  "status": "ready for independent root linguistic/contextual audit; no self-audit signed"
+}

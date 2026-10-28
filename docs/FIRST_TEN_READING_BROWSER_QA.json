@@ -1,0 +1,203 @@
+{
+  "batch_id": "first-ten-live",
+  "reviewer": "/root",
+  "browser": "Chromium desktop1440x1000/mobile390x844",
+  "biographies": [
+    {
+      "id": 1,
+      "coverage": {
+        "total_words": 2793,
+        "checked_words": 2793,
+        "complete_words": 2716,
+        "uncertain_words": 7,
+        "not_applicable": 70
+      },
+      "insertion_sites": 8586,
+      "paragraph_groups": 58,
+      "unicode_source_length": 15469,
+      "copy": true,
+      "source_roundtrip": true,
+      "highlight": true
+    },
+    {
+      "id": 2,
+      "coverage": {
+        "total_words": 2579,
+        "checked_words": 2579,
+        "complete_words": 2505,
+        "uncertain_words": 13,
+        "not_applicable": 61
+      },
+      "insertion_sites": 7896,
+      "paragraph_groups": 61,
+      "unicode_source_length": 14242,
+      "copy": true,
+      "source_roundtrip": true,
+      "highlight": true
+    },
+    {
+      "id": 3,
+      "coverage": {
+        "total_words": 3920,
+        "checked_words": 3920,
+        "complete_words": 3812,
+        "uncertain_words": 21,
+        "not_applicable": 87
+      },
+      "insertion_sites": 12062,
+      "paragraph_groups": 113,
+      "unicode_source_length": 21887,
+      "copy": true,
+      "source_roundtrip": true,
+      "highlight": true
+    },
+    {
+      "id": 4,
+      "coverage": {
+        "total_words": 3620,
+        "checked_words": 3620,
+        "complete_words": 3526,
+        "uncertain_words": 15,
+        "not_applicable": 79
+      },
+      "insertion_sites": 11025,
+      "paragraph_groups": 91,
+      "unicode_source_length": 19802,
+      "copy": true,
+      "source_roundtrip": true,
+      "highlight": true
+    },
+    {
+      "id": 5,
+      "coverage": {
+        "total_words": 4865,
+        "checked_words": 4865,
+        "complete_words": 4717,
+        "uncertain_words": 45,
+        "not_applicable": 103
+      },
+      "insertion_sites": 14624,
+      "paragraph_groups": 106,
+      "unicode_source_length": 26658,
+      "copy": true,
+      "source_roundtrip": true,
+      "highlight": true
+    },
+    {
+      "id": 6,
+      "coverage": {
+        "total_words": 3310,
+        "checked_words": 3310,
+        "complete_words": 3238,
+        "uncertain_words": 12,
+        "not_applicable": 60
+      },
+      "insertion_sites": 10326,
+      "paragraph_groups": 67,
+      "unicode_source_length": 18336,
+      "copy": true,
+      "source_roundtrip": true,
+      "highlight": true
+    },
+    {
+      "id": 7,
+      "coverage": {
+        "total_words": 451,
+        "checked_words": 451,
+        "complete_words": 436,
+        "uncertain_words": 6,
+        "not_applicable": 9
+      },
+      "insertion_sites": 1401,
+      "paragraph_groups": 9,
+      "unicode_source_length": 2495,
+      "copy": true,
+      "source_roundtrip": true,
+      "highlight": true
+    },
+    {
+      "id": 8,
+      "coverage": {
+        "total_words": 445,
+        "checked_words": 445,
+        "complete_words": 430,
+        "uncertain_words": 2,
+        "not_applicable": 13
+      },
+      "insertion_sites": 1367,
+      "paragraph_groups": 10,
+      "unicode_source_length": 2467,
+      "copy": true,
+      "source_roundtrip": true,
+      "highlight": true
+    },
+    {
+      "id": 9,
+      "coverage": {
+        "total_words": 919,
+        "checked_words": 919,
+        "complete_words": 887,
+        "uncertain_words": 5,
+        "not_applicable": 27
+      },
+      "insertion_sites": 2710,
+      "paragraph_groups": 23,
+      "unicode_source_length": 5097,
+      "copy": true,
+      "source_roundtrip": true,
+      "highlight": true
+    },
+    {
+      "id": 10,
+      "coverage": {
+        "total_words": 122,
+        "checked_words": 122,
+        "complete_words": 115,
+        "uncertain_words": 0,
+        "not_applicable": 7
+      },
+      "insertion_sites": 406,
+      "paragraph_groups": 5,
+      "unicode_source_length": 758,
+      "copy": true,
+      "source_roundtrip": true,
+      "highlight": true
+    }
+  ],
+  "checks": {
+    "desktop": true,
+    "mobile": true,
+    "keyboard": true,
+    "copy_raw": true,
+    "copy_formatted": true,
+    "highlight": true,
+    "footnotes": true,
+    "no_horizontal_overflow": true,
+    "no_console_errors": true,
+    "unchanged_outside_batch": true,
+    "diacritics_toggle": true
+  },
+  "screenshots": [
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-1-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-1-vocalized-mobile35.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-2-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-2-vocalized-mobile35.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-3-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-3-vocalized-mobile35.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-4-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-4-vocalized-mobile35.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-5-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-5-vocalized-mobile35.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-6-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-6-vocalized-mobile35.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-7-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-7-vocalized-mobile35.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-8-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-8-vocalized-mobile35.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-9-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-9-vocalized-mobile35.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-10-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-10-vocalized-mobile35.png"
+  ],
+  "console_errors": []
+}

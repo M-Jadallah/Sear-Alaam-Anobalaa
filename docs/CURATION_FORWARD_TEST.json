@@ -1,0 +1,693 @@
+{
+  "skill": "C:/My-Project/Sear-Alaam-Anobalaa/.agents/skills/siyar-biography-curation/SKILL.md",
+  "author": "/root/reading_frontend",
+  "independent_auditor": "/root/plan_paragraph_criticism_audit",
+  "isolated_database": "C:\\Users\\asala\\AppData\\Local\\Temp\\siyar-skill-forward-6_wo4j48\\library.sqlite3",
+  "source_mode": "read-only project source; all authored files and database mutations are isolated test artifacts",
+  "scope": [
+    [
+      8,
+      9
+    ],
+    [
+      10,
+      11
+    ]
+  ],
+  "steps_required_by_skill": [
+    "Read project instructions and five skill references",
+    "Resolve source_ordinal through export rather than biography_id or title numbering",
+    "Read each complete exported source and every segment in context",
+    "Write a specific observation per segment and review every existing keyword hit",
+    "Classify each parenthesis candidate after reading; retain title and quoted text",
+    "Author source-bound paragraph groups and criticism with attribution and restrictions",
+    "Freeze gold before retrieval",
+    "Leave audit.json for a genuinely different reader",
+    "Validate authoring and repair before independent audit",
+    "Preview an isolated database and verify frontend API target before QA",
+    "Publish only the supplied isolated library after all gates, then audit preservation"
+  ],
+  "observations": [
+    {
+      "kind": "actual_authoring_error",
+      "detail": "An observation in biography10 introduced an unsupported reference to a later claim of infallibility. The independent auditor caught it; the author replaced it with a source-based note about governorship and kinship."
+    },
+    {
+      "kind": "presentation_gap",
+      "detail": "Attached conjunctions prevented selected literal-name matches for نعيمان/قدامة/السائب; clear Prophet references had been omitted from the first selective name list. The auditor requested completion; exact reviewed spans and explicit forms were added without identity links."
+    },
+    {
+      "kind": "actual_authoring_script_error",
+      "detail": "Rerunning the local authoring helper initially appended criticism to a previously authored reading.json. The deterministic validator rejected duplicated overlapping annotations. The helper now resets the criticism list; the final count remains8 and no invalid data were published."
+    },
+    {
+      "kind": "setup_gap_resolved",
+      "detail": "The frontend proxy previously targeted port8000 unconditionally. VITE_API_TARGET support was added using Vite loadEnv, default8000, so a separate frontend5174 can target isolated API8001."
+    },
+    {
+      "kind": "source_specific_decision",
+      "detail": "No separate footnote bodies were found in these four complete biographies.43 numeric marks were moved and9 candidate title/quoted forms stayed literal; this is a local observation rather than an assumption from the first-five pilot."
+    },
+    {
+      "kind": "source_specific_negative_cases",
+      "detail": "Biography9 contains a criticized posthumous alcohol-prohibition narrative, an unqualified word الجنة in a challenged statement, and a narrated dream. Biography10 corrects a claim of uniqueness. These cases retained their source qualifications; biography11 has no actual criticism annotation rather than inventing one."
+    }
+  ],
+  "counts": {
+    "segments_read": 118,
+    "source_characters": 8669,
+    "paragraph_groups": 40,
+    "criticism_annotations": 8,
+    "topic_proposals": 33,
+    "old_keyword_hits_examined": 2,
+    "footnote_candidates": 52,
+    "verified_numeric_markers": 43,
+    "retained_body_literals": 9,
+    "gold_questions_frozen": 9
+  },
+  "status": "completed: independently audited, previewed, browser-tested and published into isolated test database only",
+  "gold_file_sha256_before_search": {
+    "7ae7f691ffe2-10-11\\biography-10\\gold.json": "f5b1aedc66079665ca654d0a587cb02edb95b2c8dd9c9391f98118489cea1d4e",
+    "7ae7f691ffe2-10-11\\biography-11\\gold.json": "d0b2031c840462f2e1f1ee74927118230c868ce042e3914bb323d8254e91d3cf",
+    "7ae7f691ffe2-8-9\\biography-8\\gold.json": "5a5f79db557a45fcf4a75dea50c44fbd56f87fad317398fc0e22125040100a88",
+    "7ae7f691ffe2-8-9\\biography-9\\gold.json": "46283d5e7accf3f2e9ed62228601b03fd31f331f09c47573055960cfebf45230"
+  },
+  "authoring_script": "C:\\Users\\asala\\AppData\\Local\\Temp\\siyar-skill-forward-6_wo4j48\\author_forward.py",
+  "qa_tester": "/root",
+  "main_project_database_modified": false,
+  "batches": [
+    {
+      "batch_id": "7ae7f691ffe2-8-9",
+      "revision": "2fb3d2bd2a67d1d2170934fd22ad4e6439478f64ee2e039b5a37d11874ac862e",
+      "gold_frozen_sha256": "8f12f7c84ab9fd8eeb91fed342dd1f37bfcbba5e2f8f2743dfc434ba59bc300e",
+      "qa": {
+        "batch_id": "7ae7f691ffe2-8-9",
+        "tester": "/root",
+        "browser": "Chromium via Playwright, isolated API8001/UI5174",
+        "biographies": [
+          {
+            "id": 8,
+            "unicode_characters": 2467,
+            "paragraph_groups": 9,
+            "criticism": 2,
+            "notes": 10,
+            "topic_proposals": 7,
+            "colors": {
+              ".pilot-person-name": {
+                "foreground": "rgb(123, 45, 66)",
+                "background": "rgb(255, 255, 255)",
+                "contrast": 9.145486249176049
+              },
+              ".pilot-keyword": {
+                "foreground": "rgb(20, 93, 104)",
+                "background": "rgb(255, 255, 255)",
+                "contrast": 7.512395325660802
+              },
+              "criticism": {
+                "foreground": "rgb(36, 59, 52)",
+                "background": "rgb(245, 234, 208)",
+                "contrast": 10.034610549172086
+              }
+            },
+            "literal_body": true,
+            "raw_copy": true,
+            "formatted_copy": true
+          },
+          {
+            "id": 9,
+            "unicode_characters": 5097,
+            "paragraph_groups": 23,
+            "criticism": 5,
+            "notes": 26,
+            "topic_proposals": 13,
+            "colors": {
+              ".pilot-person-name": {
+                "foreground": "rgb(123, 45, 66)",
+                "background": "rgb(255, 255, 255)",
+                "contrast": 9.145486249176049
+              },
+              ".pilot-keyword": {
+                "foreground": "rgb(20, 93, 104)",
+                "background": "rgb(245, 247, 242)",
+                "contrast": 6.9646923992960765
+              },
+              "criticism": {
+                "foreground": "rgb(20, 93, 104)",
+                "background": "rgb(245, 234, 208)",
+                "contrast": 6.282664935242374
+              }
+            },
+            "literal_body": true,
+            "raw_copy": true,
+            "formatted_copy": true
+          }
+        ],
+        "screenshots": [
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-8-9-reader-8-desktop.png",
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-8-9-reader-8-mobile.png",
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-8-9-reader-9-desktop.png",
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-8-9-reader-9-mobile.png",
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-8-9-reviews-desktop.png"
+        ],
+        "checks": {
+          "desktop": true,
+          "mobile": true,
+          "keyboard": true,
+          "copy_raw": true,
+          "copy_formatted": true,
+          "highlight": true,
+          "footnotes": true,
+          "no_horizontal_overflow": true,
+          "no_console_errors": true,
+          "unchanged_outside_batch": true
+        },
+        "console_errors": [],
+        "revision": "2fb3d2bd2a67d1d2170934fd22ad4e6439478f64ee2e039b5a37d11874ac862e",
+        "gold_frozen_sha256": "8f12f7c84ab9fd8eeb91fed342dd1f37bfcbba5e2f8f2743dfc434ba59bc300e",
+        "reviewer": "/root"
+      },
+      "biographies": [
+        {
+          "id": 8,
+          "source_ordinal": 8,
+          "heading": "8 - أبو سلمة بن عبد الأسد بن هلال * (ت، ق)",
+          "source_char_start": 1608650,
+          "source_char_end": 1611117,
+          "status": "pending",
+          "directory": "biography-8",
+          "baseline_sha256": "f69272921a98723c26c0874392760f86281228e4a0ab3257894bd2946f47b3f0",
+          "source_characters": 2467,
+          "segments": 30,
+          "assessments": {
+            "no_clear_topic": 22,
+            "supported": 8
+          },
+          "topic_proposals": 8,
+          "old_hits_examined": 0,
+          "paragraph_groups": 9,
+          "criticism": 2,
+          "footnote_decisions": {
+            "body_literal": 2,
+            "verified_marker": 10
+          },
+          "footnote_bodies_status": "absent",
+          "audit": {
+            "authoring_sha256": "831870d815e634491f8e3e43defc02a1f3a7ad53574704860781e4487f348c02",
+            "reviewer": "/root/plan_paragraph_criticism_audit",
+            "all_segments_checked": true,
+            "all_footnotes_checked": true,
+            "findings": [
+              {
+                "note": "قراءة مستقلة لجميع المقاطع والسياقات والشواهد والحواشي المرشحة؛ دققت الحدود الحرفية والتغطية والفقرات المتصلة ونسبة الكلام والنفي والقيود، ولا يمثل ذلك اعتمادًا بشريًا.",
+                "resolved": true
+              },
+              {
+                "note": "فُحص اختلاف سنة وفاة أبي سلمة ثلاث/أربع دون ترجيح مستحدث، وبقاء الاسترجاع متصلًا عبر الصفحة؛ كل الإشارات الرقمية المثبتة حواشٍ، والقول ورموز العنوان من المتن.",
+                "resolved": true
+              },
+              {
+                "note": "حُسّن تلوين الأسماء الصريحة، ومنها رسول الله بعد باء الجر في النطاق [1610374,1610383)، دون توسيع هوية أو مطابقة داخل كلمة أطول.",
+                "resolved": true
+              }
+            ],
+            "checks": {
+              "source_coverage": true,
+              "paragraphs": true,
+              "criticism_context": true,
+              "topic_evidence": true,
+              "negative_cases": true
+            }
+          },
+          "gold_file_unchanged": true,
+          "gold": [
+            {
+              "question": "خبر الدعاء عند فقد الزوج وطلب الأجر والخلف ثم الزواج بمن هو خير منه",
+              "start": 1609905,
+              "end": 1610451,
+              "literal_witness": "# حماد بن سلمة: أنبأنا ثابت، عن عمر بن أبي سلمة، عن أم سلمة، قالت:\n# قال رسول الله -صلى الله عليه وسلم-: (إذا أصابت أحدكم مصيبة، فليقل: إنا\n~~لله وإنا إليه PageV01P151\n# راجعون، اللهم عندك أحتسب مصيبتي، فأجرني فيها، وأبدلني خيرا منها) .\n# فلما احتضر أبو سلمة، قلت ذلك، وأردت أن أقول: وأبدلني خيرا منها، فقلت:\n~~ومن خير من أبي سلمة؟\n# فلم أزل حتى قلتها، فلما انقضت عدتها، خطبها أبو بكر، فردته، وخطبها عمر،\n~~فردته، فبعث إليها النبي -صلى الله عليه وسلم-.\n# فقالت: مرحبا برسول الله -صلى الله عليه وسلم- وبرسوله (1) ، وذكر الحديث\n~~(2) . PageV01P152\n"
+            },
+            {
+              "question": "رجوع مهاجرين من الحبشة حين بلغهم إسلام أهل مكة عند نزول سورة النجم",
+              "start": 1609288,
+              "end": 1609463,
+              "literal_witness": "# قال ابن إسحاق: هو أول من هاجر إلى الحبشة، ثم قدم مع عثمان بن ms0978 مظعون حين\n~~قدم من الحبشة، فأجاره أبو طالب.\n# قلت: رجعوا حين سمعوا بإسلام أهل مكة، عند نزول سورة والنجم.\n"
+            },
+            {
+              "question": "رجوع رجل من سرية بني أسد ثم انتقاض جرحه واختلاف الروايات في سنة وفاته",
+              "start": 1610451,
+              "end": 1611117,
+              "literal_witness": "# قال الواقدي: حدثنا عمر بن عثمان (1) اليربوعي، عن سلمة بن عبد الله بن\n~~(2) عمر بن أبي سلمة وغيره، قالوا:\n# شهد أبو سلمة أحدا، وكان نازلا بالعالية في بني أمية بن زيد، فجرح بأحد،\n~~وأقام شهرا يداوي جرحه.\n# فلما هل المحرم، دعاه النبي -صلى الله عليه وسلم- وقال: (اخرج في هذه\n~~السرية) .\n# وعقد له لواء، وقال: (سر حتى تأتي أرض بني أسد، فأغر (3) عليهم) .\n# وكان معه خمسون ومائة، فساروا حتى انتهوا إلى أدنى (4) قطن من مياههم،\n~~فأخذوا سرحا لهم، ثم رجع إلى المدينة بعد بضع عشرة ليلة (5) .\n# قال عمر بن عثمان: فحدثني عبد الملك بن عبيد، قال:\n# لما دخل أبو سلمة المدينة انتقض جرحه، فمات لثلاث بقين من (6) جمادى\n~~الآخرة، يعني: سنة أربع.\n# وقيل: مات أبو ms0979 سلمة سنة ثلاث.\n"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "source_ordinal": 9,
+          "heading": "9 - عثمان بن مظعون بن حبيب بن وهب الجمحي *",
+          "source_char_start": 1611117,
+          "source_char_end": 1616214,
+          "status": "pending",
+          "directory": "biography-9",
+          "baseline_sha256": "bdf675faeacf3884a0f2c7b3396a589dd1201e3bde3515017fb35ba89e9b086d",
+          "source_characters": 5097,
+          "segments": 78,
+          "assessments": {
+            "no_clear_topic": 60,
+            "supported": 18
+          },
+          "topic_proposals": 18,
+          "old_hits_examined": 1,
+          "paragraph_groups": 23,
+          "criticism": 5,
+          "footnote_decisions": {
+            "verified_marker": 26,
+            "body_literal": 7
+          },
+          "footnote_bodies_status": "absent",
+          "audit": {
+            "authoring_sha256": "2a20c7041b8942ca76b445ce787ce280f43f66a1569dc1434a9b93eef392fbdd",
+            "reviewer": "/root/plan_paragraph_criticism_audit",
+            "all_segments_checked": true,
+            "all_footnotes_checked": true,
+            "findings": [
+              {
+                "note": "قراءة مستقلة لجميع المقاطع والسياقات والشواهد والحواشي المرشحة؛ دققت الحدود الحرفية والتغطية والفقرات المتصلة ونسبة الكلام والنفي والقيود، ولا يمثل ذلك اعتمادًا بشريًا.",
+                "resolved": true
+              },
+              {
+                "note": "فُحص الإرسال وخبر تحريم الخمر المنقطع مع لا يثبت وتعليل التحريم بعد موته، ونسبة التصحيح للترمذي؛ احتفظت توصية المرشح809 بسؤال ما يدريك وعدم الدراية.",
+                "resolved": true
+              },
+              {
+                "note": "فُحص الحوار والمنام ونفي وقوع الاختصاء، وحُفظت الأقوال داخل الأقواس بوصفها متنًا؛ لا تنسب التهاني والمآل إلى اعتماد علمي.",
+                "resolved": true
+              }
+            ],
+            "checks": {
+              "source_coverage": true,
+              "paragraphs": true,
+              "criticism_context": true,
+              "topic_evidence": true,
+              "negative_cases": true
+            }
+          },
+          "gold_file_unchanged": true,
+          "gold": [
+            {
+              "question": "خبر وضع صخرة علامة على قبر صاحب للنبي مع تعقيب أن الخبر مرسل",
+              "start": 1611395,
+              "end": 1611754,
+              "literal_witness": "# روى كثير بن زيد المدني، عن المطلب بن عبد الله، قال:\n# لما دفن النبي -صلى الله عليه وسلم- عثمان بن مظعون، قال لرجل: (هلم تلك\n~~الصخرة، فاجعلها عند قبر أخي، أعرفه بها، أدفن إليه من دفنت من أهلي) .\n# فقام الرجل، فلم يطقها، فقال - يعني الذي حدثه -:\n# فلكأني أنظر إلى بياض ساعدي رسول الله -صلى الله عليه وسلم- حين احتملها،\n~~حتى وضعها عند قبره (2) .\n# هذا مرسل.\n"
+            },
+            {
+              "question": "رد التبتل والرغبة في الاختصاء والاقتداء بالنبي بدل الرهبانية",
+              "start": 1611754,
+              "end": 1611903,
+              "literal_witness": "# قال سعيد بن المسيب: سمعت سعدا يقول:\n# رد رسول الله -صلى الله عليه وسلم- على عثمان بن مظعون (3) التبتل، ولو\n~~أذن (4) له لاختصينا (5) . PageV01P154\n"
+            },
+            {
+              "question": "رجل اجتنب الشراب في الجاهلية وخبر يذكر كلامه عند التحريم ثم ينقده المؤلف لأن التحريم بعد وفاته",
+              "start": 1612231,
+              "end": 1612542,
+              "literal_witness": "# وكان ممن حرم الخمر في الجاهلية.\n# ابن المبارك: عن عمر بن سعيد، عن ابن سابط:\n# قال عثمان بن مظعون: لا أشرب شرابا يذهب عقلي، ويضحك بي من هو أدنى مني،\n~~ويحملني على أن أنكح كريمتي.\n# فلما حرمت الخمر، قال: تبا لها، قد كان بصري فيها ثاقبا (4) .\n# هذا خبر منقطع لا يثبت، وإنما حرمت الخمر بعد موته (5) . PageV01P155\n"
+            }
+          ]
+        }
+      ],
+      "validation": {
+        "valid": true,
+        "status": "published",
+        "revision": "2fb3d2bd2a67d1d2170934fd22ad4e6439478f64ee2e039b5a37d11874ac862e",
+        "biographies": []
+      },
+      "status": {
+        "status": "published",
+        "batch": "C:\\Users\\asala\\AppData\\Local\\Temp\\siyar-skill-forward-6_wo4j48\\work\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-8-9",
+        "batch_id": "7ae7f691ffe2-8-9",
+        "revision": "2fb3d2bd2a67d1d2170934fd22ad4e6439478f64ee2e039b5a37d11874ac862e",
+        "published_revision": "2fb3d2bd2a67d1d2170934fd22ad4e6439478f64ee2e039b5a37d11874ac862e",
+        "authoring": [
+          {
+            "biography_id": 8,
+            "authoring_sha256": "831870d815e634491f8e3e43defc02a1f3a7ad53574704860781e4487f348c02"
+          },
+          {
+            "biography_id": 9,
+            "authoring_sha256": "2a20c7041b8942ca76b445ce787ce280f43f66a1569dc1434a9b93eef392fbdd"
+          }
+        ],
+        "skipped": [],
+        "validation": {
+          "valid": true,
+          "status": "published",
+          "revision": "2fb3d2bd2a67d1d2170934fd22ad4e6439478f64ee2e039b5a37d11874ac862e",
+          "biographies": []
+        },
+        "gates": {
+          "authoring_valid": true,
+          "audit_valid": true,
+          "preview_current": true,
+          "qa_current": true,
+          "published": true
+        },
+        "counts": {
+          "requested": 2,
+          "pending": 2,
+          "skipped": 0
+        },
+        "coverage": [
+          {
+            "biography_id": 8,
+            "total_segments": 30,
+            "assessed_segments": 30,
+            "total_footnote_candidates": 12,
+            "assessed_footnote_candidates": 12
+          },
+          {
+            "biography_id": 9,
+            "total_segments": 78,
+            "assessed_segments": 78,
+            "total_footnote_candidates": 33,
+            "assessed_footnote_candidates": 33
+          }
+        ],
+        "phase": "published",
+        "remaining": [],
+        "reasons": {}
+      },
+      "repeat_publication": {
+        "status": "unchanged",
+        "batch_id": "7ae7f691ffe2-8-9",
+        "revision": "2fb3d2bd2a67d1d2170934fd22ad4e6439478f64ee2e039b5a37d11874ac862e"
+      },
+      "preservation_report": "CURATION_FORWARD_INTEGRITY_8_9.json",
+      "retrieval_report": "CURATION_EVALUATION_8_9.json"
+    },
+    {
+      "batch_id": "7ae7f691ffe2-10-11",
+      "revision": "fa891d46f75fdff9a5e2e3f5c60491bb7e54164b8ca987599390f1798134b82a",
+      "gold_frozen_sha256": "046951f02860d1cd54be01990e93e3f5e1acb6a41cff1cf88d1a905fd0e3e82c",
+      "qa": {
+        "batch_id": "7ae7f691ffe2-10-11",
+        "tester": "/root",
+        "browser": "Chromium via Playwright, isolated API8001/UI5174",
+        "biographies": [
+          {
+            "id": 10,
+            "unicode_characters": 758,
+            "paragraph_groups": 5,
+            "criticism": 1,
+            "notes": 5,
+            "topic_proposals": 4,
+            "colors": {
+              ".pilot-person-name": {
+                "foreground": "rgb(123, 45, 66)",
+                "background": "rgb(255, 255, 255)",
+                "contrast": 9.145486249176049
+              },
+              ".pilot-keyword": {
+                "foreground": "rgb(20, 93, 104)",
+                "background": "rgb(255, 255, 255)",
+                "contrast": 7.512395325660802
+              },
+              "criticism": {
+                "foreground": "rgb(36, 59, 52)",
+                "background": "rgb(245, 234, 208)",
+                "contrast": 10.034610549172086
+              }
+            },
+            "literal_body": true,
+            "raw_copy": true,
+            "formatted_copy": true
+          },
+          {
+            "id": 11,
+            "unicode_characters": 347,
+            "paragraph_groups": 3,
+            "criticism": 0,
+            "notes": 2,
+            "topic_proposals": 3,
+            "colors": {
+              ".pilot-person-name": {
+                "foreground": "rgb(123, 45, 66)",
+                "background": "rgb(255, 255, 255)",
+                "contrast": 9.145486249176049
+              },
+              ".pilot-keyword": {
+                "foreground": "rgb(20, 93, 104)",
+                "background": "rgb(255, 255, 255)",
+                "contrast": 7.512395325660802
+              }
+            },
+            "literal_body": true,
+            "raw_copy": true,
+            "formatted_copy": true
+          }
+        ],
+        "screenshots": [
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-10-11-reader-10-desktop.png",
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-10-11-reader-10-mobile.png",
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-10-11-reader-11-desktop.png",
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-10-11-reader-11-mobile.png",
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-10-11-reviews-desktop.png"
+        ],
+        "checks": {
+          "desktop": true,
+          "mobile": true,
+          "keyboard": true,
+          "copy_raw": true,
+          "copy_formatted": true,
+          "highlight": true,
+          "footnotes": true,
+          "no_horizontal_overflow": true,
+          "no_console_errors": true,
+          "unchanged_outside_batch": true
+        },
+        "console_errors": [],
+        "revision": "fa891d46f75fdff9a5e2e3f5c60491bb7e54164b8ca987599390f1798134b82a",
+        "gold_frozen_sha256": "046951f02860d1cd54be01990e93e3f5e1acb6a41cff1cf88d1a905fd0e3e82c",
+        "reviewer": "/root"
+      },
+      "biographies": [
+        {
+          "id": 10,
+          "source_ordinal": 10,
+          "heading": "10 - قدامة بن مظعون أبو عمرو الجمحي *",
+          "source_char_start": 1616214,
+          "source_char_end": 1616972,
+          "status": "pending",
+          "directory": "biography-10",
+          "baseline_sha256": "b6cb61809d1ca1eb4e3d1c079927c3c60d2766ef26b703a4823101d1e6593884",
+          "source_characters": 758,
+          "segments": 7,
+          "assessments": {
+            "supported": 4,
+            "no_clear_topic": 3
+          },
+          "topic_proposals": 4,
+          "old_hits_examined": 1,
+          "paragraph_groups": 5,
+          "criticism": 1,
+          "footnote_decisions": {
+            "verified_marker": 5
+          },
+          "footnote_bodies_status": "absent",
+          "audit": {
+            "authoring_sha256": "86b55145df20905901b4c3953cef59b8e54f9a4eb4bce0af16b37c2fec68967f",
+            "reviewer": "/root/plan_paragraph_criticism_audit",
+            "all_segments_checked": true,
+            "all_footnotes_checked": true,
+            "findings": [
+              {
+                "note": "قراءة مستقلة لجميع المقاطع والسياقات والشواهد والحواشي المرشحة؛ دققت الحدود الحرفية والتغطية والفقرات المتصلة ونسبة الكلام والنفي والقيود، ولا يمثل ذلك اعتمادًا بشريًا.",
+                "resolved": true
+              },
+              {
+                "note": "صحح المؤلف ملاحظة8379 التي أشارت أولًا إلى دعوى عصمة غير موجودة؛ الملاحظة الحالية تستند إلى السابقة والولاية والقرابة فقط.",
+                "resolved": true
+              },
+              {
+                "note": "فُحص نفي انفراد بدري بالحد مع استدراك بلى ونعيمان، وأُكمل تلوين نعيمان بن عمرو حرفيًا بعد واو العطف دون تقرير هوية.",
+                "resolved": true
+              }
+            ],
+            "checks": {
+              "source_coverage": true,
+              "paragraphs": true,
+              "criticism_context": true,
+              "topic_evidence": true,
+              "negative_cases": true
+            }
+          },
+          "gold_file_unchanged": true,
+          "gold": [
+            {
+              "question": "والٍ على البحرين شرب الخمر متأولًا آية فأقيم عليه الحد وعزل من الولاية",
+              "start": 1616399,
+              "end": 1616716,
+              "literal_witness": "# ولقدامة هجرة إلى الحبشة، وقد شرب مرة الخمرة متأولا، مستدلا بقوله\n~~تعالى: {ليس على الذين آمنوا وعملوا الصالحات جناح فيما طعموا} ، الآية\n~~[المائدة: 93] فحده عمر، وعزله من البحرين (1) . PageV01P161\n# قال أيوب السختياني: لم يحد بدري في الخمر سواه (1) .\n# قلت: بلى، ونعيمان بن عمرو الأنصاري النجاري، صاحب المزاح (2) .\n"
+            },
+            {
+              "question": "تعقيب المؤلف على قول إن بدريًا واحدًا أقيم عليه حد الخمر بذكر نعيمان",
+              "start": 1616598,
+              "end": 1616716,
+              "literal_witness": "# قال أيوب السختياني: لم يحد بدري في الخمر سواه (1) .\n# قلت: بلى، ونعيمان بن عمرو الأنصاري النجاري، صاحب المزاح (2) .\n"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "source_ordinal": 11,
+          "heading": "11 - عبد الله بن مظعون الجمحي أبو محمد *",
+          "source_char_start": 1616972,
+          "source_char_end": 1617319,
+          "status": "pending",
+          "directory": "biography-11",
+          "baseline_sha256": "12f89225d63f684573ffc34e5b48b3dc955064b70b66431e16adeeca14a06fe7",
+          "source_characters": 347,
+          "segments": 3,
+          "assessments": {
+            "supported": 3
+          },
+          "topic_proposals": 3,
+          "old_hits_examined": 0,
+          "paragraph_groups": 3,
+          "criticism": 0,
+          "footnote_decisions": {
+            "verified_marker": 2
+          },
+          "footnote_bodies_status": "absent",
+          "audit": {
+            "authoring_sha256": "4aa556c8b26514ce9369794d4c4427b2e8158df9c69415016b2f04a656d3587b",
+            "reviewer": "/root/plan_paragraph_criticism_audit",
+            "all_segments_checked": true,
+            "all_footnotes_checked": true,
+            "findings": [
+              {
+                "note": "قراءة مستقلة لجميع المقاطع والسياقات والشواهد والحواشي المرشحة؛ دققت الحدود الحرفية والتغطية والفقرات المتصلة ونسبة الكلام والنفي والقيود، ولا يمثل ذلك اعتمادًا بشريًا.",
+                "resolved": true
+              },
+              {
+                "note": "فُحص تمييز السائب ولد أخيه عن الإخوة، وتلوين السائب وقدامة الصريحين دون دمج هويات؛ لا تعليق تحقيق مصطنع في ترجمة تخلو من ألفاظه.",
+                "resolved": true
+              }
+            ],
+            "checks": {
+              "source_coverage": true,
+              "paragraphs": true,
+              "criticism_context": true,
+              "topic_evidence": true,
+              "negative_cases": true
+            }
+          },
+          "gold_file_unchanged": true,
+          "gold": [
+            {
+              "question": "من آخى النبي بينه وبين سهل بن عبيد بن المعلى الأنصاري وكان ممن شهد بدرًا وأحدًا والخندق",
+              "start": 1617136,
+              "end": 1617257,
+              "literal_witness": "# قال ابن سعد: شهد بدرا، وأحدا، والخندق، وآخى رسول الله -صلى الله عليه\n~~وسلم- بينه وبين سهل بن عبيد بن المعلى الأنصاري.\n"
+            }
+          ]
+        }
+      ],
+      "validation": {
+        "valid": true,
+        "status": "published",
+        "revision": "fa891d46f75fdff9a5e2e3f5c60491bb7e54164b8ca987599390f1798134b82a",
+        "biographies": []
+      },
+      "status": {
+        "status": "published",
+        "batch": "C:\\Users\\asala\\AppData\\Local\\Temp\\siyar-skill-forward-6_wo4j48\\work\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-10-11",
+        "batch_id": "7ae7f691ffe2-10-11",
+        "revision": "fa891d46f75fdff9a5e2e3f5c60491bb7e54164b8ca987599390f1798134b82a",
+        "published_revision": "fa891d46f75fdff9a5e2e3f5c60491bb7e54164b8ca987599390f1798134b82a",
+        "authoring": [
+          {
+            "biography_id": 10,
+            "authoring_sha256": "86b55145df20905901b4c3953cef59b8e54f9a4eb4bce0af16b37c2fec68967f"
+          },
+          {
+            "biography_id": 11,
+            "authoring_sha256": "4aa556c8b26514ce9369794d4c4427b2e8158df9c69415016b2f04a656d3587b"
+          }
+        ],
+        "skipped": [],
+        "validation": {
+          "valid": true,
+          "status": "published",
+          "revision": "fa891d46f75fdff9a5e2e3f5c60491bb7e54164b8ca987599390f1798134b82a",
+          "biographies": []
+        },
+        "gates": {
+          "authoring_valid": true,
+          "audit_valid": true,
+          "preview_current": true,
+          "qa_current": true,
+          "published": true
+        },
+        "counts": {
+          "requested": 2,
+          "pending": 2,
+          "skipped": 0
+        },
+        "coverage": [
+          {
+            "biography_id": 10,
+            "total_segments": 7,
+            "assessed_segments": 7,
+            "total_footnote_candidates": 5,
+            "assessed_footnote_candidates": 5
+          },
+          {
+            "biography_id": 11,
+            "total_segments": 3,
+            "assessed_segments": 3,
+            "total_footnote_candidates": 2,
+            "assessed_footnote_candidates": 2
+          }
+        ],
+        "phase": "published",
+        "remaining": [],
+        "reasons": {}
+      },
+      "repeat_publication": {
+        "status": "unchanged",
+        "batch_id": "7ae7f691ffe2-10-11",
+        "revision": "fa891d46f75fdff9a5e2e3f5c60491bb7e54164b8ca987599390f1798134b82a"
+      },
+      "preservation_report": "CURATION_FORWARD_INTEGRITY_10_11.json",
+      "retrieval_report": "CURATION_EVALUATION_10_11.json"
+    }
+  ],
+  "overlapping_export": {
+    "range": [
+      9,
+      10
+    ],
+    "all_skipped": true,
+    "manifest": "C:\\Users\\asala\\AppData\\Local\\Temp\\siyar-skill-forward-6_wo4j48\\resume-check\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-9-10\\manifest.json"
+  },
+  "screenshots_visually_inspected": [
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-10-11-reader-10-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-10-11-reader-10-mobile.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-10-11-reader-11-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-10-11-reader-11-mobile.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-10-11-reviews-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-8-9-reader-8-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-8-9-reader-8-mobile.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-8-9-reader-9-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-8-9-reader-9-mobile.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\batch-7ae7f691ffe2-8-9-reviews-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\reader-10-paragraphs-mobile.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-curation-skill-20261028\\reader-9-paragraphs-mobile.png"
+  ],
+  "limitations": [
+    "Agent-authored development gold, not a human-adjudicated benchmark.",
+    "Chromium desktop and mobile emulation only, no physical mobile device or Safari/Firefox.",
+    "Formatting and proposals remain separate from scientific human approval.",
+    "Batch corrections with a different revision are rejected; no automatic replacement of protected history.",
+    "Tokenizer warns on overlong pairs while counting; existing reranker explicitly skips pairs above512 without truncating the source."
+  ]
+}

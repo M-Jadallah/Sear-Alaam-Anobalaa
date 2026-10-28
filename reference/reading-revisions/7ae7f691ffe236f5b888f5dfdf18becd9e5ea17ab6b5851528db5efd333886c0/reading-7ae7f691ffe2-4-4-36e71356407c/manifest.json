@@ -1,0 +1,22 @@
+{
+  "version": "reading-revision-v1",
+  "batch_id": "reading-7ae7f691ffe2-4-4-36e71356407c",
+  "source_id": 1,
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "start_ordinal": 4,
+  "end_ordinal": 4,
+  "baseline_sha256": "36e71356407c426c89c63df6959eaeba857f1f4a1356f2e41b25ac5e8ddb57c5",
+  "curator": "/root",
+  "reason": "طلب المستخدم تشكيل التراجم العشر الأولى وتحسين فقراتها؛ استكمال تأليف عبد الرحمن مع حفظ تاريخ القراءة والوسوم والمراجعات.",
+  "biographies": [
+    {
+      "id": 4,
+      "source_ordinal": 4,
+      "heading": "4 - عبد الرحمن بن عوف بن عبد عوف الزهري * (ع)",
+      "source_char_start": 1538102,
+      "source_char_end": 1557904,
+      "directory": "biography-4",
+      "baseline_sha256": "a0075711c1fba3539f34aea7063fa4b1e8b1575d3af8f17fad58eb220f3c923d"
+    }
+  ]
+}

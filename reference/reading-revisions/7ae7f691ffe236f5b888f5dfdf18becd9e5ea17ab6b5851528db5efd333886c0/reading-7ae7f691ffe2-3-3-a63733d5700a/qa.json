@@ -1,0 +1,24 @@
+{
+  "revision": "356f91d028f6d22d0ad81fd753596e174f91a5e1742e5b9a72ba8a2f27e5e292",
+  "content_sha256": "472b147ac601bc98f4e91f7b949f168119522a71a9b096fa81fe380c5fc3244b",
+  "reviewer": "/root",
+  "checks": {
+    "desktop": true,
+    "mobile": true,
+    "keyboard": true,
+    "copy_raw": true,
+    "copy_formatted": true,
+    "highlight": true,
+    "footnotes": true,
+    "no_horizontal_overflow": true,
+    "no_console_errors": true,
+    "unchanged_outside_batch": true,
+    "diacritics_toggle": true
+  },
+  "screenshots": [
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-3-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-3-vocalized-mobile35.png"
+  ],
+  "report": "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\qa-first-ten-1-4-7-10.json",
+  "visual_review": "/root inspected every desktop and mobile35 screenshot; marks attached, natural wrapping and color legends visible."
+}

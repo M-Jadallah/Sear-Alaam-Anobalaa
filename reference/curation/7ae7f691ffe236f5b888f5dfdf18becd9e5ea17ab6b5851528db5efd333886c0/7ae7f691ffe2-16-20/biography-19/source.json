@@ -1,0 +1,74 @@
+{
+  "biography_id": 19,
+  "source_ordinal": 19,
+  "heading": "19 - عامر بن أبي البكير الليثي *",
+  "source_char_start": 1635388,
+  "source_char_end": 1635647,
+  "full_text": "### $ 19 - عامر بن أبي البكير الليثي *\n# قال ابن سعد: آخى ms0993 رسول الله -صلى الله عليه وسلم- بينه وبين ثابت بن قيس\n~~بن شماس.\n# شهد بدرا والمشاهد كلها مع رسول الله -صلى الله عليه وسلم-.\n# قلت: ما شهد بدرا إخوة أربعة سواهم.\n# واستشهد عامر يوم اليمامة (1) .\n",
+  "segments": [
+    {
+      "id": 8639,
+      "source_id": 1,
+      "section_id": 299,
+      "biography_id": 19,
+      "segment_ordinal": 1,
+      "text_original": "# قال ابن سعد: آخى ms0993 رسول الله -صلى الله عليه وسلم- بينه وبين ثابت بن قيس\n~~بن شماس.\n",
+      "normalized_search_text": "قال ابن سعد اخي ms0993 رسول الله صلي الله عليه وسلم بينه وبين ثابت بن قيس بن شماس",
+      "source_char_start": 1635427,
+      "source_char_end": 1635517,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P187"
+    },
+    {
+      "id": 8640,
+      "source_id": 1,
+      "section_id": 299,
+      "biography_id": 19,
+      "segment_ordinal": 2,
+      "text_original": "# شهد بدرا والمشاهد كلها مع رسول الله -صلى الله عليه وسلم-.\n",
+      "normalized_search_text": "شهد بدرا والمشاهد كلها مع رسول الله صلي الله عليه وسلم",
+      "source_char_start": 1635517,
+      "source_char_end": 1635577,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P187"
+    },
+    {
+      "id": 8641,
+      "source_id": 1,
+      "section_id": 299,
+      "biography_id": 19,
+      "segment_ordinal": 3,
+      "text_original": "# قلت: ما شهد بدرا إخوة أربعة سواهم.\n",
+      "normalized_search_text": "قلت ما شهد بدرا اخوة اربعة سواهم",
+      "source_char_start": 1635577,
+      "source_char_end": 1635614,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P187"
+    },
+    {
+      "id": 8642,
+      "source_id": 1,
+      "section_id": 299,
+      "biography_id": 19,
+      "segment_ordinal": 4,
+      "text_original": "# واستشهد عامر يوم اليمامة (1) .\n",
+      "normalized_search_text": "واستشهد عامر يوم اليمامة 1",
+      "source_char_start": 1635614,
+      "source_char_end": 1635647,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P187"
+    }
+  ],
+  "existing_hits": [],
+  "footnote_candidates": [
+    {
+      "start": 1635641,
+      "end": 1635644,
+      "raw": "(1)"
+    }
+  ]
+}

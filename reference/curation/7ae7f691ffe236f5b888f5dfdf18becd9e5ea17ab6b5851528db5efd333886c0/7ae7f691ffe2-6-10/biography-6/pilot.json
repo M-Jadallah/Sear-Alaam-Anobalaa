@@ -1,0 +1,2231 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 6,
+  "source_char_start": 1584562,
+  "source_char_end": 1602898,
+  "reviewer": "curation-team",
+  "segments": [
+    {
+      "segment_id": 8037,
+      "assessment": "no_clear_topic",
+      "note": "نسب سعيد وكنيته لا حسم لهوية غيره",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8038,
+      "assessment": "no_clear_topic",
+      "note": "وصف سعيد ضمن العشرة والسابقين",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8039,
+      "assessment": "supported",
+      "note": "مشاهده وحصار دمشق والجملة تستمر بعد الصفحة",
+      "topics": [
+        {
+          "topic": "المدن والأمصار",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "ذكر حصار دمشق وفتحها ثم ولاية سعيد عليها.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1584871,
+          "evidence_end": 1584880,
+          "context_start": 1584818,
+          "context_end": 1584986
+        }
+      ],
+      "existing_hits": [
+        {
+          "hit_id": 792,
+          "decision": "keep",
+          "reason": "ذكر حصار دمشق وفتحها ثم الولاية، وشاهده في السياق."
+        }
+      ]
+    },
+    {
+      "segment_id": 8040,
+      "assessment": "supported",
+      "note": "أبو عبيدة ولاه دمشق ويتمم الجملة السابقة",
+      "topics": [
+        {
+          "topic": "القضاء والولايات",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "يسند توليته إلى أبي عبيدة ويذكر نيابته على دمشق.",
+          "relation_type": "description",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1584939,
+          "evidence_end": 1584977,
+          "context_start": 1584818,
+          "context_end": 1584986
+        },
+        {
+          "topic": "المدن والأمصار",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "تمام خبر ولاية سعيد على دمشق، بعد حصارها وفتحها.",
+          "relation_type": "discussion",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1584960,
+          "evidence_end": 1584964,
+          "context_start": 1584818,
+          "context_end": 1584986
+        }
+      ],
+      "existing_hits": [
+        {
+          "hit_id": 793,
+          "decision": "keep",
+          "reason": "وردت دمشق في بيان نيابة سعيد عليها."
+        }
+      ]
+    },
+    {
+      "segment_id": 8041,
+      "assessment": "no_clear_topic",
+      "note": "عدد أحاديثه المذكورة في الصحيحين والبخاري",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8042,
+      "assessment": "supported",
+      "note": "أسماء من رووا عن سعيد",
+      "topics": [
+        {
+          "topic": "التلاميذ",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "يسرد من رووا عن سعيد؛ ليس تقريرا لهويات مستقلة.",
+          "relation_type": "description",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1585067,
+          "evidence_end": 1585074,
+          "context_start": 1585065,
+          "context_end": 1585218
+        }
+      ],
+      "existing_hits": [
+        {
+          "hit_id": 794,
+          "decision": "keep",
+          "reason": "السياق يسرد من رووا عن سعيد."
+        }
+      ]
+    },
+    {
+      "segment_id": 8043,
+      "assessment": "no_clear_topic",
+      "note": "إسناد طويل ينتهي بسعيد ويتصل بالمتن التالي",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8044,
+      "assessment": "no_clear_topic",
+      "note": "متن رواية سعيد في الكمأة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8045,
+      "assessment": "no_clear_topic",
+      "note": "تخريج البخاري واتصال الطريق بالسند السابق",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8046,
+      "assessment": "no_clear_topic",
+      "note": "إسناد حديث الأرض واسم الصوفي نسبة راو",
+      "topics": [],
+      "existing_hits": [
+        {
+          "hit_id": 795,
+          "decision": "exclude",
+          "reason": "الصوفي نسبة راو في الإسناد لا دلالة تصوف."
+        }
+      ]
+    },
+    {
+      "segment_id": 8047,
+      "assessment": "no_clear_topic",
+      "note": "المتن عن ظلم الأرض والشهادة دون المال",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8048,
+      "assessment": "supported",
+      "note": "وصف الإسناد بالصلاح مع انقطاعه وسببه",
+      "topics": [
+        {
+          "topic": "الإسناد",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "نقد الإسناد يشمل الاستدراك بالانقطاع وعلته.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "criticism",
+          "evidence_start": 1586124,
+          "evidence_end": 1586145,
+          "context_start": 1585746,
+          "context_end": 1586371
+        }
+      ],
+      "existing_hits": [
+        {
+          "hit_id": 796,
+          "decision": "modify",
+          "reason": "صلاح الإسناد مشروط باستدراك الانقطاع وعدم السماع؛ أضيف شاهد بسياقه."
+        }
+      ]
+    },
+    {
+      "segment_id": 8049,
+      "assessment": "no_clear_topic",
+      "note": "طرق أخرى تصل طلحة بسعيد بواسطة عبد الرحمن",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8050,
+      "assessment": "no_clear_topic",
+      "note": "تخريج البخاري لهذا الخبر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8051,
+      "assessment": "supported",
+      "note": "ابتداء خبر زيد والد سعيد وبحثه عن الدين",
+      "topics": [
+        {
+          "topic": "الرحلات",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "الرحلة لزيد والد سعيد في طلب الدين، لا لسعيد.",
+          "relation_type": "event",
+          "subject_scope": "mentioned_person",
+          "stance": "reported",
+          "evidence_start": 1586433,
+          "evidence_end": 1586440,
+          "context_start": 1586371,
+          "context_end": 1586811
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8052,
+      "assessment": "no_clear_topic",
+      "note": "قول زيد وتقييم المؤلف ومجيء الشهادة له مع ذكر عدم ظفره بالشريعة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8053,
+      "assessment": "no_clear_topic",
+      "note": "زيد والد سعيد ابن عم عمر ووفاته قبل البعثة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8054,
+      "assessment": "no_clear_topic",
+      "note": "واسطة نقل خبر ابن إسحاق عن يونس",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8055,
+      "assessment": "no_clear_topic",
+      "note": "خبر مجتمع القرشيين عند الوثن",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8056,
+      "assessment": "no_clear_topic",
+      "note": "احتجاج بعض النفر على عبادة الوثن",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8057,
+      "assessment": "no_clear_topic",
+      "note": "خروج النفر يطلبون الحنيفية",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8058,
+      "assessment": "no_clear_topic",
+      "note": "خبر تنصر ورقة وليس زيد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8059,
+      "assessment": "supported",
+      "note": "اعتزال زيد الأب للأوثان وتوحيده",
+      "topics": [
+        {
+          "topic": "التوحيد",
+          "category": "العقيدة",
+          "aliases": [],
+          "rationale": "وصف زيد الأب بتوحيد الله واعتزال الأوثان ضمن خبر ابن إسحاق.",
+          "relation_type": "description",
+          "subject_scope": "mentioned_person",
+          "stance": "reported",
+          "evidence_start": 1587531,
+          "evidence_end": 1587540,
+          "context_start": 1586811,
+          "context_end": 1587838
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8060,
+      "assessment": "no_clear_topic",
+      "note": "أذى الخطاب لزيد وانتقاله وطلبه الدين",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8061,
+      "assessment": "no_clear_topic",
+      "note": "بداية طريق أسماء وفيه تحويل السند",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8062,
+      "assessment": "no_clear_topic",
+      "note": "طريق آخر مع تاريخ السماع والإجازة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8063,
+      "assessment": "no_clear_topic",
+      "note": "اتصال الطريق إلى أسماء بنت أبي بكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8064,
+      "assessment": "no_clear_topic",
+      "note": "رؤية أسماء زيدا قائما عند الكعبة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8065,
+      "assessment": "supported",
+      "note": "خبر زيد الأب مع الموؤودة في رواية أسماء",
+      "topics": [
+        {
+          "topic": "إحياء الموؤودة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "تروي أسماء فعل زيد الأب مع من أراد قتل ابنته ويتلوه تقويم للخبر.",
+          "relation_type": "event",
+          "subject_scope": "mentioned_person",
+          "stance": "reported",
+          "evidence_start": 1588502,
+          "evidence_end": 1588520,
+          "context_start": 1587838,
+          "context_end": 1588812
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8066,
+      "assessment": "supported",
+      "note": "نقد الخبر بصحيح غريب وتفرد الليث والرواية كتابة",
+      "topics": [
+        {
+          "topic": "صحيح الحديث",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "لفظ المصدر مقيد بالغرابة والتفرد ورواية الليث كتابة.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "criticism",
+          "evidence_start": 1588676,
+          "evidence_end": 1588694,
+          "context_start": 1587838,
+          "context_end": 1588854
+        }
+      ],
+      "existing_hits": [
+        {
+          "hit_id": 797,
+          "decision": "modify",
+          "reason": "وصف صحيح غريب مع التفرد والكتابة لا لفظ صحيح مجرد."
+        }
+      ]
+    },
+    {
+      "segment_id": 8067,
+      "assessment": "no_clear_topic",
+      "note": "تعليق البخاري والخبر السابق من طريق الكتابة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8068,
+      "assessment": "no_clear_topic",
+      "note": "سماع ابن إسحاق من هشام يتصل بما بعد الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8069,
+      "assessment": "no_clear_topic",
+      "note": "ذكر نسخة الليث وطريق عروة بعد الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8070,
+      "assessment": "no_clear_topic",
+      "note": "حكاية ورقة مع بلال في الخبر المذكور",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8071,
+      "assessment": "no_clear_topic",
+      "note": "قول ورقة لبلال وتهديده من يعذبه",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8072,
+      "assessment": "no_clear_topic",
+      "note": "تفسير لفظ حنانا في القصة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8073,
+      "assessment": "supported",
+      "note": "وصف الخبر بالإرسال وتعليل عدم إدراك ورقة",
+      "topics": [
+        {
+          "topic": "علل الحديث",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "حكم الإرسال في خبر ورقة وبلال مع تعليله.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "criticism",
+          "evidence_start": 1589160,
+          "evidence_end": 1589168,
+          "context_start": 1588812,
+          "context_end": 1589283
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8074,
+      "assessment": "no_clear_topic",
+      "note": "إسناد آخر عن أسماء في شأن ورقة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8075,
+      "assessment": "no_clear_topic",
+      "note": "دعاء ورقة المتضمن عدم علمه بأحب الوجوه",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8076,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر السفرة وفيه المسعودي",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8077,
+      "assessment": "no_clear_topic",
+      "note": "لقاء زيد الأب النبي وزيد بن حارثة في الرواية",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8078,
+      "assessment": "no_clear_topic",
+      "note": "جواب زيد عن الذبائح وما نسب بعده للنبي",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8079,
+      "assessment": "supported",
+      "note": "نقد المسعودي بلفظ ليس بحجة",
+      "topics": [
+        {
+          "topic": "الجرح والتعديل",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "نقد للمسعودي أحد رجال الإسناد وليس لسعيد.",
+          "relation_type": "discussion",
+          "subject_scope": "mentioned_person",
+          "stance": "criticism",
+          "evidence_start": 1589760,
+          "evidence_end": 1589778,
+          "context_start": 1589449,
+          "context_end": 1589869
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8080,
+      "assessment": "no_clear_topic",
+      "note": "تخريج أحمد وزيادة كلام سعيد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8081,
+      "assessment": "no_clear_topic",
+      "note": "طلب سعيد الاستغفار لأبيه على سبيل الشرط",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8082,
+      "assessment": "no_clear_topic",
+      "note": "بداية جواب النبي ويستمر بعد الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8083,
+      "assessment": "no_clear_topic",
+      "note": "تمام عبارة يبعث أمة وحده بعد الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8084,
+      "assessment": "no_clear_topic",
+      "note": "ابتداء طريق الحربي للرواية",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8085,
+      "assessment": "no_clear_topic",
+      "note": "سند الحربي عن المسعودي ونفيل",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8086,
+      "assessment": "no_clear_topic",
+      "note": "لقاء السفرة في لفظ الحربي",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8087,
+      "assessment": "no_clear_topic",
+      "note": "امتناع زيد عن ذبيحة النصب",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8088,
+      "assessment": "no_clear_topic",
+      "note": "تتمة الخبر عما رؤي من النبي",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8089,
+      "assessment": "no_clear_topic",
+      "note": "تفسير المؤلف للفظ وبداية مناقشة الإباحة قبل الوحي",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8090,
+      "assessment": "no_clear_topic",
+      "note": "إتمام المناقشة بعد الصفحة وذكر تحريم الخمر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8091,
+      "assessment": "no_clear_topic",
+      "note": "كلام المؤلف عن عصمة النبي مع نفي الأفعال",
+      "topics": [],
+      "existing_hits": [
+        {
+          "hit_id": 798,
+          "decision": "exclude",
+          "reason": "العبارة تنفي الخيانة عن النبي فلا تسندها إليه كصفة."
+        }
+      ]
+    },
+    {
+      "segment_id": 8092,
+      "assessment": "no_clear_topic",
+      "note": "استدراك المؤلف في فرض وقوع ذلك وانتفاء التبعة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8093,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر عائشة في زيد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8094,
+      "assessment": "no_clear_topic",
+      "note": "خبر الدوحتين لزيد الأب ووراءه وصف الغرابة",
+      "topics": [],
+      "existing_hits": [
+        {
+          "hit_id": 799,
+          "decision": "uncertain",
+          "reason": "خبر الدوحتين لزيد الأب ويليه وصف غريب؛ لا يسند لسعيد ولا يحسم معنى رؤيا الخبر."
+        }
+      ]
+    },
+    {
+      "segment_id": 8095,
+      "assessment": "no_clear_topic",
+      "note": "وصف هذا الخبر بالغريب لا حكم آلي",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8096,
+      "assessment": "no_clear_topic",
+      "note": "تخريج خبر الدوحتين",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8097,
+      "assessment": "no_clear_topic",
+      "note": "إسناد أسماء في قول زيد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8098,
+      "assessment": "no_clear_topic",
+      "note": "رؤية زيد عند الكعبة ويتصل كلامه بعد الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8099,
+      "assessment": "no_clear_topic",
+      "note": "تحذير زيد من الزنى في القول السابق",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8100,
+      "assessment": "no_clear_topic",
+      "note": "إسناد قول زيد عن بحثه في الدين",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8101,
+      "assessment": "no_clear_topic",
+      "note": "وصف زيد لقاء الراهب بعد ترك اليهودية والنصرانية",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8102,
+      "assessment": "no_clear_topic",
+      "note": "جواب الراهب وأمره زيدا بالرجوع",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8103,
+      "assessment": "supported",
+      "note": "وصف السند بالضعف قبل خبر صلاة زيد",
+      "topics": [
+        {
+          "topic": "الأحاديث الضعيفة",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "تقويم إسناد رواية صلاة زيد الأب قبل متنها.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "criticism",
+          "evidence_start": 1591865,
+          "evidence_end": 1591877,
+          "context_start": 1591863,
+          "context_end": 1591988
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8104,
+      "assessment": "no_clear_topic",
+      "note": "خبر صلاة زيد مقيّد بضعف الإسناد السابق",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8105,
+      "assessment": "no_clear_topic",
+      "note": "نسبة شعر زيد إلى إنشاد الضحاك",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8106,
+      "assessment": "no_clear_topic",
+      "note": "بيت زيد في المزن",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8107,
+      "assessment": "no_clear_topic",
+      "note": "بيت في سقي البلاد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8108,
+      "assessment": "no_clear_topic",
+      "note": "بيت في الأرض وينتهي بعلامة الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8109,
+      "assessment": "no_clear_topic",
+      "note": "بيت في الجبال بعد الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8110,
+      "assessment": "no_clear_topic",
+      "note": "واسطة بلاغ هشام في موت زيد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8111,
+      "assessment": "no_clear_topic",
+      "note": "خبر مقتل زيد بميفعة بصيغة البلاغ",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8112,
+      "assessment": "supported",
+      "note": "اختلاف الواقدي وابن إسحاق في موته",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "أخبار موت زيد الأب مختلفة بين ميفعة وحراء وبلاد لخم.",
+          "relation_type": "discussion",
+          "subject_scope": "mentioned_person",
+          "stance": "contested",
+          "evidence_start": 1592456,
+          "evidence_end": 1592478,
+          "context_start": 1592255,
+          "context_end": 1592511
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8113,
+      "assessment": "no_clear_topic",
+      "note": "خبر لقاء زيد والامتناع عن ذبائح الأنصاب",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8114,
+      "assessment": "no_clear_topic",
+      "note": "تخريج البخاري وزيادة إنكار الذبح لغير الله",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8115,
+      "assessment": "no_clear_topic",
+      "note": "ابتداء طريق أبي أسامة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8116,
+      "assessment": "no_clear_topic",
+      "note": "جزء الإسناد ويستمر بعد علامة الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8117,
+      "assessment": "no_clear_topic",
+      "note": "تمام الإسناد إلى زيد بن حارثة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8118,
+      "assessment": "no_clear_topic",
+      "note": "بداية رواية السفرة وتعليق الضمير فيها",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8119,
+      "assessment": "no_clear_topic",
+      "note": "سؤال النبي لزيد عن نفور قومه",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8120,
+      "assessment": "no_clear_topic",
+      "note": "جواب زيد وخروجه إلى أحبار أيلة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8121,
+      "assessment": "no_clear_topic",
+      "note": "جواب الشيخ وفيه احتمال خروج النبي أو قرب خروجه",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8122,
+      "assessment": "no_clear_topic",
+      "note": "إناخة البعير وتقديم السفرة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8123,
+      "assessment": "no_clear_topic",
+      "note": "سؤال زيد عن السفرة ضمن الحوار",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8124,
+      "assessment": "no_clear_topic",
+      "note": "جواب الراوي مع تقييد المؤلف بقوله كذا قال",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8125,
+      "assessment": "no_clear_topic",
+      "note": "امتناع زيد عن ذبح غير الله وذكر موته",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8126,
+      "assessment": "no_clear_topic",
+      "note": "خاتمة الخبر في بعث زيد أمة وحده",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8127,
+      "assessment": "no_clear_topic",
+      "note": "إسناد الحربي لمتن السفرة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8128,
+      "assessment": "no_clear_topic",
+      "note": "تقديم الحربي وجهين في تأويل الذبح",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8129,
+      "assessment": "no_clear_topic",
+      "note": "الوجه الأول في نسبة الفعل لزيد بن حارثة ويمتد بعد الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8130,
+      "assessment": "no_clear_topic",
+      "note": "إتمام الوجه الأول ونفي رضا النبي بذلك",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8131,
+      "assessment": "no_clear_topic",
+      "note": "الوجه الثاني الذبح لله عند الصنم",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8132,
+      "assessment": "no_clear_topic",
+      "note": "استحسان التعليل وربطه بالنية",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8133,
+      "assessment": "no_clear_topic",
+      "note": "تفسير المؤلف للظاهر والباطن وترك المجاهرة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8134,
+      "assessment": "no_clear_topic",
+      "note": "ترجيح وفاة زيد قبل المبعث وتقديم رثاء ورقة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8135,
+      "assessment": "no_clear_topic",
+      "note": "البيت الأول من الرثاء",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8136,
+      "assessment": "no_clear_topic",
+      "note": "البيت الثاني وترك الأوثان",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8137,
+      "assessment": "no_clear_topic",
+      "note": "البيت الثالث في طلب الدين",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8138,
+      "assessment": "no_clear_topic",
+      "note": "البيت الرابع في الإقامة والكرامة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8139,
+      "assessment": "no_clear_topic",
+      "note": "البيت الخامس في رحمة الله",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8140,
+      "assessment": "no_clear_topic",
+      "note": "انتقال الحديث إلى سعيد وعد عروة إياه بدريا",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8141,
+      "assessment": "supported",
+      "note": "خبر سهم سعيد وأجره بعد عودته من الشام",
+      "topics": [
+        {
+          "topic": "بدر",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "عد عروة سعيدًا بدريا مع بيان قدومه بعد بدر وسهمه وأجره.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1595308,
+          "evidence_end": 1595315,
+          "context_start": 1595201,
+          "context_end": 1595389
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8142,
+      "assessment": "no_clear_topic",
+      "note": "بداية نسبة القول لموسى بن عقبة وتتصل بعد الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8143,
+      "assessment": "no_clear_topic",
+      "note": "تمام اسم موسى بن عقبة وذكر ابن إسحاق",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8144,
+      "assessment": "no_clear_topic",
+      "note": "زوجة سعيد فاطمة أخت عمر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8145,
+      "assessment": "supported",
+      "note": "إسلام سعيد قبل دار الأرقم",
+      "topics": [
+        {
+          "topic": "إسلام سعيد",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "ذكر إسلام سعيد قبل دخول دار الأرقم.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1595440,
+          "evidence_end": 1595449,
+          "context_start": 1595389,
+          "context_end": 1595503
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8146,
+      "assessment": "no_clear_topic",
+      "note": "إسناد البخاري إلى قيس",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8147,
+      "assessment": "supported",
+      "note": "قول سعيد عن توثيق عمر له وأخته وما صنع بعثمان",
+      "topics": [
+        {
+          "topic": "المحن والسجون",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "قول سعيد عن توثيق عمر له وأخته في الإسلام.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1595602,
+          "evidence_end": 1595634,
+          "context_start": 1595503,
+          "context_end": 1595737
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8148,
+      "assessment": "no_clear_topic",
+      "note": "إحالة المؤلف إلى فصل إسلام عمر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8149,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر العير إلى الواقدي بواسطة ابن سعد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8150,
+      "assessment": "no_clear_topic",
+      "note": "بعث طلحة وسعيد لتحسس خبر العير",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8151,
+      "assessment": "no_clear_topic",
+      "note": "بداية خبر وصول النبأ وتتصل بعد الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8152,
+      "assessment": "no_clear_topic",
+      "note": "إكمال خبر سير العير وعودة طلحة وسعيد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8153,
+      "assessment": "no_clear_topic",
+      "note": "سهمهما وأجرهما",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8154,
+      "assessment": "no_clear_topic",
+      "note": "مشاهد سعيد بعد بدر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8155,
+      "assessment": "no_clear_topic",
+      "note": "الإشارة إلى أحاديث سابقة في سعيد",
+      "topics": [],
+      "existing_hits": [
+        {
+          "hit_id": 800,
+          "decision": "uncertain",
+          "reason": "إحالة إلى أحاديث سابقة في سعيد ولا يكفي هذا المقطع لإثبات تفصيل الخبر."
+        }
+      ]
+    },
+    {
+      "segment_id": 8156,
+      "assessment": "no_clear_topic",
+      "note": "سؤال عبد الله أباه عن الشهادة لأبي بكر وعمر",
+      "topics": [],
+      "existing_hits": [
+        {
+          "hit_id": 801,
+          "decision": "uncertain",
+          "reason": "سؤال عن أبي بكر وعمر يليه جواب بإحالة إلى حديث سعيد؛ ليس هذا وحده شاهدا على تفاصيل الحديث."
+        }
+      ]
+    },
+    {
+      "segment_id": 8157,
+      "assessment": "no_clear_topic",
+      "note": "جواب الأب بالإحالة إلى حديث سعيد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8158,
+      "assessment": "supported",
+      "note": "دعوى أروى على سعيد وخصومتها إلى مروان",
+      "topics": [
+        {
+          "topic": "العدل",
+          "category": "الأخلاق والآداب",
+          "aliases": [],
+          "rationale": "دعوى أروى وخصومتها؛ يورد السياق إنكار سعيد واستدلاله ودعاءه المشروط.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "accusation",
+          "evidence_start": 1596506,
+          "evidence_end": 1596534,
+          "context_start": 1596464,
+          "context_end": 1596882
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8159,
+      "assessment": "no_clear_topic",
+      "note": "نفي سعيد الأخذ مستدلا بما سمع",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8160,
+      "assessment": "no_clear_topic",
+      "note": "نص ما سمعه سعيد عن أخذ الأرض",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8161,
+      "assessment": "no_clear_topic",
+      "note": "جواب مروان بترك طلب البينة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8162,
+      "assessment": "supported",
+      "note": "دعاء سعيد المشروط بكذب أروى",
+      "topics": [
+        {
+          "topic": "الدعاء",
+          "category": "القلب والسلوك",
+          "aliases": [],
+          "rationale": "دعاء سعيد مشروط بكذب أروى في سياق الخصومة.",
+          "relation_type": "saying",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1596740,
+          "evidence_end": 1596759,
+          "context_start": 1596464,
+          "context_end": 1596882
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8163,
+      "assessment": "no_clear_topic",
+      "note": "خبر عمى أروى وموتها في أرضها",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8164,
+      "assessment": "no_clear_topic",
+      "note": "تخريج مسلم للخبر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8165,
+      "assessment": "no_clear_topic",
+      "note": "ذكر طريق عبد العزيز والإسناد يتم بعد الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8166,
+      "assessment": "no_clear_topic",
+      "note": "تمام اسم عبد الرحمن في الطريق السابق",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8167,
+      "assessment": "no_clear_topic",
+      "note": "طريق المغيرة وابن عمر للخبر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8168,
+      "assessment": "no_clear_topic",
+      "note": "رواية اعتراف أروى وطلب دعاء سعيد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8169,
+      "assessment": "no_clear_topic",
+      "note": "جواب سعيد في الرواية الأخرى",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8170,
+      "assessment": "no_clear_topic",
+      "note": "تعليل المؤلف ترك عمر سعيدا من الشورى ومقال خصم مفترض",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8171,
+      "assessment": "no_clear_topic",
+      "note": "تعقيب المؤلف بالدعوة للعمل لله",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8172,
+      "assessment": "no_clear_topic",
+      "note": "بداية سند خبر البيعة إلى محارب",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8173,
+      "assessment": "no_clear_topic",
+      "note": "كتاب معاوية لمروان في بيعة يزيد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8174,
+      "assessment": "no_clear_topic",
+      "note": "سؤال جندي الشام لمروان",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8175,
+      "assessment": "supported",
+      "note": "جواب مروان بشأن مكانة سعيد وبيعته",
+      "topics": [
+        {
+          "topic": "الخلافة والسياسة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "كلام مروان في انتظار سعيد لبيعة يزيد وخبره مختصر.",
+          "relation_type": "discussion",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1597604,
+          "evidence_end": 1597631,
+          "context_start": 1597439,
+          "context_end": 1597728
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8176,
+      "assessment": "no_clear_topic",
+      "note": "عرض الجندي إحضاره مع اختصار بقية الخبر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8177,
+      "assessment": "no_clear_topic",
+      "note": "إسناد حديث حراء وتفاوت الطريق عن سعيد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8178,
+      "assessment": "no_clear_topic",
+      "note": "المتن في النبي والصديق والشهيد على حراء",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8179,
+      "assessment": "no_clear_topic",
+      "note": "أسماء المذكورين على حراء في الرواية",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8180,
+      "assessment": "no_clear_topic",
+      "note": "سند خبر ابن عمر في سعيد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8181,
+      "assessment": "no_clear_topic",
+      "note": "خبر إتيان ابن عمر العقيق وترك الجمعة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8182,
+      "assessment": "no_clear_topic",
+      "note": "تخريج البخاري للخبر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8183,
+      "assessment": "no_clear_topic",
+      "note": "طريق إسماعيل عن نافع",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8184,
+      "assessment": "no_clear_topic",
+      "note": "خبر وفاة سعيد وجملته تستمر بعد الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8185,
+      "assessment": "no_clear_topic",
+      "note": "سؤال أم سعيد عن التحنيط بالمسك",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8186,
+      "assessment": "no_clear_topic",
+      "note": "جواب ابن عمر عن المسك",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8187,
+      "assessment": "no_clear_topic",
+      "note": "مناولتها المسك ختام الحوار",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8188,
+      "assessment": "no_clear_topic",
+      "note": "إسناد عائشة بنت سعد في وفاة سعيد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8189,
+      "assessment": "supported",
+      "note": "خبر تغسيل سعد له وتكفينه بالعقيق",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "تروي عائشة بنت سعد موته وتغسيل سعد له وتكفينه.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1598603,
+          "evidence_end": 1598626,
+          "context_start": 1598532,
+          "context_end": 1598672
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8190,
+      "assessment": "no_clear_topic",
+      "note": "رواية جماعة عن مالك",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8191,
+      "assessment": "no_clear_topic",
+      "note": "ذكر موت سعيد وسعد بالعقيق",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8192,
+      "assessment": "supported",
+      "note": "رواية الواقدي في سنة الوفاة والسن والدفن",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "قول الواقدي مع إيراد اختلاف سنة الوفاة ومكانها لاحقا.",
+          "relation_type": "discussion",
+          "subject_scope": "biography_subject",
+          "stance": "contested",
+          "evidence_start": 1598767,
+          "evidence_end": 1598799,
+          "context_start": 1598672,
+          "context_end": 1599070
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8193,
+      "assessment": "no_clear_topic",
+      "note": "موافقون للواقدي في القول السابق",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8194,
+      "assessment": "no_clear_topic",
+      "note": "وصف الواقدي هيئة سعيد",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8195,
+      "assessment": "no_clear_topic",
+      "note": "مخالفة الهيثم في مكان الوفاة ووصفها بالشذوذ",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8196,
+      "assessment": "supported",
+      "note": "اختلاف رواية سنة الوفاة إلى اثنتين وخمسين",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "قول عبيد الله يخالف رواية الواقدي المذكورة قبلها بسنة إحدى وخمسين.",
+          "relation_type": "discussion",
+          "subject_scope": "biography_subject",
+          "stance": "contested",
+          "evidence_start": 1599032,
+          "evidence_end": 1599053,
+          "context_start": 1598752,
+          "context_end": 1599070
+        }
+      ],
+      "existing_hits": [
+        {
+          "hit_id": 802,
+          "decision": "modify",
+          "reason": "قول آخر في سنة وفاة سعيد يخالف الواقدي؛ حفظ الاختلاف في شاهد مرتبط بسياقه."
+        }
+      ]
+    },
+    {
+      "segment_id": 8197,
+      "assessment": "no_clear_topic",
+      "note": "خاتمة المؤلف في فضل العشرة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8198,
+      "assessment": "supported",
+      "note": "رد المؤلف على دعوى تتعلق بالخلافة لا تقريره لها",
+      "topics": [
+        {
+          "topic": "الرفض والتشيع",
+          "category": "العقيدة",
+          "aliases": [],
+          "rationale": "كلام المؤلف الجدلي وردّه دعوى النص على علي؛ لا يقرر الدعوى.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "criticism",
+          "evidence_start": 1599224,
+          "evidence_end": 1599242,
+          "context_start": 1599070,
+          "context_end": 1599855
+        }
+      ],
+      "existing_hits": [
+        {
+          "hit_id": 803,
+          "decision": "modify",
+          "reason": "العبارة من رد المؤلف الجدلي ويجب إبقاء نسبة الدعوى ونفيه لها."
+        },
+        {
+          "hit_id": 804,
+          "decision": "exclude",
+          "reason": "ذكر الخليفة في دعوى يرد عليها المؤلف؛ اللفظ المجرد لا يثبتها."
+        }
+      ]
+    },
+    {
+      "segment_id": 8199,
+      "assessment": "no_clear_topic",
+      "note": "نفي المؤلف الدعوى وذكر البيعة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8200,
+      "assessment": "no_clear_topic",
+      "note": "تتمة النفي بعد الصفحة مع سؤال استنكاري",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8201,
+      "assessment": "no_clear_topic",
+      "note": "احتجاج المؤلف بالعدد ورده على الرفض",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8202,
+      "assessment": "supported",
+      "note": "حكم المؤلف المنكر جدا قبل متن المؤاخاة",
+      "topics": [
+        {
+          "topic": "علل الحديث",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "نقد صريح لحديث المؤاخاة يسبق متنه ويصحبه وصفه بالموضوع.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "criticism",
+          "evidence_start": 1599857,
+          "evidence_end": 1599881,
+          "context_start": 1599855,
+          "context_end": 1601959
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8203,
+      "assessment": "no_clear_topic",
+      "note": "طريق الطبراني وابن حمدان للخبر المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8204,
+      "assessment": "no_clear_topic",
+      "note": "إسناد الخبر وفيه رجل مبهم وزيد بن أبي أوفى",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8205,
+      "assessment": "no_clear_topic",
+      "note": "ابتداء متن خبر المؤاخاة الموصوف بالنكارة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8206,
+      "assessment": "no_clear_topic",
+      "note": "استمرار جمع المذكورين في الخبر المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8207,
+      "assessment": "no_clear_topic",
+      "note": "القول المنقول في الخبر المحكوم بنكارة شديدة",
+      "topics": [],
+      "existing_hits": [
+        {
+          "hit_id": 805,
+          "decision": "exclude",
+          "reason": "داخل حديث وصفه المؤلف بأنه منكر جدا وموضوع؛ لا يفهرس وعد الجنة مجردا من نقده."
+        }
+      ]
+    },
+    {
+      "segment_id": 8208,
+      "assessment": "no_clear_topic",
+      "note": "الخطاب المنقول لأبي بكر في الخبر المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8209,
+      "assessment": "no_clear_topic",
+      "note": "نداء عمر تتمة الكلام السابق",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8210,
+      "assessment": "no_clear_topic",
+      "note": "القول لعمر ضمن الخبر المحكوم بنكارة شديدة",
+      "topics": [],
+      "existing_hits": [
+        {
+          "hit_id": 806,
+          "decision": "exclude",
+          "reason": "داخل حديث المؤاخاة المنكر جدا والموضوع بحسب النص، فلا تفصل الفضيلة عن نقده."
+        }
+      ]
+    },
+    {
+      "segment_id": 8211,
+      "assessment": "no_clear_topic",
+      "note": "المؤاخاة المنقولة بين عمر وأبي بكر في الخبر المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8212,
+      "assessment": "no_clear_topic",
+      "note": "دعوة عثمان والقول في الخبر المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8213,
+      "assessment": "no_clear_topic",
+      "note": "بداية السؤال ويتصل بعد علامة الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8214,
+      "assessment": "no_clear_topic",
+      "note": "تمام السؤال في متن الخبر المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8215,
+      "assessment": "no_clear_topic",
+      "note": "الجواب ضمن الحديث نفسه",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8216,
+      "assessment": "no_clear_topic",
+      "note": "دعوة عبد الرحمن في حديث المؤاخاة المنكر لا تقرير صفة مستقلة",
+      "topics": [],
+      "existing_hits": [
+        {
+          "hit_id": 807,
+          "decision": "exclude",
+          "reason": "نداء أمين ضمن حديث المؤاخاة المحكوم بنكارة شديدة ووضع، وليس دليلا مجردا."
+        }
+      ]
+    },
+    {
+      "segment_id": 8217,
+      "assessment": "no_clear_topic",
+      "note": "طلب عبد الرحمن الدعاء في متن الحديث المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8218,
+      "assessment": "no_clear_topic",
+      "note": "الدعاء المنقول والمؤاخاة في الخبر المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8219,
+      "assessment": "no_clear_topic",
+      "note": "المؤاخاة المنقولة بين طلحة والزبير في الخبر المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8220,
+      "assessment": "no_clear_topic",
+      "note": "المؤاخاة المنقولة بين سعد وعمار في الخبر المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8221,
+      "assessment": "no_clear_topic",
+      "note": "خطاب سلمان وأبي الدرداء في الخبر المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8222,
+      "assessment": "no_clear_topic",
+      "note": "القول لابن عمر داخل الخبر المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8223,
+      "assessment": "no_clear_topic",
+      "note": "اعتراض علي المنقول في الخبر المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8224,
+      "assessment": "no_clear_topic",
+      "note": "الجواب لعلي في الخبر المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8225,
+      "assessment": "no_clear_topic",
+      "note": "سؤال علي عما يرث في الخبر المنكر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8226,
+      "assessment": "no_clear_topic",
+      "note": "جواب الحديث المنكر وذكر الآية داخله",
+      "topics": [],
+      "existing_hits": [
+        {
+          "hit_id": 808,
+          "decision": "exclude",
+          "reason": "عبارة الجنة ضمن الحديث المنكر جدا والموضوع في سياقه ولا تعرض فضيلة مستقلة."
+        }
+      ]
+    },
+    {
+      "segment_id": 8227,
+      "assessment": "supported",
+      "note": "نقد زيد بن أبي أوفى وعدم معرفته إلا في الحديث الموضوع",
+      "topics": [
+        {
+          "topic": "الوضع والكذب",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "وصف المؤلف هذا الحديث بالوضع ونقد راويه، لا تعميم الحكم على كل خبر مؤاخاة.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "criticism",
+          "evidence_start": 1601939,
+          "evidence_end": 1601957,
+          "context_start": 1599855,
+          "context_end": 1602056
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8228,
+      "assessment": "no_clear_topic",
+      "note": "بداية طريق الطبري ويستمر بعد الصفحة",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8229,
+      "assessment": "no_clear_topic",
+      "note": "تمام طريق الطبري وبيان إسقاط المبهم",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8230,
+      "assessment": "no_clear_topic",
+      "note": "طريق آخر فيه رجل مبهم",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8231,
+      "assessment": "no_clear_topic",
+      "note": "رواية مطين المختصرة بإسناد مختلف",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8232,
+      "assessment": "no_clear_topic",
+      "note": "سند خبر المؤاخاة الآخر إلى سعيد بن عامر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8233,
+      "assessment": "no_clear_topic",
+      "note": "اختلاف أسماء الإخوان في رواية سعيد بن عامر",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8234,
+      "assessment": "supported",
+      "note": "نقد رواية شبابة بالتفرد وعدم الصحة",
+      "topics": [
+        {
+          "topic": "علل الحديث",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "نقد طريق آخر للمؤاخاة مع تمييز المحفوظ بعده.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "criticism",
+          "evidence_start": 1602693,
+          "evidence_end": 1602716,
+          "context_start": 1602056,
+          "context_end": 1602804
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8235,
+      "assessment": "no_clear_topic",
+      "note": "بيان المؤلف ما حفظ من مؤاخاة المهاجرين والأنصار",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8236,
+      "assessment": "no_clear_topic",
+      "note": "خاتمة عدد أحاديث سعيد مع الإحالة الخام",
+      "topics": [],
+      "existing_hits": []
+    }
+  ],
+  "presentation": {
+    "headings": [
+      {
+        "at": 1584613,
+        "label": "النسب والسيرة"
+      },
+      {
+        "at": 1585218,
+        "label": "أحاديث سعيد"
+      },
+      {
+        "at": 1586371,
+        "label": "خبر زيد بن عمرو والد سعيد"
+      },
+      {
+        "at": 1595201,
+        "label": "سابقة سعيد ومشاهده"
+      },
+      {
+        "at": 1596464,
+        "label": "خبر أروى والأرض"
+      },
+      {
+        "at": 1597439,
+        "label": "أخبار سعيد ووفاته"
+      },
+      {
+        "at": 1599070,
+        "label": "خاتمة العشرة وحديث المؤاخاة"
+      }
+    ],
+    "quotes": [
+      {
+        "start": 1588557,
+        "end": 1588590
+      },
+      {
+        "start": 1590236,
+        "end": 1590264
+      },
+      {
+        "start": 1596740,
+        "end": 1596788
+      },
+      {
+        "start": 1598488,
+        "end": 1598510
+      }
+    ],
+    "poetry": [
+      {
+        "start": 1592026,
+        "end": 1592079
+      },
+      {
+        "start": 1592079,
+        "end": 1592133
+      },
+      {
+        "start": 1592133,
+        "end": 1592198
+      },
+      {
+        "start": 1592198,
+        "end": 1592255
+      },
+      {
+        "start": 1594897,
+        "end": 1594957
+      },
+      {
+        "start": 1594957,
+        "end": 1595018
+      },
+      {
+        "start": 1595018,
+        "end": 1595078
+      },
+      {
+        "start": 1595078,
+        "end": 1595139
+      },
+      {
+        "start": 1595139,
+        "end": 1595201
+      }
+    ],
+    "lists": [],
+    "bold": [
+      {
+        "start": 1587531,
+        "end": 1587571
+      },
+      {
+        "start": 1595440,
+        "end": 1595464
+      },
+      {
+        "start": 1596746,
+        "end": 1596759
+      },
+      {
+        "start": 1598628,
+        "end": 1598655
+      }
+    ],
+    "keywords": [
+      {
+        "start": 1587531,
+        "end": 1587540
+      },
+      {
+        "start": 1588507,
+        "end": 1588520
+      },
+      {
+        "start": 1595440,
+        "end": 1595449
+      },
+      {
+        "start": 1596740,
+        "end": 1596759
+      },
+      {
+        "start": 1598628,
+        "end": 1598649
+      },
+      {
+        "start": 1602720,
+        "end": 1602728
+      }
+    ],
+    "names": [
+      {
+        "start": 1584682,
+        "end": 1584694
+      },
+      {
+        "start": 1585076,
+        "end": 1585083
+      },
+      {
+        "start": 1586383,
+        "end": 1586386
+      },
+      {
+        "start": 1586925,
+        "end": 1586937
+      },
+      {
+        "start": 1588978,
+        "end": 1588982
+      },
+      {
+        "start": 1589760,
+        "end": 1589768
+      },
+      {
+        "start": 1595212,
+        "end": 1595216
+      },
+      {
+        "start": 1595412,
+        "end": 1595417
+      },
+      {
+        "start": 1596492,
+        "end": 1596505
+      },
+      {
+        "start": 1596514,
+        "end": 1596525
+      },
+      {
+        "start": 1597441,
+        "end": 1597452
+      },
+      {
+        "start": 1598581,
+        "end": 1598594
+      },
+      {
+        "start": 1598758,
+        "end": 1598765
+      },
+      {
+        "start": 1601914,
+        "end": 1601917
+      },
+      {
+        "start": 1602702,
+        "end": 1602707
+      }
+    ],
+    "footnotes": [
+      {
+        "start": 1584812,
+        "end": 1584815
+      },
+      {
+        "start": 1584978,
+        "end": 1584981
+      },
+      {
+        "start": 1585059,
+        "end": 1585062
+      },
+      {
+        "start": 1586115,
+        "end": 1586118
+      },
+      {
+        "start": 1586554,
+        "end": 1586557
+      },
+      {
+        "start": 1586719,
+        "end": 1586722
+      },
+      {
+        "start": 1587820,
+        "end": 1587823
+      },
+      {
+        "start": 1588668,
+        "end": 1588671
+      },
+      {
+        "start": 1588768,
+        "end": 1588771
+      },
+      {
+        "start": 1589277,
+        "end": 1589280
+      },
+      {
+        "start": 1589443,
+        "end": 1589446
+      },
+      {
+        "start": 1589863,
+        "end": 1589866
+      },
+      {
+        "start": 1590019,
+        "end": 1590022
+      },
+      {
+        "start": 1590335,
+        "end": 1590338
+      },
+      {
+        "start": 1591241,
+        "end": 1591244
+      },
+      {
+        "start": 1591461,
+        "end": 1591464
+      },
+      {
+        "start": 1591857,
+        "end": 1591860
+      },
+      {
+        "start": 1592129,
+        "end": 1592132
+      },
+      {
+        "start": 1592251,
+        "end": 1592254
+      },
+      {
+        "start": 1592434,
+        "end": 1592437
+      },
+      {
+        "start": 1592939,
+        "end": 1592942
+      },
+      {
+        "start": 1594085,
+        "end": 1594088
+      },
+      {
+        "start": 1595014,
+        "end": 1595017
+      },
+      {
+        "start": 1595135,
+        "end": 1595138
+      },
+      {
+        "start": 1595331,
+        "end": 1595334
+      },
+      {
+        "start": 1595497,
+        "end": 1595500
+      },
+      {
+        "start": 1595683,
+        "end": 1595686
+      },
+      {
+        "start": 1596281,
+        "end": 1596284
+      },
+      {
+        "start": 1596789,
+        "end": 1596792
+      },
+      {
+        "start": 1596876,
+        "end": 1596879
+      },
+      {
+        "start": 1597722,
+        "end": 1597725
+      },
+      {
+        "start": 1598148,
+        "end": 1598151
+      },
+      {
+        "start": 1598323,
+        "end": 1598326
+      },
+      {
+        "start": 1598346,
+        "end": 1598349
+      },
+      {
+        "start": 1598526,
+        "end": 1598529
+      },
+      {
+        "start": 1598666,
+        "end": 1598669
+      },
+      {
+        "start": 1601918,
+        "end": 1601921
+      },
+      {
+        "start": 1602084,
+        "end": 1602087
+      },
+      {
+        "start": 1602216,
+        "end": 1602219
+      },
+      {
+        "start": 1602352,
+        "end": 1602355
+      }
+    ],
+    "footnote_notice": "لم تظهر متون حواشٍ مستقلة في حدود هذه الترجمة؛ تُعرض الإشارات الرقمية المثبتة في الملحق، وتبقى المواضع الملتبسة ظاهرة دون افتراض متن لها. نجمة العنوان و(ع) ظاهرتان ولم تحسم وظيفتهما هنا، و(ح) علامة إسنادية باقية."
+  }
+}

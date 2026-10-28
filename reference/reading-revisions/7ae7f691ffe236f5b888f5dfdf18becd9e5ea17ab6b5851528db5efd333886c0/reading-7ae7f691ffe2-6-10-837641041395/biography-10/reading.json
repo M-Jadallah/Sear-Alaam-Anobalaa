@@ -1,0 +1,98 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 10,
+  "source_char_start": 1616214,
+  "source_char_end": 1616972,
+  "reviewer": "",
+  "version": "pilot-reading-v2",
+  "paragraph_groups": [
+    {
+      "start": 1616214,
+      "end": 1616258
+    },
+    {
+      "start": 1616258,
+      "end": 1616399
+    },
+    {
+      "start": 1616399,
+      "end": 1616598
+    },
+    {
+      "start": 1616598,
+      "end": 1616716
+    },
+    {
+      "start": 1616716,
+      "end": 1616829
+    },
+    {
+      "start": 1616829,
+      "end": 1616972
+    }
+  ],
+  "criticism": [
+    {
+      "start": 1616654,
+      "end": 1616709,
+      "context_start": 1616598,
+      "context_end": 1616716,
+      "kind": "report",
+      "reason": "استدراك على حصر أيوب حد البدري في الخمر، مع بقاء القولين متجاورين."
+    }
+  ],
+  "paragraph_notes": [
+    {
+      "start": 1616214,
+      "end": 1616258,
+      "context_start": 1616214,
+      "context_end": 1616258,
+      "reason": ""
+    },
+    {
+      "start": 1616258,
+      "end": 1616399,
+      "context_start": 1616258,
+      "context_end": 1616399,
+      "reason": ""
+    },
+    {
+      "start": 1616399,
+      "end": 1616598,
+      "context_start": 1616399,
+      "context_end": 1616598,
+      "reason": ""
+    },
+    {
+      "start": 1616598,
+      "end": 1616716,
+      "context_start": 1616598,
+      "context_end": 1616716,
+      "reason": ""
+    },
+    {
+      "start": 1616716,
+      "end": 1616829,
+      "context_start": 1616716,
+      "context_end": 1616829,
+      "reason": ""
+    },
+    {
+      "start": 1616829,
+      "end": 1616972,
+      "context_start": 1616829,
+      "context_end": 1616972,
+      "reason": ""
+    }
+  ],
+  "heading_labels": [
+    {
+      "at": 1616399,
+      "label": "الهجرة وخبر الحد والعزل"
+    },
+    {
+      "at": 1616716,
+      "label": "أولاده ووفاته"
+    }
+  ]
+}

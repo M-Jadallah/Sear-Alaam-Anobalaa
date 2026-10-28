@@ -1,0 +1,37 @@
+[
+  {
+    "status": "published",
+    "batch_id": "reading-7ae7f691ffe2-1-2-52a5d4ea39c4",
+    "revision": "9ebeceb013402ed9e66a712b103a984312aa24da518d9b47d95a32affc219361",
+    "backup": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\backups\\library-before-pilot-20261028T115320244939Z.sqlite3",
+    "biographies": 2
+  },
+  {
+    "status": "published",
+    "batch_id": "reading-7ae7f691ffe2-3-3-a63733d5700a",
+    "revision": "356f91d028f6d22d0ad81fd753596e174f91a5e1742e5b9a72ba8a2f27e5e292",
+    "backup": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\backups\\library-before-pilot-20261028T115321618032Z.sqlite3",
+    "biographies": 1
+  },
+  {
+    "status": "published",
+    "batch_id": "reading-7ae7f691ffe2-4-4-36e71356407c",
+    "revision": "40e8df3490fba0f0704f5916ae49cf5b5777ef7a907a1d8a34acce2c51948c1f",
+    "backup": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\backups\\library-before-pilot-20261028T115322820201Z.sqlite3",
+    "biographies": 1
+  },
+  {
+    "status": "published",
+    "batch_id": "reading-7ae7f691ffe2-5-6-2ddbf981efa5",
+    "revision": "8c599139cea2ad7b2908d660b52d0b43592f7c0e8421bf4399e23f715b3627aa",
+    "backup": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\backups\\library-before-pilot-20261028T115324309216Z.sqlite3",
+    "biographies": 2
+  },
+  {
+    "status": "published",
+    "batch_id": "reading-7ae7f691ffe2-7-10-eec353900a9b",
+    "revision": "8404d9576eaf0324a3534848c33a10ac6682cd288ebea850a3f8b259d7cdd544",
+    "backup": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\backups\\library-before-pilot-20261028T115325733615Z.sqlite3",
+    "biographies": 4
+  }
+]

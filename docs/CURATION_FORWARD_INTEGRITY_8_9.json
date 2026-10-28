@@ -1,0 +1,241 @@
+{
+  "database": "C:\\Users\\asala\\AppData\\Local\\Temp\\siyar-skill-forward-6_wo4j48\\library.sqlite3",
+  "baseline": "C:\\Users\\asala\\AppData\\Local\\Temp\\siyar-skill-forward-6_wo4j48\\backups\\library-before-pilot-20261028T000910809534Z.sqlite3",
+  "biography_ids": [
+    8,
+    9
+  ],
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "source_matches_database": true,
+  "canonical_tables": {
+    "sources": {
+      "before": {
+        "rows": 1,
+        "sha256": "1028d73a5978b46abec8c1db8537cc2c3ef51c8037edd471228f92be49059f0e"
+      },
+      "after": {
+        "rows": 1,
+        "sha256": "1028d73a5978b46abec8c1db8537cc2c3ef51c8037edd471228f92be49059f0e"
+      },
+      "unchanged": true
+    },
+    "page_markers": {
+      "before": {
+        "rows": 14045,
+        "sha256": "d1df877a36d60c347160fa9bd9ec3cb48b6c00bf83dbd331196c53220a1462fe"
+      },
+      "after": {
+        "rows": 14045,
+        "sha256": "d1df877a36d60c347160fa9bd9ec3cb48b6c00bf83dbd331196c53220a1462fe"
+      },
+      "unchanged": true
+    },
+    "people": {
+      "before": {
+        "rows": 5933,
+        "sha256": "e8ba562e2de3d6faed1d8e9903864b440b64520eda45e608e73ed270e2c239ad"
+      },
+      "after": {
+        "rows": 5933,
+        "sha256": "e8ba562e2de3d6faed1d8e9903864b440b64520eda45e608e73ed270e2c239ad"
+      },
+      "unchanged": true
+    },
+    "source_sections": {
+      "before": {
+        "rows": 6290,
+        "sha256": "85e2647d6ba4297f544b88253fa374cd6cd82c3cdbc2e14afb149bd5fc75c6c5"
+      },
+      "after": {
+        "rows": 6290,
+        "sha256": "85e2647d6ba4297f544b88253fa374cd6cd82c3cdbc2e14afb149bd5fc75c6c5"
+      },
+      "unchanged": true
+    },
+    "biographies": {
+      "before": {
+        "rows": 5943,
+        "sha256": "4373c314c00dd826a25a6389f3a4faae30a641a65db16819edd626e97d3e8880"
+      },
+      "after": {
+        "rows": 5943,
+        "sha256": "4373c314c00dd826a25a6389f3a4faae30a641a65db16819edd626e97d3e8880"
+      },
+      "unchanged": true
+    },
+    "person_aliases": {
+      "before": {
+        "rows": 12272,
+        "sha256": "f6fe3dee51789337b099d4b631733b187f3e1beab31fdbf4a2f6ceb77842bb60"
+      },
+      "after": {
+        "rows": 12272,
+        "sha256": "f6fe3dee51789337b099d4b631733b187f3e1beab31fdbf4a2f6ceb77842bb60"
+      },
+      "unchanged": true
+    },
+    "segments": {
+      "before": {
+        "rows": 129006,
+        "sha256": "c17e939b1edcf87d79b6827a7100ede994578366813c8701d12ce6115f78b13c"
+      },
+      "after": {
+        "rows": 129006,
+        "sha256": "c17e939b1edcf87d79b6827a7100ede994578366813c8701d12ce6115f78b13c"
+      },
+      "unchanged": true
+    },
+    "person_mentions": {
+      "before": {
+        "rows": 46642,
+        "sha256": "a355eb2184e742f1cea4bb1a1afd376e3ed237b29ef41bc57e4750fea5b8fa71"
+      },
+      "after": {
+        "rows": 46642,
+        "sha256": "a355eb2184e742f1cea4bb1a1afd376e3ed237b29ef41bc57e4750fea5b8fa71"
+      },
+      "unchanged": true
+    },
+    "mention_candidates": {
+      "before": {
+        "rows": 636006,
+        "sha256": "4b69d00b42d12f31ec004ef41afa358326653e77769384ade01d349e3a80e5ba"
+      },
+      "after": {
+        "rows": 636006,
+        "sha256": "4b69d00b42d12f31ec004ef41afa358326653e77769384ade01d349e3a80e5ba"
+      },
+      "unchanged": true
+    },
+    "topic_hits": {
+      "before": {
+        "rows": 19869,
+        "sha256": "2e78562d6bdc1f58b419ddc4f4ae19693d1bcfe520dbe96208ea130935af826d"
+      },
+      "after": {
+        "rows": 19869,
+        "sha256": "2e78562d6bdc1f58b419ddc4f4ae19693d1bcfe520dbe96208ea130935af826d"
+      },
+      "unchanged": true
+    },
+    "review_log": {
+      "before": {
+        "rows": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "after": {
+        "rows": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "unchanged": true
+    }
+  },
+  "previous_rows": {
+    "pilot_documents": {
+      "before_rows": 5,
+      "after_rows": 7,
+      "changed_previous_keys": [],
+      "preserved": true
+    },
+    "pilot_coverage": {
+      "before_rows": 1275,
+      "after_rows": 1383,
+      "changed_previous_keys": [],
+      "preserved": true
+    },
+    "pilot_evidence": {
+      "before_rows": 308,
+      "after_rows": 334,
+      "changed_previous_keys": [],
+      "preserved": true
+    },
+    "pilot_events": {
+      "before_rows": 0,
+      "after_rows": 0,
+      "changed_previous_keys": [],
+      "preserved": true
+    },
+    "pilot_topic_aliases": {
+      "before_rows": 211,
+      "after_rows": 226,
+      "changed_previous_keys": [],
+      "preserved": true
+    },
+    "pilot_reading_overlays": {
+      "before_rows": 5,
+      "after_rows": 7,
+      "changed_previous_keys": [],
+      "preserved": true
+    },
+    "topics": {
+      "before_rows": 145,
+      "after_rows": 152,
+      "changed_previous_keys": [],
+      "preserved": true
+    },
+    "curation_batches": {
+      "before_rows": 0,
+      "after_rows": 2,
+      "changed_previous_keys": [],
+      "preserved": true
+    },
+    "curation_batch_members": {
+      "before_rows": 0,
+      "after_rows": 7,
+      "changed_previous_keys": [],
+      "preserved": true
+    }
+  },
+  "new_rows_scope": {
+    "pilot_documents": {
+      "new_rows": 2,
+      "outside_target_biographies": [],
+      "in_scope": true
+    },
+    "pilot_coverage": {
+      "new_rows": 108,
+      "outside_target_biographies": [],
+      "in_scope": true
+    },
+    "pilot_evidence": {
+      "new_rows": 26,
+      "outside_target_biographies": [],
+      "in_scope": true
+    },
+    "pilot_reading_overlays": {
+      "new_rows": 2,
+      "outside_target_biographies": [],
+      "in_scope": true
+    }
+  },
+  "new_topics_all_proposed": true,
+  "presentations": [
+    {
+      "biography_id": 8,
+      "available": true,
+      "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+      "reading_revision": "2fb3d2bd2a67d1d2170934fd22ad4e6439478f64ee2e039b5a37d11874ac862e",
+      "coverage": {
+        "source_chars": 2467,
+        "accounted_chars": 2467,
+        "complete": true
+      },
+      "footnotes": 10
+    },
+    {
+      "biography_id": 9,
+      "available": true,
+      "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+      "reading_revision": "2fb3d2bd2a67d1d2170934fd22ad4e6439478f64ee2e039b5a37d11874ac862e",
+      "coverage": {
+        "source_chars": 5097,
+        "accounted_chars": 5097,
+        "complete": true
+      },
+      "footnotes": 26
+    }
+  ],
+  "database_integrity": "ok",
+  "foreign_key_errors": [],
+  "passed": true
+}

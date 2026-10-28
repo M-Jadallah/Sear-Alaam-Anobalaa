@@ -1,0 +1,182 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "baseline": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\backups\\library-before-pilot-20261027T104654359000Z.sqlite3",
+  "canonical_tables": {
+    "sources": {
+      "before": {
+        "rows": 1,
+        "sha256": "1028d73a5978b46abec8c1db8537cc2c3ef51c8037edd471228f92be49059f0e"
+      },
+      "after": {
+        "rows": 1,
+        "sha256": "1028d73a5978b46abec8c1db8537cc2c3ef51c8037edd471228f92be49059f0e"
+      },
+      "unchanged": true
+    },
+    "page_markers": {
+      "before": {
+        "rows": 14045,
+        "sha256": "d1df877a36d60c347160fa9bd9ec3cb48b6c00bf83dbd331196c53220a1462fe"
+      },
+      "after": {
+        "rows": 14045,
+        "sha256": "d1df877a36d60c347160fa9bd9ec3cb48b6c00bf83dbd331196c53220a1462fe"
+      },
+      "unchanged": true
+    },
+    "biographies": {
+      "before": {
+        "rows": 5943,
+        "sha256": "4373c314c00dd826a25a6389f3a4faae30a641a65db16819edd626e97d3e8880"
+      },
+      "after": {
+        "rows": 5943,
+        "sha256": "4373c314c00dd826a25a6389f3a4faae30a641a65db16819edd626e97d3e8880"
+      },
+      "unchanged": true
+    },
+    "source_sections": {
+      "before": {
+        "rows": 6290,
+        "sha256": "85e2647d6ba4297f544b88253fa374cd6cd82c3cdbc2e14afb149bd5fc75c6c5"
+      },
+      "after": {
+        "rows": 6290,
+        "sha256": "85e2647d6ba4297f544b88253fa374cd6cd82c3cdbc2e14afb149bd5fc75c6c5"
+      },
+      "unchanged": true
+    },
+    "people": {
+      "before": {
+        "rows": 5933,
+        "sha256": "e8ba562e2de3d6faed1d8e9903864b440b64520eda45e608e73ed270e2c239ad"
+      },
+      "after": {
+        "rows": 5933,
+        "sha256": "e8ba562e2de3d6faed1d8e9903864b440b64520eda45e608e73ed270e2c239ad"
+      },
+      "unchanged": true
+    },
+    "person_aliases": {
+      "before": {
+        "rows": 12272,
+        "sha256": "f6fe3dee51789337b099d4b631733b187f3e1beab31fdbf4a2f6ceb77842bb60"
+      },
+      "after": {
+        "rows": 12272,
+        "sha256": "f6fe3dee51789337b099d4b631733b187f3e1beab31fdbf4a2f6ceb77842bb60"
+      },
+      "unchanged": true
+    },
+    "person_mentions": {
+      "before": {
+        "rows": 46642,
+        "sha256": "a355eb2184e742f1cea4bb1a1afd376e3ed237b29ef41bc57e4750fea5b8fa71"
+      },
+      "after": {
+        "rows": 46642,
+        "sha256": "a355eb2184e742f1cea4bb1a1afd376e3ed237b29ef41bc57e4750fea5b8fa71"
+      },
+      "unchanged": true
+    },
+    "segments": {
+      "before": {
+        "rows": 129006,
+        "sha256": "c17e939b1edcf87d79b6827a7100ede994578366813c8701d12ce6115f78b13c"
+      },
+      "after": {
+        "rows": 129006,
+        "sha256": "c17e939b1edcf87d79b6827a7100ede994578366813c8701d12ce6115f78b13c"
+      },
+      "unchanged": true
+    },
+    "topic_hits": {
+      "before": {
+        "rows": 19869,
+        "sha256": "2e78562d6bdc1f58b419ddc4f4ae19693d1bcfe520dbe96208ea130935af826d"
+      },
+      "after": {
+        "rows": 19869,
+        "sha256": "2e78562d6bdc1f58b419ddc4f4ae19693d1bcfe520dbe96208ea130935af826d"
+      },
+      "unchanged": true
+    },
+    "review_log": {
+      "before": {
+        "rows": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "after": {
+        "rows": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "unchanged": true
+    }
+  },
+  "original_topics_unchanged": true,
+  "new_topic_count": 55,
+  "new_topics_all_proposed": true,
+  "source_text_matches_file": true,
+  "database_integrity": "ok",
+  "foreign_key_errors": [],
+  "biographies": [
+    {
+      "biography_id": 1,
+      "source_chars": 15469,
+      "mapped_chars": 15469,
+      "complete": true,
+      "footnotes": 65,
+      "topic_annotations": 62,
+      "segments": 185
+    },
+    {
+      "biography_id": 2,
+      "source_chars": 14242,
+      "mapped_chars": 14242,
+      "complete": true,
+      "footnotes": 58,
+      "topic_annotations": 50,
+      "segments": 191
+    },
+    {
+      "biography_id": 3,
+      "source_chars": 21887,
+      "mapped_chars": 21887,
+      "complete": true,
+      "footnotes": 80,
+      "topic_annotations": 39,
+      "segments": 293
+    },
+    {
+      "biography_id": 4,
+      "source_chars": 19802,
+      "mapped_chars": 19802,
+      "complete": true,
+      "footnotes": 73,
+      "topic_annotations": 43,
+      "segments": 248
+    },
+    {
+      "biography_id": 5,
+      "source_chars": 26658,
+      "mapped_chars": 26658,
+      "complete": true,
+      "footnotes": 98,
+      "topic_annotations": 45,
+      "segments": 358
+    }
+  ],
+  "sixth_presentation": {
+    "available": false,
+    "status": "not_available"
+  },
+  "semantic_fingerprint": "100350c97cfdeb65d910de55031cabc2a42de58f64476d68ff42d7a8ce837223",
+  "semantic_index_unchanged": true,
+  "human_events": 0,
+  "human_topic_approvals": 0,
+  "reference_hashes": {
+    "topic_dictionary.csv": "331d46eb419ed7d6625e29c08ce7f5830921408261ce9b4f9b61317b2acbc87e",
+    "legacy_indexer.html": "3693c84ae70e8848400e41988d01449f7c85207e9ab9b6c3a473aff17bf6735f"
+  },
+  "passed": true
+}

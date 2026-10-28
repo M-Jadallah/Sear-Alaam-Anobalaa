@@ -1,0 +1,74 @@
+{
+  "biography_id": 17,
+  "source_ordinal": 17,
+  "heading": "17 - خالد بن البكير بن عبد يا ليل بن ناشب الليثي *",
+  "source_char_start": 1634907,
+  "source_char_end": 1635157,
+  "full_text": "### $ 17 - خالد بن البكير بن عبد يا ليل بن ناشب الليثي *\n# أو ابن أبي البكير.\n# قال ابن سعد: آخى رسول الله -صلى الله عليه وسلم- بينه وبين زيد بن\n~~الدثنة.\n# شهد خالد بدرا، وأحدا، وقتل يوم الرجيع (2) في صفر سنة أربع، وله أربع\n~~وثلاثون سنة.\n# أخوهما:\n",
+  "segments": [
+    {
+      "id": 8631,
+      "source_id": 1,
+      "section_id": 297,
+      "biography_id": 17,
+      "segment_ordinal": 1,
+      "text_original": "# أو ابن أبي البكير.\n",
+      "normalized_search_text": "او ابن ابي البكير",
+      "source_char_start": 1634964,
+      "source_char_end": 1634985,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P186"
+    },
+    {
+      "id": 8632,
+      "source_id": 1,
+      "section_id": 297,
+      "biography_id": 17,
+      "segment_ordinal": 2,
+      "text_original": "# قال ابن سعد: آخى رسول الله -صلى الله عليه وسلم- بينه وبين زيد بن\n~~الدثنة.\n",
+      "normalized_search_text": "قال ابن سعد اخي رسول الله صلي الله عليه وسلم بينه وبين زيد بن الدثنة",
+      "source_char_start": 1634985,
+      "source_char_end": 1635062,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P186"
+    },
+    {
+      "id": 8633,
+      "source_id": 1,
+      "section_id": 297,
+      "biography_id": 17,
+      "segment_ordinal": 3,
+      "text_original": "# شهد خالد بدرا، وأحدا، وقتل يوم الرجيع (2) في صفر سنة أربع، وله أربع\n~~وثلاثون سنة.\n",
+      "normalized_search_text": "شهد خالد بدرا واحدا وقتل يوم الرجيع 2 في صفر سنة اربع وله اربع وثلاثون سنة",
+      "source_char_start": 1635062,
+      "source_char_end": 1635147,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P186"
+    },
+    {
+      "id": 8634,
+      "source_id": 1,
+      "section_id": 297,
+      "biography_id": 17,
+      "segment_ordinal": 4,
+      "text_original": "# أخوهما:\n",
+      "normalized_search_text": "اخوهما",
+      "source_char_start": 1635147,
+      "source_char_end": 1635157,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P186"
+    }
+  ],
+  "existing_hits": [],
+  "footnote_candidates": [
+    {
+      "start": 1635102,
+      "end": 1635105,
+      "raw": "(2)"
+    }
+  ]
+}

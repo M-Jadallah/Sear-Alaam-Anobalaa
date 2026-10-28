@@ -1,0 +1,9 @@
+proxy_pass $api$request_uri;
+proxy_set_header Host sear-alaam-anobalaa.jadallah.work;
+proxy_set_header X-Forwarded-Host sear-alaam-anobalaa.jadallah.work;
+proxy_set_header X-Forwarded-Proto https;
+proxy_set_header X-Forwarded-For $remote_addr;
+proxy_connect_timeout 5s;
+proxy_read_timeout 65s;
+proxy_send_timeout 65s;
+proxy_buffering off;

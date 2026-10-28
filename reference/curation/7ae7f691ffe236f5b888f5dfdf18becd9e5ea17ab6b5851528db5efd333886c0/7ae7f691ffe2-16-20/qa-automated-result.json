@@ -1,0 +1,60 @@
+{
+  "revision": "6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf",
+  "gold_frozen_sha256": "a5f0f4aed9cd269b6f330fe0d940d62f185c2e48eddc35222c37f92198cf8245",
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "url": "http://127.0.0.1:5174",
+  "results": [
+    {
+      "id": 16,
+      "witness": {
+        "question": "كيف سمى رسول الله عاقلًا بعدما كان اسمه غافلًا؟",
+        "start": 1634062,
+        "end": 1634122
+      },
+      "desktop": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-16-desktop.png",
+      "mobile": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-16-mobile.png"
+    },
+    {
+      "id": 17,
+      "witness": {
+        "question": "من آخى رسول الله بينه وبين خالد؟",
+        "start": 1635035,
+        "end": 1635060
+      },
+      "desktop": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-17-desktop.png",
+      "mobile": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-17-mobile.png"
+    },
+    {
+      "id": 18,
+      "witness": {
+        "question": "من آخى الرسول بينه وبين إياس بن أبي البكير؟",
+        "start": 1635231,
+        "end": 1635292
+      },
+      "desktop": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-18-desktop.png",
+      "mobile": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-18-mobile.png"
+    },
+    {
+      "id": 19,
+      "witness": {
+        "question": "من آخى الرسول بينه وبين عامر بن أبي البكير؟",
+        "start": 1635442,
+        "end": 1635515
+      },
+      "desktop": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-19-desktop.png",
+      "mobile": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-19-mobile.png"
+    },
+    {
+      "id": 20,
+      "witness": {
+        "question": "من كان ينفق على مسطح في الخبر؟",
+        "start": 1635789,
+        "end": 1635817
+      },
+      "desktop": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-20-desktop.png",
+      "mobile": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-20-mobile.png"
+    }
+  ],
+  "errors": [],
+  "limitation": "فحص آلي مساعد فقط؛ لا يغني عن مراجعة بصرية مستقلة أو فحص جميع بوابات QA."
+}

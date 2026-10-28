@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-27",
+  "url": "http://127.0.0.1:5173",
+  "flow": "description -> literal meaning selection -> pilot_only -> hybrid candidates -> qualified context -> reader",
+  "browser_plugin": "absent",
+  "fallback_reason": "Browser plugin and browser skill not available; used repository Playwright",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "query": "أريد مواقف عن العناية بحقوق الأهل والمال داخل ترجمة أحد الصحابة",
+  "timings_are": "one UX smoke sequence, not a benchmark or relevance evaluation",
+  "screenshots": [
+    "C:/Users/asala/.codex/visualizations/siyar-pilot-20261027/hybrid-meaning-desktop.png",
+    "C:/Users/asala/.codex/visualizations/siyar-pilot-20261027/hybrid-results-desktop.png",
+    "C:/Users/asala/.codex/visualizations/siyar-pilot-20261027/hybrid-results-mobile.png",
+    "C:/Users/asala/.codex/visualizations/siyar-pilot-20261027/hybrid-qualified-context-mobile.png",
+    "C:/Users/asala/.codex/visualizations/siyar-pilot-20261027/hybrid-context-reader-mobile.png",
+    "C:/Users/asala/.codex/visualizations/siyar-pilot-20261027/hybrid-context-reader-desktop.png",
+    "C:/Users/asala/.codex/visualizations/siyar-pilot-20261027/audited-criticism-reader-mobile.png",
+    "C:/Users/asala/.codex/visualizations/siyar-pilot-20261027/audited-criticism-reader-desktop.png"
+  ],
+  "errors": [],
+  "relevant_warnings": [],
+  "requests": [
+    {
+      "q": "أريد مواقف عن العناية بحقوق الأهل والمال داخل ترجمة أحد الصحابة",
+      "plan": {
+        "id": "5951b3febfca",
+        "meaning": "أريد مواقف عن العناية بحقوق الأهل والمال داخل ترجمة أحد الصحابة",
+        "expansion_terms": [],
+        "include_terms": [],
+        "exclude_terms": [],
+        "topic_ids": [],
+        "topic_mode": "boost",
+        "reviewed_only": false,
+        "pilot_only": true
+      },
+      "page": 1,
+      "page_size": 10
+    },
+    {
+      "q": "أريد مواقف عن العناية بحقوق الأهل والمال داخل ترجمة أحد الصحابة",
+      "plan": {
+        "id": "5951b3febfca",
+        "meaning": "أريد مواقف عن العناية بحقوق الأهل والمال داخل ترجمة أحد الصحابة",
+        "expansion_terms": [],
+        "include_terms": [],
+        "exclude_terms": [],
+        "topic_ids": [],
+        "topic_mode": "boost",
+        "reviewed_only": false,
+        "pilot_only": true
+      },
+      "page": 1,
+      "page_size": 10
+    }
+  ],
+  "results": [
+    {
+      "label": "initial uncached request",
+      "roundtrip_ms": 19423,
+      "server_elapsed_ms": 18628.98,
+      "mode": "hybrid",
+      "cache_hit": false,
+      "total": 40,
+      "ranking": {
+        "lexical_candidates": 36,
+        "semantic_candidates": 100,
+        "topic_candidates": 54,
+        "reranked": 40,
+        "rrf_k": 60,
+        "dedup_overlap": 0.7,
+        "result_pool_limit": 40
+      },
+      "topics_on_first_page": 5,
+      "source_sha256s": [
+        "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0"
+      ]
+    },
+    {
+      "label": "identical cached request",
+      "roundtrip_ms": 199,
+      "server_elapsed_ms": 81.68,
+      "mode": "hybrid",
+      "cache_hit": true,
+      "total": 40,
+      "ranking": {
+        "lexical_candidates": 36,
+        "semantic_candidates": 100,
+        "topic_candidates": 54,
+        "reranked": 40,
+        "rrf_k": 60,
+        "dedup_overlap": 0.7,
+        "result_pool_limit": 40
+      },
+      "topics_on_first_page": 5,
+      "source_sha256s": [
+        "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0"
+      ]
+    }
+  ],
+  "checks": {
+    "page_identity": true,
+    "meaningful_content": true,
+    "no_framework_overlay": true,
+    "console_clean": true,
+    "no_horizontal_overflow": true,
+    "explicit_pilot_request": true,
+    "first_page_literal_verified": true,
+    "context_highlights_unicode_literal_verified": true,
+    "topic_candidate_context_visible": true,
+    "canonical_review_writes": 0
+  },
+  "success": true,
+  "build": {
+    "command": "npm run build",
+    "passed": true
+  },
+  "e2e": {
+    "command": "npx playwright test",
+    "passed": 33,
+    "failed": 0,
+    "duration_seconds": 51.5
+  },
+  "visual_inspection": {
+    "screenshots_reviewed": [
+      "hybrid-results-desktop.png",
+      "hybrid-qualified-context-mobile.png",
+      "hybrid-context-reader-mobile.png",
+      "reader-1-desktop.png",
+      "reader-4-mobile.png",
+      "reader-1-footnote-mobile.png"
+    ],
+    "rtl_and_clipping": "passed",
+    "notes": "No horizontal overflow; annotations and search candidates are labeled. This does not adjudicate narrative authenticity or semantic relevance."
+  },
+  "reader_context_followup": {
+    "fix": "When a qualified context contains both body text and hidden footnotes, open appendix and prioritize first body highlight; pure footnote targets still focus appendix.",
+    "request": "http://127.0.0.1:5173/reader/4?start=1540324&end=1541197",
+    "audit_id": 185,
+    "stance": "contested",
+    "console_errors": [],
+    "read_only": true,
+    "visual_inspection": "passed: body highlight visible on mobile and desktop; appendix remains available"
+  },
+  "targeted_after_scroll_fix": {
+    "tests": 13,
+    "passed": 13,
+    "duration_seconds": 24.4,
+    "build_passed": true
+  }
+}

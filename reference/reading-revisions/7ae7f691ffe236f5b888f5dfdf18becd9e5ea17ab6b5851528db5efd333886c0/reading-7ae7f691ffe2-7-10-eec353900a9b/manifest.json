@@ -1,0 +1,49 @@
+{
+  "version": "reading-revision-v1",
+  "batch_id": "reading-7ae7f691ffe2-7-10-eec353900a9b",
+  "source_id": 1,
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "start_ordinal": 7,
+  "end_ordinal": 10,
+  "baseline_sha256": "eec353900a9b3f27aba06393be6cb64affe3516d392c5da12e5c31a034e9b860",
+  "curator": "/root",
+  "reason": "تنفيذ طلب المستخدم تحديث التراجم العشر الأولى بالتشكيل الكامل والفقرات السياقية مع حفظ الوسوم والمراجعات والنسخ السابقة.",
+  "biographies": [
+    {
+      "id": 7,
+      "source_ordinal": 7,
+      "heading": "7 - مصعب بن عمير * بن هاشم بن عبد مناف البدري",
+      "source_char_start": 1604701,
+      "source_char_end": 1607196,
+      "directory": "biography-7",
+      "baseline_sha256": "b2fcc4e8b6214a26b59e6cb5d06db5625b1dbad5db5dcb0237745f4d3e1e44a2"
+    },
+    {
+      "id": 8,
+      "source_ordinal": 8,
+      "heading": "8 - أبو سلمة بن عبد الأسد بن هلال * (ت، ق)",
+      "source_char_start": 1608650,
+      "source_char_end": 1611117,
+      "directory": "biography-8",
+      "baseline_sha256": "ce061e712bd05cfab80394893215aa2843337bc0f79e30820bd5a8b46480174a"
+    },
+    {
+      "id": 9,
+      "source_ordinal": 9,
+      "heading": "9 - عثمان بن مظعون بن حبيب بن وهب الجمحي *",
+      "source_char_start": 1611117,
+      "source_char_end": 1616214,
+      "directory": "biography-9",
+      "baseline_sha256": "93f8a69f8c43a06205bf15531329f25d9623b31fef0f4b016a79b745e8cfc271"
+    },
+    {
+      "id": 10,
+      "source_ordinal": 10,
+      "heading": "10 - قدامة بن مظعون أبو عمرو الجمحي *",
+      "source_char_start": 1616214,
+      "source_char_end": 1616972,
+      "directory": "biography-10",
+      "baseline_sha256": "f5d5626f55b823f736e2a8093f7176e4b8a3e6a05ecda82749ab694116ac17f2"
+    }
+  ]
+}

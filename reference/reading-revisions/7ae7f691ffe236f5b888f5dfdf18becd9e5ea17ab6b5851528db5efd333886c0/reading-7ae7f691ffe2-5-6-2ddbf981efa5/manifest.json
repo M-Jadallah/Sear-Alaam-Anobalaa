@@ -1,0 +1,31 @@
+{
+  "version": "reading-revision-v1",
+  "batch_id": "reading-7ae7f691ffe2-5-6-2ddbf981efa5",
+  "source_id": 1,
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "start_ordinal": 5,
+  "end_ordinal": 6,
+  "baseline_sha256": "2ddbf981efa5d89c0d8df6aa7349712d2b5a7638b2f07c280c61d7ab87d74aa6",
+  "curator": "/root/published_reading_revision",
+  "reason": "تطبيق التشكيل الكامل وتحسين اتصال فقرات التراجم المنشورة بطلب المستخدم مع حفظ المصدر والموضوعات والمراجعات",
+  "biographies": [
+    {
+      "id": 5,
+      "source_ordinal": 5,
+      "heading": "5 - سعد بن أبي وقاص مالك بن أهيب الزهري * (ع)",
+      "source_char_start": 1557904,
+      "source_char_end": 1584562,
+      "directory": "biography-5",
+      "baseline_sha256": "9a9b36f293c1ccd3febf4e417398ff7244e2c42ec5e07917179640bda6dc8144"
+    },
+    {
+      "id": 6,
+      "source_ordinal": 6,
+      "heading": "6 - سعيد بن زيد بن عمرو بن نفيل العدوي * (ع)",
+      "source_char_start": 1584562,
+      "source_char_end": 1602898,
+      "directory": "biography-6",
+      "baseline_sha256": "85889b7a4c5e22ea1d129ec0352cb84ecda636463a8cf42d38c5bef59640c851"
+    }
+  ]
+}

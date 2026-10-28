@@ -1,0 +1,161 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 8,
+  "source_char_start": 1608650,
+  "source_char_end": 1611117,
+  "reviewer": "",
+  "version": "pilot-reading-v2",
+  "paragraph_groups": [
+    {
+      "start": 1608650,
+      "end": 1608699
+    },
+    {
+      "start": 1608699,
+      "end": 1608986
+    },
+    {
+      "start": 1608986,
+      "end": 1609238
+    },
+    {
+      "start": 1609238,
+      "end": 1609288
+    },
+    {
+      "start": 1609288,
+      "end": 1609463
+    },
+    {
+      "start": 1609463,
+      "end": 1609589
+    },
+    {
+      "start": 1609589,
+      "end": 1609905
+    },
+    {
+      "start": 1609905,
+      "end": 1610451
+    },
+    {
+      "start": 1610451,
+      "end": 1610934
+    },
+    {
+      "start": 1610934,
+      "end": 1611079
+    },
+    {
+      "start": 1611079,
+      "end": 1611117
+    }
+  ],
+  "criticism": [
+    {
+      "start": 1611081,
+      "end": 1611116,
+      "context_start": 1610985,
+      "context_end": 1611117,
+      "kind": "report",
+      "reason": "يورد المصدر قولا آخر في سنة الوفاة بعد خبر مؤرخ بالسنة الرابعة؛ أبقي القولين دون ترجيح."
+    }
+  ],
+  "paragraph_notes": [
+    {
+      "start": 1608650,
+      "end": 1608699,
+      "context_start": 1608650,
+      "context_end": 1608699,
+      "reason": ""
+    },
+    {
+      "start": 1608699,
+      "end": 1608986,
+      "context_start": 1608699,
+      "context_end": 1608986,
+      "reason": ""
+    },
+    {
+      "start": 1608986,
+      "end": 1609238,
+      "context_start": 1608986,
+      "context_end": 1609238,
+      "reason": ""
+    },
+    {
+      "start": 1609238,
+      "end": 1609288,
+      "context_start": 1609238,
+      "context_end": 1609288,
+      "reason": ""
+    },
+    {
+      "start": 1609288,
+      "end": 1609463,
+      "context_start": 1609288,
+      "context_end": 1609463,
+      "reason": ""
+    },
+    {
+      "start": 1609463,
+      "end": 1609589,
+      "context_start": 1609463,
+      "context_end": 1609589,
+      "reason": ""
+    },
+    {
+      "start": 1609589,
+      "end": 1609905,
+      "context_start": 1609589,
+      "context_end": 1609905,
+      "reason": ""
+    },
+    {
+      "start": 1609905,
+      "end": 1610451,
+      "context_start": 1609905,
+      "context_end": 1610451,
+      "reason": ""
+    },
+    {
+      "start": 1610451,
+      "end": 1610934,
+      "context_start": 1610451,
+      "context_end": 1610934,
+      "reason": ""
+    },
+    {
+      "start": 1610934,
+      "end": 1611079,
+      "context_start": 1610934,
+      "context_end": 1611079,
+      "reason": ""
+    },
+    {
+      "start": 1611079,
+      "end": 1611117,
+      "context_start": 1611079,
+      "context_end": 1611117,
+      "reason": ""
+    }
+  ],
+  "heading_labels": [
+    {
+      "at": 1608699,
+      "label": "الهجرة والقرابة والوفاة"
+    },
+    {
+      "at": 1609589,
+      "label": "خبر أم سلمة والدعاء"
+    },
+    {
+      "at": 1609905,
+      "label": "رواية المصيبة والخلف"
+    },
+    {
+      "at": 1610451,
+      "label": "الجرح والسرية والوفاة"
+    }
+  ]
+}

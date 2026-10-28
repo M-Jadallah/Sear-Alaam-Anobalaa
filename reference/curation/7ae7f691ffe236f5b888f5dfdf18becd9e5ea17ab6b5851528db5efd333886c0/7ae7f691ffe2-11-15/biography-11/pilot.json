@@ -1,0 +1,167 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 11,
+  "source_char_start": 1616972,
+  "source_char_end": 1617319,
+  "reviewer": "codex-team",
+  "segments": [
+    {
+      "segment_id": 8386,
+      "assessment": "supported",
+      "note": "ذكر السبق وشهود بدر مع إخوته وابن أخيه ثم هجرة عبد الله الثانية إلى الحبشة؛ السائب ولد أخيه لا أخوه.",
+      "topics": [
+        {
+          "topic": "الهجرة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "نص الخبر يعين المهاجر ووجهته والهجرة الثانية.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1617089,
+          "evidence_end": 1617129,
+          "context_start": 1617019,
+          "context_end": 1617136
+        },
+        {
+          "topic": "غزوة بدر",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "ذكر شهوده بدرًا مع إخوته، ثم قيّد السائب بأنه ولد أخيه.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1617034,
+          "evidence_end": 1617052,
+          "context_start": 1617019,
+          "context_end": 1617136
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8387,
+      "assessment": "supported",
+      "note": "نقل ابن سعد شهود المشاهد ومؤاخاة النبي بينه وبين سهل بن عبيد؛ ليس هذا حكمًا على حديث.",
+      "topics": [
+        {
+          "topic": "المؤاخاة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "خبر المؤاخاة بين صاحب الترجمة وسهل منسوب إلى رواية ابن سعد.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1617177,
+          "evidence_end": 1617255,
+          "context_start": 1617136,
+          "context_end": 1617257
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8388,
+      "assessment": "supported",
+      "note": "يستمر النقل عن ابن سعد بذكر وفاة عبد الله في خلافة عثمان وعمره؛ عثمان هنا الخليفة لا يلزم دمجه بذكر أخيه.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "يذكر زمن الوفاة والعمر في سياق قول ابن سعد السابق.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1617264,
+          "evidence_end": 1617312,
+          "context_start": 1617136,
+          "context_end": 1617319
+        }
+      ],
+      "existing_hits": []
+    }
+  ],
+  "presentation": {
+    "headings": [],
+    "quotes": [],
+    "poetry": [],
+    "lists": [],
+    "bold": [
+      {
+        "start": 1617115,
+        "end": 1617129
+      },
+      {
+        "start": 1617296,
+        "end": 1617312
+      }
+    ],
+    "keywords": [
+      {
+        "start": 1617024,
+        "end": 1617032
+      },
+      {
+        "start": 1617034,
+        "end": 1617042
+      },
+      {
+        "start": 1617115,
+        "end": 1617129
+      },
+      {
+        "start": 1617177,
+        "end": 1617181
+      },
+      {
+        "start": 1617284,
+        "end": 1617294
+      }
+    ],
+    "names": [
+      {
+        "start": 1616983,
+        "end": 1617000
+      },
+      {
+        "start": 1617008,
+        "end": 1617016
+      },
+      {
+        "start": 1617054,
+        "end": 1617059
+      },
+      {
+        "start": 1617062,
+        "end": 1617067
+      },
+      {
+        "start": 1617070,
+        "end": 1617076
+      },
+      {
+        "start": 1617095,
+        "end": 1617103
+      },
+      {
+        "start": 1617142,
+        "end": 1617149
+      },
+      {
+        "start": 1617182,
+        "end": 1617191
+      },
+      {
+        "start": 1617225,
+        "end": 1617255
+      },
+      {
+        "start": 1617278,
+        "end": 1617283
+      }
+    ],
+    "footnotes": [],
+    "footnote_notice": "لم تظهر متون حواشٍ في نطاق الترجمة؛ بقي الرقمان ظاهريْن لاحتمال كونهما إشارتين غير مثبتتين، وبقيت نجمة العنوان ظاهرة."
+  }
+}

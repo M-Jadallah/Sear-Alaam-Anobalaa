@@ -1,0 +1,36 @@
+{
+  "authoring_sha256": "13ffc2004efede22e993381ce3c86438026a2b38c80c7b62ae5263aedb757de9",
+  "reviewer": "/root",
+  "all_words_checked": true,
+  "all_paragraphs_checked": true,
+  "checks": {
+    "source_coverage": true,
+    "paragraphs": true,
+    "criticism_context": true,
+    "negative_cases": true,
+    "diacritics": true,
+    "paragraph_context": true
+  },
+  "findings": [
+    {
+      "note": "قرأت النص المشكول كاملًا مستقلًا عن المؤلف وقابلت مواضع الالتباس وسياقها بالأصل؛ لا اعتماد لغوي بشري.",
+      "resolved": true
+    },
+    {
+      "note": "أبقي لاق في إني لأراك لاق مني شرا دون إضافات بعد رفض الجر المضاف أولًا؛ رسم الأصل محفوظ.",
+      "resolved": true
+    },
+    {
+      "note": "قُيد التباس كنت وعلمتك بموضعي الشكوى دون إزالة ضبط غيرهما، وبني بموضعي النداء فقط.",
+      "resolved": true
+    },
+    {
+      "note": "فُحصت تعليلات الفقرات الافتتاحية والرؤيا والشكاية والأسانيد والشعر؛ وصل المنام بتفسيره مع بقاء الأخبار المستقلة.",
+      "resolved": true
+    },
+    {
+      "note": "احتفظت ألفاظ التحقيق والشرط والنفي والأسماء والتلوين والحواشي بحدودها السابقة دون منح مراجعة موضوعية بشرية.",
+      "resolved": true
+    }
+  ]
+}

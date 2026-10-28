@@ -1,0 +1,37 @@
+{
+  "revision": "6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf",
+  "gold_frozen_sha256": "a5f0f4aed9cd269b6f330fe0d940d62f185c2e48eddc35222c37f92198cf8245",
+  "reviewer": "/root/author11 — فاحص واجهة وكيل",
+  "checks": {
+    "desktop": true,
+    "mobile": true,
+    "keyboard": true,
+    "copy_raw": true,
+    "copy_formatted": true,
+    "highlight": true,
+    "footnotes": true,
+    "no_horizontal_overflow": true,
+    "no_console_errors": true,
+    "unchanged_outside_batch": true,
+    "diacritics_toggle": true
+  },
+  "screenshots": [
+    "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-16-full-desktop.png",
+    "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-16-full-mobile.png",
+    "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-17-full-desktop.png",
+    "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-17-full-mobile.png",
+    "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-18-full-desktop.png",
+    "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-18-full-mobile.png",
+    "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-19-full-desktop.png",
+    "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-19-full-mobile.png",
+    "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-20-full-desktop.png",
+    "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-16-20\\qa-preview-images\\6b66630a3598fc65db5adbfb867e858a1009bf2c44351bf9543ab0a9ef103ccf\\biography-20-full-mobile.png"
+  ],
+  "notes": [
+    "عاين الوكيل كامل التراجم في صور حاسوب وجوال بعرض 390 بكسل وخط 25px.",
+    "لا توجد إشارات حاشية مثبتة منقولة؛ فُحص النص مع الأرقام الملتبسة والملحق الخالي وتنبيهه، ولا يمكن اختبار انتقال إشارة منقولة هنا.",
+    "لا توجد عبارات تقويم مميزة في هذه الدفعة؛ فُحص الزران واستقلال تفعيلهما ولم يمكن اختبار ظهور عبارة نقدية منها.",
+    "فحص فساد طبقة التشكيل استعمل استجابة API معترضة اصطناعيًا دون تغيير القاعدة.",
+    "الجوال محاكاة Chromium؛ لم تفحص أجهزة فعلية أو متصفحات أخرى."
+  ]
+}

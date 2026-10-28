@@ -1,0 +1,50 @@
+[
+  {
+    "biography_id": 5,
+    "viewport": "desktop",
+    "screenshot": "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-5-criticism-desktop.png",
+    "style": {
+      "color": "rgb(36, 59, 52)",
+      "background": "rgb(245, 234, 208)",
+      "fontWeight": "700",
+      "text": "الصَّحِيحُ."
+    },
+    "contrast": 10.034610549172086
+  },
+  {
+    "biography_id": 5,
+    "viewport": "mobile",
+    "screenshot": "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-5-criticism-mobile.png",
+    "style": {
+      "color": "rgb(36, 59, 52)",
+      "background": "rgb(245, 234, 208)",
+      "fontWeight": "700",
+      "text": "الصَّحِيحُ."
+    },
+    "contrast": 10.034610549172086
+  },
+  {
+    "biography_id": 6,
+    "viewport": "desktop",
+    "screenshot": "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-6-criticism-desktop.png",
+    "style": {
+      "color": "rgb(36, 59, 52)",
+      "background": "rgb(245, 234, 208)",
+      "fontWeight": "700",
+      "text": "، وَلَا يَصِحُّ"
+    },
+    "contrast": 10.034610549172086
+  },
+  {
+    "biography_id": 6,
+    "viewport": "mobile",
+    "screenshot": "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-6-criticism-mobile.png",
+    "style": {
+      "color": "rgb(36, 59, 52)",
+      "background": "rgb(245, 234, 208)",
+      "fontWeight": "700",
+      "text": "، وَلَا يَصِحُّ"
+    },
+    "contrast": 10.034610549172086
+  }
+]

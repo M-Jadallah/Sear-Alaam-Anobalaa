@@ -1,0 +1,57 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 19,
+  "source_char_start": 1635388,
+  "source_char_end": 1635647,
+  "reviewer": "codex-team",
+  "version": "pilot-reading-v2",
+  "paragraph_groups": [
+    {
+      "start": 1635388,
+      "end": 1635427
+    },
+    {
+      "start": 1635427,
+      "end": 1635577
+    },
+    {
+      "start": 1635577,
+      "end": 1635614
+    },
+    {
+      "start": 1635614,
+      "end": 1635647
+    }
+  ],
+  "paragraph_notes": [
+    {
+      "start": 1635388,
+      "end": 1635427,
+      "context_start": 1635388,
+      "context_end": 1635577,
+      "reason": "العنوان الأصلي مستقل عن خبر ابن سعد الذي يليه."
+    },
+    {
+      "start": 1635427,
+      "end": 1635577,
+      "context_start": 1635388,
+      "context_end": 1635614,
+      "reason": "المؤاخاة وذكر المشاهد خبران مترابطان في وصف عامر، ويتلوهما تعقيب صاحب النص بصيغة قلت."
+    },
+    {
+      "start": 1635577,
+      "end": 1635614,
+      "context_start": 1635427,
+      "context_end": 1635647,
+      "reason": "التعقيب على شهود أربعة إخوة بدرًا مستقل بصيغة قلت بعد خبر المشاهد؛ لا يغير النفي أو نسبته إلى قائله."
+    },
+    {
+      "start": 1635614,
+      "end": 1635647,
+      "context_start": 1635577,
+      "context_end": 1635647,
+      "reason": "خبر الاستشهاد يوم اليمامة يختم الترجمة بعد التعقيب عن بدر."
+    }
+  ],
+  "criticism": []
+}

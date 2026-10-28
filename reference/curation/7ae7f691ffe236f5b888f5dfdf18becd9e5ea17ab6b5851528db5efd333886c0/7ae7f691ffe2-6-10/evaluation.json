@@ -1,0 +1,2222 @@
+{
+  "batch_id": "7ae7f691ffe2-6-10",
+  "revision": "e22836ab03592783d14b5b968237c0dddd6ae95bad1fab86dc551431772be046",
+  "gold_frozen_sha256": "4307b5d473c62ed89f96e28925f7689dd3516066a464f4ef858693517920b4d8",
+  "database": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\curation\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-6-10\\preview.sqlite3",
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "metric": "Top 10, same source and biography; overlap >= min(40, ceil(25% of anchor length))",
+  "development_gold_not_human_adjudicated": true,
+  "unavailable": [],
+  "suites": [
+    {
+      "scope": "global",
+      "questions": 13,
+      "hits_at_10": 12,
+      "hit_rate_percent": 92.308,
+      "p95_wall_ms": 6588.741599999999,
+      "mean_wall_ms": 5830.749230769231,
+      "results": [
+        {
+          "question": "كيف كان زيد بن عمرو يتعامل مع من أراد وأد ابنته؟",
+          "biography_id": 6,
+          "anchor_start": 1588377,
+          "anchor_end": 1588739,
+          "first_hit_rank": 4,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 5503.48,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 57237,
+              "source_char_end": 58030,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1586373,
+              "source_char_end": 1586505,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1176,
+              "source_char_start": 5011621,
+              "source_char_end": 5012547,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1587838,
+              "source_char_end": 1588812,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1591865,
+              "source_char_end": 1592787,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1586811,
+              "source_char_end": 1587838,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 450,
+              "source_char_start": 3150165,
+              "source_char_end": 3151122,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 176,
+              "source_char_start": 2309718,
+              "source_char_end": 2310624,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1589449,
+              "source_char_end": 1589869,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1591087,
+              "source_char_end": 1592025,
+              "match_type": "topic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما قصة خصومة أروى وسعيد بن زيد في الأرض؟",
+          "biography_id": 6,
+          "anchor_start": 1596464,
+          "anchor_end": 1596882,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 5121.563,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1596000,
+              "source_char_end": 1596970,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 822,
+              "source_char_start": 4008651,
+              "source_char_end": 4009474,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1585991,
+              "source_char_end": 1586880,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1174,
+              "source_char_start": 4928613,
+              "source_char_end": 4929418,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1160,
+              "source_char_start": 4857664,
+              "source_char_end": 4858552,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1402458,
+              "source_char_end": 1403290,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 762,
+              "source_char_start": 3832083,
+              "source_char_end": 3832995,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1586811,
+              "source_char_end": 1587838,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 350,
+              "source_char_start": 2914702,
+              "source_char_end": 2915523,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 36,
+              "source_char_start": 1661365,
+              "source_char_end": 1662259,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما نقد المؤلف حديث المؤاخاة المشترك؟",
+          "biography_id": 6,
+          "anchor_start": 1599857,
+          "anchor_end": 1599881,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 5476.727,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1599857,
+              "source_char_end": 1599882,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1601914,
+              "source_char_end": 1602885,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 3881,
+              "source_char_start": 9816726,
+              "source_char_end": 9817693,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 4596,
+              "source_char_start": 10771564,
+              "source_char_end": 10772517,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1010,
+              "source_char_start": 4483854,
+              "source_char_end": 4484795,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 4,
+              "source_char_start": 1545420,
+              "source_char_end": 1546424,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2,
+              "source_char_start": 1512753,
+              "source_char_end": 1512970,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 5610,
+              "source_char_start": 12240323,
+              "source_char_end": 12240990,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1781,
+              "source_char_start": 6406847,
+              "source_char_end": 6407787,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1591863,
+              "source_char_end": 1591988,
+              "match_type": "topic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "كيف وصف خباب كفن مصعب بعد مقتله؟",
+          "biography_id": 7,
+          "anchor_start": 1605285,
+          "anchor_end": 1605360,
+          "first_hit_rank": 3,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 6118.118,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 487409,
+              "source_char_end": 488400,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 361,
+              "source_char_start": 2928223,
+              "source_char_end": 2929150,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 7,
+              "source_char_start": 1605085,
+              "source_char_end": 1605489,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 391,
+              "source_char_start": 3025148,
+              "source_char_end": 3025349,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2113,
+              "source_char_start": 7262117,
+              "source_char_end": 7262975,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 153,
+              "source_char_start": 2221904,
+              "source_char_end": 2222798,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1355258,
+              "source_char_end": 1356054,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 5,
+              "source_char_start": 1563322,
+              "source_char_end": 1563551,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 67,
+              "source_char_start": 1742892,
+              "source_char_end": 1743746,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 627,
+              "source_char_start": 3576454,
+              "source_char_end": 3576897,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ماذا روى سعد عن حال مصعب وشدة العيش بعد الهجرة؟",
+          "biography_id": 7,
+          "anchor_start": 1606538,
+          "anchor_end": 1606626,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 6797.142,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 7,
+              "source_char_start": 1606175,
+              "source_char_end": 1607000,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 223,
+              "source_char_start": 2469347,
+              "source_char_end": 2470301,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1174,
+              "source_char_start": 5003946,
+              "source_char_end": 5003997,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 5,
+              "source_char_start": 1582761,
+              "source_char_end": 1583621,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1772,
+              "source_char_start": 6395943,
+              "source_char_end": 6396616,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 487409,
+              "source_char_end": 488400,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1887,
+              "source_char_start": 6852829,
+              "source_char_end": 6853675,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1734379,
+              "source_char_end": 1735240,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 35,
+              "source_char_start": 1658471,
+              "source_char_end": 1658599,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 257240,
+              "source_char_end": 257891,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما الدعاء الذي علمه النبي أم سلمة بعد وفاة أبي سلمة؟",
+          "biography_id": 8,
+          "anchor_start": 1609803,
+          "anchor_end": 1609840,
+          "first_hit_rank": 8,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 6449.808,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 109,
+              "source_char_start": 2061866,
+              "source_char_end": 2062012,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 669526,
+              "source_char_end": 670190,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610075,
+              "source_char_end": 1610984,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 111,
+              "source_char_start": 2136053,
+              "source_char_end": 2136931,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1170978,
+              "source_char_end": 1171968,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2051,
+              "source_char_start": 7168253,
+              "source_char_end": 7168954,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 585,
+              "source_char_start": 3467231,
+              "source_char_end": 3468048,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1609404,
+              "source_char_end": 1610236,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 111,
+              "source_char_start": 2140484,
+              "source_char_end": 2141312,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 522809,
+              "source_char_end": 523651,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما الذي حدث لأبي سلمة بعد رجوعه من السرية وما اختلاف سنة وفاته؟",
+          "biography_id": 8,
+          "anchor_start": 1610987,
+          "anchor_end": 1611116,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 6444.12,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610934,
+              "source_char_end": 1611117,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 470,
+              "source_char_start": 3209253,
+              "source_char_end": 3210214,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 497164,
+              "source_char_end": 497933,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1163,
+              "source_char_start": 4873515,
+              "source_char_end": 4874440,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610075,
+              "source_char_end": 1610984,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 5,
+              "source_char_start": 1583885,
+              "source_char_end": 1584462,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 751,
+              "source_char_start": 3813798,
+              "source_char_end": 3814108,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 4334,
+              "source_char_start": 10447796,
+              "source_char_end": 10447946,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2382,
+              "source_char_start": 7804527,
+              "source_char_end": 7804623,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 95,
+              "source_char_start": 1982009,
+              "source_char_end": 1982760,
+              "match_type": "keyword_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما الخبر في وضع الصخرة عند قبر عثمان وما قيل في إرساله؟",
+          "biography_id": 9,
+          "anchor_start": 1611395,
+          "anchor_end": 1611754,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 5383.239,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611123,
+              "source_char_end": 1612062,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 102,
+              "source_char_start": 2046709,
+              "source_char_end": 2047532,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 650613,
+              "source_char_end": 651588,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1389827,
+              "source_char_end": 1390635,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 379,
+              "source_char_start": 2997918,
+              "source_char_end": 2998825,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 367,
+              "source_char_start": 2954459,
+              "source_char_end": 2955329,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2,
+              "source_char_start": 1505795,
+              "source_char_end": 1506015,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1356880,
+              "source_char_end": 1357427,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1452932,
+              "source_char_end": 1453376,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1400836,
+              "source_char_end": 1401700,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما موقف النبي من التبتل المنقول عن عثمان؟",
+          "biography_id": 9,
+          "anchor_start": 1611794,
+          "anchor_end": 1611857,
+          "first_hit_rank": 2,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 5901.37,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1349547,
+              "source_char_end": 1350156,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611123,
+              "source_char_end": 1612062,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 984122,
+              "source_char_end": 984990,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1338975,
+              "source_char_end": 1339924,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 81,
+              "source_char_start": 1794195,
+              "source_char_end": 1795035,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2356,
+              "source_char_start": 7759231,
+              "source_char_end": 7760056,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1336863,
+              "source_char_end": 1337677,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1013207,
+              "source_char_end": 1013895,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2533,
+              "source_char_start": 8028553,
+              "source_char_end": 8029163,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 167,
+              "source_char_start": 2250713,
+              "source_char_end": 2251649,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ماذا قالت أم العلاء بعد السؤال عن تزكية عثمان؟",
+          "biography_id": 9,
+          "anchor_start": 1615502,
+          "anchor_end": 1615526,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 6350.977,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614844,
+              "source_char_end": 1615734,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 444,
+              "source_char_start": 3128944,
+              "source_char_end": 3129865,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 909,
+              "source_char_start": 4202623,
+              "source_char_end": 4202675,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 444,
+              "source_char_start": 3128223,
+              "source_char_end": 3129111,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1739,
+              "source_char_start": 6342529,
+              "source_char_end": 6343482,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 242,
+              "source_char_start": 2598670,
+              "source_char_end": 2598729,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 444,
+              "source_char_start": 3127756,
+              "source_char_end": 3127781,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1613857,
+              "source_char_end": 1614194,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 116,
+              "source_char_start": 2154658,
+              "source_char_end": 2155648,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612265,
+              "source_char_end": 1612542,
+              "match_type": "topic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما قصة شرب قدامة الخمر وتأوله وما فعله عمر؟",
+          "biography_id": 10,
+          "anchor_start": 1616399,
+          "anchor_end": 1616598,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 5828.016,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 10,
+              "source_char_start": 1616220,
+              "source_char_end": 1616959,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 92,
+              "source_char_start": 1969001,
+              "source_char_end": 1969895,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 193,
+              "source_char_start": 2348400,
+              "source_char_end": 2349303,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612265,
+              "source_char_end": 1612542,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1332738,
+              "source_char_end": 1333619,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1201,
+              "source_char_start": 5077682,
+              "source_char_end": 5078536,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 866,
+              "source_char_start": 4161490,
+              "source_char_end": 4162416,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 4930,
+              "source_char_start": 11217295,
+              "source_char_end": 11218223,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 307,
+              "source_char_start": 2856142,
+              "source_char_end": 2856769,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 5307,
+              "source_char_start": 11766740,
+              "source_char_end": 11766833,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما الذي استدركه المؤلف على أيوب في حد البدري؟",
+          "biography_id": 10,
+          "anchor_start": 1616654,
+          "anchor_end": 1616696,
+          "first_hit_rank": null,
+          "hit_at_10": false,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 5234.773,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 831,
+              "source_char_start": 4035411,
+              "source_char_end": 4036292,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 831,
+              "source_char_start": 4036923,
+              "source_char_end": 4037747,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 831,
+              "source_char_start": 4036174,
+              "source_char_end": 4037068,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 831,
+              "source_char_start": 4039041,
+              "source_char_end": 4039937,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 5232,
+              "source_char_start": 11660913,
+              "source_char_end": 11661650,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2,
+              "source_char_start": 1503941,
+              "source_char_end": 1504709,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1165,
+              "source_char_start": 4892021,
+              "source_char_end": 4892051,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 831,
+              "source_char_start": 4034657,
+              "source_char_end": 4035562,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 136,
+              "source_char_start": 2186715,
+              "source_char_end": 2186886,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 618,
+              "source_char_start": 3531350,
+              "source_char_end": 3531377,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ماذا روت عائشة عن وفاة أبيها قدامة؟",
+          "biography_id": 10,
+          "anchor_start": 1616861,
+          "anchor_end": 1616900,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 5190.407,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 10,
+              "source_char_start": 1616831,
+              "source_char_end": 1616959,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1200292,
+              "source_char_end": 1200399,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1616082,
+              "source_char_end": 1616201,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614406,
+              "source_char_end": 1614540,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 240619,
+              "source_char_end": 240840,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 110,
+              "source_char_start": 2073565,
+              "source_char_end": 2074519,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 143,
+              "source_char_start": 2196566,
+              "source_char_end": 2197416,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 270,
+              "source_char_start": 2802526,
+              "source_char_end": 2803335,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 376565,
+              "source_char_end": 377403,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 731,
+              "source_char_start": 3775282,
+              "source_char_end": 3775739,
+              "match_type": "keyword_candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "batch",
+      "questions": 13,
+      "hits_at_10": 13,
+      "hit_rate_percent": 100.0,
+      "p95_wall_ms": 5574.904799999999,
+      "mean_wall_ms": 4886.6191538461535,
+      "results": [
+        {
+          "question": "كيف كان زيد بن عمرو يتعامل مع من أراد وأد ابنته؟",
+          "biography_id": 6,
+          "anchor_start": 1588377,
+          "anchor_end": 1588739,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 5544.106,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1588196,
+              "source_char_end": 1589033,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1591865,
+              "source_char_end": 1592787,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1585991,
+              "source_char_end": 1586880,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1586728,
+              "source_char_end": 1587572,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1591087,
+              "source_char_end": 1592025,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1594473,
+              "source_char_end": 1595388,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1588856,
+              "source_char_end": 1589779,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1592790,
+              "source_char_end": 1593689,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1587389,
+              "source_char_end": 1588193,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1584568,
+              "source_char_end": 1585217,
+              "match_type": "topic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما قصة خصومة أروى وسعيد بن زيد في الأرض؟",
+          "biography_id": 6,
+          "anchor_start": 1596464,
+          "anchor_end": 1596882,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 5408.225,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1596000,
+              "source_char_end": 1596970,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1591865,
+              "source_char_end": 1592787,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1585991,
+              "source_char_end": 1586880,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1596797,
+              "source_char_end": 1597727,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1598226,
+              "source_char_end": 1599069,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1594473,
+              "source_char_end": 1595388,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611123,
+              "source_char_end": 1612062,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1584568,
+              "source_char_end": 1585217,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1591087,
+              "source_char_end": 1592025,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1592790,
+              "source_char_end": 1593689,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما نقد المؤلف حديث المؤاخاة المشترك؟",
+          "biography_id": 6,
+          "anchor_start": 1599857,
+          "anchor_end": 1599881,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 5012.146,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1599857,
+              "source_char_end": 1600730,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1601914,
+              "source_char_end": 1602885,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614950,
+              "source_char_end": 1614963,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1601203,
+              "source_char_end": 1602055,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1590028,
+              "source_char_end": 1590058,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1592257,
+              "source_char_end": 1592306,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1598913,
+              "source_char_end": 1599882,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1588196,
+              "source_char_end": 1589033,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1587575,
+              "source_char_end": 1587825,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1615496,
+              "source_char_end": 1615527,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "كيف وصف خباب كفن مصعب بعد مقتله؟",
+          "biography_id": 7,
+          "anchor_start": 1605285,
+          "anchor_end": 1605360,
+          "first_hit_rank": 2,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4841.26,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 7,
+              "source_char_start": 1605448,
+              "source_char_end": 1606337,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 7,
+              "source_char_start": 1604707,
+              "source_char_end": 1605620,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 7,
+              "source_char_start": 1606175,
+              "source_char_end": 1607000,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1609404,
+              "source_char_end": 1610236,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 7,
+              "source_char_start": 1607082,
+              "source_char_end": 1607183,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611905,
+              "source_char_end": 1612788,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612636,
+              "source_char_end": 1613526,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1590345,
+              "source_char_end": 1591261,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1608656,
+              "source_char_end": 1609588,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1591865,
+              "source_char_end": 1592787,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ماذا روى سعد عن حال مصعب وشدة العيش بعد الهجرة؟",
+          "biography_id": 7,
+          "anchor_start": 1606538,
+          "anchor_end": 1606626,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 5383.569,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 7,
+              "source_char_start": 1606175,
+              "source_char_end": 1607000,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 7,
+              "source_char_start": 1604707,
+              "source_char_end": 1605620,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611123,
+              "source_char_end": 1612062,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 7,
+              "source_char_start": 1605448,
+              "source_char_end": 1606337,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1598913,
+              "source_char_end": 1599882,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1608656,
+              "source_char_end": 1609588,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 10,
+              "source_char_start": 1616220,
+              "source_char_end": 1616959,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1609404,
+              "source_char_end": 1610236,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1595203,
+              "source_char_end": 1596172,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1596797,
+              "source_char_end": 1597727,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما الدعاء الذي علمه النبي أم سلمة بعد وفاة أبي سلمة؟",
+          "biography_id": 8,
+          "anchor_start": 1609803,
+          "anchor_end": 1609840,
+          "first_hit_rank": 2,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4648.022,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610075,
+              "source_char_end": 1610984,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1609404,
+              "source_char_end": 1610236,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612636,
+              "source_char_end": 1613526,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1601203,
+              "source_char_end": 1602055,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614844,
+              "source_char_end": 1615734,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1596000,
+              "source_char_end": 1596970,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611905,
+              "source_char_end": 1612788,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1615558,
+              "source_char_end": 1616201,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1600585,
+              "source_char_end": 1601358,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1591865,
+              "source_char_end": 1592787,
+              "match_type": "topic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما الذي حدث لأبي سلمة بعد رجوعه من السرية وما اختلاف سنة وفاته؟",
+          "biography_id": 8,
+          "anchor_start": 1610987,
+          "anchor_end": 1611116,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 5111.173,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610804,
+              "source_char_end": 1611116,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610075,
+              "source_char_end": 1610984,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1608656,
+              "source_char_end": 1609588,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611905,
+              "source_char_end": 1612788,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612636,
+              "source_char_end": 1613526,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1598913,
+              "source_char_end": 1599882,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614067,
+              "source_char_end": 1614990,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1609404,
+              "source_char_end": 1610236,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1615558,
+              "source_char_end": 1616201,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1587838,
+              "source_char_end": 1588812,
+              "match_type": "topic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما الخبر في وضع الصخرة عند قبر عثمان وما قيل في إرساله؟",
+          "biography_id": 9,
+          "anchor_start": 1611395,
+          "anchor_end": 1611754,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 5621.103,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611123,
+              "source_char_end": 1612062,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611905,
+              "source_char_end": 1612788,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1591865,
+              "source_char_end": 1592787,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614844,
+              "source_char_end": 1615734,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1613349,
+              "source_char_end": 1614244,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612636,
+              "source_char_end": 1613526,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1615558,
+              "source_char_end": 1616201,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1593082,
+              "source_char_end": 1593406,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614067,
+              "source_char_end": 1614990,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1588856,
+              "source_char_end": 1589779,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما موقف النبي من التبتل المنقول عن عثمان؟",
+          "biography_id": 9,
+          "anchor_start": 1611794,
+          "anchor_end": 1611857,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4772.87,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611123,
+              "source_char_end": 1612062,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612636,
+              "source_char_end": 1613526,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1586728,
+              "source_char_end": 1587572,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614844,
+              "source_char_end": 1615734,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1600585,
+              "source_char_end": 1601358,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614067,
+              "source_char_end": 1614990,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1613349,
+              "source_char_end": 1614244,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1608656,
+              "source_char_end": 1609588,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1591865,
+              "source_char_end": 1592787,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611905,
+              "source_char_end": 1612788,
+              "match_type": "topic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ماذا قالت أم العلاء بعد السؤال عن تزكية عثمان؟",
+          "biography_id": 9,
+          "anchor_start": 1615502,
+          "anchor_end": 1615526,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4386.378,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614844,
+              "source_char_end": 1615734,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1613349,
+              "source_char_end": 1614244,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1596797,
+              "source_char_end": 1597727,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612636,
+              "source_char_end": 1613526,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1600585,
+              "source_char_end": 1601358,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1591865,
+              "source_char_end": 1592787,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611905,
+              "source_char_end": 1612788,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1586728,
+              "source_char_end": 1587572,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1601914,
+              "source_char_end": 1602885,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1608656,
+              "source_char_end": 1609588,
+              "match_type": "topic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما قصة شرب قدامة الخمر وتأوله وما فعله عمر؟",
+          "biography_id": 10,
+          "anchor_start": 1616399,
+          "anchor_end": 1616598,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4363.977,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 10,
+              "source_char_start": 1616220,
+              "source_char_end": 1616959,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611905,
+              "source_char_end": 1612788,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1615558,
+              "source_char_end": 1616201,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1590345,
+              "source_char_end": 1591261,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1586728,
+              "source_char_end": 1587572,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1596797,
+              "source_char_end": 1597727,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614067,
+              "source_char_end": 1614990,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 7,
+              "source_char_start": 1606710,
+              "source_char_end": 1606918,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1596000,
+              "source_char_end": 1596970,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1600585,
+              "source_char_end": 1601358,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ما الذي استدركه المؤلف على أيوب في حد البدري؟",
+          "biography_id": 10,
+          "anchor_start": 1616654,
+          "anchor_end": 1616696,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4187.808,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 10,
+              "source_char_start": 1616220,
+              "source_char_end": 1616959,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1598870,
+              "source_char_end": 1598910,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1595203,
+              "source_char_end": 1596172,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612065,
+              "source_char_end": 1612107,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1589871,
+              "source_char_end": 1589960,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1588856,
+              "source_char_end": 1589779,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1613859,
+              "source_char_end": 1613890,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1586320,
+              "source_char_end": 1586370,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1587389,
+              "source_char_end": 1588193,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1601914,
+              "source_char_end": 1602885,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "ماذا روت عائشة عن وفاة أبيها قدامة؟",
+          "biography_id": 10,
+          "anchor_start": 1616861,
+          "anchor_end": 1616900,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4245.412,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 10,
+              "source_char_start": 1616831,
+              "source_char_end": 1616959,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1616082,
+              "source_char_end": 1616201,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612897,
+              "source_char_end": 1612972,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614067,
+              "source_char_end": 1614990,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1591087,
+              "source_char_end": 1592025,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1596797,
+              "source_char_end": 1597727,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1609733,
+              "source_char_end": 1609762,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1592790,
+              "source_char_end": 1593689,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1611081,
+              "source_char_end": 1611116,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610560,
+              "source_char_end": 1610654,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warmup": {
+    "wall_ms": 26124.065,
+    "mode": "hybrid",
+    "warning": null
+  },
+  "status": "measured"
+}

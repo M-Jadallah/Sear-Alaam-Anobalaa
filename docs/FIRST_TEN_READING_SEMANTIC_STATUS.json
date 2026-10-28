@@ -1,0 +1,46 @@
+{
+  "ready": true,
+  "semantic_coverage": true,
+  "network_at_query_time": false,
+  "cpu_threads": 4,
+  "model": "intfloat/multilingual-e5-small",
+  "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "runtime": "onnxruntime-cpu-int8-v1",
+  "reranker": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+  "reranker_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+  "sources": [
+    {
+      "id": 1,
+      "sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+      "parser_version": "openiti-conservative-1",
+      "char_count": 12665488
+    }
+  ],
+  "window_tokens": 320,
+  "overlap_tokens": 64,
+  "status": "ready",
+  "window_count": 32217,
+  "fingerprint": "100350c97cfdeb65d910de55031cabc2a42de58f64476d68ff42d7a8ce837223",
+  "model_fingerprint": "c51f94bc8bc947865ef740bfa4fe430710eab4b1bed5cbec46f09586e7657396",
+  "directory": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\semantic\\version-92e16748cc3e03283d34",
+  "created_at": 1793057987.3313153,
+  "reason": "الفهرس الدلالي المحلي جاهز؛ النتائج اقتراحات تحتاج مراجعة.",
+  "paragraph_status": {
+    "ready": true,
+    "status": "ready",
+    "directory": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\semantic\\paragraphs-788ce81e39bc79b34e32",
+    "fingerprint": "788ce81e39bc79b34e320921f0784138a7f3389467ce91e6e951bc6c82f250e1",
+    "window_count": 129146,
+    "canonical_segment_count": 129006,
+    "reason": "فهرس جميع الفقرات جاهز مع نطاقات المصدر الأصلية.",
+    "progress": null
+  },
+  "base_index_fingerprint": "92e16748cc3e03283d34fb6720c739399a48fa525110d8e583742e65133a9d1d",
+  "semantic_granularity": "context_and_paragraph",
+  "paragraph_window_count": 129146,
+  "dense_allocation": {
+    "context": 50,
+    "paragraph": 50,
+    "maximum_total": 100
+  }
+}

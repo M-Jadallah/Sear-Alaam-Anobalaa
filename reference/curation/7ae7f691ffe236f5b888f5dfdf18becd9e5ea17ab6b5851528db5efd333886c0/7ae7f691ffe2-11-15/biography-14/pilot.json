@@ -1,0 +1,730 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 14,
+  "source_char_start": 1619592,
+  "source_char_end": 1622541,
+  "reviewer": "codex-team",
+  "segments": [
+    {
+      "segment_id": 8420,
+      "assessment": "no_clear_topic",
+      "note": "وصف سالم بالسبق وشهود بدر والقرب والعلم دون إسناد في هذا المقطع.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8421,
+      "assessment": "no_clear_topic",
+      "note": "رواية موسى بن عقبة عن أصله وولائه ومعتقته وتبني أبي حذيفة له مع تعقيب كذا قال.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8422,
+      "assessment": "no_clear_topic",
+      "note": "بداية إسناد ابن أبي مليكة عن القاسم قبل خبر سهلة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8423,
+      "assessment": "no_clear_topic",
+      "note": "تقديم سهلة وذكر صلتها بأبي حذيفة تمهيد لسؤالها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8424,
+      "assessment": "no_clear_topic",
+      "note": "سؤال سهلة عن إقامة سالم معها بعد إدراكه الرجال، وهو جزء من الخبر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8425,
+      "assessment": "supported",
+      "note": "جواب النبي لسهلة في الرضاع داخل سياق سؤالها، ويليه تقييد أزواجه.",
+      "topics": [
+        {
+          "topic": "الرضاع",
+          "category": "الفقه وأصوله",
+          "aliases": [],
+          "rationale": "جواب النبي لسهلة عن سالم في خبر الرضاع، مع حفظ موقف أزواج النبي وقولهن إن الرخصة خاصة به في السياق.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1620042,
+          "evidence_end": 1620095,
+          "context_start": 1619851,
+          "context_end": 1620239
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8426,
+      "assessment": "no_clear_topic",
+      "note": "موقف أزواج النبي من إدخال أحد بهذا الرضاع يليه بيان وجه الخصوص عندهن.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8427,
+      "assessment": "no_clear_topic",
+      "note": "قول أزواج النبي إن الرخصة خاصة بسالم؛ لا يعمم من غير سياقه.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8428,
+      "assessment": "no_clear_topic",
+      "note": "ابتداء رواية ابن عمر عن إمامة سالم.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8429,
+      "assessment": "supported",
+      "note": "خبر إمامة المهاجرين مقرون بأقرئية سالم عند قدومهم المدينة.",
+      "topics": [
+        {
+          "topic": "إمامة الصلاة",
+          "category": "الفقه وأصوله",
+          "aliases": [],
+          "rationale": "رواية ابن عمر تسند إلى سالم إمامة المهاجرين وعللتها بأقرئيته.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1620261,
+          "evidence_end": 1620298,
+          "context_start": 1620239,
+          "context_end": 1620359
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8430,
+      "assessment": "no_clear_topic",
+      "note": "سند رواية الواقدي عن محمد بن كعب قبل متن إمامته.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8431,
+      "assessment": "no_clear_topic",
+      "note": "خبر إمامة سالم في قباء وفيهم عمر قبل قدوم النبي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8432,
+      "assessment": "no_clear_topic",
+      "note": "سند خبر عائشة عن استبطاء الرسول لها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8433,
+      "assessment": "no_clear_topic",
+      "note": "سؤال النبي لعائشة عن تأخرها، ويتلوه جوابها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8434,
+      "assessment": "supported",
+      "note": "جواب عائشة يصف صوت قارئ بالقرآن قبل أن تعينه الرواية.",
+      "topics": [
+        {
+          "topic": "تلاوة القرآن",
+          "category": "القرآن وعلومه",
+          "aliases": [],
+          "rationale": "رواية عائشة تصف قراءة سمعها الرسول، ويتعين صاحب الصوت في سياقها اللاحق.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1620640,
+          "evidence_end": 1620666,
+          "context_start": 1620509,
+          "context_end": 1620785
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8435,
+      "assessment": "no_clear_topic",
+      "note": "تعيين القارئ بسالم بعد خروج النبي لسماعه في الخبر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8436,
+      "assessment": "no_clear_topic",
+      "note": "تحميد النبي بعد سماع سالم، متصل بخبر عائشة ويليه نقد إسناده.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8437,
+      "assessment": "no_clear_topic",
+      "note": "عبارة تقويم الإسناد للخبر السابق، لا حكم على جميع روايات سالم.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8438,
+      "assessment": "no_clear_topic",
+      "note": "إسناد ابن نمير عن ابن عمر يتبعه خبر نزول المهاجرين.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8439,
+      "assessment": "no_clear_topic",
+      "note": "نزول المهاجرين بالعصبة وإمامة سالم لهم؛ يستمر التعليل بعد علامة الصفحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8440,
+      "assessment": "no_clear_topic",
+      "note": "تكملة التعليل بأكثرية القرآن وذكر عمر وأبي سلمة بين المأمومين.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8441,
+      "assessment": "no_clear_topic",
+      "note": "ذكر طريق أسامة عن عبيد الله تمهيدًا للفظه.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8442,
+      "assessment": "no_clear_topic",
+      "note": "لفظ رواية أسامة في إمامة سالم بعد قدوم المهاجرين وقبل مقدم الرسول.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8443,
+      "assessment": "no_clear_topic",
+      "note": "بداية الخبر المروي عن محمد بن إبراهيم في المؤاخاة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8444,
+      "assessment": "supported",
+      "note": "خبر المؤاخاة مع أبي عبيدة، ويليه التصريح بانقطاعه.",
+      "topics": [
+        {
+          "topic": "المؤاخاة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "الخبر عن المؤاخاة بين سالم وأبي عبيدة، ويتبعه صريحًا وصفه بالانقطاع.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1621166,
+          "evidence_end": 1621221,
+          "context_start": 1621125,
+          "context_end": 1621264
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8445,
+      "assessment": "no_clear_topic",
+      "note": "تعقيب هذا منقطع يخص خبر المؤاخاة السابق مباشرة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8446,
+      "assessment": "no_clear_topic",
+      "note": "افتتاح رواية الواقدي عن محمد بن ثابت في يوم اليمامة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8447,
+      "assessment": "no_clear_topic",
+      "note": "قول سالم عند انكشاف المسلمين يوم اليمامة ويتبعه فعله وقتاله.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8448,
+      "assessment": "supported",
+      "note": "حفره حفرة وثباته بالراية حتى قتل في الخبر السابق.",
+      "topics": [
+        {
+          "topic": "يوم اليمامة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "رواية الواقدي عن ثبات سالم وقتاله حتى قتل، مع بدء الخبر بسياق انكشاف المسلمين.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1621433,
+          "evidence_end": 1621503,
+          "context_start": 1621264,
+          "context_end": 1621512
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8449,
+      "assessment": "no_clear_topic",
+      "note": "إسناد عبيد عن عبد الله بن الهاد قبل خبر الميراث.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8450,
+      "assessment": "supported",
+      "note": "خبر بيع ميراثه لعمر ودفع الثمن لأمه مع أمرها بالأكل.",
+      "topics": [
+        {
+          "topic": "بر الوالدين",
+          "category": "الأخلاق والآداب",
+          "aliases": [],
+          "rationale": "خبر إعطاء أمه ثمن الميراث، مع حفظ سياق البيع قبل العطاء.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1621615,
+          "evidence_end": 1621641,
+          "context_start": 1621512,
+          "context_end": 1621643
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8451,
+      "assessment": "no_clear_topic",
+      "note": "خبر بصيغة قيل عن مصرع سالم ومولاه أبي حذيفة متجاورين.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8452,
+      "assessment": "no_clear_topic",
+      "note": "تمهيد لمناقب سالم يتبعه إسناد خبر عمر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8453,
+      "assessment": "no_clear_topic",
+      "note": "بداية سلسلة الإخبار في خبر عمر وسعيد.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8454,
+      "assessment": "no_clear_topic",
+      "note": "استمرار إسناد الخبر إلى أبي رافع وذكر علي بن زيد الذي يأتي تقويمه في آخر الخبر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8455,
+      "assessment": "no_clear_topic",
+      "note": "قول عمر في سبي العرب في افتتاح الخبر المروي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8456,
+      "assessment": "no_clear_topic",
+      "note": "مشورة سعيد لعمر باختيار رجل مع استشهاده بما فعل أبو بكر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8457,
+      "assessment": "no_clear_topic",
+      "note": "رد عمر بذكر حرص بعض أصحابه وتفويض الأمر للنفر الستة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8458,
+      "assessment": "supported",
+      "note": "ذكر سالم وأبي عبيدة في قول عمر المشروط بإدراك أحدهما له؛ يلي الخبر تقويم راو وشرط صحته.",
+      "topics": [
+        {
+          "topic": "الخلافة والسياسة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "قول منسوب إلى عمر في الثقة بالرجلين لو أدركه أحدهما، مع تليين الراوي واشتراط صحة الخبر في سياقه.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1622314,
+          "evidence_end": 1622363,
+          "context_start": 1621780,
+          "context_end": 1622541
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8459,
+      "assessment": "no_clear_topic",
+      "note": "تليين علي بن زيد ثم استنتاج مشروط بصحة الخبر عن منزلة الرجلين وجواز الإمامة في غير القرشي.",
+      "topics": [],
+      "existing_hits": []
+    }
+  ],
+  "presentation": {
+    "headings": [],
+    "quotes": [
+      {
+        "start": 1620608,
+        "end": 1620616
+      },
+      {
+        "start": 1620732,
+        "end": 1620763
+      }
+    ],
+    "poetry": [],
+    "lists": [],
+    "bold": [
+      {
+        "start": 1620773,
+        "end": 1620783
+      },
+      {
+        "start": 1621253,
+        "end": 1621262
+      },
+      {
+        "start": 1622439,
+        "end": 1622449
+      }
+    ],
+    "keywords": [
+      {
+        "start": 1619630,
+        "end": 1619646
+      },
+      {
+        "start": 1620346,
+        "end": 1620352
+      },
+      {
+        "start": 1620654,
+        "end": 1620666
+      },
+      {
+        "start": 1621253,
+        "end": 1621262
+      },
+      {
+        "start": 1621466,
+        "end": 1621480
+      },
+      {
+        "start": 1622439,
+        "end": 1622449
+      }
+    ],
+    "names": [
+      {
+        "start": 1619603,
+        "end": 1619622
+      },
+      {
+        "start": 1619684,
+        "end": 1619696
+      },
+      {
+        "start": 1619701,
+        "end": 1619713
+      },
+      {
+        "start": 1619743,
+        "end": 1619748
+      },
+      {
+        "start": 1619772,
+        "end": 1619796
+      },
+      {
+        "start": 1619803,
+        "end": 1619812
+      },
+      {
+        "start": 1619831,
+        "end": 1619840
+      },
+      {
+        "start": 1619853,
+        "end": 1619866
+      },
+      {
+        "start": 1619871,
+        "end": 1619885
+      },
+      {
+        "start": 1619892,
+        "end": 1619905
+      },
+      {
+        "start": 1619910,
+        "end": 1619919
+      },
+      {
+        "start": 1619964,
+        "end": 1619969
+      },
+      {
+        "start": 1619983,
+        "end": 1619992
+      },
+      {
+        "start": 1619997,
+        "end": 1620002
+      },
+      {
+        "start": 1620106,
+        "end": 1620113
+      },
+      {
+        "start": 1620125,
+        "end": 1620134
+      },
+      {
+        "start": 1620211,
+        "end": 1620215
+      },
+      {
+        "start": 1620245,
+        "end": 1620252
+      },
+      {
+        "start": 1620265,
+        "end": 1620284
+      },
+      {
+        "start": 1620361,
+        "end": 1620368
+      },
+      {
+        "start": 1620376,
+        "end": 1620388
+      },
+      {
+        "start": 1620393,
+        "end": 1620411
+      },
+      {
+        "start": 1620424,
+        "end": 1620428
+      },
+      {
+        "start": 1620455,
+        "end": 1620458
+      },
+      {
+        "start": 1620471,
+        "end": 1620480
+      },
+      {
+        "start": 1620511,
+        "end": 1620529
+      },
+      {
+        "start": 1620534,
+        "end": 1620552
+      },
+      {
+        "start": 1620557,
+        "end": 1620562
+      },
+      {
+        "start": 1620581,
+        "end": 1620590
+      },
+      {
+        "start": 1620702,
+        "end": 1620721
+      },
+      {
+        "start": 1620787,
+        "end": 1620803
+      },
+      {
+        "start": 1620808,
+        "end": 1620817
+      },
+      {
+        "start": 1620822,
+        "end": 1620826
+      },
+      {
+        "start": 1620831,
+        "end": 1620838
+      },
+      {
+        "start": 1620889,
+        "end": 1620908
+      },
+      {
+        "start": 1620954,
+        "end": 1620957
+      },
+      {
+        "start": 1620960,
+        "end": 1620981
+      },
+      {
+        "start": 1620997,
+        "end": 1621009
+      },
+      {
+        "start": 1621014,
+        "end": 1621023
+      },
+      {
+        "start": 1621076,
+        "end": 1621085
+      },
+      {
+        "start": 1621113,
+        "end": 1621117
+      },
+      {
+        "start": 1621135,
+        "end": 1621157
+      },
+      {
+        "start": 1621202,
+        "end": 1621221
+      },
+      {
+        "start": 1621280,
+        "end": 1621287
+      },
+      {
+        "start": 1621292,
+        "end": 1621311
+      },
+      {
+        "start": 1621356,
+        "end": 1621375
+      },
+      {
+        "start": 1621399,
+        "end": 1621408
+      },
+      {
+        "start": 1621520,
+        "end": 1621537
+      },
+      {
+        "start": 1621542,
+        "end": 1621559
+      },
+      {
+        "start": 1621566,
+        "end": 1621571
+      },
+      {
+        "start": 1621583,
+        "end": 1621596
+      },
+      {
+        "start": 1621661,
+        "end": 1621666
+      },
+      {
+        "start": 1621681,
+        "end": 1621690
+      },
+      {
+        "start": 1621762,
+        "end": 1621766
+      },
+      {
+        "start": 1621796,
+        "end": 1621823
+      },
+      {
+        "start": 1621858,
+        "end": 1621874
+      },
+      {
+        "start": 1621883,
+        "end": 1621899
+      },
+      {
+        "start": 1621936,
+        "end": 1621948
+      },
+      {
+        "start": 1621956,
+        "end": 1621972
+      },
+      {
+        "start": 1621993,
+        "end": 1621997
+      },
+      {
+        "start": 1622005,
+        "end": 1622009
+      },
+      {
+        "start": 1622014,
+        "end": 1622024
+      },
+      {
+        "start": 1622029,
+        "end": 1622037
+      },
+      {
+        "start": 1622044,
+        "end": 1622057
+      },
+      {
+        "start": 1622116,
+        "end": 1622127
+      },
+      {
+        "start": 1622192,
+        "end": 1622206
+      },
+      {
+        "start": 1622365,
+        "end": 1622369
+      },
+      {
+        "start": 1622377,
+        "end": 1622386
+      },
+      {
+        "start": 1622389,
+        "end": 1622408
+      },
+      {
+        "start": 1622417,
+        "end": 1622427
+      },
+      {
+        "start": 1622481,
+        "end": 1622484
+      }
+    ],
+    "footnotes": [],
+    "footnote_notice": "لم يثبت ربط الأرقام المحصورة في هذه الترجمة بمتون حواشٍ؛ تبقى ظاهرة للمراجعة."
+  }
+}

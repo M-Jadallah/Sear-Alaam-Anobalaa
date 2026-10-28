@@ -1,0 +1,492 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 8,
+  "source_char_start": 1608650,
+  "source_char_end": 1611117,
+  "reviewer": "curation-team",
+  "segments": [
+    {
+      "segment_id": 8271,
+      "assessment": "no_clear_topic",
+      "note": "تتمة نسب أبي سلمة من العنوان.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8272,
+      "assessment": "no_clear_topic",
+      "note": "تذكر قرابته للرسول من الرضاعة وكونه ابن عمته برة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8273,
+      "assessment": "supported",
+      "note": "يسرد السبق والهجرة إلى الحبشة والمدينة وشهود بدر وذكر أولاده.",
+      "topics": [
+        {
+          "topic": "الهجرة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "يسرد هجرته إلى الحبشة ثم المدينة.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1608874,
+          "evidence_end": 1608910,
+          "context_start": 1608849,
+          "context_end": 1608986
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8274,
+      "assessment": "no_clear_topic",
+      "note": "زواج النبي بأم سلمة بعد انقضاء عدتها من زوجها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8275,
+      "assessment": "no_clear_topic",
+      "note": "رواية أم سلمة القول عند المصيبة واستعظامها الخلف، ثم فرحها بزواج النبي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8276,
+      "assessment": "no_clear_topic",
+      "note": "يذكر موت أبي سلمة كهلا في سنة ثلاث، ويأتي في آخر الترجمة قول آخر بسنة أربع.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8277,
+      "assessment": "supported",
+      "note": "نقل ابن إسحاق أولية هجرته إلى الحبشة وعودته مع عثمان وإجارة أبي طالب له.",
+      "topics": [
+        {
+          "topic": "الهجرة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "ينقل أولية هجرته وعودته وإجارة أبي طالب له.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1609305,
+          "evidence_end": 1609330,
+          "context_start": 1609288,
+          "context_end": 1609463
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8278,
+      "assessment": "no_clear_topic",
+      "note": "تعليق على عودتهم عند سماع إسلام أهل مكة ونزول سورة والنجم.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8279,
+      "assessment": "no_clear_topic",
+      "note": "نقل مصعب بن عبد الله أسماء أولاد أم سلمة الذين ولدتهم له بالحبشة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8280,
+      "assessment": "no_clear_topic",
+      "note": "تعليق المؤلف على زمن ولادة هؤلاء بالحبشة قبل عام الهجرة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8281,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر أم سلمة عن حضور الميت وما قالته بعد وفاة أبي سلمة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8282,
+      "assessment": "supported",
+      "note": "تعليم قول الخير عند الميت وتأمين الملائكة عليه في رواية أم سلمة.",
+      "topics": [
+        {
+          "topic": "الدعاء",
+          "category": "القلب والسلوك",
+          "aliases": [],
+          "rationale": "تنقل أم سلمة وصية قول الخير عند الميت وتتبعها بدعاء النبي لها.",
+          "relation_type": "saying",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1609665,
+          "evidence_end": 1609692,
+          "context_start": 1609589,
+          "context_end": 1609905
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8283,
+      "assessment": "no_clear_topic",
+      "note": "انتقال أم سلمة إلى سؤالها بعد وفاة أبي سلمة في الرواية نفسها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8284,
+      "assessment": "no_clear_topic",
+      "note": "سؤال أم سلمة عن صيغة ما تقوله، ويتبعه الجواب.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8285,
+      "assessment": "supported",
+      "note": "جواب النبي بالدعاء بالمغفرة والخلف الصالح، تابع لسؤال أم سلمة.",
+      "topics": [
+        {
+          "topic": "الدعاء",
+          "category": "القلب والسلوك",
+          "aliases": [],
+          "rationale": "جواب النبي عن سؤال أم سلمة بعد موت أبي سلمة.",
+          "relation_type": "saying",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1609803,
+          "evidence_end": 1609840,
+          "context_start": 1609589,
+          "context_end": 1609905
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8286,
+      "assessment": "no_clear_topic",
+      "note": "تقول أم سلمة إن الله أعقبها رسول الله خيرا منه؛ نسبة القول إليها محفوظة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8287,
+      "assessment": "no_clear_topic",
+      "note": "إسناد رواية أخرى عن أم سلمة في الدعاء عند المصيبة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8288,
+      "assessment": "no_clear_topic",
+      "note": "بداية الدعاء عند المصيبة وتتصل العبارة عبر علامة الصفحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8289,
+      "assessment": "no_clear_topic",
+      "note": "تكملة الدعاء بعد علامة الصفحة؛ لا تفصل عن صدره.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8290,
+      "assessment": "no_clear_topic",
+      "note": "تروي أم سلمة ترددها في الدعاء بالخلف لما احتضر أبو سلمة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8291,
+      "assessment": "no_clear_topic",
+      "note": "تتم أم سلمة خبر قول الدعاء وذكر خطبة أبي بكر وعمر ثم إرسال النبي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8292,
+      "assessment": "no_clear_topic",
+      "note": "جواب أم سلمة وترحيبها برسول النبي مع إشارة إلى بقية الحديث.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8293,
+      "assessment": "no_clear_topic",
+      "note": "إسناد الواقدي إلى جماعة، وفيه إشارتان رقميتان داخل الأسماء.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8294,
+      "assessment": "supported",
+      "note": "خبر شهود أبي سلمة أحدا وجرحه ومداواته شهرا.",
+      "topics": [
+        {
+          "topic": "الفتن والحروب",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "خبر إصابته بأحد ضمن رواية الواقدي عن الجرح والسرية.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1610560,
+          "evidence_end": 1610577,
+          "context_start": 1610451,
+          "context_end": 1610934
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8295,
+      "assessment": "no_clear_topic",
+      "note": "دعوة النبي أبا سلمة للخروج في السرية عند هلال المحرم.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8296,
+      "assessment": "no_clear_topic",
+      "note": "عقد اللواء له والأمر بالسير إلى بني أسد في خبر السرية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8297,
+      "assessment": "no_clear_topic",
+      "note": "ذكر عدد السرية وسيرها وأخذ السرح ورجوعه إلى المدينة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8298,
+      "assessment": "no_clear_topic",
+      "note": "إسناد عمر بن عثمان خبر انتقاض الجرح والموت.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8299,
+      "assessment": "supported",
+      "note": "وفاة أبي سلمة بعد انتقاض جرحه ونقل تفسير السنة بأربع.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "خبر انتقاض جرحه وموتِه في السنة الرابعة، ويليه قول آخر بسنة ثلاث.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1611024,
+          "evidence_end": 1611077,
+          "context_start": 1610934,
+          "context_end": 1611117
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8300,
+      "assessment": "no_clear_topic",
+      "note": "قول آخر بأن وفاته سنة ثلاث، مع اختلافه عن خبر السنة الرابعة السابق.",
+      "topics": [],
+      "existing_hits": []
+    }
+  ],
+  "presentation": {
+    "headings": [
+      {
+        "at": 1608699,
+        "label": "الهجرة والقرابة والوفاة"
+      },
+      {
+        "at": 1609589,
+        "label": "خبر أم سلمة والدعاء"
+      },
+      {
+        "at": 1609905,
+        "label": "رواية المصيبة والخلف"
+      },
+      {
+        "at": 1610451,
+        "label": "الجرح والسرية والوفاة"
+      }
+    ],
+    "quotes": [
+      {
+        "start": 1609664,
+        "end": 1609728
+      },
+      {
+        "start": 1609796,
+        "end": 1609841
+      },
+      {
+        "start": 1610010,
+        "end": 1610139
+      },
+      {
+        "start": 1610711,
+        "end": 1610733
+      },
+      {
+        "start": 1610758,
+        "end": 1610799
+      }
+    ],
+    "poetry": [],
+    "lists": [],
+    "bold": [
+      {
+        "start": 1608874,
+        "end": 1608910
+      },
+      {
+        "start": 1610560,
+        "end": 1610577
+      }
+    ],
+    "keywords": [
+      {
+        "start": 1608807,
+        "end": 1608814
+      },
+      {
+        "start": 1608883,
+        "end": 1608889
+      },
+      {
+        "start": 1609090,
+        "end": 1609097
+      },
+      {
+        "start": 1609700,
+        "end": 1609708
+      },
+      {
+        "start": 1610573,
+        "end": 1610577
+      },
+      {
+        "start": 1610726,
+        "end": 1610732
+      },
+      {
+        "start": 1610746,
+        "end": 1610750
+      },
+      {
+        "start": 1610649,
+        "end": 1610653
+      }
+    ],
+    "names": [
+      {
+        "start": 1608660,
+        "end": 1608681
+      },
+      {
+        "start": 1608829,
+        "end": 1608847
+      },
+      {
+        "start": 1609009,
+        "end": 1609016
+      },
+      {
+        "start": 1609342,
+        "end": 1609363
+      },
+      {
+        "start": 1609392,
+        "end": 1609400
+      },
+      {
+        "start": 1609469,
+        "end": 1609485
+      },
+      {
+        "start": 1609591,
+        "end": 1609597
+      },
+      {
+        "start": 1609602,
+        "end": 1609606
+      },
+      {
+        "start": 1609907,
+        "end": 1609919
+      },
+      {
+        "start": 1609937,
+        "end": 1609952
+      },
+      {
+        "start": 1610282,
+        "end": 1610289
+      },
+      {
+        "start": 1610457,
+        "end": 1610464
+      },
+      {
+        "start": 1610472,
+        "end": 1610484
+      },
+      {
+        "start": 1610961,
+        "end": 1610978
+      }
+    ],
+    "footnotes": [
+      {
+        "start": 1608953,
+        "end": 1608956
+      },
+      {
+        "start": 1609879,
+        "end": 1609882
+      },
+      {
+        "start": 1610413,
+        "end": 1610416
+      },
+      {
+        "start": 1610433,
+        "end": 1610436
+      },
+      {
+        "start": 1610485,
+        "end": 1610488
+      },
+      {
+        "start": 1610524,
+        "end": 1610527
+      },
+      {
+        "start": 1610789,
+        "end": 1610792
+      },
+      {
+        "start": 1610853,
+        "end": 1610856
+      },
+      {
+        "start": 1610928,
+        "end": 1610931
+      },
+      {
+        "start": 1611043,
+        "end": 1611046
+      }
+    ],
+    "footnote_notice": "لم تظهر متون الحواشي في حدود هذه الترجمة؛ الإشارات الرقمية منقولة وحدها. نجمة العنوان باقية كما هي لعدم ثبوت وظيفتها، والأقوال والأقواس الطويلة باقية في المتن."
+  }
+}

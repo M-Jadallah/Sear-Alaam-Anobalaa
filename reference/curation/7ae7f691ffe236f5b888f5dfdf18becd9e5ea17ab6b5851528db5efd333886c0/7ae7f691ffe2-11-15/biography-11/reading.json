@@ -1,0 +1,47 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 11,
+  "source_char_start": 1616972,
+  "source_char_end": 1617319,
+  "reviewer": "codex-team",
+  "version": "pilot-reading-v2",
+  "paragraph_groups": [
+    {
+      "start": 1616972,
+      "end": 1617019
+    },
+    {
+      "start": 1617019,
+      "end": 1617136
+    },
+    {
+      "start": 1617136,
+      "end": 1617319
+    }
+  ],
+  "paragraph_notes": [
+    {
+      "start": 1616972,
+      "end": 1617019,
+      "context_start": 1616972,
+      "context_end": 1617136,
+      "reason": "عنوان المصدر مستقل عن متن الترجمة؛ الخبر التالي يشرح السبق والمشاهد والهجرة."
+    },
+    {
+      "start": 1617019,
+      "end": 1617136,
+      "context_start": 1616972,
+      "context_end": 1617319,
+      "reason": "يجمع الخبر الافتتاحي بين السبق والشهود والقرابة والهجرة؛ يبدأ بعده نقل ابن سعد المستقل."
+    },
+    {
+      "start": 1617136,
+      "end": 1617319,
+      "context_start": 1617019,
+      "context_end": 1617319,
+      "reason": "يضم قول ابن سعد المشاهد والمؤاخاة ثم قول «قال» المتصل بشأن الوفاة؛ الضمير عائد إلى صاحب الترجمة والنقل لا ينقطع بعلامة الفقرة."
+    }
+  ],
+  "criticism": [],
+  "heading_overrides": []
+}

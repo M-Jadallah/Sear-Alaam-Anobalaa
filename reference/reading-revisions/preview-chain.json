@@ -1,0 +1,78 @@
+[
+  {
+    "status": "preview",
+    "batch_id": "reading-7ae7f691ffe2-1-2-52a5d4ea39c4",
+    "revision": "9ebeceb013402ed9e66a712b103a984312aa24da518d9b47d95a32affc219361",
+    "backup": null,
+    "biographies": 2,
+    "content_sha256": "41038691b2496c597a7e227693d1255cbdb9558a28f0d69cd566837b64197c3b",
+    "database": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\reading-revisions\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\reading-7ae7f691ffe2-1-2-52a5d4ea39c4\\preview.sqlite3",
+    "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+    "preview_only": true,
+    "commands": [
+      "$env:SIYAR_DB = 'C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\reading-revisions\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\reading-7ae7f691ffe2-1-2-52a5d4ea39c4\\preview.sqlite3'",
+      "python -m uvicorn backend.app:app --host 127.0.0.1 --port 8001"
+    ],
+    "frontend_commands": [
+      "$env:VITE_API_TARGET = 'http://127.0.0.1:8001'",
+      "npm --prefix frontend run dev -- --port 5174"
+    ]
+  },
+  {
+    "status": "preview",
+    "batch_id": "reading-7ae7f691ffe2-3-3-a63733d5700a",
+    "revision": "356f91d028f6d22d0ad81fd753596e174f91a5e1742e5b9a72ba8a2f27e5e292",
+    "backup": null,
+    "biographies": 1,
+    "content_sha256": "472b147ac601bc98f4e91f7b949f168119522a71a9b096fa81fe380c5fc3244b",
+    "database": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\reading-revisions\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\reading-7ae7f691ffe2-3-3-a63733d5700a\\preview.sqlite3",
+    "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+    "preview_only": true,
+    "commands": [
+      "$env:SIYAR_DB = 'C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\reading-revisions\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\reading-7ae7f691ffe2-3-3-a63733d5700a\\preview.sqlite3'",
+      "python -m uvicorn backend.app:app --host 127.0.0.1 --port 8001"
+    ],
+    "frontend_commands": [
+      "$env:VITE_API_TARGET = 'http://127.0.0.1:8001'",
+      "npm --prefix frontend run dev -- --port 5174"
+    ]
+  },
+  {
+    "status": "preview",
+    "batch_id": "reading-7ae7f691ffe2-4-4-36e71356407c",
+    "revision": "40e8df3490fba0f0704f5916ae49cf5b5777ef7a907a1d8a34acce2c51948c1f",
+    "backup": null,
+    "biographies": 1,
+    "content_sha256": "eb25ce5111506c9acdbdaabbabfb3650983cdd866a299d6e27166a49717a3e60",
+    "database": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\reading-revisions\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\reading-7ae7f691ffe2-4-4-36e71356407c\\preview.sqlite3",
+    "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+    "preview_only": true,
+    "commands": [
+      "$env:SIYAR_DB = 'C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\reading-revisions\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\reading-7ae7f691ffe2-4-4-36e71356407c\\preview.sqlite3'",
+      "python -m uvicorn backend.app:app --host 127.0.0.1 --port 8001"
+    ],
+    "frontend_commands": [
+      "$env:VITE_API_TARGET = 'http://127.0.0.1:8001'",
+      "npm --prefix frontend run dev -- --port 5174"
+    ]
+  },
+  {
+    "status": "preview",
+    "batch_id": "reading-7ae7f691ffe2-7-10-eec353900a9b",
+    "revision": "8404d9576eaf0324a3534848c33a10ac6682cd288ebea850a3f8b259d7cdd544",
+    "backup": null,
+    "biographies": 4,
+    "content_sha256": "a00c7e5f1771a8aa1b62000f4c5e41d8abd644c9f7a8d2046c5d2d6a00ddb4ea",
+    "database": "C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\reading-revisions\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\reading-7ae7f691ffe2-7-10-eec353900a9b\\preview.sqlite3",
+    "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+    "preview_only": true,
+    "commands": [
+      "$env:SIYAR_DB = 'C:\\My-Project\\Sear-Alaam-Anobalaa\\reference\\reading-revisions\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\reading-7ae7f691ffe2-7-10-eec353900a9b\\preview.sqlite3'",
+      "python -m uvicorn backend.app:app --host 127.0.0.1 --port 8001"
+    ],
+    "frontend_commands": [
+      "$env:VITE_API_TARGET = 'http://127.0.0.1:8001'",
+      "npm --prefix frontend run dev -- --port 5174"
+    ]
+  }
+]

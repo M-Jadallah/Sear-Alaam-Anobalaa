@@ -1,0 +1,31 @@
+{
+  "version": "reading-revision-v1",
+  "batch_id": "reading-7ae7f691ffe2-1-2-52a5d4ea39c4",
+  "source_id": 1,
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "start_ordinal": 1,
+  "end_ordinal": 2,
+  "baseline_sha256": "52a5d4ea39c4a81d3c0cf1413185bbc078323ef47b20ea70fafe8c2c39ba09f2",
+  "curator": "/root/vocalize_abu_talha",
+  "reason": "تطبيق طلب المستخدم التشكيل الكامل وتدقيق سياق الفقرات للتراجم العشر الأولى، مع حفظ الموضوعات والمراجعات وتاريخ القراءة.",
+  "biographies": [
+    {
+      "id": 1,
+      "source_ordinal": 1,
+      "heading": "1 - أبو عبيدة بن الجراح عامر بن عبد الله * (م، ق) .",
+      "source_char_start": 1486504,
+      "source_char_end": 1501973,
+      "directory": "biography-1",
+      "baseline_sha256": "5de093dadc612c5ce590d50abf5c1afd15e555a47a1269b0fc6457c6fbb2962b"
+    },
+    {
+      "id": 2,
+      "source_ordinal": 2,
+      "heading": "2 - طلحة بن عبيد الله بن عثمان بن عمرو التيمي * (ع)",
+      "source_char_start": 1501973,
+      "source_char_end": 1516215,
+      "directory": "biography-2",
+      "baseline_sha256": "5b16491674508e1b34b2dcdd5099306bea0bbde66229cc41c4a2ba9f1bcbb312"
+    }
+  ]
+}

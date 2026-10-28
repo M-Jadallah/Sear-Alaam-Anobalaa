@@ -1,0 +1,31 @@
+{
+  "version": "reading-revision-v1",
+  "batch_id": "reading-7ae7f691ffe2-3-4-52aec4f04fd1",
+  "source_id": 1,
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "start_ordinal": 3,
+  "end_ordinal": 4,
+  "baseline_sha256": "52aec4f04fd1a02364b82ccf933163cc0e374db0ce357b2fd2e38911ee1703e6",
+  "curator": "",
+  "reason": "",
+  "biographies": [
+    {
+      "id": 3,
+      "source_ordinal": 3,
+      "heading": "3 - الزبير بن العوام بن خويلد بن أسد بن عبد العزى * (ع)",
+      "source_char_start": 1516215,
+      "source_char_end": 1538102,
+      "directory": "biography-3",
+      "baseline_sha256": "aa452967025b8c8961d765614e1572bda4bfb4e6ea698d0c2f003b05e1ace8e3"
+    },
+    {
+      "id": 4,
+      "source_ordinal": 4,
+      "heading": "4 - عبد الرحمن بن عوف بن عبد عوف الزهري * (ع)",
+      "source_char_start": 1538102,
+      "source_char_end": 1557904,
+      "directory": "biography-4",
+      "baseline_sha256": "a0075711c1fba3539f34aea7063fa4b1e8b1575d3af8f17fad58eb220f3c923d"
+    }
+  ]
+}

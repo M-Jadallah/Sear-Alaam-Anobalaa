@@ -1,0 +1,139 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 18,
+  "source_char_start": 1635157,
+  "source_char_end": 1635388,
+  "reviewer": "codex-team",
+  "segments": [
+    {
+      "segment_id": 8635,
+      "assessment": "supported",
+      "note": "ينقل ابن سعد المؤاخاة بين إياس والحارث بن خزَمة وشهود بدر والمشاهد، ولا يفترض منه توحيد الهوية بأحد المتشابهين.",
+      "topics": [
+        {
+          "topic": "المؤاخاة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "يذكر ابن سعد المؤاخاة بين إياس والحارث بن خزَمة صراحة.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1635231,
+          "evidence_end": 1635292,
+          "context_start": 1635211,
+          "context_end": 1635319
+        },
+        {
+          "topic": "غزوة بدر",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "ينقل شهود بدر والمشاهد ضمن قول ابن سعد.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1635294,
+          "evidence_end": 1635317,
+          "context_start": 1635211,
+          "context_end": 1635319
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8636,
+      "assessment": "supported",
+      "note": "يذكر شهوده فتح مصر دون تفاصيل مستقلة عن الواقعة.",
+      "topics": [
+        {
+          "topic": "فتح مصر",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "يسجل شهوده فتح مصر دون تفصيل.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1635321,
+          "evidence_end": 1635333,
+          "context_start": 1635211,
+          "context_end": 1635335
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8637,
+      "assessment": "supported",
+      "note": "يذكر وفاة صاحب الترجمة سنة أربع وثلاثين، مع إبقاء علامة الصفحة خامًا.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "يذكر سنة وفاة صاحب الترجمة، دون تحويل علامة OpenITI إلى صفحة محققة.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1635337,
+          "evidence_end": 1635358,
+          "context_start": 1635211,
+          "context_end": 1635372
+        }
+      ],
+      "existing_hits": [
+        {
+          "hit_id": 816,
+          "decision": "keep",
+          "reason": "اللفظ يتناول وفاة صاحب الترجمة وسنتها صراحة، ويبقى ترشيحًا غير معتمد بشريًا."
+        }
+      ]
+    },
+    {
+      "segment_id": 8638,
+      "assessment": "no_clear_topic",
+      "note": "عبارة انتقال إلى الأخ الرابع الذي يبدأ عنوانه في الترجمة التالية، وليست خبرًا عن إياس.",
+      "topics": [],
+      "existing_hits": []
+    }
+  ],
+  "presentation": {
+    "headings": [],
+    "quotes": [],
+    "poetry": [],
+    "lists": [],
+    "bold": [],
+    "keywords": [
+      {
+        "start": 1635295,
+        "end": 1635303
+      },
+      {
+        "start": 1635326,
+        "end": 1635333
+      },
+      {
+        "start": 1635337,
+        "end": 1635345
+      }
+    ],
+    "names": [
+      {
+        "start": 1635168,
+        "end": 1635186
+      },
+      {
+        "start": 1635217,
+        "end": 1635224
+      },
+      {
+        "start": 1635235,
+        "end": 1635244
+      },
+      {
+        "start": 1635276,
+        "end": 1635292
+      }
+    ],
+    "footnotes": [],
+    "footnote_notice": "لم يظهر متن حاشية في نطاق هذه الترجمة؛ بقي الرقم بين القوسين ظاهرًا لعدم تحقق ربطه بمتنه."
+  }
+}

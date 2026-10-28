@@ -1,0 +1,127 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 7,
+  "source_char_start": 1604701,
+  "source_char_end": 1607196,
+  "reviewer": "",
+  "version": "pilot-reading-v2",
+  "paragraph_groups": [
+    {
+      "start": 1604701,
+      "end": 1604753
+    },
+    {
+      "start": 1604753,
+      "end": 1604840
+    },
+    {
+      "start": 1604840,
+      "end": 1605085
+    },
+    {
+      "start": 1605085,
+      "end": 1605489
+    },
+    {
+      "start": 1605489,
+      "end": 1605768
+    },
+    {
+      "start": 1605768,
+      "end": 1606283
+    },
+    {
+      "start": 1606283,
+      "end": 1606919
+    },
+    {
+      "start": 1606919,
+      "end": 1607196
+    }
+  ],
+  "criticism": [],
+  "paragraph_notes": [
+    {
+      "start": 1604701,
+      "end": 1604753,
+      "context_start": 1604701,
+      "context_end": 1604753,
+      "reason": ""
+    },
+    {
+      "start": 1604753,
+      "end": 1604840,
+      "context_start": 1604753,
+      "context_end": 1604840,
+      "reason": ""
+    },
+    {
+      "start": 1604840,
+      "end": 1605085,
+      "context_start": 1604840,
+      "context_end": 1605085,
+      "reason": ""
+    },
+    {
+      "start": 1605085,
+      "end": 1605489,
+      "context_start": 1605085,
+      "context_end": 1605489,
+      "reason": ""
+    },
+    {
+      "start": 1605489,
+      "end": 1605768,
+      "context_start": 1605489,
+      "context_end": 1605768,
+      "reason": ""
+    },
+    {
+      "start": 1605768,
+      "end": 1606283,
+      "context_start": 1605768,
+      "context_end": 1606283,
+      "reason": ""
+    },
+    {
+      "start": 1606283,
+      "end": 1606919,
+      "context_start": 1606283,
+      "context_end": 1606919,
+      "reason": ""
+    },
+    {
+      "start": 1606919,
+      "end": 1607196,
+      "context_start": 1606919,
+      "context_end": 1607196,
+      "reason": ""
+    }
+  ],
+  "heading_labels": [
+    {
+      "at": 1604840,
+      "label": "قدوم مصعب مع المهاجرين"
+    },
+    {
+      "at": 1605085,
+      "label": "خبر خباب عن الهجرة والكفن"
+    },
+    {
+      "at": 1605489,
+      "label": "بكاء عبد الرحمن بن عوف"
+    },
+    {
+      "at": 1605768,
+      "label": "بردة مصعب والحوار عن العيش"
+    },
+    {
+      "at": 1606283,
+      "label": "شدة العيش بعد الهجرة"
+    },
+    {
+      "at": 1606919,
+      "label": "قتال مصعب ومقتله"
+    }
+  ]
+}

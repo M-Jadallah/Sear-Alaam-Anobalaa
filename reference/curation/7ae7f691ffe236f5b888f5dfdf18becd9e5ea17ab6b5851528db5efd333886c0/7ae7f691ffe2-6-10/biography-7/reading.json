@@ -1,0 +1,43 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 7,
+  "source_char_start": 1604701,
+  "source_char_end": 1607196,
+  "reviewer": "curation-team",
+  "version": "pilot-reading-v2",
+  "paragraph_groups": [
+    {
+      "start": 1604701,
+      "end": 1604753
+    },
+    {
+      "start": 1604753,
+      "end": 1604840
+    },
+    {
+      "start": 1604840,
+      "end": 1605085
+    },
+    {
+      "start": 1605085,
+      "end": 1605489
+    },
+    {
+      "start": 1605489,
+      "end": 1605768
+    },
+    {
+      "start": 1605768,
+      "end": 1606283
+    },
+    {
+      "start": 1606283,
+      "end": 1606919
+    },
+    {
+      "start": 1606919,
+      "end": 1607196
+    }
+  ],
+  "criticism": []
+}

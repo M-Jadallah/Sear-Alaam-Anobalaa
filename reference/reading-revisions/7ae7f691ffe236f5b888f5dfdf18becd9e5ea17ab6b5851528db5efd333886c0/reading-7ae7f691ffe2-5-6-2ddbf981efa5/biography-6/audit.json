@@ -1,0 +1,36 @@
+{
+  "authoring_sha256": "ca70b8c36307f570890ec8f3ac94283d409adf0956ce3a025d85b19cc5182f2b",
+  "reviewer": "/root",
+  "all_words_checked": true,
+  "all_paragraphs_checked": true,
+  "checks": {
+    "source_coverage": true,
+    "paragraphs": true,
+    "criticism_context": true,
+    "negative_cases": true,
+    "diacritics": true,
+    "paragraph_context": true
+  },
+  "findings": [
+    {
+      "note": "قرأت النص المشكول كاملًا مستقلًا عن المؤلف وقابلت مواضع الالتباس وسياقها بالأصل؛ لا اعتماد لغوي بشري.",
+      "resolved": true
+    },
+    {
+      "note": "صُحح بن إلى بْنُ في حدثنا شعيب بن يونس لاتصاله بالفاعل المرفوع، دون تغيير حرف من الأصل.",
+      "resolved": true
+    },
+    {
+      "note": "أبقي موضع ثمان في سنة ثمان عشرة دون إضافات لأن الرسم يحتاج تحقيقًا؛ تحققت من نطاق الكلمة حتى لا يلتبس بعثمان.",
+      "resolved": true
+    },
+    {
+      "note": "رُبط تقديم حديث المؤاخاة الطويل بنكارته ونقد زيد بعده؛ وطريق شبابة بنفي الصحة، لا بالمحفوظ بعده.",
+      "resolved": true
+    },
+    {
+      "note": "فُحصت حدود الشعر والحوار ونقد الإرسال ووفاة ورقة والأخبار المستقلة؛ لا تسوية لهويات الرواة أو حكم حديثي مستحدث.",
+      "resolved": true
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 16,
+  "source_char_start": 1633869,
+  "source_char_end": 1634907,
+  "reviewer": "codex-team",
+  "segments": [
+    {
+      "segment_id": 8616,
+      "assessment": "no_clear_topic",
+      "note": "صيغة النسب المروية بصيغة قيل وتشمل ذكر الأجداد والليثي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8617,
+      "assessment": "supported",
+      "note": "نقل ابن سعد تغيير اسم غافل إلى عاقل على يد رسول الله.",
+      "topics": [
+        {
+          "topic": "تغيير الاسم",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "ينسب ابن سعد إلى الرسول تسمية صاحب الترجمة عاقلًا بعد اسم غافل.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1634062,
+          "evidence_end": 1634122,
+          "context_start": 1634036,
+          "context_end": 1634124
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8618,
+      "assessment": "no_clear_topic",
+      "note": "خبر حلف أبي البكير ونسبة ابنه عند أبي معشر والواقدي، ويتبعه قول المخالفين.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8619,
+      "assessment": "no_clear_topic",
+      "note": "ذكر موسى بن عقبة وابن إسحاق وابن الكلبي بصيغة ابن بكير مقابل ابن أبي البكير.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8620,
+      "assessment": "no_clear_topic",
+      "note": "إسناد رواية إسلام بني أبي البكير ومبايعتهم في دار الأرقم.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8621,
+      "assessment": "supported",
+      "note": "خبر إسلام غافل وعامر وإياس وخالد ومبايعتهم في دار الأرقم.",
+      "topics": [
+        {
+          "topic": "البيعة في دار الأرقم",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "خبر مسند عن إسلام بني أبي البكير وأنهم أول من بايع في دار الأرقم.",
+          "relation_type": "event",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1634417,
+          "evidence_end": 1634448,
+          "context_start": 1634297,
+          "context_end": 1634455
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8622,
+      "assessment": "no_clear_topic",
+      "note": "سند خبر خروج بني أبي البكير إلى المدينة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8623,
+      "assessment": "supported",
+      "note": "خروج الرجال والنساء مهاجرين حتى أغلقت أبوابهم؛ تتصل به إقامة القوم على رفاعة.",
+      "topics": [
+        {
+          "topic": "الهجرة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "خبر خروج بني أبي البكير جماعة للهجرة، ويليه نزولهم بالمدينة.",
+          "relation_type": "event",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1634538,
+          "evidence_end": 1634588,
+          "context_start": 1634455,
+          "context_end": 1634651
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8624,
+      "assessment": "no_clear_topic",
+      "note": "نزولهم على رفاعة بن عبد المنذر في المدينة، وهو تمام خبر الهجرة السابق.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8625,
+      "assessment": "no_clear_topic",
+      "note": "إحالة إلى قول جماعة يليها خبر المؤاخاة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8626,
+      "assessment": "supported",
+      "note": "ذكر المؤاخاة بين عاقل ومبشر ثم قتلهما ببدر، وتتلوه صيغة أخرى.",
+      "topics": [
+        {
+          "topic": "المؤاخاة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "خبر المؤاخاة مع مبشر، وتليه صيغة قيل مع مجذر؛ لا يحسم هذا الوسم الاختلاف.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "contested",
+          "evidence_start": 1634707,
+          "evidence_end": 1634739,
+          "context_start": 1634455,
+          "context_end": 1634811
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8627,
+      "assessment": "supported",
+      "note": "صيغة قيل في المؤاخاة بين عاقل ومجذر، يجب قراءتها مع الصيغة السابقة.",
+      "topics": [
+        {
+          "topic": "المؤاخاة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "الصيغة البديلة مسبوقة بصيغة قيل، والقول السابق يسمي مبشرًا.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "contested",
+          "evidence_start": 1634779,
+          "evidence_end": 1634809,
+          "context_start": 1634455,
+          "context_end": 1634811
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8628,
+      "assessment": "supported",
+      "note": "ذكر استشهاد عاقل في بدر وسنّه، ويتلوه بيان قاتله.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "خبر استشهاده ببدر وعمره وقتئذ ويتلوه اسم قاتله.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1634813,
+          "evidence_end": 1634864,
+          "context_start": 1634811,
+          "context_end": 1634899
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8629,
+      "assessment": "no_clear_topic",
+      "note": "ذكر اسم من قتله في سياق خبر استشهاده السابق.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8630,
+      "assessment": "no_clear_topic",
+      "note": "عبارة أخوه تمهّد للترجمة التالية؛ حفظت عند نهاية هذا النطاق المصدرية.",
+      "topics": [],
+      "existing_hits": []
+    }
+  ],
+  "presentation": {
+    "headings": [],
+    "quotes": [],
+    "poetry": [],
+    "lists": [],
+    "bold": [],
+    "keywords": [
+      {
+        "start": 1634071,
+        "end": 1634076
+      },
+      {
+        "start": 1634117,
+        "end": 1634122
+      },
+      {
+        "start": 1634438,
+        "end": 1634448
+      },
+      {
+        "start": 1634557,
+        "end": 1634564
+      },
+      {
+        "start": 1634813,
+        "end": 1634819
+      }
+    ],
+    "names": [
+      {
+        "start": 1633880,
+        "end": 1633923
+      },
+      {
+        "start": 1633934,
+        "end": 1633952
+      },
+      {
+        "start": 1634043,
+        "end": 1634054
+      },
+      {
+        "start": 1634084,
+        "end": 1634093
+      },
+      {
+        "start": 1634131,
+        "end": 1634141
+      },
+      {
+        "start": 1634147,
+        "end": 1634164
+      },
+      {
+        "start": 1634168,
+        "end": 1634171
+      },
+      {
+        "start": 1634178,
+        "end": 1634186
+      },
+      {
+        "start": 1634191,
+        "end": 1634198
+      },
+      {
+        "start": 1634236,
+        "end": 1634248
+      },
+      {
+        "start": 1634251,
+        "end": 1634260
+      },
+      {
+        "start": 1634263,
+        "end": 1634273
+      },
+      {
+        "start": 1634306,
+        "end": 1634317
+      },
+      {
+        "start": 1634325,
+        "end": 1634337
+      },
+      {
+        "start": 1634342,
+        "end": 1634355
+      },
+      {
+        "start": 1634369,
+        "end": 1634373
+      },
+      {
+        "start": 1634376,
+        "end": 1634380
+      },
+      {
+        "start": 1634383,
+        "end": 1634387
+      },
+      {
+        "start": 1634390,
+        "end": 1634394
+      },
+      {
+        "start": 1634465,
+        "end": 1634476
+      },
+      {
+        "start": 1634484,
+        "end": 1634503
+      },
+      {
+        "start": 1634508,
+        "end": 1634523
+      },
+      {
+        "start": 1634526,
+        "end": 1634529
+      },
+      {
+        "start": 1634621,
+        "end": 1634640
+      },
+      {
+        "start": 1634676,
+        "end": 1634685
+      },
+      {
+        "start": 1634711,
+        "end": 1634715
+      },
+      {
+        "start": 1634721,
+        "end": 1634739
+      },
+      {
+        "start": 1634787,
+        "end": 1634791
+      },
+      {
+        "start": 1634797,
+        "end": 1634809
+      },
+      {
+        "start": 1634820,
+        "end": 1634824
+      },
+      {
+        "start": 1634873,
+        "end": 1634892
+      }
+    ],
+    "footnotes": [],
+    "footnote_notice": "لم تظهر متون حواشٍ في نطاق هذه الترجمة؛ الأرقام المحتملة بقيت ظاهرة لعدم ثبوت ربطها، وكذلك نجمة العنوان."
+  }
+}

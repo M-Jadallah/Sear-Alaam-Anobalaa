@@ -1,0 +1,32 @@
+{
+  "revision": "e22836ab03592783d14b5b968237c0dddd6ae95bad1fab86dc551431772be046",
+  "gold_frozen_sha256": "4307b5d473c62ed89f96e28925f7689dd3516066a464f4ef858693517920b4d8",
+  "reviewer": "author_6 browser QA",
+  "checks": {
+    "desktop": true,
+    "mobile": true,
+    "keyboard": true,
+    "copy_raw": true,
+    "copy_formatted": true,
+    "highlight": true,
+    "footnotes": true,
+    "no_horizontal_overflow": true,
+    "no_console_errors": true,
+    "unchanged_outside_batch": true
+  },
+  "screenshots": [
+    "qa-screenshots/reader-6-text-desktop.png",
+    "qa-screenshots/reader-6-text-mobile.png",
+    "qa-screenshots/reader-7-text-desktop.png",
+    "qa-screenshots/reader-7-text-mobile.png",
+    "qa-screenshots/reader-8-text-desktop.png",
+    "qa-screenshots/reader-8-text-mobile.png",
+    "qa-screenshots/reader-9-text-desktop.png",
+    "qa-screenshots/reader-9-text-mobile.png",
+    "qa-screenshots/reader-10-text-desktop.png",
+    "qa-screenshots/reader-10-text-mobile.png",
+    "qa-screenshots/reader-6-poetry-mobile-fresh.png",
+    "qa-screenshots/review-6-desktop.png"
+  ],
+  "notes": "تفاصيل الاختبار وحدوده في reader-qa-report.md، ومنها حالة القائمة عند تغيير حجم جلسة كمبيوتر."
+}

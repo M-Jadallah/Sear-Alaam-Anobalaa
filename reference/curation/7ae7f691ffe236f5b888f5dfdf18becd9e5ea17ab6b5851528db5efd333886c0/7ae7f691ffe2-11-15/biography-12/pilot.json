@@ -1,0 +1,252 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 12,
+  "source_char_start": 1617319,
+  "source_char_end": 1617900,
+  "reviewer": "codex-team",
+  "segments": [
+    {
+      "segment_id": 8389,
+      "assessment": "no_clear_topic",
+      "note": "يذكر أم صاحب الترجمة خولة ونسبها؛ وهو تعريف عائلي لا يثبت موضوعًا سلوكيًا.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8390,
+      "assessment": "no_clear_topic",
+      "note": "يستكمل نسب أم خولة، وتعود الهاء في أمها إليها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8391,
+      "assessment": "supported",
+      "note": "خبر الهجرة والرمي والمؤاخاة؛ ذكر إصابة الفردوس يتعلق بحارثة المذكور لا بصاحب الترجمة.",
+      "topics": [
+        {
+          "topic": "الهجرة إلى الحبشة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [
+            "الهجرة إلى الحبشة"
+          ],
+          "rationale": "يذكر انتقال صاحب الترجمة إلى الحبشة صراحة.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1617443,
+          "evidence_end": 1617458,
+          "context_start": 1617441,
+          "context_end": 1617611
+        },
+        {
+          "topic": "المؤاخاة بين الصحابة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [
+            "المؤاخاة"
+          ],
+          "rationale": "الرسول آخى بين صاحب الترجمة وحارثة كما يصرح الخبر.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1617524,
+          "evidence_end": 1617557,
+          "context_start": 1617441,
+          "context_end": 1617611
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8392,
+      "assessment": "supported",
+      "note": "ينقل ابن سعد شهود السائب بدرًا عن ابن إسحاق وأبي معشر والواقدي؛ يأتي بعده اختلاف النقول.",
+      "topics": [
+        {
+          "topic": "الفتن والحروب",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "ينقل شهود بدر عن ثلاثة مع إيراد عدم ذكر ابن عقبة وقول هشام وتعقيب ابن سعد في السياق.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "contested",
+          "evidence_start": 1617631,
+          "evidence_end": 1617656,
+          "context_start": 1617611,
+          "context_end": 1617830
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8393,
+      "assessment": "no_clear_topic",
+      "note": "ينفي ذكر ابن عقبة له بعد رواية شهوده بدرًا؛ عدم الذكر لا يساوي نفي الشهود.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8394,
+      "assessment": "no_clear_topic",
+      "note": "قول هشام يعين الشاهد ببدر السائب بن مظعون أخا عثمان، وهو قول مخالف في الاسم لا هوية محسومة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8395,
+      "assessment": "no_clear_topic",
+      "note": "ابن سعد يصف القول السابق بالوهم؛ لا يُجعل هذا تقويمًا للحديث أو للراوي عامة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8396,
+      "assessment": "supported",
+      "note": "نقل لاحق عن الإصابة بسهم يوم اليمامة وسنة الواقعة، ويتصل به خبر الموت منه.",
+      "topics": [
+        {
+          "topic": "الفتن والحروب",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "يذكر إصابته بسهم يوم اليمامة وموتَه منه في الكلام التالي.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1617844,
+          "evidence_end": 1617881,
+          "context_start": 1617830,
+          "context_end": 1617900
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8397,
+      "assessment": "supported",
+      "note": "يكمل النقل السابق بوفاته من السهم؛ الضمير يتصل بخبر الإصابة قبله.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "ينقل الموت من السهم بعد ذكر الإصابة في الكلام السابق.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1617890,
+          "evidence_end": 1617898,
+          "context_start": 1617830,
+          "context_end": 1617900
+        }
+      ],
+      "existing_hits": []
+    }
+  ],
+  "presentation": {
+    "headings": [],
+    "quotes": [
+      {
+        "start": 1617631,
+        "end": 1617698
+      },
+      {
+        "start": 1617750,
+        "end": 1617799
+      },
+      {
+        "start": 1617821,
+        "end": 1617828
+      }
+    ],
+    "poetry": [],
+    "lists": [],
+    "bold": [
+      {
+        "start": 1617821,
+        "end": 1617828
+      }
+    ],
+    "keywords": [
+      {
+        "start": 1617443,
+        "end": 1617458
+      },
+      {
+        "start": 1617468,
+        "end": 1617484
+      },
+      {
+        "start": 1617821,
+        "end": 1617828
+      },
+      {
+        "start": 1617851,
+        "end": 1617866
+      }
+    ],
+    "names": [
+      {
+        "start": 1617330,
+        "end": 1617361
+      },
+      {
+        "start": 1617373,
+        "end": 1617394
+      },
+      {
+        "start": 1617405,
+        "end": 1617439
+      },
+      {
+        "start": 1617491,
+        "end": 1617500
+      },
+      {
+        "start": 1617534,
+        "end": 1617557
+      },
+      {
+        "start": 1617617,
+        "end": 1617624
+      },
+      {
+        "start": 1617636,
+        "end": 1617651
+      },
+      {
+        "start": 1617666,
+        "end": 1617675
+      },
+      {
+        "start": 1617678,
+        "end": 1617688
+      },
+      {
+        "start": 1617691,
+        "end": 1617698
+      },
+      {
+        "start": 1617712,
+        "end": 1617720
+      },
+      {
+        "start": 1617729,
+        "end": 1617743
+      },
+      {
+        "start": 1617764,
+        "end": 1617779
+      },
+      {
+        "start": 1617785,
+        "end": 1617790
+      },
+      {
+        "start": 1617807,
+        "end": 1617814
+      }
+    ],
+    "footnotes": [],
+    "footnote_notice": "لم تظهر متون حواشٍ في نطاق هذه الترجمة؛ بقيت الأرقام بين الأقواس ظاهرة لعدم تحقق ربطها بمتونها."
+  }
+}

@@ -1,0 +1,664 @@
+{
+  "evaluation_version": "known-passages-v1",
+  "gold_sha256": "56521ca2c4ea2c48d56e3c4536fdfae67915a5684dd4d69ed14ee14aec13aced",
+  "execution_environment": {
+    "method": "in-process synchronous smart_search worker function; excludes HTTP/browser transport",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "python": "3.14.6",
+    "logical_cpu_count": 12,
+    "inference_cpu_threads": 4
+  },
+  "source_sha256": [
+    "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0"
+  ],
+  "query_count": 15,
+  "category_counts": {
+    "paraphrase": 15
+  },
+  "top_k": 10,
+  "metric_definition": "A result must share source/section and overlap at least min(40,ceil(25% of gold span length)) literal Unicode characters with a known relevant passage. These are curated known-passage hits, not precision/exhaustive recall or historical authentication.",
+  "selection_protocol": "Explicit original question as meaning; no gold-specific term expansion; first results page; one uncached run per distinct question after separate model warm-up.",
+  "baseline": {
+    "queries": 15,
+    "known_hits": 0,
+    "known_passage_hit_at_10": 0.0,
+    "p95_ms": 1.426599997648736,
+    "mean_ms": 0.882473332361163
+  },
+  "smart": {
+    "queries": 15,
+    "known_hits": 9,
+    "known_passage_hit_at_10": 0.6,
+    "p95_ms": 4468.930140001612,
+    "mean_ms": 3616.8799666663595
+  },
+  "by_category": {
+    "paraphrase": {
+      "baseline": {
+        "queries": 15,
+        "known_hits": 0,
+        "known_passage_hit_at_10": 0.0,
+        "p95_ms": 1.426599997648736,
+        "mean_ms": 0.882473332361163
+      },
+      "smart": {
+        "queries": 15,
+        "known_hits": 9,
+        "known_passage_hit_at_10": 0.6,
+        "p95_ms": 4468.930140001612,
+        "mean_ms": 3616.8799666663595
+      }
+    }
+  },
+  "descriptive_questions": {
+    "queries": 15,
+    "known_hits": 9,
+    "known_passage_hit_at_10": 0.6,
+    "p95_ms": 4468.930140001612,
+    "mean_ms": 3616.8799666663595
+  },
+  "semantic_status": {
+    "ready": true,
+    "semantic_coverage": true,
+    "network_at_query_time": false,
+    "cpu_threads": 4,
+    "model": "intfloat/multilingual-e5-small",
+    "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "runtime": "onnxruntime-cpu-int8-v1",
+    "reranker": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "reranker_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "sources": [
+      {
+        "id": 1,
+        "sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+        "parser_version": "openiti-conservative-1",
+        "char_count": 12665488
+      }
+    ],
+    "window_tokens": 320,
+    "overlap_tokens": 64,
+    "status": "ready",
+    "window_count": 32217,
+    "fingerprint": "100350c97cfdeb65d910de55031cabc2a42de58f64476d68ff42d7a8ce837223",
+    "model_fingerprint": "c51f94bc8bc947865ef740bfa4fe430710eab4b1bed5cbec46f09586e7657396",
+    "directory": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\semantic\\version-92e16748cc3e03283d34",
+    "created_at": 1793057987.3313153,
+    "reason": "الفهرس الدلالي المحلي جاهز؛ النتائج اقتراحات تحتاج مراجعة.",
+    "paragraph_status": {
+      "ready": true,
+      "status": "ready",
+      "directory": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\semantic\\paragraphs-788ce81e39bc79b34e32",
+      "fingerprint": "788ce81e39bc79b34e320921f0784138a7f3389467ce91e6e951bc6c82f250e1",
+      "window_count": 129146,
+      "canonical_segment_count": 129006,
+      "reason": "فهرس جميع الفقرات جاهز مع نطاقات المصدر الأصلية.",
+      "progress": null
+    },
+    "base_index_fingerprint": "92e16748cc3e03283d34fb6720c739399a48fa525110d8e583742e65133a9d1d",
+    "semantic_granularity": "context_and_paragraph",
+    "paragraph_window_count": 129146,
+    "dense_allocation": {
+      "context": 50,
+      "paragraph": 50,
+      "maximum_total": 100
+    }
+  },
+  "all_queries_used_hybrid": true,
+  "warmup_ms": [
+    16469.462900000508
+  ],
+  "cache_hits": 0,
+  "goals": {
+    "descriptive_hit_at_10_at_least_80_percent": false,
+    "warm_p95_at_most_8000_ms": true,
+    "not_measured_as_hybrid_if_fallback": false
+  },
+  "review_log_before": 0,
+  "review_log_after": 0,
+  "queries": [
+    {
+      "id": "P01",
+      "category": "paraphrase",
+      "query": "قائد يعيش في منزل لا يكاد يوجد فيه أثاث رغم منصبه، ويبكي زائره عندما يرى حاله",
+      "baseline": {
+        "elapsed_ms": 1.0172999973292463,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 4317.88940000115,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 80,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "P02",
+      "category": "paraphrase",
+      "query": "رجل يوزع المال الذي أرسل إليه بدل أن يحتفظ به، فيفرح المرسل بما صنع",
+      "baseline": {
+        "elapsed_ms": 0.9092999971471727,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 4650.470799999312,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 79,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "P03",
+      "category": "paraphrase",
+      "query": "قائد يرفض مفارقة الجنود عند انتشار المرض ويقول إنه لا يريد النجاة وحده",
+      "baseline": {
+        "elapsed_ms": 1.6407999937655404,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3884.1797999994014,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 90,
+          "reranked": 39,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "P04",
+      "category": "paraphrase",
+      "query": "رجل يقلق من بقاء ثروة في منزله، فتشير عليه زوجته أن يوزعها على أصحابه",
+      "baseline": {
+        "elapsed_ms": 0.7045000020298176,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3394.29889999883,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 645,
+          "required_overlap_chars": 40,
+          "expected_start": 1507120,
+          "result_start": 1507120,
+          "result_end": 1507765
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "P05",
+      "category": "paraphrase",
+      "query": "رجل يكفل فقراء أقاربه ويسدد ديونهم ويصل غيرهم من ماله",
+      "baseline": {
+        "elapsed_ms": 0.9329000022262335,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3382.887400002801,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 29,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "P06",
+      "category": "paraphrase",
+      "query": "صحابي يشرح سبب كثرة رواية صاحبه لأن صاحبه كان ملازمًا للنبي بينما كانوا يزورونه صباحًا ومساء",
+      "baseline": {
+        "elapsed_ms": 0.8051999975577928,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3897.076699999161,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 7,
+          "reranked": 39,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "P07",
+      "category": "paraphrase",
+      "query": "أريد موقفا لشخص يحفظ أموال الورثة وينفق عليهم من ماله الخاص",
+      "baseline": {
+        "elapsed_ms": 0.9192000070470385,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3467.2406999961822,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 120,
+          "required_overlap_chars": 30,
+          "expected_start": 1526190,
+          "result_start": 1526143,
+          "result_end": 1526310
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 24,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "P08",
+      "category": "paraphrase",
+      "query": "أبحث عن رفض اغتيال خصم لأن الإيمان يمنع الغدر والفتك",
+      "baseline": {
+        "elapsed_ms": 0.5762000000686385,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3357.2963000042364,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 12,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "P09",
+      "category": "paraphrase",
+      "query": "ابن يؤخر تقسيم ميراث أبيه وينادي سنوات ليتأكد من سداد حقوق الدائنين",
+      "baseline": {
+        "elapsed_ms": 0.563599998713471,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3921.280700000352,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 363,
+          "required_overlap_chars": 40,
+          "expected_start": 1537197,
+          "result_start": 1536662,
+          "result_end": 1537560
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 100,
+          "reranked": 39,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "P10",
+      "category": "paraphrase",
+      "query": "مهاجر يرفض اقتسام مال صاحبه ويطلب أن يدله على السوق ليكسب بتجارته",
+      "baseline": {
+        "elapsed_ms": 1.0659000035957433,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 2273.2895000008284,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 462,
+          "required_overlap_chars": 40,
+          "expected_start": 1556980,
+          "result_start": 1556980,
+          "result_end": 1557442
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 14,
+          "reranked": 39,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "P11",
+      "category": "paraphrase",
+      "query": "شخص يتنازل عن حقه في الخلافة ويعمل على اختيار من يجمع الأمة",
+      "baseline": {
+        "elapsed_ms": 0.9431999933440238,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3798.043399998278,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 244,
+          "required_overlap_chars": 40,
+          "expected_start": 1552876,
+          "result_start": 1552876,
+          "result_end": 1553659
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 20,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "P12",
+      "category": "paraphrase",
+      "query": "أبحث عن عيادة مريض رغم وجود تباعد بين الزائر والمريض",
+      "baseline": {
+        "elapsed_ms": 0.563299996429123,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 2342.5912000020617,
+        "returned": 10,
+        "known_hit": {
+          "rank": 2,
+          "overlap_chars": 240,
+          "required_overlap_chars": 40,
+          "expected_start": 1555079,
+          "result_start": 1555079,
+          "result_end": 1555319
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 2,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "P13",
+      "category": "paraphrase",
+      "query": "شاب يثبت على دينه رغم امتناع أمه عن الطعام ليحملوه على ترك الإسلام",
+      "baseline": {
+        "elapsed_ms": 0.515899999300018,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3116.365099995164,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 623,
+          "required_overlap_chars": 40,
+          "expected_start": 1571909,
+          "result_start": 1571909,
+          "result_end": 1572532
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 44,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "P14",
+      "category": "paraphrase",
+      "query": "رجل يرفض المشاركة في الاقتتال حتى يكون معه سيف يميز المسلم من الكافر",
+      "baseline": {
+        "elapsed_ms": 0.7449999975506216,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 4059.162599995034,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 953,
+          "required_overlap_chars": 40,
+          "expected_start": 1579270,
+          "result_start": 1579270,
+          "result_end": 1580223
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 82,
+          "reranked": 39,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "P15",
+      "category": "paraphrase",
+      "query": "مريض يسأل عن التبرع بماله ويوجه إلى إبقاء ورثته أغنياء لا يسألون الناس",
+      "baseline": {
+        "elapsed_ms": 1.3347999993129633,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 4391.127000002598,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 604,
+          "required_overlap_chars": 40,
+          "expected_start": 1581937,
+          "result_start": 1582020,
+          "result_end": 1582882
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "topic_candidates": 93,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    }
+  ],
+  "pilot_state_before": {
+    "review_log": 0,
+    "pilot_events": 0,
+    "human_reviewed_evidence": 0,
+    "pilot_revisions": [
+      "63c84c8e7be42b0fecae014b0db29a6321695380643a842fd8490e850377e548"
+    ],
+    "pilot_agent_supported": 239,
+    "pilot_evidence": 308,
+    "code_sha256": {
+      "smart_search.py": "fa6e14c3a9284ff93ad0d2e7f7e9439b8e6e4db350f7e741234973516653d0ea",
+      "smart_interpret.py": "a4cf6fc7e1a79acf5fccd549be9b99ee87a2b4086f907e21122118b4f73c807c",
+      "pilot.py": "e3a456a1cfbc37125ce7f7d8a7b64ce601ae38095471871d43ad8ac5c5281c5b"
+    },
+    "curation_sha256": {
+      "1": "4f77b3249dfc02f9566aad793e9f4494bc74a5b34d8cbc2f8a0e4a903e421a3f",
+      "2": "73ea9253e89829272d7407b4c54271976db7e36f0d397ab94545331038121946",
+      "3": "d2d22fbcbc05286c31213c5d1d0fe4c4f2da9eba974460e3ba94ddb548253e8e",
+      "4": "15afc693d4e1cd5fc25995ff19b8383541b60f08ec635760f4089e6963b1d4ee",
+      "5": "71241d87db810364bf4a7fd3caf97ed8ea4d0a7824dc5ac32d56a9c440da588c"
+    }
+  },
+  "pilot_state_after": {
+    "review_log": 0,
+    "pilot_events": 0,
+    "human_reviewed_evidence": 0,
+    "pilot_revisions": [
+      "63c84c8e7be42b0fecae014b0db29a6321695380643a842fd8490e850377e548"
+    ],
+    "pilot_agent_supported": 239,
+    "pilot_evidence": 308,
+    "code_sha256": {
+      "smart_search.py": "fa6e14c3a9284ff93ad0d2e7f7e9439b8e6e4db350f7e741234973516653d0ea",
+      "smart_interpret.py": "a4cf6fc7e1a79acf5fccd549be9b99ee87a2b4086f907e21122118b4f73c807c",
+      "pilot.py": "e3a456a1cfbc37125ce7f7d8a7b64ce601ae38095471871d43ad8ac5c5281c5b"
+    },
+    "curation_sha256": {
+      "1": "4f77b3249dfc02f9566aad793e9f4494bc74a5b34d8cbc2f8a0e4a903e421a3f",
+      "2": "73ea9253e89829272d7407b4c54271976db7e36f0d397ab94545331038121946",
+      "3": "d2d22fbcbc05286c31213c5d1d0fe4c4f2da9eba974460e3ba94ddb548253e8e",
+      "4": "15afc693d4e1cd5fc25995ff19b8383541b60f08ec635760f4089e6963b1d4ee",
+      "5": "71241d87db810364bf4a7fd3caf97ed8ea4d0a7824dc5ac32d56a9c440da588c"
+    }
+  },
+  "ranking_observations": {
+    "reranked_counts": {
+      "40": 10,
+      "39": 5
+    },
+    "topic_candidate_counts": {
+      "80": 1,
+      "79": 1,
+      "90": 1,
+      "100": 2,
+      "29": 1,
+      "7": 1,
+      "24": 1,
+      "12": 1,
+      "14": 1,
+      "20": 1,
+      "2": 1,
+      "44": 1,
+      "82": 1,
+      "93": 1
+    },
+    "warnings": {}
+  },
+  "pilot_evaluation_protocol": {
+    "suite": "pilot_15_global",
+    "search_scope": "global default; no pilot restriction or selected topic IDs",
+    "goal_role": "Primary global quality measurement",
+    "cache": "result cache cleared before each suite; model and vector caches reused in one process",
+    "gold_freeze_sha256": "56521ca2c4ea2c48d56e3c4536fdfae67915a5684dd4d69ed14ee14aec13aced",
+    "limits": "Small development known-passage test, not an independent human-adjudicated benchmark, precision, exhaustive recall, or scientific authentication."
+  }
+}

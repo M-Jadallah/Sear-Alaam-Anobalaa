@@ -1,0 +1,515 @@
+{
+  "check": "local-http-semantic-integration-v1",
+  "base_url": "http://127.0.0.1:8000",
+  "network_scope": "loopback HTTP only; proxies and redirects disabled; no direct model calls",
+  "latency_scope": "HTTP wall time including transport; first uncached search includes initial loading only if API was restarted",
+  "query": "أبحث عن مواقف رفض فيها العلماء المال أو منصبًا خوفًا على دينهم",
+  "chosen_plan": {
+    "id": "9b128eee51e1",
+    "meaning": "أبحث عن مواقف رفض فيها العلماء المال أو منصبًا خوفًا على دينهم\nالبحث عن مواقف قد تتصل برد المال أو الامتناع عن القضاء والولاية حفظًا للدين؛ يلزم فحص الدافع من النص.",
+    "include_terms": [],
+    "exclude_terms": [],
+    "expansion_terms": [
+      "رد المال",
+      "هدية",
+      "الورع",
+      "أبى القضاء",
+      "الولاية"
+    ],
+    "topic_ids": [
+      15,
+      16,
+      80
+    ]
+  },
+  "semantic_status": {
+    "ready": true,
+    "semantic_coverage": true,
+    "network_at_query_time": false,
+    "cpu_threads": 4,
+    "model": "intfloat/multilingual-e5-small",
+    "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "runtime": "onnxruntime-cpu-int8-v1",
+    "reranker": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "reranker_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "sources": [
+      {
+        "id": 1,
+        "sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+        "parser_version": "openiti-conservative-1",
+        "char_count": 12665488
+      }
+    ],
+    "window_tokens": 320,
+    "overlap_tokens": 64,
+    "status": "ready",
+    "window_count": 32217,
+    "fingerprint": "100350c97cfdeb65d910de55031cabc2a42de58f64476d68ff42d7a8ce837223",
+    "model_fingerprint": "c51f94bc8bc947865ef740bfa4fe430710eab4b1bed5cbec46f09586e7657396",
+    "directory": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\semantic\\version-92e16748cc3e03283d34",
+    "created_at": 1793057987.3313153,
+    "reason": "الفهرس الدلالي المحلي جاهز؛ النتائج اقتراحات تحتاج مراجعة.",
+    "paragraph_status": {
+      "ready": true,
+      "status": "ready",
+      "directory": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\semantic\\paragraphs-788ce81e39bc79b34e32",
+      "fingerprint": "788ce81e39bc79b34e320921f0784138a7f3389467ce91e6e951bc6c82f250e1",
+      "window_count": 129146,
+      "canonical_segment_count": 129006,
+      "reason": "فهرس جميع الفقرات جاهز مع نطاقات المصدر الأصلية.",
+      "progress": null
+    },
+    "base_index_fingerprint": "92e16748cc3e03283d34fb6720c739399a48fa525110d8e583742e65133a9d1d",
+    "semantic_granularity": "context_and_paragraph",
+    "paragraph_window_count": 129146,
+    "dense_allocation": {
+      "context": 50,
+      "paragraph": 50,
+      "maximum_total": 100
+    }
+  },
+  "latencies_ms": {
+    "status": 119.24309999994875,
+    "interpret": 17.192400000112684,
+    "first_uncached_search": 19595.245500000146,
+    "concurrent_health": 104.17289999986679,
+    "concurrent_reader": 73.65149999986897,
+    "cached_pages": [
+      {
+        "page": 2,
+        "elapsed_ms": 60.50869999990027
+      },
+      {
+        "page": 3,
+        "elapsed_ms": 60.401400000046124
+      },
+      {
+        "page": 4,
+        "elapsed_ms": 57.4296000004324
+      }
+    ]
+  },
+  "reads_completed_while_search_in_flight": {
+    "health": true,
+    "reader": true
+  },
+  "candidate_count": 40,
+  "literal_candidates_verified": [
+    {
+      "source_id": 1,
+      "section_id": 5283,
+      "biography_id": 4946,
+      "source_char_start": 11234641,
+      "source_char_end": 11234749,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 4501,
+      "biography_id": 4171,
+      "source_char_start": 10169915,
+      "source_char_end": 10170810,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 3054,
+      "biography_id": 2735,
+      "source_char_start": 8360215,
+      "source_char_end": 8360275,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 5892,
+      "biography_id": 5549,
+      "source_char_start": 12120409,
+      "source_char_end": 12121332,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 1288,
+      "biography_id": 988,
+      "source_char_start": 4421921,
+      "source_char_end": 4422886,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 3656,
+      "biography_id": 3332,
+      "source_char_start": 9164416,
+      "source_char_end": 9164476,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 3207,
+      "biography_id": 2886,
+      "source_char_start": 8565263,
+      "source_char_end": 8565880,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 2184,
+      "biography_id": 1873,
+      "source_char_start": 6814038,
+      "source_char_end": 6814919,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 1120,
+      "biography_id": 822,
+      "source_char_start": 4016213,
+      "source_char_end": 4017193,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 504,
+      "biography_id": 217,
+      "source_char_start": 2418213,
+      "source_char_end": 2419103,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 6176,
+      "biography_id": 5831,
+      "source_char_start": 12540723,
+      "source_char_end": 12541423,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 3284,
+      "biography_id": 2963,
+      "source_char_start": 8729300,
+      "source_char_end": 8729364,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 551,
+      "biography_id": 262,
+      "source_char_start": 2635543,
+      "source_char_end": 2636372,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 1610,
+      "biography_id": 1305,
+      "source_char_start": 5373650,
+      "source_char_end": 5373738,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 1663,
+      "biography_id": 1356,
+      "source_char_start": 5521878,
+      "source_char_end": 5522796,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 4350,
+      "biography_id": 4022,
+      "source_char_start": 9977372,
+      "source_char_end": 9978296,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 1188,
+      "biography_id": 889,
+      "source_char_start": 4177448,
+      "source_char_end": 4177903,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 1443,
+      "biography_id": 1140,
+      "source_char_start": 4826356,
+      "source_char_end": 4827183,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 5451,
+      "biography_id": 5113,
+      "source_char_start": 11477589,
+      "source_char_end": 11478314,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 3586,
+      "biography_id": 3262,
+      "source_char_start": 9071523,
+      "source_char_end": 9072498,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 2716,
+      "biography_id": 2400,
+      "source_char_start": 7830018,
+      "source_char_end": 7830755,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 1478,
+      "biography_id": 1174,
+      "source_char_start": 5006951,
+      "source_char_end": 5007013,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 5163,
+      "biography_id": 4827,
+      "source_char_start": 11100282,
+      "source_char_end": 11100481,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 2716,
+      "biography_id": 2400,
+      "source_char_start": 7831172,
+      "source_char_end": 7831302,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 1379,
+      "biography_id": 1077,
+      "source_char_start": 4699839,
+      "source_char_end": 4700747,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 5985,
+      "biography_id": 5642,
+      "source_char_start": 12278531,
+      "source_char_end": 12278599,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 5410,
+      "biography_id": 5073,
+      "source_char_start": 11427619,
+      "source_char_end": 11428473,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 2716,
+      "biography_id": 2400,
+      "source_char_start": 7829516,
+      "source_char_end": 7830102,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 6011,
+      "biography_id": 5668,
+      "source_char_start": 12306693,
+      "source_char_end": 12306772,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 5688,
+      "biography_id": 5348,
+      "source_char_start": 11841800,
+      "source_char_end": 11842186,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 3140,
+      "biography_id": 2820,
+      "source_char_start": 8473457,
+      "source_char_end": 8473510,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 5592,
+      "biography_id": 5252,
+      "source_char_start": 11699773,
+      "source_char_end": 11699820,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 2176,
+      "biography_id": 1865,
+      "source_char_start": 6703487,
+      "source_char_end": 6704158,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 5496,
+      "biography_id": 5157,
+      "source_char_start": 11570223,
+      "source_char_end": 11571166,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 3670,
+      "biography_id": 3346,
+      "source_char_start": 9181286,
+      "source_char_end": 9181321,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 5921,
+      "biography_id": 5578,
+      "source_char_start": 12207439,
+      "source_char_end": 12207576,
+      "match_type": "semantic_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 1583,
+      "biography_id": 1278,
+      "source_char_start": 5275912,
+      "source_char_end": 5276530,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 1587,
+      "biography_id": 1282,
+      "source_char_start": 5293216,
+      "source_char_end": 5293390,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 2893,
+      "biography_id": 2574,
+      "source_char_start": 8090850,
+      "source_char_end": 8091048,
+      "match_type": "keyword_candidate"
+    },
+    {
+      "source_id": 1,
+      "section_id": 6219,
+      "biography_id": 5873,
+      "source_char_start": 12582115,
+      "source_char_end": 12582727,
+      "match_type": "keyword_candidate"
+    }
+  ],
+  "canonical_tables_before": {
+    "sources": {
+      "rows": 1,
+      "sha256": "1028d73a5978b46abec8c1db8537cc2c3ef51c8037edd471228f92be49059f0e"
+    },
+    "page_markers": {
+      "rows": 14045,
+      "sha256": "d1df877a36d60c347160fa9bd9ec3cb48b6c00bf83dbd331196c53220a1462fe"
+    },
+    "biographies": {
+      "rows": 5943,
+      "sha256": "4373c314c00dd826a25a6389f3a4faae30a641a65db16819edd626e97d3e8880"
+    },
+    "source_sections": {
+      "rows": 6290,
+      "sha256": "85e2647d6ba4297f544b88253fa374cd6cd82c3cdbc2e14afb149bd5fc75c6c5"
+    },
+    "people": {
+      "rows": 5933,
+      "sha256": "e8ba562e2de3d6faed1d8e9903864b440b64520eda45e608e73ed270e2c239ad"
+    },
+    "person_aliases": {
+      "rows": 12272,
+      "sha256": "f6fe3dee51789337b099d4b631733b187f3e1beab31fdbf4a2f6ceb77842bb60"
+    },
+    "person_mentions": {
+      "rows": 46642,
+      "sha256": "a355eb2184e742f1cea4bb1a1afd376e3ed237b29ef41bc57e4750fea5b8fa71"
+    },
+    "segments": {
+      "rows": 129006,
+      "sha256": "c17e939b1edcf87d79b6827a7100ede994578366813c8701d12ce6115f78b13c"
+    },
+    "topics": {
+      "rows": 90,
+      "sha256": "a2b7ff47717a6515f0acd57b1cb9cb8067d9be8a7006cfe47095d9430a134b76"
+    },
+    "topic_hits": {
+      "rows": 19869,
+      "sha256": "2e78562d6bdc1f58b419ddc4f4ae19693d1bcfe520dbe96208ea130935af826d"
+    },
+    "review_log": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "canonical_tables_after": {
+    "sources": {
+      "rows": 1,
+      "sha256": "1028d73a5978b46abec8c1db8537cc2c3ef51c8037edd471228f92be49059f0e"
+    },
+    "page_markers": {
+      "rows": 14045,
+      "sha256": "d1df877a36d60c347160fa9bd9ec3cb48b6c00bf83dbd331196c53220a1462fe"
+    },
+    "biographies": {
+      "rows": 5943,
+      "sha256": "4373c314c00dd826a25a6389f3a4faae30a641a65db16819edd626e97d3e8880"
+    },
+    "source_sections": {
+      "rows": 6290,
+      "sha256": "85e2647d6ba4297f544b88253fa374cd6cd82c3cdbc2e14afb149bd5fc75c6c5"
+    },
+    "people": {
+      "rows": 5933,
+      "sha256": "e8ba562e2de3d6faed1d8e9903864b440b64520eda45e608e73ed270e2c239ad"
+    },
+    "person_aliases": {
+      "rows": 12272,
+      "sha256": "f6fe3dee51789337b099d4b631733b187f3e1beab31fdbf4a2f6ceb77842bb60"
+    },
+    "person_mentions": {
+      "rows": 46642,
+      "sha256": "a355eb2184e742f1cea4bb1a1afd376e3ed237b29ef41bc57e4750fea5b8fa71"
+    },
+    "segments": {
+      "rows": 129006,
+      "sha256": "c17e939b1edcf87d79b6827a7100ede994578366813c8701d12ce6115f78b13c"
+    },
+    "topics": {
+      "rows": 90,
+      "sha256": "a2b7ff47717a6515f0acd57b1cb9cb8067d9be8a7006cfe47095d9430a134b76"
+    },
+    "topic_hits": {
+      "rows": 19869,
+      "sha256": "2e78562d6bdc1f58b419ddc4f4ae19693d1bcfe520dbe96208ea130935af826d"
+    },
+    "review_log": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "canonical_data_unchanged": true,
+  "review_log_before": 0,
+  "review_log_after": 0,
+  "quality_judgment": "Not measured: this check verifies literal provenance and runtime behavior, not relevance or scientific accuracy."
+}

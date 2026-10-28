@@ -1,0 +1,19 @@
+{
+  "revision": "",
+  "content_sha256": "",
+  "reviewer": "",
+  "checks": {
+    "desktop": false,
+    "mobile": false,
+    "keyboard": false,
+    "copy_raw": false,
+    "copy_formatted": false,
+    "highlight": false,
+    "footnotes": false,
+    "no_horizontal_overflow": false,
+    "no_console_errors": false,
+    "unchanged_outside_batch": false,
+    "diacritics_toggle": false
+  },
+  "screenshots": []
+}

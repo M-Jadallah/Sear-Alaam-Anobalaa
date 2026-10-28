@@ -1,0 +1,30 @@
+{
+  "revision": "8404d9576eaf0324a3534848c33a10ac6682cd288ebea850a3f8b259d7cdd544",
+  "content_sha256": "a00c7e5f1771a8aa1b62000f4c5e41d8abd644c9f7a8d2046c5d2d6a00ddb4ea",
+  "reviewer": "/root",
+  "checks": {
+    "desktop": true,
+    "mobile": true,
+    "keyboard": true,
+    "copy_raw": true,
+    "copy_formatted": true,
+    "highlight": true,
+    "footnotes": true,
+    "no_horizontal_overflow": true,
+    "no_console_errors": true,
+    "unchanged_outside_batch": true,
+    "diacritics_toggle": true
+  },
+  "screenshots": [
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-7-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-7-vocalized-mobile35.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-8-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-8-vocalized-mobile35.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-9-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-9-vocalized-mobile35.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-10-vocalized-desktop.png",
+    "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\reader-10-vocalized-mobile35.png"
+  ],
+  "report": "C:\\Users\\asala\\.codex\\visualizations\\siyar-first-ten-20261028\\qa-first-ten-1-4-7-10.json",
+  "visual_review": "/root inspected every desktop and mobile35 screenshot; marks attached, natural wrapping and color legends visible."
+}

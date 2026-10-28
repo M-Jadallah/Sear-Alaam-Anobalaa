@@ -1,0 +1,404 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 13,
+  "source_char_start": 1617900,
+  "source_char_end": 1619592,
+  "reviewer": "codex-team",
+  "segments": [
+    {
+      "segment_id": 8398,
+      "assessment": "no_clear_topic",
+      "note": "تعريف صاحب الترجمة وعمود نسبه وصفة البدري، مع اسم أبيه لا هوية إضافية مستنتجة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8399,
+      "assessment": "no_clear_topic",
+      "note": "يذكر سبقه واسمه على وجه القيل؛ القيد يمنع الجزم بالاسم.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8400,
+      "assessment": "no_clear_topic",
+      "note": "خبر إسلامه قبل دخول دار الأرقم يحدد ترتيبًا زمنيًا.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8401,
+      "assessment": "supported",
+      "note": "هجرته وولادة محمد بالحبشة؛ وصف الثورة يرجع إلى ابنه لا أبي حذيفة، والأم سهلة.",
+      "topics": [
+        {
+          "topic": "الرحلات",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "يذكر هجرتين إلى الحبشة.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1618176,
+          "evidence_end": 1618198,
+          "context_start": 1618174,
+          "context_end": 1618327
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8402,
+      "assessment": "supported",
+      "note": "الحديث عن سهلة وزواجها وإرضاع سالم وتخصيص الحكم عند الجمهور؛ لا يُنسب إليها وحدها استنتاج فقهي زائد.",
+      "topics": [
+        {
+          "topic": "النكاح والأسرة",
+          "category": "الفقه وأصوله",
+          "aliases": [],
+          "rationale": "وصف إرضاع سالم وخصوص الحكم عند الجمهور، محفوظ بلفظه ولا يعمم.",
+          "relation_type": "discussion",
+          "subject_scope": "mentioned_person",
+          "stance": "reported",
+          "evidence_start": 1618361,
+          "evidence_end": 1618439,
+          "context_start": 1618174,
+          "context_end": 1618446
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8403,
+      "assessment": "supported",
+      "note": "خبر أبي الزناد عن دعوته أباه إلى البراز؛ تتصل به أبيات أخته التالية.",
+      "topics": [
+        {
+          "topic": "الفتن والحروب",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "دعوة للمبارزة يوم بدر ضمن الخبر الذي تتبعه أبيات هند.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1618485,
+          "evidence_end": 1618512,
+          "context_start": 1618446,
+          "context_end": 1618686
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8404,
+      "assessment": "no_clear_topic",
+      "note": "تقديم هند أخت أبي حذيفة وقولها، وتمتد عبارتها إلى البيتين بعده.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8405,
+      "assessment": "no_clear_topic",
+      "note": "بيت هجاء تنسبه الرواية إلى هند؛ وصفها ليس حكمًا من المحرر على أبي حذيفة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8406,
+      "assessment": "no_clear_topic",
+      "note": "البيت الثاني يستكمل خطاب هند وعتابها السابق ولا يقرر برًا أو عقوقًا.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8407,
+      "assessment": "no_clear_topic",
+      "note": "شرح وصف الأثعل عقب الشعر ووصف صاحب الترجمة، وحسن الوجه صفة هيئة لا تصحيح حديث.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8408,
+      "assessment": "supported",
+      "note": "خبر استشهاده في اليمامة مع سالم وسنة اثنتي عشرة.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "ذكر استشهاده ووقته على ما جاء في المصدر.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1618755,
+          "evidence_end": 1618814,
+          "context_start": 1618753,
+          "context_end": 1618834
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8409,
+      "assessment": "no_clear_topic",
+      "note": "ينتقل إلى أخيه أبي هاشم وإسلامه وجهاده وسكناه وصلاحه؛ الضمائر له.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8410,
+      "assessment": "no_clear_topic",
+      "note": "الرواية والكتب الثلاثة تعود إلى أبي هاشم المذكور قبلها، لا إلى أبي حذيفة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8411,
+      "assessment": "no_clear_topic",
+      "note": "وفاة أبي هاشم وقرابته لمصعب ومعاوية؛ لفظ الخليفة يذكره وصفًا للقرابة.",
+      "topics": [],
+      "existing_hits": [
+        {
+          "hit_id": 811,
+          "decision": "exclude",
+          "reason": "ورد لقب الخليفة لمعاوية في بيان القرابة، ولا يتناول النص الخلافة أو السياسة في هذا الموضع."
+        }
+      ]
+    },
+    {
+      "segment_id": 8412,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر سمرة عن زيارة أبي هاشم؛ يجب وصله بالمشهد والحوار التالي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8413,
+      "assessment": "no_clear_topic",
+      "note": "سمرة يروي زيارة معاوية لخاله الطعين وبكاءه؛ تتصل الجملة بالسؤال التالي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8414,
+      "assessment": "no_clear_topic",
+      "note": "سؤال معاوية لخاله عن سبب بكائه، ولا يحسم سببه قبل الجواب.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8415,
+      "assessment": "no_clear_topic",
+      "note": "جواب أبي هاشم ينفي الوجع والحرص ويبين خوفه من عدم العمل بالعهد.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8416,
+      "assessment": "supported",
+      "note": "يشرح أبو هاشم عهد النبي إليه في المال والكفاية؛ الكلام منقول في سياق الخبر.",
+      "topics": [
+        {
+          "topic": "الزهد",
+          "category": "القلب والسلوك",
+          "aliases": [],
+          "rationale": "وصية مروية في الاقتصار من جمع الدنيا، في خبر يرويه سمرة عن أبي هاشم.",
+          "relation_type": "saying",
+          "subject_scope": "mentioned_person",
+          "stance": "reported",
+          "evidence_start": 1619421,
+          "evidence_end": 1619472,
+          "context_start": 1619106,
+          "context_end": 1619553
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8417,
+      "assessment": "no_clear_topic",
+      "note": "إقرار أبي هاشم بالجمع يكمل سبب بكائه في الحوار السابق.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8418,
+      "assessment": "no_clear_topic",
+      "note": "صيغة أخرى مرسلة متعلقة بالخبر السابق؛ تحفظ صفة الإرسال ولا تحكم على الحديث.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8419,
+      "assessment": "no_clear_topic",
+      "note": "العودة إلى عمر أبي حذيفة بصيغة قيل بعد الفراغ من خبر أخيه.",
+      "topics": [],
+      "existing_hits": []
+    }
+  ],
+  "presentation": {
+    "headings": [
+      {
+        "at": 1618446,
+        "label": "دَعْوَةُ أَبِيهِ إِلَى الْبِرَازِ"
+      },
+      {
+        "at": 1618834,
+        "label": "أَبُو هَاشِمٍ أَخُوهُ"
+      },
+      {
+        "at": 1619106,
+        "label": "خَبَرُ أَبِي هَاشِمٍ وَعَهْدُهُ"
+      }
+    ],
+    "quotes": [
+      {
+        "start": 1619372,
+        "end": 1619472
+      }
+    ],
+    "poetry": [
+      {
+        "start": 1618564,
+        "end": 1618626
+      },
+      {
+        "start": 1618626,
+        "end": 1618686
+      }
+    ],
+    "lists": [],
+    "bold": [
+      {
+        "start": 1618755,
+        "end": 1618771
+      },
+      {
+        "start": 1619421,
+        "end": 1619432
+      }
+    ],
+    "keywords": [
+      {
+        "start": 1618104,
+        "end": 1618112
+      },
+      {
+        "start": 1618186,
+        "end": 1618192
+      },
+      {
+        "start": 1618506,
+        "end": 1618512
+      },
+      {
+        "start": 1618791,
+        "end": 1618798
+      },
+      {
+        "start": 1619518,
+        "end": 1619529
+      }
+    ],
+    "names": [
+      {
+        "start": 1617911,
+        "end": 1617920
+      },
+      {
+        "start": 1617924,
+        "end": 1617937
+      },
+      {
+        "start": 1617979,
+        "end": 1617988
+      },
+      {
+        "start": 1618007,
+        "end": 1618020
+      },
+      {
+        "start": 1618219,
+        "end": 1618236
+      },
+      {
+        "start": 1618259,
+        "end": 1618272
+      },
+      {
+        "start": 1618284,
+        "end": 1618305
+      },
+      {
+        "start": 1618342,
+        "end": 1618359
+      },
+      {
+        "start": 1618376,
+        "end": 1618381
+      },
+      {
+        "start": 1618452,
+        "end": 1618462
+      },
+      {
+        "start": 1618530,
+        "end": 1618536
+      },
+      {
+        "start": 1618538,
+        "end": 1618550
+      },
+      {
+        "start": 1618598,
+        "end": 1618607
+      },
+      {
+        "start": 1618698,
+        "end": 1618707
+      },
+      {
+        "start": 1618762,
+        "end": 1618771
+      },
+      {
+        "start": 1618853,
+        "end": 1618869
+      },
+      {
+        "start": 1619064,
+        "end": 1619076
+      },
+      {
+        "start": 1619098,
+        "end": 1619104
+      },
+      {
+        "start": 1619112,
+        "end": 1619128
+      },
+      {
+        "start": 1619133,
+        "end": 1619141
+      },
+      {
+        "start": 1619149,
+        "end": 1619160
+      },
+      {
+        "start": 1619178,
+        "end": 1619194
+      },
+      {
+        "start": 1619215,
+        "end": 1619221
+      },
+      {
+        "start": 1619564,
+        "end": 1619573
+      }
+    ],
+    "footnotes": [],
+    "footnote_notice": "لم يظهر متن حاشية داخل الترجمة؛ بقيت الأرقام الملتبسة في مواضعها لعدم تحقق ربطها بحواشٍ."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "biography_id": 11,
+  "source_ordinal": 11,
+  "heading": "11 - عبد الله بن مظعون الجمحي أبو محمد *",
+  "source_char_start": 1616972,
+  "source_char_end": 1617319,
+  "full_text": "### $ 11 - عبد الله بن مظعون الجمحي أبو محمد *\n# من السابقين، شهد بدرا هو وإخوته: عثمان، وقدامة، والسائب ولد أخيه،\n~~وهاجر عبد الله إلى الحبشة الهجرة الثانية (1) .\n# قال ابن سعد: شهد بدرا، وأحدا، والخندق، وآخى رسول الله -صلى الله عليه\n~~وسلم- بينه وبين سهل بن عبيد بن المعلى الأنصاري.\n# قال: ومات في خلافة عثمان سنة ثلاثين، وهو ابن ستين سنة (2) .\n",
+  "segments": [
+    {
+      "id": 8386,
+      "source_id": 1,
+      "section_id": 290,
+      "biography_id": 11,
+      "segment_ordinal": 1,
+      "text_original": "# من السابقين، شهد بدرا هو وإخوته: عثمان، وقدامة، والسائب ولد أخيه،\n~~وهاجر عبد الله إلى الحبشة الهجرة الثانية (1) .\n",
+      "normalized_search_text": "من السابقين شهد بدرا هو واخوته عثمان وقدامة والسائب ولد اخيه وهاجر عبد الله الي الحبشة الهجرة الثانية 1",
+      "source_char_start": 1617019,
+      "source_char_end": 1617136,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P163"
+    },
+    {
+      "id": 8387,
+      "source_id": 1,
+      "section_id": 290,
+      "biography_id": 11,
+      "segment_ordinal": 2,
+      "text_original": "# قال ابن سعد: شهد بدرا، وأحدا، والخندق، وآخى رسول الله -صلى الله عليه\n~~وسلم- بينه وبين سهل بن عبيد بن المعلى الأنصاري.\n",
+      "normalized_search_text": "قال ابن سعد شهد بدرا واحدا والخندق واخي رسول الله صلي الله عليه وسلم بينه وبين سهل بن عبيد بن المعلي الانصاري",
+      "source_char_start": 1617136,
+      "source_char_end": 1617257,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P163"
+    },
+    {
+      "id": 8388,
+      "source_id": 1,
+      "section_id": 290,
+      "biography_id": 11,
+      "segment_ordinal": 3,
+      "text_original": "# قال: ومات في خلافة عثمان سنة ثلاثين، وهو ابن ستين سنة (2) .\n",
+      "normalized_search_text": "قال ومات في خلافة عثمان سنة ثلاثين وهو ابن ستين سنة 2",
+      "source_char_start": 1617257,
+      "source_char_end": 1617319,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P163"
+    }
+  ],
+  "existing_hits": [],
+  "footnote_candidates": [
+    {
+      "start": 1617130,
+      "end": 1617133,
+      "raw": "(1)"
+    },
+    {
+      "start": 1617313,
+      "end": 1617316,
+      "raw": "(2)"
+    }
+  ]
+}

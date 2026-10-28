@@ -1,0 +1,237 @@
+{
+  "biography_id": 10,
+  "source_ordinal": 10,
+  "heading": "10 - قدامة بن مظعون أبو عمرو الجمحي *",
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "source_char_start": 1616214,
+  "source_char_end": 1616972,
+  "full_text": "### $ 10 - قدامة بن مظعون أبو عمرو الجمحي *\n# من السابقين البدريين، ولي إمرة البحرين لعمر، وهو من أخوال أم المؤمنين\n~~حفصة، ms0982 وابن عمر، وزوج عمتها صفية بنت الخطاب، إحدى المهاجرات.\n# ولقدامة هجرة إلى الحبشة، وقد شرب مرة الخمرة متأولا، مستدلا بقوله\n~~تعالى: {ليس على الذين آمنوا وعملوا الصالحات جناح فيما طعموا} ، الآية\n~~[المائدة: 93] فحده عمر، وعزله من البحرين (1) . PageV01P161\n# قال أيوب السختياني: لم يحد بدري في الخمر سواه (1) .\n# قلت: بلى، ونعيمان بن عمرو الأنصاري النجاري، صاحب المزاح (2) .\n# قال ابن سعد:\n# لقدامة من الولد: عمر، وفاطمة، وعائشة، وهاجر الهجرة الثانية إلى الحبشة،\n~~وشهد بدرا، وأحدا (3) .\n# وعن عائشة بنت قدامة: أن أباها توفي سنة ست وثلاثين، وله ثمان وستون سنة،\n~~وكان لا يغير شيبه، وكان طويلا أسمر -رضي الله عنه- (4) . PageV01P162\n",
+  "pilot": {
+    "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+    "biography_id": 10,
+    "source_char_start": 1616214,
+    "source_char_end": 1616972,
+    "reviewer": "curation-team",
+    "segments": [
+      {
+        "segment_id": 8379,
+        "assessment": "supported",
+        "note": "سابقته وولايته وقرابته لحفصة وابن عمر وصفية.",
+        "topics": [
+          {
+            "topic": "القضاء والولايات",
+            "category": "التاريخ والمجتمع",
+            "aliases": [],
+            "rationale": "خبر توليته البحرين لعمر.",
+            "relation_type": "event",
+            "subject_scope": "biography_subject",
+            "stance": "reported",
+            "evidence_start": 1616282,
+            "evidence_end": 1616303,
+            "context_start": 1616258,
+            "context_end": 1616399
+          }
+        ],
+        "existing_hits": []
+      },
+      {
+        "segment_id": 8380,
+        "assessment": "supported",
+        "note": "الهجرة ثم شرب الخمر متأولا بالآية والحد والعزل، ولا يمحى قيد التأويل.",
+        "topics": [
+          {
+            "topic": "الهجرة",
+            "category": "التاريخ والمجتمع",
+            "aliases": [],
+            "rationale": "ذكر هجرته إلى الحبشة.",
+            "relation_type": "event",
+            "subject_scope": "biography_subject",
+            "stance": "reported",
+            "evidence_start": 1616409,
+            "evidence_end": 1616424,
+            "context_start": 1616399,
+            "context_end": 1616598
+          },
+          {
+            "topic": "حد الخمر",
+            "category": "الفقه وأصوله",
+            "aliases": [],
+            "rationale": "واقعة الحد والعزل مع حفظ التأويل والاستدلال السابقين.",
+            "relation_type": "event",
+            "subject_scope": "biography_subject",
+            "stance": "reported",
+            "evidence_start": 1616553,
+            "evidence_end": 1616579,
+            "context_start": 1616399,
+            "context_end": 1616598
+          }
+        ],
+        "existing_hits": []
+      },
+      {
+        "segment_id": 8381,
+        "assessment": "no_clear_topic",
+        "note": "حصر أيوب حد البدري في الخمر فيه يليه استدراك صريح.",
+        "topics": [],
+        "existing_hits": []
+      },
+      {
+        "segment_id": 8382,
+        "assessment": "no_clear_topic",
+        "note": "استدراك القائل بذكر نعيمان ردا على الحصر السابق.",
+        "topics": [],
+        "existing_hits": []
+      },
+      {
+        "segment_id": 8383,
+        "assessment": "no_clear_topic",
+        "note": "إسناد ابن سعد لخبر الأولاد والهجرة والمشاهد.",
+        "topics": [],
+        "existing_hits": []
+      },
+      {
+        "segment_id": 8384,
+        "assessment": "supported",
+        "note": "ذكر الأولاد وهجرة الحبشة وشهود بدر وأحد.",
+        "topics": [
+          {
+            "topic": "الهجرة",
+            "category": "التاريخ والمجتمع",
+            "aliases": [],
+            "rationale": "يسند ابن سعد الهجرة الثانية إليه.",
+            "relation_type": "event",
+            "subject_scope": "biography_subject",
+            "stance": "reported",
+            "evidence_start": 1616771,
+            "evidence_end": 1616802,
+            "context_start": 1616716,
+            "context_end": 1616829
+          }
+        ],
+        "existing_hits": []
+      },
+      {
+        "segment_id": 8385,
+        "assessment": "supported",
+        "note": "رواية عائشة عن وفاة أبيها وعمره وهيئته.",
+        "topics": [
+          {
+            "topic": "الوفاة",
+            "category": "التراجم والرجال",
+            "aliases": [],
+            "rationale": "رواية ابنته عن سنة الوفاة وعمره.",
+            "relation_type": "event",
+            "subject_scope": "biography_subject",
+            "stance": "reported",
+            "evidence_start": 1616861,
+            "evidence_end": 1616880,
+            "context_start": 1616829,
+            "context_end": 1616972
+          }
+        ],
+        "existing_hits": [
+          {
+            "hit_id": 810,
+            "decision": "keep",
+            "reason": "تذكر ابنته وفاة أبيها وسنة الوفاة صراحة."
+          }
+        ]
+      }
+    ],
+    "presentation": {
+      "headings": [
+        {
+          "at": 1616399,
+          "label": "الهجرة وخبر الحد والعزل"
+        },
+        {
+          "at": 1616716,
+          "label": "أولاده ووفاته"
+        }
+      ],
+      "quotes": [],
+      "poetry": [],
+      "lists": [],
+      "bold": [],
+      "keywords": [
+        {
+          "start": 1616445,
+          "end": 1616451
+        },
+        {
+          "start": 1616409,
+          "end": 1616424
+        },
+        {
+          "start": 1616553,
+          "end": 1616561
+        }
+      ],
+      "names": [
+        {
+          "start": 1616225,
+          "end": 1616239
+        },
+        {
+          "start": 1616332,
+          "end": 1616336
+        },
+        {
+          "start": 1616366,
+          "end": 1616381
+        },
+        {
+          "start": 1616604,
+          "end": 1616618
+        },
+        {
+          "start": 1616665,
+          "end": 1616679
+        },
+        {
+          "start": 1616835,
+          "end": 1616850
+        }
+      ],
+      "footnotes": [
+        {
+          "start": 1616580,
+          "end": 1616583
+        },
+        {
+          "start": 1616646,
+          "end": 1616649
+        },
+        {
+          "start": 1616710,
+          "end": 1616713
+        },
+        {
+          "start": 1616823,
+          "end": 1616826
+        },
+        {
+          "start": 1616954,
+          "end": 1616957
+        }
+      ],
+      "footnote_notice": "لم تظهر متون الحواشي في نطاق هذه الترجمة؛ تُلحق الإشارات المثبتة وتبقى أقواس المتن كما هي. نجمة العنوان تبقى ظاهرة لعدم حسم وظيفتها."
+    }
+  },
+  "pilot_row": {
+    "biography_id": 10,
+    "source_id": 1,
+    "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+    "revision": "e22836ab03592783d14b5b968237c0dddd6ae95bad1fab86dc551431772be046",
+    "payload": "{\"source_sha256\": \"7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\", \"biography_id\": 10, \"source_char_start\": 1616214, \"source_char_end\": 1616972, \"reviewer\": \"curation-team\", \"segments\": [{\"segment_id\": 8379, \"assessment\": \"supported\", \"note\": \"سابقته وولايته وقرابته لحفصة وابن عمر وصفية.\", \"topics\": [{\"topic\": \"القضاء والولايات\", \"category\": \"التاريخ والمجتمع\", \"aliases\": [], \"rationale\": \"خبر توليته البحرين لعمر.\", \"relation_type\": \"event\", \"subject_scope\": \"biography_subject\", \"stance\": \"reported\", \"evidence_start\": 1616282, \"evidence_end\": 1616303, \"context_start\": 1616258, \"context_end\": 1616399}], \"existing_hits\": []}, {\"segment_id\": 8380, \"assessment\": \"supported\", \"note\": \"الهجرة ثم شرب الخمر متأولا بالآية والحد والعزل، ولا يمحى قيد التأويل.\", \"topics\": [{\"topic\": \"الهجرة\", \"category\": \"التاريخ والمجتمع\", \"aliases\": [], \"rationale\": \"ذكر هجرته إلى الحبشة.\", \"relation_type\": \"event\", \"subject_scope\": \"biography_subject\", \"stance\": \"reported\", \"evidence_start\": 1616409, \"evidence_end\": 1616424, \"context_start\": 1616399, \"context_end\": 1616598}, {\"topic\": \"حد الخمر\", \"category\": \"الفقه وأصوله\", \"aliases\": [], \"rationale\": \"واقعة الحد والعزل مع حفظ التأويل والاستدلال السابقين.\", \"relation_type\": \"event\", \"subject_scope\": \"biography_subject\", \"stance\": \"reported\", \"evidence_start\": 1616553, \"evidence_end\": 1616579, \"context_start\": 1616399, \"context_end\": 1616598}], \"existing_hits\": []}, {\"segment_id\": 8381, \"assessment\": \"no_clear_topic\", \"note\": \"حصر أيوب حد البدري في الخمر فيه يليه استدراك صريح.\", \"topics\": [], \"existing_hits\": []}, {\"segment_id\": 8382, \"assessment\": \"no_clear_topic\", \"note\": \"استدراك القائل بذكر نعيمان ردا على الحصر السابق.\", \"topics\": [], \"existing_hits\": []}, {\"segment_id\": 8383, \"assessment\": \"no_clear_topic\", \"note\": \"إسناد ابن سعد لخبر الأولاد والهجرة والمشاهد.\", \"topics\": [], \"existing_hits\": []}, {\"segment_id\": 8384, \"assessment\": \"supported\", \"note\": \"ذكر الأولاد وهجرة الحبشة وشهود بدر وأحد.\", \"topics\": [{\"topic\": \"الهجرة\", \"category\": \"التاريخ والمجتمع\", \"aliases\": [], \"rationale\": \"يسند ابن سعد الهجرة الثانية إليه.\", \"relation_type\": \"event\", \"subject_scope\": \"biography_subject\", \"stance\": \"reported\", \"evidence_start\": 1616771, \"evidence_end\": 1616802, \"context_start\": 1616716, \"context_end\": 1616829}], \"existing_hits\": []}, {\"segment_id\": 8385, \"assessment\": \"supported\", \"note\": \"رواية عائشة عن وفاة أبيها وعمره وهيئته.\", \"topics\": [{\"topic\": \"الوفاة\", \"category\": \"التراجم والرجال\", \"aliases\": [], \"rationale\": \"رواية ابنته عن سنة الوفاة وعمره.\", \"relation_type\": \"event\", \"subject_scope\": \"biography_subject\", \"stance\": \"reported\", \"evidence_start\": 1616861, \"evidence_end\": 1616880, \"context_start\": 1616829, \"context_end\": 1616972}], \"existing_hits\": [{\"hit_id\": 810, \"decision\": \"keep\", \"reason\": \"تذكر ابنته وفاة أبيها وسنة الوفاة صراحة.\"}]}], \"presentation\": {\"headings\": [{\"at\": 1616399, \"label\": \"الهجرة وخبر الحد والعزل\"}, {\"at\": 1616716, \"label\": \"أولاده ووفاته\"}], \"quotes\": [], \"poetry\": [], \"lists\": [], \"bold\": [], \"keywords\": [{\"start\": 1616445, \"end\": 1616451}, {\"start\": 1616409, \"end\": 1616424}, {\"start\": 1616553, \"end\": 1616561}], \"names\": [{\"start\": 1616225, \"end\": 1616239}, {\"start\": 1616332, \"end\": 1616336}, {\"start\": 1616366, \"end\": 1616381}, {\"start\": 1616604, \"end\": 1616618}, {\"start\": 1616665, \"end\": 1616679}, {\"start\": 1616835, \"end\": 1616850}], \"footnotes\": [{\"start\": 1616580, \"end\": 1616583}, {\"start\": 1616646, \"end\": 1616649}, {\"start\": 1616710, \"end\": 1616713}, {\"start\": 1616823, \"end\": 1616826}, {\"start\": 1616954, \"end\": 1616957}], \"footnote_notice\": \"لم تظهر متون الحواشي في نطاق هذه الترجمة؛ تُلحق الإشارات المثبتة وتبقى أقواس المتن كما هي. نجمة العنوان تبقى ظاهرة لعدم حسم وظيفتها.\"}}"
+  },
+  "reading_row": {
+    "biography_id": 10,
+    "source_id": 1,
+    "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+    "revision": "e22836ab03592783d14b5b968237c0dddd6ae95bad1fab86dc551431772be046",
+    "payload": "{\"source_sha256\": \"7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\", \"biography_id\": 10, \"source_char_start\": 1616214, \"source_char_end\": 1616972, \"reviewer\": \"curation-team\", \"version\": \"pilot-reading-v2\", \"paragraph_groups\": [{\"start\": 1616214, \"end\": 1616258}, {\"start\": 1616258, \"end\": 1616399}, {\"start\": 1616399, \"end\": 1616598}, {\"start\": 1616598, \"end\": 1616716}, {\"start\": 1616716, \"end\": 1616829}, {\"start\": 1616829, \"end\": 1616972}], \"criticism\": [{\"start\": 1616654, \"end\": 1616709, \"context_start\": 1616598, \"context_end\": 1616716, \"kind\": \"report\", \"reason\": \"استدراك على حصر أيوب حد البدري في الخمر، مع بقاء القولين متجاورين.\"}]}",
+    "updated_at": "2026-10-28 00:29:11"
+  },
+  "diacritics_row": null
+}

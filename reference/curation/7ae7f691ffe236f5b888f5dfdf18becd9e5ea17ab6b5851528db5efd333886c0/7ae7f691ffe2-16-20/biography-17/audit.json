@@ -1,0 +1,21 @@
+{
+  "authoring_sha256": "8ce2118fd4c5cb3f0ea8352fa1267edd1887249bdeba777b5c683ee4ffc86c1e",
+  "reviewer": "codex-independent-author12",
+  "all_segments_checked": true,
+  "all_footnotes_checked": true,
+  "findings": [
+    {
+      "note": "توسع سياق المؤاخاة إلى ما يبين القائل أو صاحب الضمير، وأبقي اسما «يا ليل» على ضبط المصدر لتعذر حسم الاسم المركب.",
+      "resolved": true
+    }
+  ],
+  "checks": {
+    "source_coverage": true,
+    "paragraphs": true,
+    "criticism_context": true,
+    "topic_evidence": true,
+    "negative_cases": true,
+    "diacritics": true,
+    "paragraph_context": true
+  }
+}

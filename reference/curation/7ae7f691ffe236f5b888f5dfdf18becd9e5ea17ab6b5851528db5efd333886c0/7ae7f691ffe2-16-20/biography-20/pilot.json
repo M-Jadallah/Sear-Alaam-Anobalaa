@@ -1,0 +1,184 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 20,
+  "source_char_start": 1635647,
+  "source_char_end": 1636137,
+  "reviewer": "codex-team",
+  "segments": [
+    {
+      "segment_id": 8643,
+      "assessment": "no_clear_topic",
+      "note": "استكمال النسب ووصفه بالمهاجر والبدري، وذكره في قصة الإفك دون تفصيل الخبر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8644,
+      "assessment": "supported",
+      "note": "يذكر فقره ونفقة أبي بكر عليه دون تحديد مصرف أو مقدار.",
+      "topics": [
+        {
+          "topic": "الفقر والإعانة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "يذكر النص فقر مسطح وإنفاق أبي بكر عليه، فيميز المحتاج عن المنفق ولا يحدد مقدار النفقة.",
+          "relation_type": "description",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1635789,
+          "evidence_end": 1635817,
+          "context_start": 1635787,
+          "context_end": 1635824
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8645,
+      "assessment": "no_clear_topic",
+      "note": "ابن سعد مصدر الوصف الآتي، والجملة تمهيد لا تنفصل عن قوله.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8646,
+      "assessment": "no_clear_topic",
+      "note": "وصف الهيئة والعمر منسوب إلى ابن سعد في الجملة السابقة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8647,
+      "assessment": "supported",
+      "note": "استمرار قول ابن سعد في سنة الوفاة؛ السنة منقولة لا مصححة من خارج النص.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "نقل ابن سعد تاريخ الوفاة بلفظ المصدر.",
+          "relation_type": "description",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1635913,
+          "evidence_end": 1635935,
+          "context_start": 1635824,
+          "context_end": 1635952
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8648,
+      "assessment": "supported",
+      "note": "تعقيب المؤلف يحذر من النظر شزرًا إلى البدري لهفوة، ويذكر غفرانها والجنة؛ النسبة تبقى لقائله.",
+      "topics": [
+        {
+          "topic": "الجنة والنار",
+          "category": "القلب والسلوك",
+          "aliases": [],
+          "rationale": "تعقيب المؤلف على الهفوة وذكره أهل الجنة، مع بقائه قولًا منسوبًا لا حكمًا مستنتجًا.",
+          "relation_type": "saying",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1636013,
+          "evidence_end": 1636046,
+          "context_start": 1635952,
+          "context_end": 1636137
+        }
+      ],
+      "existing_hits": [
+        {
+          "hit_id": 817,
+          "decision": "keep",
+          "reason": "يرد ذكر أهل الجنة في تعقيب المؤلف عن مسطح، ويبقى القول منسوبًا إليه في سياقه."
+        }
+      ]
+    },
+    {
+      "segment_id": 8649,
+      "assessment": "supported",
+      "note": "تعقيب ثانٍ يحذر مخاطبًا رافضيًا من القذف بعد نص البراءة، ويربط الوعيد بهذا الفعل.",
+      "topics": [
+        {
+          "topic": "الجنة والنار",
+          "category": "القلب والسلوك",
+          "aliases": [],
+          "rationale": "وعيد المصدر متصل بالتحذير من القذف بعد نص البراءة؛ لا يعمم على هوية المخاطب.",
+          "relation_type": "saying",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1636069,
+          "evidence_end": 1636135,
+          "context_start": 1635952,
+          "context_end": 1636137
+        }
+      ],
+      "existing_hits": []
+    }
+  ],
+  "presentation": {
+    "headings": [
+      {
+        "at": 1635824,
+        "label": "وَصْفُهُ وَوَفَاتُهُ عِنْدَ ابْنِ سَعْدٍ"
+      },
+      {
+        "at": 1635952,
+        "label": "تَعْقِيبٌ فِي قِصَّةِ الْإِفْكِ"
+      }
+    ],
+    "quotes": [
+      {
+        "start": 1635846,
+        "end": 1635952
+      }
+    ],
+    "poetry": [],
+    "lists": [],
+    "bold": [
+      {
+        "start": 1636013,
+        "end": 1636028
+      }
+    ],
+    "keywords": [
+      {
+        "start": 1635733,
+        "end": 1635741
+      },
+      {
+        "start": 1635743,
+        "end": 1635749
+      },
+      {
+        "start": 1635766,
+        "end": 1635771
+      },
+      {
+        "start": 1635793,
+        "end": 1635798
+      },
+      {
+        "start": 1636111,
+        "end": 1636118
+      }
+    ],
+    "names": [
+      {
+        "start": 1635658,
+        "end": 1635689
+      },
+      {
+        "start": 1635810,
+        "end": 1635817
+      },
+      {
+        "start": 1635831,
+        "end": 1635838
+      }
+    ],
+    "footnotes": [],
+    "footnote_notice": "لم يظهر متن حاشية داخل الترجمة؛ بقيت الأرقام الملتبسة في مواضعها لعدم تحقق ربطها بحواشٍ."
+  }
+}

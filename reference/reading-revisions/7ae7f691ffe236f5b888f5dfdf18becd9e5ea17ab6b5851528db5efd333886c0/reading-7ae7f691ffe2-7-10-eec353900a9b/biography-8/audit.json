@@ -1,0 +1,20 @@
+{
+  "authoring_sha256": "7ea679954a8045c81516ff61b0bdb924c0364e4bf0088650130508114441fc52",
+  "reviewer": "/root/vocalize_abu_talha",
+  "all_words_checked": true,
+  "all_paragraphs_checked": true,
+  "findings": [
+    {
+      "note": "قرأت النص كاملًا وتعليلات الفقرات العشر والعناوين وحالتي الالتباس. تحققت من اتصال دعاء إنا لله وإنا إليه راجعون عبر الصفحة، وحوار أم سلمة، والقولين في سنة الوفاة دون ترجيح. لم أجد تصحيحًا لازمًا آخر بعد القراءة اللغوية؛ فأجرني وقطن باقيان على الأصل للمراجعة.",
+      "resolved": true
+    }
+  ],
+  "checks": {
+    "source_coverage": true,
+    "paragraphs": true,
+    "criticism_context": true,
+    "negative_cases": true,
+    "diacritics": true,
+    "paragraph_context": true
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 19,
+  "source_char_start": 1635388,
+  "source_char_end": 1635647,
+  "reviewer": "codex-team",
+  "segments": [
+    {
+      "segment_id": 8639,
+      "assessment": "supported",
+      "note": "نقل ابن سعد المؤاخاة بين عامر وثابت بن قيس بن شماس مع بقاء علامة المخطوط التقنية في الأصل.",
+      "topics": [
+        {
+          "topic": "المؤاخاة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "خبر ابن سعد عن المؤاخاة بين عامر وثابت بن قيس بن شماس.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1635442,
+          "evidence_end": 1635515,
+          "context_start": 1635427,
+          "context_end": 1635517
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8640,
+      "assessment": "supported",
+      "note": "شهود عامر بدرًا والمشاهد مع رسول الله، في سياق ذكر ترجمته.",
+      "topics": [
+        {
+          "topic": "غزوة بدر",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "ذكر شهود عامر بدرًا والمشاهد ويليه التعقيب عن الإخوة الأربعة.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1635519,
+          "evidence_end": 1635541,
+          "context_start": 1635427,
+          "context_end": 1635614
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8641,
+      "assessment": "supported",
+      "note": "تعقيب القائل «قلت» ينفي شهود أربعة إخوة غيرهم بدرًا؛ يحفظ النفي ونسبة التعقيب ولا يعمم بغير قائله.",
+      "topics": [
+        {
+          "topic": "غزوة بدر",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "نص تعليق القائل على انفراد أربعة الإخوة بالشهود بحسب قوله، مع بقاء أداة النفي كاملة.",
+          "relation_type": "saying",
+          "subject_scope": "general_context",
+          "stance": "negated",
+          "evidence_start": 1635584,
+          "evidence_end": 1635612,
+          "context_start": 1635517,
+          "context_end": 1635614
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8642,
+      "assessment": "supported",
+      "note": "يذكر استشهاد عامر يوم اليمامة دون تقرير سنة هنا.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "يذكر استشهاده يوم اليمامة بلا سنة في هذا النص.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1635616,
+          "evidence_end": 1635640,
+          "context_start": 1635614,
+          "context_end": 1635647
+        }
+      ],
+      "existing_hits": []
+    }
+  ],
+  "presentation": {
+    "headings": [],
+    "quotes": [
+      {
+        "start": 1635584,
+        "end": 1635612
+      }
+    ],
+    "poetry": [],
+    "lists": [],
+    "bold": [],
+    "keywords": [
+      {
+        "start": 1635519,
+        "end": 1635527
+      },
+      {
+        "start": 1635617,
+        "end": 1635628
+      }
+    ],
+    "names": [
+      {
+        "start": 1635399,
+        "end": 1635417
+      },
+      {
+        "start": 1635433,
+        "end": 1635440
+      },
+      {
+        "start": 1635453,
+        "end": 1635462
+      },
+      {
+        "start": 1635494,
+        "end": 1635515
+      },
+      {
+        "start": 1635545,
+        "end": 1635554
+      },
+      {
+        "start": 1635624,
+        "end": 1635628
+      }
+    ],
+    "footnotes": [],
+    "footnote_notice": "لم يظهر متن حاشية في نطاق هذه الترجمة؛ بقي الرقم بين القوسين ظاهرًا لعدم تحقق ربطه بمتنه."
+  }
+}

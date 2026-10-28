@@ -1,0 +1,7 @@
+ضع النص الكامل الذي تنزله من OpenITI في هذا المجلد باسم:
+source.mARkdown
+
+النص غير مرفق بهذه الحزمة، لأننا لم نستطع تنزيله إلى بيئة الإنشاء.
+
+رابط GitHub:
+https://github.com/OpenITI/0750AH/blob/master/data/0748Dhahabi/0748Dhahabi.SiyarAclamNubala/0748Dhahabi.SiyarAclamNubala.Shamela0010906-ara1.mARkdown

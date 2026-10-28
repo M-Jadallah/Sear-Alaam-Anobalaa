@@ -1,0 +1,370 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 9,
+  "source_char_start": 1611117,
+  "source_char_end": 1616214,
+  "reviewer": "",
+  "version": "pilot-reading-v2",
+  "paragraph_groups": [
+    {
+      "start": 1611117,
+      "end": 1611166
+    },
+    {
+      "start": 1611166,
+      "end": 1611242
+    },
+    {
+      "start": 1611242,
+      "end": 1611337
+    },
+    {
+      "start": 1611337,
+      "end": 1611395
+    },
+    {
+      "start": 1611395,
+      "end": 1611754
+    },
+    {
+      "start": 1611754,
+      "end": 1611903
+    },
+    {
+      "start": 1611903,
+      "end": 1612063
+    },
+    {
+      "start": 1612063,
+      "end": 1612231
+    },
+    {
+      "start": 1612231,
+      "end": 1612265
+    },
+    {
+      "start": 1612265,
+      "end": 1612542
+    },
+    {
+      "start": 1612542,
+      "end": 1612973
+    },
+    {
+      "start": 1612973,
+      "end": 1613455
+    },
+    {
+      "start": 1613455,
+      "end": 1613681
+    },
+    {
+      "start": 1613681,
+      "end": 1613857
+    },
+    {
+      "start": 1613857,
+      "end": 1614194
+    },
+    {
+      "start": 1614194,
+      "end": 1614406
+    },
+    {
+      "start": 1614406,
+      "end": 1614540
+    },
+    {
+      "start": 1614540,
+      "end": 1614628
+    },
+    {
+      "start": 1614628,
+      "end": 1614748
+    },
+    {
+      "start": 1614748,
+      "end": 1614776
+    },
+    {
+      "start": 1614776,
+      "end": 1614964
+    },
+    {
+      "start": 1614964,
+      "end": 1615093
+    },
+    {
+      "start": 1615093,
+      "end": 1615656
+    },
+    {
+      "start": 1615656,
+      "end": 1615836
+    },
+    {
+      "start": 1615836,
+      "end": 1616080
+    },
+    {
+      "start": 1616080,
+      "end": 1616214
+    }
+  ],
+  "criticism": [
+    {
+      "start": 1611744,
+      "end": 1611752,
+      "context_start": 1611395,
+      "context_end": 1611754,
+      "kind": "isnad",
+      "reason": "وصف للخبر السابق بالإرسال."
+    },
+    {
+      "start": 1612070,
+      "end": 1612101,
+      "context_start": 1612063,
+      "context_end": 1612231,
+      "kind": "isnad",
+      "reason": "ينسب خبر القبر والحجر التالي إلى مراسيل عبيد الله بن أبي رافع."
+    },
+    {
+      "start": 1612475,
+      "end": 1612523,
+      "context_start": 1612265,
+      "context_end": 1612542,
+      "kind": "isnad",
+      "reason": "يحفظ نقد انقطاع الخبر وعدم ثبوته مع بيان زمان التحريم."
+    },
+    {
+      "start": 1613665,
+      "end": 1613674,
+      "context_start": 1613455,
+      "context_end": 1613681,
+      "kind": "isnad",
+      "reason": "نقد خبر الحوار السابق بالانقطاع."
+    },
+    {
+      "start": 1614950,
+      "end": 1614962,
+      "context_start": 1614776,
+      "context_end": 1614964,
+      "kind": "hadith",
+      "reason": "نسبة التصحيح إلى الترمذي في الخبر السابق."
+    }
+  ],
+  "paragraph_notes": [
+    {
+      "start": 1611117,
+      "end": 1611166,
+      "context_start": 1611117,
+      "context_end": 1611166,
+      "reason": ""
+    },
+    {
+      "start": 1611166,
+      "end": 1611242,
+      "context_start": 1611166,
+      "context_end": 1611242,
+      "reason": ""
+    },
+    {
+      "start": 1611242,
+      "end": 1611337,
+      "context_start": 1611242,
+      "context_end": 1611337,
+      "reason": ""
+    },
+    {
+      "start": 1611337,
+      "end": 1611395,
+      "context_start": 1611337,
+      "context_end": 1611395,
+      "reason": ""
+    },
+    {
+      "start": 1611395,
+      "end": 1611754,
+      "context_start": 1611395,
+      "context_end": 1611754,
+      "reason": ""
+    },
+    {
+      "start": 1611754,
+      "end": 1611903,
+      "context_start": 1611754,
+      "context_end": 1611903,
+      "reason": ""
+    },
+    {
+      "start": 1611903,
+      "end": 1612063,
+      "context_start": 1611903,
+      "context_end": 1612063,
+      "reason": ""
+    },
+    {
+      "start": 1612063,
+      "end": 1612231,
+      "context_start": 1612063,
+      "context_end": 1612231,
+      "reason": ""
+    },
+    {
+      "start": 1612231,
+      "end": 1612265,
+      "context_start": 1612231,
+      "context_end": 1612265,
+      "reason": ""
+    },
+    {
+      "start": 1612265,
+      "end": 1612542,
+      "context_start": 1612265,
+      "context_end": 1612542,
+      "reason": ""
+    },
+    {
+      "start": 1612542,
+      "end": 1612973,
+      "context_start": 1612542,
+      "context_end": 1612973,
+      "reason": ""
+    },
+    {
+      "start": 1612973,
+      "end": 1613455,
+      "context_start": 1612973,
+      "context_end": 1613455,
+      "reason": ""
+    },
+    {
+      "start": 1613455,
+      "end": 1613681,
+      "context_start": 1613455,
+      "context_end": 1613681,
+      "reason": ""
+    },
+    {
+      "start": 1613681,
+      "end": 1613857,
+      "context_start": 1613681,
+      "context_end": 1613857,
+      "reason": ""
+    },
+    {
+      "start": 1613857,
+      "end": 1614194,
+      "context_start": 1613857,
+      "context_end": 1614194,
+      "reason": ""
+    },
+    {
+      "start": 1614194,
+      "end": 1614406,
+      "context_start": 1614194,
+      "context_end": 1614406,
+      "reason": ""
+    },
+    {
+      "start": 1614406,
+      "end": 1614540,
+      "context_start": 1614406,
+      "context_end": 1614540,
+      "reason": ""
+    },
+    {
+      "start": 1614540,
+      "end": 1614628,
+      "context_start": 1614540,
+      "context_end": 1614628,
+      "reason": ""
+    },
+    {
+      "start": 1614628,
+      "end": 1614748,
+      "context_start": 1614628,
+      "context_end": 1614748,
+      "reason": ""
+    },
+    {
+      "start": 1614748,
+      "end": 1614776,
+      "context_start": 1614748,
+      "context_end": 1614776,
+      "reason": ""
+    },
+    {
+      "start": 1614776,
+      "end": 1614964,
+      "context_start": 1614776,
+      "context_end": 1614964,
+      "reason": ""
+    },
+    {
+      "start": 1614964,
+      "end": 1615093,
+      "context_start": 1614964,
+      "context_end": 1615093,
+      "reason": ""
+    },
+    {
+      "start": 1615093,
+      "end": 1615656,
+      "context_start": 1615093,
+      "context_end": 1615656,
+      "reason": ""
+    },
+    {
+      "start": 1615656,
+      "end": 1615836,
+      "context_start": 1615656,
+      "context_end": 1615836,
+      "reason": ""
+    },
+    {
+      "start": 1615836,
+      "end": 1616080,
+      "context_start": 1615836,
+      "context_end": 1616080,
+      "reason": ""
+    },
+    {
+      "start": 1616080,
+      "end": 1616214,
+      "context_start": 1616080,
+      "context_end": 1616214,
+      "reason": ""
+    }
+  ],
+  "heading_labels": [
+    {
+      "at": 1611395,
+      "label": "خبر وضع الحجر عند القبر"
+    },
+    {
+      "at": 1611754,
+      "label": "رد التبتل"
+    },
+    {
+      "at": 1612231,
+      "label": "خبر الخمر ونقده"
+    },
+    {
+      "at": 1612542,
+      "label": "أخبار الوفاة والبكاء"
+    },
+    {
+      "at": 1613455,
+      "label": "أخبار التعبد والأسرة"
+    },
+    {
+      "at": 1614406,
+      "label": "هجرة آل مظعون"
+    },
+    {
+      "at": 1614776,
+      "label": "أخبار الوفاة والرؤيا"
+    }
+  ]
+}

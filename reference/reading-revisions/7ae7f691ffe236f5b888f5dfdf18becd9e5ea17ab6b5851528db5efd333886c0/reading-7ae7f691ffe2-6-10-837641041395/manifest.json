@@ -1,0 +1,58 @@
+{
+  "version": "reading-revision-v1",
+  "batch_id": "reading-7ae7f691ffe2-6-10-837641041395",
+  "source_id": 1,
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "start_ordinal": 6,
+  "end_ordinal": 10,
+  "baseline_sha256": "837641041395af7869ed51195c95562e5fe7d635fe1c09e443e5450ba460148e",
+  "curator": "",
+  "reason": "",
+  "biographies": [
+    {
+      "id": 6,
+      "source_ordinal": 6,
+      "heading": "6 - سعيد بن زيد بن عمرو بن نفيل العدوي * (ع)",
+      "source_char_start": 1584562,
+      "source_char_end": 1602898,
+      "directory": "biography-6",
+      "baseline_sha256": "85889b7a4c5e22ea1d129ec0352cb84ecda636463a8cf42d38c5bef59640c851"
+    },
+    {
+      "id": 7,
+      "source_ordinal": 7,
+      "heading": "7 - مصعب بن عمير * بن هاشم بن عبد مناف البدري",
+      "source_char_start": 1604701,
+      "source_char_end": 1607196,
+      "directory": "biography-7",
+      "baseline_sha256": "b2fcc4e8b6214a26b59e6cb5d06db5625b1dbad5db5dcb0237745f4d3e1e44a2"
+    },
+    {
+      "id": 8,
+      "source_ordinal": 8,
+      "heading": "8 - أبو سلمة بن عبد الأسد بن هلال * (ت، ق)",
+      "source_char_start": 1608650,
+      "source_char_end": 1611117,
+      "directory": "biography-8",
+      "baseline_sha256": "ce061e712bd05cfab80394893215aa2843337bc0f79e30820bd5a8b46480174a"
+    },
+    {
+      "id": 9,
+      "source_ordinal": 9,
+      "heading": "9 - عثمان بن مظعون بن حبيب بن وهب الجمحي *",
+      "source_char_start": 1611117,
+      "source_char_end": 1616214,
+      "directory": "biography-9",
+      "baseline_sha256": "93f8a69f8c43a06205bf15531329f25d9623b31fef0f4b016a79b745e8cfc271"
+    },
+    {
+      "id": 10,
+      "source_ordinal": 10,
+      "heading": "10 - قدامة بن مظعون أبو عمرو الجمحي *",
+      "source_char_start": 1616214,
+      "source_char_end": 1616972,
+      "directory": "biography-10",
+      "baseline_sha256": "f5d5626f55b823f736e2a8093f7176e4b8a3e6a05ecda82749ab694116ac17f2"
+    }
+  ]
+}

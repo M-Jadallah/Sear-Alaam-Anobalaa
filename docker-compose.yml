@@ -1,0 +1,122 @@
+# CI replaces unreleased with tested immutable digests on the production branch.
+name: siyar-library
+x-api-image: &api-image ghcr.io/m-jadallah/sear-alaam-anobalaa-api:unreleased
+x-runtime: &runtime
+  SIYAR_MODE: production
+  SIYAR_PUBLIC_ORIGIN: https://sear-alaam-anobalaa.jadallah.work
+  SIYAR_DB: /state/library.sqlite3
+  SIYAR_AUTH_DB: /state/auth.sqlite3
+  SIYAR_BACKUP_DIR: /backups
+  SIYAR_SOURCE: /app/data/source.mARkdown
+  SIYAR_MODEL_DIR: /opt/siyar/models
+  SIYAR_SEMANTIC_DIR: /opt/siyar/semantic
+  SIYAR_CPU_THREADS: '1'
+  SIYAR_RERANK_BATCH: '1'
+  SIYAR_SEARCH_TIMEOUT: '60'
+  SIYAR_ONNX_TOKENIZER: rust
+  OMP_NUM_THREADS: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  TOKENIZERS_PARALLELISM: 'false'
+  HF_HUB_OFFLINE: '1'
+  TRANSFORMERS_OFFLINE: '1'
+x-logging: &logging
+  driver: json-file
+  options: {max-size: 5m, max-file: '2'}
+services:
+  init:
+    image: *api-image
+    command: [python, -m, backend.deployment, init]
+    environment: *runtime
+    volumes: [library:/state, backups:/backups]
+    networks: [private]
+    restart: 'no'
+    mem_limit: 256m
+    cpus: 0.5
+    read_only: true
+    tmpfs: ['/tmp:size=16m,mode=1777']
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    logging: *logging
+  api:
+    image: *api-image
+    environment:
+      <<: *runtime
+      SIYAR_ADMIN_USERNAME: ${SIYAR_ADMIN_USERNAME:?Set the administrator username}
+      SIYAR_ADMIN_PASSWORD: ${SIYAR_ADMIN_PASSWORD:?Set a password of at least 14 characters}
+    depends_on:
+      init: {condition: service_completed_successfully}
+    volumes: [library:/state]
+    networks: [private]
+    expose: ['8000']
+    restart: unless-stopped
+    init: true
+    mem_limit: 1024m
+    cpus: 1.0
+    pids_limit: 96
+    read_only: true
+    tmpfs: ['/tmp:size=32m,mode=1777']
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    stop_grace_period: 30s
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen(urllib.request.Request('http://127.0.0.1:8000/api/ready',headers={'Host':'sear-alaam-anobalaa.jadallah.work'}),timeout=8)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    logging: *logging
+  web:
+    image: ghcr.io/m-jadallah/sear-alaam-anobalaa-web:unreleased
+    depends_on:
+      api: {condition: service_healthy}
+    networks: [private, coolify]
+    expose: ['8080']
+    restart: unless-stopped
+    mem_limit: 64m
+    cpus: 0.1
+    read_only: true
+    tmpfs: ['/tmp:size=16m,mode=1777']
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    healthcheck:
+      test: [CMD, wget, -q, --spider, http://127.0.0.1:8080/healthz]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    labels:
+      traefik.enable: 'true'
+      traefik.docker.network: coolify
+      traefik.http.routers.siyar-jadallah-http.rule: Host(`sear-alaam-anobalaa.jadallah.work`)
+      traefik.http.routers.siyar-jadallah-http.entrypoints: http
+      traefik.http.routers.siyar-jadallah-http.middlewares: siyar-jadallah-https
+      traefik.http.middlewares.siyar-jadallah-https.redirectscheme.scheme: https
+      traefik.http.middlewares.siyar-jadallah-https.redirectscheme.permanent: 'true'
+      traefik.http.routers.siyar-jadallah.rule: Host(`sear-alaam-anobalaa.jadallah.work`)
+      traefik.http.routers.siyar-jadallah.entrypoints: https
+      traefik.http.routers.siyar-jadallah.tls: 'true'
+      traefik.http.routers.siyar-jadallah.tls.certresolver: letsencrypt
+      traefik.http.routers.siyar-jadallah.service: siyar-jadallah
+      traefik.http.services.siyar-jadallah.loadbalancer.server.port: '8080'
+    logging: *logging
+  backup:
+    image: *api-image
+    command: [python, -m, backend.deployment, backup-loop, --folder, /backups]
+    environment: *runtime
+    depends_on:
+      api: {condition: service_healthy}
+    volumes: [library:/state:ro, backups:/backups]
+    networks: [private]
+    restart: unless-stopped
+    mem_limit: 96m
+    cpus: 0.1
+    read_only: true
+    tmpfs: ['/tmp:size=8m,mode=1777']
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    logging: *logging
+volumes:
+  library: {name: siyar-library-data}
+  backups: {name: siyar-library-backups}
+networks:
+  private: {internal: true}
+  coolify: {external: true, name: coolify}

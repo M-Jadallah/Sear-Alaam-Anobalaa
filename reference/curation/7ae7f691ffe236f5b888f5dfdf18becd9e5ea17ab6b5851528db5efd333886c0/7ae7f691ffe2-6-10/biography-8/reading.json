@@ -1,0 +1,64 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 8,
+  "source_char_start": 1608650,
+  "source_char_end": 1611117,
+  "reviewer": "curation-team",
+  "version": "pilot-reading-v2",
+  "paragraph_groups": [
+    {
+      "start": 1608650,
+      "end": 1608699
+    },
+    {
+      "start": 1608699,
+      "end": 1608986
+    },
+    {
+      "start": 1608986,
+      "end": 1609238
+    },
+    {
+      "start": 1609238,
+      "end": 1609288
+    },
+    {
+      "start": 1609288,
+      "end": 1609463
+    },
+    {
+      "start": 1609463,
+      "end": 1609589
+    },
+    {
+      "start": 1609589,
+      "end": 1609905
+    },
+    {
+      "start": 1609905,
+      "end": 1610451
+    },
+    {
+      "start": 1610451,
+      "end": 1610934
+    },
+    {
+      "start": 1610934,
+      "end": 1611079
+    },
+    {
+      "start": 1611079,
+      "end": 1611117
+    }
+  ],
+  "criticism": [
+    {
+      "start": 1611081,
+      "end": 1611116,
+      "context_start": 1610985,
+      "context_end": 1611117,
+      "kind": "report",
+      "reason": "يورد المصدر قولا آخر في سنة الوفاة بعد خبر مؤرخ بالسنة الرابعة؛ أبقي القولين دون ترجيح."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "reading-revision-v1",
+  "batch_id": "reading-7ae7f691ffe2-3-3-a63733d5700a",
+  "source_id": 1,
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "start_ordinal": 3,
+  "end_ordinal": 3,
+  "baseline_sha256": "a63733d5700a984f3146e577ea0a69c37377827c816d794e7831868f7713b3c6",
+  "curator": "/root/vocalize_zubair_abdurrahman",
+  "reason": "تطبيق طلب المستخدم التشكيل الكامل وتدقيق سياق الفقرات للتراجم العشر الأولى، مع حفظ الموضوعات والمراجعات وتاريخ القراءة.",
+  "biographies": [
+    {
+      "id": 3,
+      "source_ordinal": 3,
+      "heading": "3 - الزبير بن العوام بن خويلد بن أسد بن عبد العزى * (ع)",
+      "source_char_start": 1516215,
+      "source_char_end": 1538102,
+      "directory": "biography-3",
+      "baseline_sha256": "aa452967025b8c8961d765614e1572bda4bfb4e6ea698d0c2f003b05e1ace8e3"
+    }
+  ]
+}

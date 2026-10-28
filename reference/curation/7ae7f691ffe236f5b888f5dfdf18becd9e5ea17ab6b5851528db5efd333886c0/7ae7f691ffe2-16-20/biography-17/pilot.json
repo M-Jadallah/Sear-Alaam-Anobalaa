@@ -1,0 +1,114 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 17,
+  "source_char_start": 1634907,
+  "source_char_end": 1635157,
+  "reviewer": "codex-team",
+  "segments": [
+    {
+      "segment_id": 8631,
+      "assessment": "no_clear_topic",
+      "note": "صيغة أخرى للاسم في العنوان: ابن أبي البكير، مع عدم حسم الاختلاف.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8632,
+      "assessment": "supported",
+      "note": "ابن سعد يذكر مؤاخاة الرسول بين خالد وزيد بن الدثنة.",
+      "topics": [
+        {
+          "topic": "المؤاخاة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "رواية ابن سعد في المؤاخاة بين صاحب الترجمة وزيد بن الدثنة.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1635000,
+          "evidence_end": 1635060,
+          "context_start": 1634907,
+          "context_end": 1635062
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8633,
+      "assessment": "supported",
+      "note": "شهود خالد بدرًا وأحدًا، ومقتله يوم الرجيع في صفر سنة أربع وعمره.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "خبر مقتله وتاريخه وعمره؛ يبقى الرقم الملتبس ظاهرًا.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1635086,
+          "evidence_end": 1635145,
+          "context_start": 1635062,
+          "context_end": 1635147
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8634,
+      "assessment": "no_clear_topic",
+      "note": "عبارة أخوهما تمهد للترجمة التالية وتحفظ في نطاق هذه الترجمة.",
+      "topics": [],
+      "existing_hits": []
+    }
+  ],
+  "presentation": {
+    "headings": [],
+    "quotes": [],
+    "poetry": [],
+    "lists": [],
+    "bold": [],
+    "keywords": [
+      {
+        "start": 1635000,
+        "end": 1635003
+      },
+      {
+        "start": 1635064,
+        "end": 1635067
+      },
+      {
+        "start": 1635091,
+        "end": 1635101
+      }
+    ],
+    "names": [
+      {
+        "start": 1634918,
+        "end": 1634961
+      },
+      {
+        "start": 1634991,
+        "end": 1634998
+      },
+      {
+        "start": 1635004,
+        "end": 1635013
+      },
+      {
+        "start": 1635045,
+        "end": 1635051
+      },
+      {
+        "start": 1635054,
+        "end": 1635060
+      },
+      {
+        "start": 1635068,
+        "end": 1635072
+      }
+    ],
+    "footnotes": [],
+    "footnote_notice": "لم تظهر متون حواشٍ في نطاق هذه الترجمة؛ الأرقام المحتملة بقيت ظاهرة لعدم ثبوت ربطها، وكذلك نجمة العنوان."
+  }
+}

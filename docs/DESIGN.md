@@ -1,0 +1,16 @@
+# مرجع الواجهة
+
+التصور البصري في [workspace-concept.png](design/workspace-concept.png) مولّد بأداة Image Gen المضمنة، واستُخدم مرجعًا لتنفيذ واجهة حقيقية بـHTML/CSS وReact، وليس خلفية مصورة للتطبيق. لم تستخدم صور مولدة للنصوص المرجعية أو الاقتباسات.
+
+ألوان النظام: خلفية `#f7f5ef`، أسطح بيضاء، شريط جانبي ونص رئيسي `#173f35`، ولمسات ذهبية `#b49b62`. شريط أيمن بعرض 244px، وحدود رفيعة وزوايا 6–8px. خط Noto Naskh Arabic للمحتوى والعناوين وخط Noto Sans Arabic للضوابط، كلاهما محلي. الأيقونات من Lucide؛ الواجهة تعتمد لوائح وصفوفًا وعمود قراءة بدل شبكة بطاقات متكررة.
+
+تركيب الشاشة: شريط جانبي للتنقل، مسار صفحة علوي، عنوان وبحث بنطاق محدد، شريط إحصاءات حقيقية، ثم فهرس مختصر للتراجم والموضوعات وتنبيه المراجعة. يتفرع النظام نفسه إلى فهرس الأعلام والموضوعات، شواهد حرفية، قارئ مع بيانات الموضع، ونماذج المراجعة. على الجوال تتحول القائمة إلى لوحة قابلة للفتح، ويتكدس عمودا القراءة دون تجاوز العرض. تظهر حالات التحميل والخطأ والفراغ وغياب المصدر والعينة المصطنعة صراحة.
+
+المقارنة البصرية والتحقق التفاعلي مفصلان في [QA.md](QA.md). حفظت الصور النهائية خارج المشروع؛ بقي مرجع التصميم فقط ضمن الوثائق.
+
+## وصف التوليد
+
+```text
+Use case: ui-mockup. Design a complete desktop primary workspace screen for a functional Arabic RTL research library web app titled "موسوعة سير أعلام النبلاء". This is an implementation reference, not an illustration or marketing landing page. 1440x1000 landscape. Restrained scholarly editorial design: warm ivory #f7f5ef main background, white surfaces, deep forest #173f35 for a full-height 244px RIGHT sidebar, subtle antique gold #b49b62 accents, warm gray #72776d. Thin borders, small radii 8px, no gradients or photos or decorative floating objects. Lovely readable Arabic UI with Noto Naskh Arabic style headings and modern Arabic sans controls. Sidebar brand book-outline simple icon and title, navigation الرئيسية active, البحث في الكتاب, الأعلام والتراجم, الموضوعات, مراجعة الفهرسة, المصدر والمنهج. Bottom sidebar "النص الأصلي أولًا" and local mode. Main white thin topbar breadcrumb الرئيسية and quiet "نسخة محلية". Primary area spacious open heading "ابحث في سير أعلام النبلاء" and subtitle "النص الأصلي، وشواهده، وإحالاته في مكان واحد." Large search input with magnifier and green "بحث" button; below native select search scope. Below a flat horizontal stats strip four columns "عناوين التراجم" 5943, "موضوعًا مقترحًا" 81, "أبواب موضوعية" 9, "نتائج معتمدة" 0 (these are reference values, code replaces from actual backend). Lower screen has 65/35 two-column split: right wider open list "تصفّح التراجم" with three rows of actual source headings "ابن عمروس إبراهيم بن عمروس بن محمد الفسطاطي" / "المروزي محمد بن إسماعيل بن إسحاق" / "الفضل بن الخصيب بن العباس بن نصر الأصبهاني", each row subtle arrow and small "استخراج مرشح"; left narrower white pane "موضوعات الكتاب" listing العقيدة, القلب والسلوك, العلم with arrows and "عرض جميع الموضوعات". Below a light bordered pale gold notice "الفهرسة الآلية تحتاج مراجعة" and subtitle about word matches requiring evidence review. Clean readable component design. All UI text/control native implementable HTML/CSS. No invented quotes, no portraits, no charts, no fake verification badges, no unrelated controls. Screen must show whole actual workspace hierarchy and downstream rows, not hero-only.
+```
+

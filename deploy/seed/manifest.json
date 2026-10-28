@@ -1,0 +1,90 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "format": "siyar-seed-v1",
+  "database_sha256": "0e6ab65b31319201ccd3bbb8c98fbb88017923e1246730899a7876de0086c9c9",
+  "database_bytes": 276590592,
+  "tables": {
+    "sources": {
+      "rows": 1,
+      "sha256": "1028d73a5978b46abec8c1db8537cc2c3ef51c8037edd471228f92be49059f0e"
+    },
+    "biographies": {
+      "rows": 5943,
+      "sha256": "4373c314c00dd826a25a6389f3a4faae30a641a65db16819edd626e97d3e8880"
+    },
+    "segments": {
+      "rows": 129006,
+      "sha256": "c17e939b1edcf87d79b6827a7100ede994578366813c8701d12ce6115f78b13c"
+    },
+    "topic_hits": {
+      "rows": 19869,
+      "sha256": "2e78562d6bdc1f58b419ddc4f4ae19693d1bcfe520dbe96208ea130935af826d"
+    },
+    "person_mentions": {
+      "rows": 46642,
+      "sha256": "a355eb2184e742f1cea4bb1a1afd376e3ed237b29ef41bc57e4750fea5b8fa71"
+    },
+    "review_log": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "curation_batches": {
+      "rows": 4,
+      "sha256": "318666c11ebed76e29cf832d9fa0ed1c93b785428359f15f0548a351b2d6f44a"
+    },
+    "curation_batch_members": {
+      "rows": 20,
+      "sha256": "fecc096c4e1a10083c3721f009de42bec91131cf1523c7a4d3783d6e1f33acce"
+    },
+    "curation_diacritics": {
+      "rows": 20,
+      "sha256": "31a56ad27c331b201dfc7d2e2fb5937a8694248d58b487da5a58e1596490ee4a"
+    },
+    "reading_revision_batches": {
+      "rows": 5,
+      "sha256": "77f634092d6519cf204516a2b5c74ca34317432918d2b998008780b1b646ee17"
+    },
+    "reading_revision_history": {
+      "rows": 10,
+      "sha256": "ddf8426766a6b323ef997ad44cb659a2cff984a414e70fac2fbb2b708be1ee7d"
+    },
+    "pilot_documents": {
+      "rows": 20,
+      "sha256": "66c2a81bb6ac213543c2f9ddc2b6a1b94f8ead8516e7400d1260562c994b9338"
+    },
+    "pilot_evidence": {
+      "rows": 426,
+      "sha256": "87714f98d47ed2ae09a5688bd2fe3352c1175ece7685a749d22c759c3149ab3d"
+    },
+    "pilot_events": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "pilot_reading_overlays": {
+      "rows": 20,
+      "sha256": "69e28987ee33051c4a107b91f8e86a1eb82cde0c85eb16ef501b3840e614b3c0"
+    }
+  },
+  "parts": [
+    {
+      "name": "library.sqlite3.gz.part000",
+      "size": 20971520,
+      "sha256": "fd11f283217fc7f892c1296b086106776f51ee8f37e94c17080f8575281ea468"
+    },
+    {
+      "name": "library.sqlite3.gz.part001",
+      "size": 20971520,
+      "sha256": "ad9ed5648768af168b62a2c80d5a0ef2ccdb8b3695593ec7babd714ffe20af5b"
+    },
+    {
+      "name": "library.sqlite3.gz.part002",
+      "size": 20971520,
+      "sha256": "5b5400546a7d6f7456a202cb768c5620385b7665d00514740f69c3cc40b721b3"
+    },
+    {
+      "name": "library.sqlite3.gz.part003",
+      "size": 13940350,
+      "sha256": "3708d641e965dd8ecd327ebbb6d15ceff500f520685b08df46622351b6dde838"
+    }
+  ]
+}

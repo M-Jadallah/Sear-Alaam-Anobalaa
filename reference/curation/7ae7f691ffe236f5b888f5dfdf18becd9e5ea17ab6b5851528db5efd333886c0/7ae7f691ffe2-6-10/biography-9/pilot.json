@@ -1,0 +1,923 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 9,
+  "source_char_start": 1611117,
+  "source_char_end": 1616214,
+  "reviewer": "curation-team",
+  "segments": [
+    {
+      "segment_id": 8301,
+      "assessment": "supported",
+      "note": "استكمال النسب والكنية مع علامة الصفحة الخام.",
+      "topics": [
+        {
+          "topic": "الكنية والنسبة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "يذكر كنيته عقب نسبه.",
+          "relation_type": "description",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1611216,
+          "evidence_end": 1611226,
+          "context_start": 1611166,
+          "context_end": 1611242
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8302,
+      "assessment": "no_clear_topic",
+      "note": "وصفه من المهاجرين وأنه توفي في حياة النبي وصلى عليه.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8303,
+      "assessment": "supported",
+      "note": "إيراد أنه أول مدفون بالبقيع؛ إشارة رقمية بعد الخبر.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "يتناول موضع دفنه ويصفه بالأول.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1611370,
+          "evidence_end": 1611388,
+          "context_start": 1611337,
+          "context_end": 1611395
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8304,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر وضع الصخرة ولا يستقل بالمتن التالي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8305,
+      "assessment": "no_clear_topic",
+      "note": "أمر بوضع صخرة تعرف بها القبر؛ ينتهي الخبر بنقد الإرسال.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8306,
+      "assessment": "no_clear_topic",
+      "note": "عجز الرجل عن حمل الصخرة جزء من الخبر المتصل.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8307,
+      "assessment": "no_clear_topic",
+      "note": "حمل النبي الصخرة ووضعها؛ يتلوه وصف الخبر بالإرسال.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8308,
+      "assessment": "no_clear_topic",
+      "note": "تعليق بأن الخبر السابق مرسل، لا حكم مستحدث.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8309,
+      "assessment": "no_clear_topic",
+      "note": "إسناد سعد لخبر رد التبتل.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8310,
+      "assessment": "supported",
+      "note": "رد التبتل وتقييد جواب سعد بالشرط؛ لا تقرير وقوع الاختصاء.",
+      "topics": [
+        {
+          "topic": "النكاح والأسرة",
+          "category": "الفقه وأصوله",
+          "aliases": [],
+          "rationale": "يرد الخبر التبتل ويذكر شرط سعد عن الاختصاء.",
+          "relation_type": "discussion",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1611851,
+          "evidence_end": 1611857,
+          "context_start": 1611754,
+          "context_end": 1611903
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8311,
+      "assessment": "supported",
+      "note": "خبر إسلامه وهجرتيه وتعبده وهمه مع آخرين بالاختصاء.",
+      "topics": [
+        {
+          "topic": "الهجرة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "يذكر هجرته مع بقية ترجمته.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1611961,
+          "evidence_end": 1611977,
+          "context_start": 1611903,
+          "context_end": 1612063
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8312,
+      "assessment": "no_clear_topic",
+      "note": "تقديم خبر القبر بوصفه من المراسيل.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8313,
+      "assessment": "no_clear_topic",
+      "note": "وضع الحجر والتسمية فرطنا في خبر مسند إلى المراسيل السابقة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8314,
+      "assessment": "no_clear_topic",
+      "note": "ذكر أنه حرم الخمر في الجاهلية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8315,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر الامتناع عن الشراب الذي يتلوه نقد صريح.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8316,
+      "assessment": "supported",
+      "note": "تعليل امتناعه عن الشراب بخوف ذهاب العقل؛ خبر منقطع لا يثبت بحسب النقد اللاحق.",
+      "topics": [
+        {
+          "topic": "اجتناب الخمر",
+          "category": "الأخلاق والآداب",
+          "aliases": [],
+          "rationale": "يورد قوله في الخمر ويتلو الخبر نقد الانقطاع وعدم الثبوت.",
+          "relation_type": "saying",
+          "subject_scope": "biography_subject",
+          "stance": "contested",
+          "evidence_start": 1612331,
+          "evidence_end": 1612354,
+          "context_start": 1612265,
+          "context_end": 1612542
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8317,
+      "assessment": "no_clear_topic",
+      "note": "نقل كلامه عند تحريم الخمر، ويرد التعليق التالي على زمنه وثبوته.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8318,
+      "assessment": "supported",
+      "note": "حكم على خبر الخمر بالانقطاع وعدم الثبوت مع بيان زمن التحريم.",
+      "topics": [
+        {
+          "topic": "علل الحديث",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "تعليق على الخبر السابق بالانقطاع وعدم الثبوت وتاريخ التحريم.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "criticism",
+          "evidence_start": 1612475,
+          "evidence_end": 1612496,
+          "context_start": 1612265,
+          "context_end": 1612542
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8319,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر بكاء النبي عند الوفاة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8320,
+      "assessment": "no_clear_topic",
+      "note": "دخول النبي على عثمان وأثر البكاء في الخبر المتصل.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8321,
+      "assessment": "no_clear_topic",
+      "note": "الرفع الثاني لرأسه واستمرار البكاء.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8322,
+      "assessment": "no_clear_topic",
+      "note": "المرة الثالثة وبكاء القوم؛ علامة تقنية داخل السطر محفوظة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8323,
+      "assessment": "no_clear_topic",
+      "note": "قول مه هذا من الشيطان ضمن خبر البكاء.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8324,
+      "assessment": "no_clear_topic",
+      "note": "قول أبا السائب بعد البكاء ضمن الرواية نفسها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8325,
+      "assessment": "no_clear_topic",
+      "note": "إسناد قصة جواب امرأته ونهي النعيق.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8326,
+      "assessment": "no_clear_topic",
+      "note": "قول المرأة هنيئا لك الجنة يتبعه إنكار الجزم في الخبر.",
+      "topics": [],
+      "existing_hits": [
+        {
+          "hit_id": 809,
+          "decision": "exclude",
+          "reason": "ذكر الجنة هو دعوى امرأة عثمان وتلاها إنكار الجزم؛ اللفظ وحده لا يثبت مآله."
+        }
+      ]
+    },
+    {
+      "segment_id": 8327,
+      "assessment": "no_clear_topic",
+      "note": "سؤال النبي المرأة عما يدريها بعد قولها في الجنة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8328,
+      "assessment": "no_clear_topic",
+      "note": "جواب المرأة فارسك وصاحبك مستمر مع السؤال.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8329,
+      "assessment": "no_clear_topic",
+      "note": "جواب النبي بعدم العلم بما يفعل بهما ضمن الرواية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8330,
+      "assessment": "no_clear_topic",
+      "note": "إشفاق الناس وبكاء النساء وإسكات عمر في تتمة الرواية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8331,
+      "assessment": "no_clear_topic",
+      "note": "النهي لعمر متصل بالكلام التالي عبر علامة الصفحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8332,
+      "assessment": "supported",
+      "note": "التمييز في الرواية بين العين واليد واللسان.",
+      "topics": [
+        {
+          "topic": "البكاء والنياحة",
+          "category": "الفقه وأصوله",
+          "aliases": [],
+          "rationale": "في سياق البكاء يميز الخبر بين العين واليد واللسان.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1613350,
+          "evidence_end": 1613369,
+          "context_start": 1612973,
+          "context_end": 1613455
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8333,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر حياء عثمان من امرأته يتلوه حكم بالانقطاع.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8334,
+      "assessment": "no_clear_topic",
+      "note": "سؤال عثمان عن رؤية امرأته عورته في سياق رواية منقطعة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8335,
+      "assessment": "no_clear_topic",
+      "note": "سؤال النبي ولم ضمن الحوار السابق.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8336,
+      "assessment": "no_clear_topic",
+      "note": "إجابة عثمان بأنه يستحيي ضمن الحوار السابق.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8337,
+      "assessment": "supported",
+      "note": "ذكر لباس الزوجين في جواب النبي ضمن خبر وصف بالانقطاع.",
+      "topics": [
+        {
+          "topic": "النكاح والأسرة",
+          "category": "الفقه وأصوله",
+          "aliases": [],
+          "rationale": "جواب عن حيائه من زوجته، والخبر يليه وصفه بالانقطاع.",
+          "relation_type": "discussion",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1613617,
+          "evidence_end": 1613659,
+          "context_start": 1613455,
+          "context_end": 1613681
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8338,
+      "assessment": "no_clear_topic",
+      "note": "نقد الخبر السابق بالانقطاع، لا حكم آلي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8339,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر إرادة الاختصاء والسياحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8340,
+      "assessment": "no_clear_topic",
+      "note": "إرادة عثمان الاختصاء والسياحة، يليها الجواب النبوي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8341,
+      "assessment": "no_clear_topic",
+      "note": "الاستفهام عن الأسوة والنهي عن الاختصاء في الخبر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8342,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر هيئة امرأة عثمان وحواره معها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8343,
+      "assessment": "no_clear_topic",
+      "note": "رؤية النساء امرأة عثمان سيئة الهيئة في الخبر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8344,
+      "assessment": "no_clear_topic",
+      "note": "سؤال النساء عن هيئتها مع الإشارة إلى غنى زوجها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8345,
+      "assessment": "supported",
+      "note": "قول المرأة عن قيام الليل وصوم النهار في سياق عتاب متصل.",
+      "topics": [
+        {
+          "topic": "العبادات",
+          "category": "الفقه وأصوله",
+          "aliases": [],
+          "rationale": "قول امرأته في قيامه وصومه، وسياقه السؤال عن الأسوة.",
+          "relation_type": "description",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1614031,
+          "evidence_end": 1614063,
+          "context_start": 1613857,
+          "context_end": 1614194
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8346,
+      "assessment": "no_clear_topic",
+      "note": "بداية السؤال النبوي تمتد عبر علامة صفحة إلى القطعة التالية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8347,
+      "assessment": "no_clear_topic",
+      "note": "تتمة السؤال بعد الصفحة مع اختصار الحديث في المصدر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8348,
+      "assessment": "no_clear_topic",
+      "note": "وصف المرأة بعد ذلك بأنها عطرة كالعروس.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8349,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر رفض الرهبانية والحنيفية السمحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8350,
+      "assessment": "supported",
+      "note": "قول النبي عند تعبده إن الله لم يبعثه بالرهبانية.",
+      "topics": [
+        {
+          "topic": "الرهبانية",
+          "category": "الفقه وأصوله",
+          "aliases": [],
+          "rationale": "يورد جواب النبي على تعبده مقرونا بالحنيفية السمحة.",
+          "relation_type": "saying",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1614328,
+          "evidence_end": 1614356,
+          "context_start": 1614194,
+          "context_end": 1614406
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8351,
+      "assessment": "no_clear_topic",
+      "note": "إسناد نزول المهاجرين على العجلاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8352,
+      "assessment": "supported",
+      "note": "نزول بني مظعون ومعمر على العجلاني حين الهجرة.",
+      "topics": [
+        {
+          "topic": "الهجرة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "نزول المهاجرين ومنهم عثمان على العجلاني.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1614494,
+          "evidence_end": 1614504,
+          "context_start": 1614406,
+          "context_end": 1614540
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8353,
+      "assessment": "no_clear_topic",
+      "note": "نقل الواقدي خروج آل مظعون وإغلاق بيوتهم في مكة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8354,
+      "assessment": "no_clear_topic",
+      "note": "خبر تخطيط موضع دار آل مظعون بالمدينة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8355,
+      "assessment": "supported",
+      "note": "تاريخ الوفاة في شعبان سنة ثلاث من النص.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "ينص على شهر وسنة وفاته.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1614756,
+          "evidence_end": 1614774,
+          "context_start": 1614748,
+          "context_end": 1614776
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8356,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر تقبيل عثمان؛ الرقم داخل الإسناد مرشح حاشية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8357,
+      "assessment": "no_clear_topic",
+      "note": "تقبيل النبي عثمان ودموعه، ويليه نسبة التصحيح للترمذي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8358,
+      "assessment": "no_clear_topic",
+      "note": "نسبة تصحيح الخبر إلى الترمذي لا إلى التطبيق.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8359,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر المرور بالجنازة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8360,
+      "assessment": "no_clear_topic",
+      "note": "القول المنقول عند المرور بالجنازة عن خروجه من الدنيا.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8361,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر أم العلاء وسياق مرض عثمان.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8362,
+      "assessment": "no_clear_topic",
+      "note": "تمريضه حتى الوفاة في كلام أم العلاء.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8363,
+      "assessment": "no_clear_topic",
+      "note": "قول أم العلاء بالشهادة له بالإكرام يتبعه سؤال النبي لها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8364,
+      "assessment": "no_clear_topic",
+      "note": "السؤال عن مستند دعواها في الخبر المتصل.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8365,
+      "assessment": "no_clear_topic",
+      "note": "جواب أم العلاء بعد سؤال النبي لها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8366,
+      "assessment": "supported",
+      "note": "رجاء الخير مع عدم الجزم بالمصير في جواب النبي.",
+      "topics": [
+        {
+          "topic": "عدم الجزم بالمصير",
+          "category": "العقيدة",
+          "aliases": [],
+          "rationale": "رجاء الخير في جواب يحفظ عدم العلم بما يفعل به في السياق.",
+          "relation_type": "saying",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1615426,
+          "evidence_end": 1615450,
+          "context_start": 1615093,
+          "context_end": 1615656
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8367,
+      "assessment": "no_clear_topic",
+      "note": "قول أم العلاء أنها لن تزكي أحدا بعده.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8368,
+      "assessment": "no_clear_topic",
+      "note": "حزن أم العلاء متصل بالرؤيا بعد علامة الصفحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8369,
+      "assessment": "no_clear_topic",
+      "note": "الرؤيا عين تجري في المنام ولا تعامل تقريرا مستقلا.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8370,
+      "assessment": "no_clear_topic",
+      "note": "جواب النبي عن الرؤيا في تتمة الخبر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8371,
+      "assessment": "no_clear_topic",
+      "note": "إسناد رواية ابن عباس وزيادتها عند وفاة بنت النبي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8372,
+      "assessment": "no_clear_topic",
+      "note": "قول النبي لبنته الحقي بسلفنا الخير ضمن الزيادة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8373,
+      "assessment": "no_clear_topic",
+      "note": "إسناد خبر عمر عن تغير منزلته في نفسه.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8374,
+      "assessment": "no_clear_topic",
+      "note": "نقل موقف عمر عند موت عثمان قبل موت النبي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8375,
+      "assessment": "no_clear_topic",
+      "note": "مراجعة عمر نظره بعد وفاة النبي وأبي بكر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8376,
+      "assessment": "no_clear_topic",
+      "note": "رجوع عثمان إلى المنزلة في نفس عمر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8377,
+      "assessment": "no_clear_topic",
+      "note": "إسناد وصف عائشة لبني مظعون.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8378,
+      "assessment": "no_clear_topic",
+      "note": "نقل تقارب الشبه ووصف لون عثمان ولحيته.",
+      "topics": [],
+      "existing_hits": []
+    }
+  ],
+  "presentation": {
+    "headings": [
+      {
+        "at": 1611395,
+        "label": "خبر وضع الحجر عند القبر"
+      },
+      {
+        "at": 1611754,
+        "label": "رد التبتل"
+      },
+      {
+        "at": 1612231,
+        "label": "خبر الخمر ونقده"
+      },
+      {
+        "at": 1612542,
+        "label": "أخبار الوفاة والبكاء"
+      },
+      {
+        "at": 1613455,
+        "label": "أخبار التعبد والأسرة"
+      },
+      {
+        "at": 1614406,
+        "label": "هجرة آل مظعون"
+      },
+      {
+        "at": 1614776,
+        "label": "أخبار الوفاة والرؤيا"
+      }
+    ],
+    "quotes": [
+      {
+        "start": 1612872,
+        "end": 1612892
+      },
+      {
+        "start": 1613149,
+        "end": 1613160
+      },
+      {
+        "start": 1613192,
+        "end": 1613235
+      },
+      {
+        "start": 1613310,
+        "end": 1613324
+      },
+      {
+        "start": 1613616,
+        "end": 1613660
+      }
+    ],
+    "poetry": [],
+    "lists": [],
+    "bold": [],
+    "keywords": [
+      {
+        "start": 1611851,
+        "end": 1611857
+      },
+      {
+        "start": 1614347,
+        "end": 1614356
+      },
+      {
+        "start": 1614381,
+        "end": 1614389
+      }
+    ],
+    "names": [
+      {
+        "start": 1611127,
+        "end": 1611141
+      },
+      {
+        "start": 1611216,
+        "end": 1611226
+      },
+      {
+        "start": 1611760,
+        "end": 1611774
+      },
+      {
+        "start": 1611909,
+        "end": 1611923
+      },
+      {
+        "start": 1614411,
+        "end": 1614426
+      }
+    ],
+    "footnotes": [
+      {
+        "start": 1611389,
+        "end": 1611392
+      },
+      {
+        "start": 1611736,
+        "end": 1611739
+      },
+      {
+        "start": 1611885,
+        "end": 1611888
+      },
+      {
+        "start": 1612057,
+        "end": 1612060
+      },
+      {
+        "start": 1612224,
+        "end": 1612227
+      },
+      {
+        "start": 1612467,
+        "end": 1612470
+      },
+      {
+        "start": 1612524,
+        "end": 1612527
+      },
+      {
+        "start": 1612966,
+        "end": 1612969
+      },
+      {
+        "start": 1613448,
+        "end": 1613451
+      },
+      {
+        "start": 1613675,
+        "end": 1613678
+      },
+      {
+        "start": 1613850,
+        "end": 1613853
+      },
+      {
+        "start": 1614149,
+        "end": 1614152
+      },
+      {
+        "start": 1614399,
+        "end": 1614402
+      },
+      {
+        "start": 1614622,
+        "end": 1614625
+      },
+      {
+        "start": 1614730,
+        "end": 1614733
+      },
+      {
+        "start": 1614942,
+        "end": 1614945
+      },
+      {
+        "start": 1615086,
+        "end": 1615089
+      },
+      {
+        "start": 1615649,
+        "end": 1615652
+      },
+      {
+        "start": 1615829,
+        "end": 1615832
+      },
+      {
+        "start": 1616074,
+        "end": 1616077
+      },
+      {
+        "start": 1616196,
+        "end": 1616199
+      }
+    ],
+    "footnote_notice": "لم تظهر متون الحواشي في نطاق هذه الترجمة؛ تُلحق الإشارات المثبتة وتبقى المواضع الملتبسة والأقوال بين الأقواس في المتن. نجمة العنوان تبقى ظاهرة لعدم حسم وظيفتها."
+  }
+}

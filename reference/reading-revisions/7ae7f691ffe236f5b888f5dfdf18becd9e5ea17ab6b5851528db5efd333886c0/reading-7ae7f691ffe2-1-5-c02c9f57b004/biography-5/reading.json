@@ -1,0 +1,1343 @@
+{
+  "version": "pilot-reading-v2",
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 5,
+  "source_char_start": 1557904,
+  "source_char_end": 1584562,
+  "reviewer": "",
+  "paragraph_groups": [
+    {
+      "start": 1557904,
+      "end": 1557956
+    },
+    {
+      "start": 1557956,
+      "end": 1558050
+    },
+    {
+      "start": 1558050,
+      "end": 1558093
+    },
+    {
+      "start": 1558093,
+      "end": 1558184
+    },
+    {
+      "start": 1558184,
+      "end": 1558305
+    },
+    {
+      "start": 1558305,
+      "end": 1558692
+    },
+    {
+      "start": 1558692,
+      "end": 1559184
+    },
+    {
+      "start": 1559184,
+      "end": 1559235
+    },
+    {
+      "start": 1559235,
+      "end": 1560407
+    },
+    {
+      "start": 1560407,
+      "end": 1560799
+    },
+    {
+      "start": 1560799,
+      "end": 1560954
+    },
+    {
+      "start": 1560954,
+      "end": 1561122
+    },
+    {
+      "start": 1561122,
+      "end": 1561174
+    },
+    {
+      "start": 1561174,
+      "end": 1561347
+    },
+    {
+      "start": 1561347,
+      "end": 1561420
+    },
+    {
+      "start": 1561420,
+      "end": 1561528
+    },
+    {
+      "start": 1561528,
+      "end": 1561608
+    },
+    {
+      "start": 1561608,
+      "end": 1561759
+    },
+    {
+      "start": 1561759,
+      "end": 1561850
+    },
+    {
+      "start": 1561850,
+      "end": 1562182
+    },
+    {
+      "start": 1562182,
+      "end": 1562339
+    },
+    {
+      "start": 1562339,
+      "end": 1562433
+    },
+    {
+      "start": 1562433,
+      "end": 1562866
+    },
+    {
+      "start": 1562866,
+      "end": 1563006
+    },
+    {
+      "start": 1563006,
+      "end": 1563322
+    },
+    {
+      "start": 1563322,
+      "end": 1563551
+    },
+    {
+      "start": 1563551,
+      "end": 1563786
+    },
+    {
+      "start": 1563786,
+      "end": 1563957
+    },
+    {
+      "start": 1563957,
+      "end": 1564042
+    },
+    {
+      "start": 1564042,
+      "end": 1564214
+    },
+    {
+      "start": 1564214,
+      "end": 1564446
+    },
+    {
+      "start": 1564446,
+      "end": 1564599
+    },
+    {
+      "start": 1564599,
+      "end": 1564756
+    },
+    {
+      "start": 1564756,
+      "end": 1565035
+    },
+    {
+      "start": 1565035,
+      "end": 1565089
+    },
+    {
+      "start": 1565089,
+      "end": 1565149
+    },
+    {
+      "start": 1565149,
+      "end": 1565344
+    },
+    {
+      "start": 1565344,
+      "end": 1565484
+    },
+    {
+      "start": 1565484,
+      "end": 1565870
+    },
+    {
+      "start": 1565870,
+      "end": 1566261
+    },
+    {
+      "start": 1566261,
+      "end": 1566667
+    },
+    {
+      "start": 1566667,
+      "end": 1567691
+    },
+    {
+      "start": 1567691,
+      "end": 1567977
+    },
+    {
+      "start": 1567977,
+      "end": 1568040
+    },
+    {
+      "start": 1568040,
+      "end": 1568314
+    },
+    {
+      "start": 1568314,
+      "end": 1568460
+    },
+    {
+      "start": 1568460,
+      "end": 1569073
+    },
+    {
+      "start": 1569073,
+      "end": 1569200
+    },
+    {
+      "start": 1569200,
+      "end": 1570606
+    },
+    {
+      "start": 1570606,
+      "end": 1570857
+    },
+    {
+      "start": 1570857,
+      "end": 1571039
+    },
+    {
+      "start": 1571039,
+      "end": 1571118
+    },
+    {
+      "start": 1571118,
+      "end": 1571359
+    },
+    {
+      "start": 1571359,
+      "end": 1571569
+    },
+    {
+      "start": 1571569,
+      "end": 1571770
+    },
+    {
+      "start": 1571770,
+      "end": 1571909
+    },
+    {
+      "start": 1571909,
+      "end": 1572532
+    },
+    {
+      "start": 1572532,
+      "end": 1572802
+    },
+    {
+      "start": 1572802,
+      "end": 1573113
+    },
+    {
+      "start": 1573113,
+      "end": 1573517
+    },
+    {
+      "start": 1573517,
+      "end": 1573680
+    },
+    {
+      "start": 1573680,
+      "end": 1573771
+    },
+    {
+      "start": 1573771,
+      "end": 1573924
+    },
+    {
+      "start": 1573924,
+      "end": 1574545
+    },
+    {
+      "start": 1574545,
+      "end": 1575275
+    },
+    {
+      "start": 1575275,
+      "end": 1575687
+    },
+    {
+      "start": 1575687,
+      "end": 1575938
+    },
+    {
+      "start": 1575938,
+      "end": 1576591
+    },
+    {
+      "start": 1576591,
+      "end": 1576801
+    },
+    {
+      "start": 1576801,
+      "end": 1576898
+    },
+    {
+      "start": 1576898,
+      "end": 1576953
+    },
+    {
+      "start": 1576953,
+      "end": 1577014
+    },
+    {
+      "start": 1577014,
+      "end": 1577180
+    },
+    {
+      "start": 1577180,
+      "end": 1577219
+    },
+    {
+      "start": 1577219,
+      "end": 1577442
+    },
+    {
+      "start": 1577442,
+      "end": 1577560
+    },
+    {
+      "start": 1577560,
+      "end": 1577600
+    },
+    {
+      "start": 1577600,
+      "end": 1577676
+    },
+    {
+      "start": 1577676,
+      "end": 1577845
+    },
+    {
+      "start": 1577845,
+      "end": 1577884
+    },
+    {
+      "start": 1577884,
+      "end": 1578265
+    },
+    {
+      "start": 1578265,
+      "end": 1578456
+    },
+    {
+      "start": 1578456,
+      "end": 1578650
+    },
+    {
+      "start": 1578650,
+      "end": 1578836
+    },
+    {
+      "start": 1578836,
+      "end": 1578987
+    },
+    {
+      "start": 1578987,
+      "end": 1579148
+    },
+    {
+      "start": 1579148,
+      "end": 1579199
+    },
+    {
+      "start": 1579199,
+      "end": 1579270
+    },
+    {
+      "start": 1579270,
+      "end": 1579493
+    },
+    {
+      "start": 1579493,
+      "end": 1579768
+    },
+    {
+      "start": 1579768,
+      "end": 1580223
+    },
+    {
+      "start": 1580223,
+      "end": 1580809
+    },
+    {
+      "start": 1580809,
+      "end": 1581410
+    },
+    {
+      "start": 1581410,
+      "end": 1581683
+    },
+    {
+      "start": 1581683,
+      "end": 1582624
+    },
+    {
+      "start": 1582624,
+      "end": 1582759
+    },
+    {
+      "start": 1582759,
+      "end": 1582999
+    },
+    {
+      "start": 1582999,
+      "end": 1583114
+    },
+    {
+      "start": 1583114,
+      "end": 1583281
+    },
+    {
+      "start": 1583281,
+      "end": 1583537
+    },
+    {
+      "start": 1583537,
+      "end": 1583714
+    },
+    {
+      "start": 1583714,
+      "end": 1583885
+    },
+    {
+      "start": 1583885,
+      "end": 1583974
+    },
+    {
+      "start": 1583974,
+      "end": 1584102
+    },
+    {
+      "start": 1584102,
+      "end": 1584188
+    },
+    {
+      "start": 1584188,
+      "end": 1584257
+    },
+    {
+      "start": 1584257,
+      "end": 1584362
+    },
+    {
+      "start": 1584362,
+      "end": 1584462
+    },
+    {
+      "start": 1584462,
+      "end": 1584562
+    }
+  ],
+  "criticism": [
+    {
+      "start": 1560947,
+      "end": 1560953,
+      "context_start": 1560799,
+      "context_end": 1561122,
+      "kind": "isnad",
+      "reason": "الانقطاع وصف للخبر السابق المحدد، ولا ينسحب على الأخبار الأخرى في رخص السفر."
+    },
+    {
+      "start": 1562828,
+      "end": 1562838,
+      "context_start": 1562433,
+      "context_end": 1562866,
+      "kind": "hadith",
+      "reason": "اتفاق الشيخين وصف مذكور لهذا الحديث، بخلاف تعريف أبي عون في أول الترجمة."
+    },
+    {
+      "start": 1563537,
+      "end": 1563550,
+      "context_start": 1563322,
+      "context_end": 1563551,
+      "kind": "isnad",
+      "reason": "الانقطاع متصل بخبر السهم المتكرر نفسه، ولا يحذف عند قراءة الموقف."
+    },
+    {
+      "start": 1564343,
+      "end": 1564445,
+      "context_start": 1564214,
+      "context_end": 1564446,
+      "kind": "isnad",
+      "reason": "يحفظ تفرد ابن عيينة مع الطريق الآخر الموصوف بأنه أصح، فلا ينتقى الترجيح منفردًا."
+    },
+    {
+      "start": 1571619,
+      "end": 1571635,
+      "context_start": 1571569,
+      "context_end": 1571770,
+      "kind": "narrator",
+      "reason": "توثيق منقول عن ابن شهاب لراو مبهم؛ لا يعيّن التطبيق هويته ولا يستنتج منه تصحيح الحديث."
+    },
+    {
+      "start": 1575259,
+      "end": 1575274,
+      "context_start": 1574545,
+      "context_end": 1575275,
+      "kind": "hadith",
+      "reason": "متفق عليه تقويم منقول في سياق الخبر المحدد عن الشكوى والتحقق، لا اعتماد للاتهامات الواردة في الحوار."
+    },
+    {
+      "start": 1578632,
+      "end": 1578649,
+      "context_start": 1578456,
+      "context_end": 1578650,
+      "kind": "narrator",
+      "reason": "التضعيف بالترك يخص مينا راوِي الخبر الخارق، ولا يحول الخبر إلى كرامة محققة."
+    },
+    {
+      "start": 1582584,
+      "end": 1582623,
+      "context_start": 1581683,
+      "context_end": 1582624,
+      "kind": "hadith",
+      "reason": "اتفاق منقول من طرق الزهري لحديث الوصية، ولا يوسع إلى جميع ما في الترجمة."
+    },
+    {
+      "start": 1584381,
+      "end": 1584461,
+      "context_start": 1584188,
+      "context_end": 1584462,
+      "kind": "report",
+      "reason": "ترجيح تاريخ الوفاة يظل مرتبطًا بتواريخ الأقوال السابقة؛ لا تغير سنة في النص أو بيانات الأعلام."
+    }
+  ],
+  "paragraph_notes": [
+    {
+      "start": 1557904,
+      "end": 1557956,
+      "context_start": 1557904,
+      "context_end": 1557956,
+      "reason": ""
+    },
+    {
+      "start": 1557956,
+      "end": 1558050,
+      "context_start": 1557956,
+      "context_end": 1558050,
+      "reason": ""
+    },
+    {
+      "start": 1558050,
+      "end": 1558093,
+      "context_start": 1558050,
+      "context_end": 1558093,
+      "reason": ""
+    },
+    {
+      "start": 1558093,
+      "end": 1558184,
+      "context_start": 1558093,
+      "context_end": 1558184,
+      "reason": ""
+    },
+    {
+      "start": 1558184,
+      "end": 1558305,
+      "context_start": 1558184,
+      "context_end": 1558305,
+      "reason": ""
+    },
+    {
+      "start": 1558305,
+      "end": 1558692,
+      "context_start": 1558305,
+      "context_end": 1558692,
+      "reason": ""
+    },
+    {
+      "start": 1558692,
+      "end": 1559184,
+      "context_start": 1558692,
+      "context_end": 1559184,
+      "reason": ""
+    },
+    {
+      "start": 1559184,
+      "end": 1559235,
+      "context_start": 1559184,
+      "context_end": 1559235,
+      "reason": ""
+    },
+    {
+      "start": 1559235,
+      "end": 1560407,
+      "context_start": 1559235,
+      "context_end": 1560407,
+      "reason": ""
+    },
+    {
+      "start": 1560407,
+      "end": 1560799,
+      "context_start": 1560407,
+      "context_end": 1560799,
+      "reason": ""
+    },
+    {
+      "start": 1560799,
+      "end": 1560954,
+      "context_start": 1560799,
+      "context_end": 1560954,
+      "reason": ""
+    },
+    {
+      "start": 1560954,
+      "end": 1561122,
+      "context_start": 1560954,
+      "context_end": 1561122,
+      "reason": ""
+    },
+    {
+      "start": 1561122,
+      "end": 1561174,
+      "context_start": 1561122,
+      "context_end": 1561174,
+      "reason": ""
+    },
+    {
+      "start": 1561174,
+      "end": 1561347,
+      "context_start": 1561174,
+      "context_end": 1561347,
+      "reason": ""
+    },
+    {
+      "start": 1561347,
+      "end": 1561420,
+      "context_start": 1561347,
+      "context_end": 1561420,
+      "reason": ""
+    },
+    {
+      "start": 1561420,
+      "end": 1561528,
+      "context_start": 1561420,
+      "context_end": 1561528,
+      "reason": ""
+    },
+    {
+      "start": 1561528,
+      "end": 1561608,
+      "context_start": 1561528,
+      "context_end": 1561608,
+      "reason": ""
+    },
+    {
+      "start": 1561608,
+      "end": 1561759,
+      "context_start": 1561608,
+      "context_end": 1561759,
+      "reason": ""
+    },
+    {
+      "start": 1561759,
+      "end": 1561850,
+      "context_start": 1561759,
+      "context_end": 1561850,
+      "reason": ""
+    },
+    {
+      "start": 1561850,
+      "end": 1562182,
+      "context_start": 1561850,
+      "context_end": 1562182,
+      "reason": ""
+    },
+    {
+      "start": 1562182,
+      "end": 1562339,
+      "context_start": 1562182,
+      "context_end": 1562339,
+      "reason": ""
+    },
+    {
+      "start": 1562339,
+      "end": 1562433,
+      "context_start": 1562339,
+      "context_end": 1562433,
+      "reason": ""
+    },
+    {
+      "start": 1562433,
+      "end": 1562866,
+      "context_start": 1562433,
+      "context_end": 1562866,
+      "reason": ""
+    },
+    {
+      "start": 1562866,
+      "end": 1563006,
+      "context_start": 1562866,
+      "context_end": 1563006,
+      "reason": ""
+    },
+    {
+      "start": 1563006,
+      "end": 1563322,
+      "context_start": 1563006,
+      "context_end": 1563322,
+      "reason": ""
+    },
+    {
+      "start": 1563322,
+      "end": 1563551,
+      "context_start": 1563322,
+      "context_end": 1563551,
+      "reason": ""
+    },
+    {
+      "start": 1563551,
+      "end": 1563786,
+      "context_start": 1563551,
+      "context_end": 1563786,
+      "reason": ""
+    },
+    {
+      "start": 1563786,
+      "end": 1563957,
+      "context_start": 1563786,
+      "context_end": 1563957,
+      "reason": ""
+    },
+    {
+      "start": 1563957,
+      "end": 1564042,
+      "context_start": 1563957,
+      "context_end": 1564042,
+      "reason": ""
+    },
+    {
+      "start": 1564042,
+      "end": 1564214,
+      "context_start": 1564042,
+      "context_end": 1564214,
+      "reason": ""
+    },
+    {
+      "start": 1564214,
+      "end": 1564446,
+      "context_start": 1564214,
+      "context_end": 1564446,
+      "reason": ""
+    },
+    {
+      "start": 1564446,
+      "end": 1564599,
+      "context_start": 1564446,
+      "context_end": 1564599,
+      "reason": ""
+    },
+    {
+      "start": 1564599,
+      "end": 1564756,
+      "context_start": 1564599,
+      "context_end": 1564756,
+      "reason": ""
+    },
+    {
+      "start": 1564756,
+      "end": 1565035,
+      "context_start": 1564756,
+      "context_end": 1565035,
+      "reason": ""
+    },
+    {
+      "start": 1565035,
+      "end": 1565089,
+      "context_start": 1565035,
+      "context_end": 1565089,
+      "reason": ""
+    },
+    {
+      "start": 1565089,
+      "end": 1565149,
+      "context_start": 1565089,
+      "context_end": 1565149,
+      "reason": ""
+    },
+    {
+      "start": 1565149,
+      "end": 1565344,
+      "context_start": 1565149,
+      "context_end": 1565344,
+      "reason": ""
+    },
+    {
+      "start": 1565344,
+      "end": 1565484,
+      "context_start": 1565344,
+      "context_end": 1565484,
+      "reason": ""
+    },
+    {
+      "start": 1565484,
+      "end": 1565870,
+      "context_start": 1565484,
+      "context_end": 1565870,
+      "reason": ""
+    },
+    {
+      "start": 1565870,
+      "end": 1566261,
+      "context_start": 1565870,
+      "context_end": 1566261,
+      "reason": ""
+    },
+    {
+      "start": 1566261,
+      "end": 1566667,
+      "context_start": 1566261,
+      "context_end": 1566667,
+      "reason": ""
+    },
+    {
+      "start": 1566667,
+      "end": 1567691,
+      "context_start": 1566667,
+      "context_end": 1567691,
+      "reason": ""
+    },
+    {
+      "start": 1567691,
+      "end": 1567977,
+      "context_start": 1567691,
+      "context_end": 1567977,
+      "reason": ""
+    },
+    {
+      "start": 1567977,
+      "end": 1568040,
+      "context_start": 1567977,
+      "context_end": 1568040,
+      "reason": ""
+    },
+    {
+      "start": 1568040,
+      "end": 1568314,
+      "context_start": 1568040,
+      "context_end": 1568314,
+      "reason": ""
+    },
+    {
+      "start": 1568314,
+      "end": 1568460,
+      "context_start": 1568314,
+      "context_end": 1568460,
+      "reason": ""
+    },
+    {
+      "start": 1568460,
+      "end": 1569073,
+      "context_start": 1568460,
+      "context_end": 1569073,
+      "reason": ""
+    },
+    {
+      "start": 1569073,
+      "end": 1569200,
+      "context_start": 1569073,
+      "context_end": 1569200,
+      "reason": ""
+    },
+    {
+      "start": 1569200,
+      "end": 1570606,
+      "context_start": 1569200,
+      "context_end": 1570606,
+      "reason": ""
+    },
+    {
+      "start": 1570606,
+      "end": 1570857,
+      "context_start": 1570606,
+      "context_end": 1570857,
+      "reason": ""
+    },
+    {
+      "start": 1570857,
+      "end": 1571039,
+      "context_start": 1570857,
+      "context_end": 1571039,
+      "reason": ""
+    },
+    {
+      "start": 1571039,
+      "end": 1571118,
+      "context_start": 1571039,
+      "context_end": 1571118,
+      "reason": ""
+    },
+    {
+      "start": 1571118,
+      "end": 1571359,
+      "context_start": 1571118,
+      "context_end": 1571359,
+      "reason": ""
+    },
+    {
+      "start": 1571359,
+      "end": 1571569,
+      "context_start": 1571359,
+      "context_end": 1571569,
+      "reason": ""
+    },
+    {
+      "start": 1571569,
+      "end": 1571770,
+      "context_start": 1571569,
+      "context_end": 1571770,
+      "reason": ""
+    },
+    {
+      "start": 1571770,
+      "end": 1571909,
+      "context_start": 1571770,
+      "context_end": 1571909,
+      "reason": ""
+    },
+    {
+      "start": 1571909,
+      "end": 1572532,
+      "context_start": 1571909,
+      "context_end": 1572532,
+      "reason": ""
+    },
+    {
+      "start": 1572532,
+      "end": 1572802,
+      "context_start": 1572532,
+      "context_end": 1572802,
+      "reason": ""
+    },
+    {
+      "start": 1572802,
+      "end": 1573113,
+      "context_start": 1572802,
+      "context_end": 1573113,
+      "reason": ""
+    },
+    {
+      "start": 1573113,
+      "end": 1573517,
+      "context_start": 1573113,
+      "context_end": 1573517,
+      "reason": ""
+    },
+    {
+      "start": 1573517,
+      "end": 1573680,
+      "context_start": 1573517,
+      "context_end": 1573680,
+      "reason": ""
+    },
+    {
+      "start": 1573680,
+      "end": 1573771,
+      "context_start": 1573680,
+      "context_end": 1573771,
+      "reason": ""
+    },
+    {
+      "start": 1573771,
+      "end": 1573924,
+      "context_start": 1573771,
+      "context_end": 1573924,
+      "reason": ""
+    },
+    {
+      "start": 1573924,
+      "end": 1574545,
+      "context_start": 1573924,
+      "context_end": 1574545,
+      "reason": ""
+    },
+    {
+      "start": 1574545,
+      "end": 1575275,
+      "context_start": 1574545,
+      "context_end": 1575275,
+      "reason": ""
+    },
+    {
+      "start": 1575275,
+      "end": 1575687,
+      "context_start": 1575275,
+      "context_end": 1575687,
+      "reason": ""
+    },
+    {
+      "start": 1575687,
+      "end": 1575938,
+      "context_start": 1575687,
+      "context_end": 1575938,
+      "reason": ""
+    },
+    {
+      "start": 1575938,
+      "end": 1576591,
+      "context_start": 1575938,
+      "context_end": 1576591,
+      "reason": ""
+    },
+    {
+      "start": 1576591,
+      "end": 1576801,
+      "context_start": 1576591,
+      "context_end": 1576801,
+      "reason": ""
+    },
+    {
+      "start": 1576801,
+      "end": 1576898,
+      "context_start": 1576801,
+      "context_end": 1576898,
+      "reason": ""
+    },
+    {
+      "start": 1576898,
+      "end": 1576953,
+      "context_start": 1576898,
+      "context_end": 1576953,
+      "reason": ""
+    },
+    {
+      "start": 1576953,
+      "end": 1577014,
+      "context_start": 1576953,
+      "context_end": 1577014,
+      "reason": ""
+    },
+    {
+      "start": 1577014,
+      "end": 1577180,
+      "context_start": 1577014,
+      "context_end": 1577180,
+      "reason": ""
+    },
+    {
+      "start": 1577180,
+      "end": 1577219,
+      "context_start": 1577180,
+      "context_end": 1577219,
+      "reason": ""
+    },
+    {
+      "start": 1577219,
+      "end": 1577442,
+      "context_start": 1577219,
+      "context_end": 1577442,
+      "reason": ""
+    },
+    {
+      "start": 1577442,
+      "end": 1577560,
+      "context_start": 1577442,
+      "context_end": 1577560,
+      "reason": ""
+    },
+    {
+      "start": 1577560,
+      "end": 1577600,
+      "context_start": 1577560,
+      "context_end": 1577600,
+      "reason": ""
+    },
+    {
+      "start": 1577600,
+      "end": 1577676,
+      "context_start": 1577600,
+      "context_end": 1577676,
+      "reason": ""
+    },
+    {
+      "start": 1577676,
+      "end": 1577845,
+      "context_start": 1577676,
+      "context_end": 1577845,
+      "reason": ""
+    },
+    {
+      "start": 1577845,
+      "end": 1577884,
+      "context_start": 1577845,
+      "context_end": 1577884,
+      "reason": ""
+    },
+    {
+      "start": 1577884,
+      "end": 1578265,
+      "context_start": 1577884,
+      "context_end": 1578265,
+      "reason": ""
+    },
+    {
+      "start": 1578265,
+      "end": 1578456,
+      "context_start": 1578265,
+      "context_end": 1578456,
+      "reason": ""
+    },
+    {
+      "start": 1578456,
+      "end": 1578650,
+      "context_start": 1578456,
+      "context_end": 1578650,
+      "reason": ""
+    },
+    {
+      "start": 1578650,
+      "end": 1578836,
+      "context_start": 1578650,
+      "context_end": 1578836,
+      "reason": ""
+    },
+    {
+      "start": 1578836,
+      "end": 1578987,
+      "context_start": 1578836,
+      "context_end": 1578987,
+      "reason": ""
+    },
+    {
+      "start": 1578987,
+      "end": 1579148,
+      "context_start": 1578987,
+      "context_end": 1579148,
+      "reason": ""
+    },
+    {
+      "start": 1579148,
+      "end": 1579199,
+      "context_start": 1579148,
+      "context_end": 1579199,
+      "reason": ""
+    },
+    {
+      "start": 1579199,
+      "end": 1579270,
+      "context_start": 1579199,
+      "context_end": 1579270,
+      "reason": ""
+    },
+    {
+      "start": 1579270,
+      "end": 1579493,
+      "context_start": 1579270,
+      "context_end": 1579493,
+      "reason": ""
+    },
+    {
+      "start": 1579493,
+      "end": 1579768,
+      "context_start": 1579493,
+      "context_end": 1579768,
+      "reason": ""
+    },
+    {
+      "start": 1579768,
+      "end": 1580223,
+      "context_start": 1579768,
+      "context_end": 1580223,
+      "reason": ""
+    },
+    {
+      "start": 1580223,
+      "end": 1580809,
+      "context_start": 1580223,
+      "context_end": 1580809,
+      "reason": ""
+    },
+    {
+      "start": 1580809,
+      "end": 1581410,
+      "context_start": 1580809,
+      "context_end": 1581410,
+      "reason": ""
+    },
+    {
+      "start": 1581410,
+      "end": 1581683,
+      "context_start": 1581410,
+      "context_end": 1581683,
+      "reason": ""
+    },
+    {
+      "start": 1581683,
+      "end": 1582624,
+      "context_start": 1581683,
+      "context_end": 1582624,
+      "reason": ""
+    },
+    {
+      "start": 1582624,
+      "end": 1582759,
+      "context_start": 1582624,
+      "context_end": 1582759,
+      "reason": ""
+    },
+    {
+      "start": 1582759,
+      "end": 1582999,
+      "context_start": 1582759,
+      "context_end": 1582999,
+      "reason": ""
+    },
+    {
+      "start": 1582999,
+      "end": 1583114,
+      "context_start": 1582999,
+      "context_end": 1583114,
+      "reason": ""
+    },
+    {
+      "start": 1583114,
+      "end": 1583281,
+      "context_start": 1583114,
+      "context_end": 1583281,
+      "reason": ""
+    },
+    {
+      "start": 1583281,
+      "end": 1583537,
+      "context_start": 1583281,
+      "context_end": 1583537,
+      "reason": ""
+    },
+    {
+      "start": 1583537,
+      "end": 1583714,
+      "context_start": 1583537,
+      "context_end": 1583714,
+      "reason": ""
+    },
+    {
+      "start": 1583714,
+      "end": 1583885,
+      "context_start": 1583714,
+      "context_end": 1583885,
+      "reason": ""
+    },
+    {
+      "start": 1583885,
+      "end": 1583974,
+      "context_start": 1583885,
+      "context_end": 1583974,
+      "reason": ""
+    },
+    {
+      "start": 1583974,
+      "end": 1584102,
+      "context_start": 1583974,
+      "context_end": 1584102,
+      "reason": ""
+    },
+    {
+      "start": 1584102,
+      "end": 1584188,
+      "context_start": 1584102,
+      "context_end": 1584188,
+      "reason": ""
+    },
+    {
+      "start": 1584188,
+      "end": 1584257,
+      "context_start": 1584188,
+      "context_end": 1584257,
+      "reason": ""
+    },
+    {
+      "start": 1584257,
+      "end": 1584362,
+      "context_start": 1584257,
+      "context_end": 1584362,
+      "reason": ""
+    },
+    {
+      "start": 1584362,
+      "end": 1584462,
+      "context_start": 1584362,
+      "context_end": 1584462,
+      "reason": ""
+    },
+    {
+      "start": 1584462,
+      "end": 1584562,
+      "context_start": 1584462,
+      "context_end": 1584562,
+      "reason": ""
+    }
+  ],
+  "heading_labels": [
+    {
+      "at": 1557956,
+      "label": "النسب والسبق والرواة"
+    },
+    {
+      "at": 1558692,
+      "label": "الصلاة والدعاء ورخص السفر"
+    },
+    {
+      "at": 1561347,
+      "label": "النشأة والصفة والسبق"
+    },
+    {
+      "at": 1562433,
+      "label": "الرمي وأخبار أحد"
+    },
+    {
+      "at": 1565484,
+      "label": "الحراسة وترك التنافس على الملك"
+    },
+    {
+      "at": 1566667,
+      "label": "أخبار سعيد بن زيد ضمن الترجمة"
+    },
+    {
+      "at": 1570606,
+      "label": "أخبار بدر وأحد والبشارة"
+    },
+    {
+      "at": 1571770,
+      "label": "أسباب نزول والثبات على الدين"
+    },
+    {
+      "at": 1572802,
+      "label": "العيادة والدعاء"
+    },
+    {
+      "at": 1574545,
+      "label": "الشكوى والتحقق منها والعفو"
+    },
+    {
+      "at": 1576591,
+      "label": "الفتوح وأخبار الدعاء"
+    },
+    {
+      "at": 1578836,
+      "label": "الولاية واعتزال الفتنة"
+    },
+    {
+      "at": 1581683,
+      "label": "المرض والوصية وحقوق الورثة"
+    },
+    {
+      "at": 1582624,
+      "label": "الاعتزال وأخبار الوفاة"
+    }
+  ]
+}

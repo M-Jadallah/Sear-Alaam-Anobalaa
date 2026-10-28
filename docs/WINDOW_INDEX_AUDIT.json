@@ -1,0 +1,25 @@
+{
+  "scope": "all non-front-matter source sections",
+  "tokenizer": "stored model-token counts; no tokenizer or model loaded",
+  "index_version": "siyar-semantic-v2",
+  "renderer_version": "openiti-reading-v1",
+  "sections": 6289,
+  "nonempty_sections": 6289,
+  "windows": 32217,
+  "display_nonspace_codepoints": 9668033,
+  "covered_nonspace_codepoints": 9668033,
+  "uncovered": [],
+  "invalid_windows": [],
+  "vectors_validated": false,
+  "windows_complete_metadata": true,
+  "index_directory": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\semantic\\version-92e16748cc3e03283d34",
+  "sources": [
+    {
+      "id": 1,
+      "sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+      "char_count": 12665488
+    }
+  ],
+  "complete": true,
+  "elapsed_seconds": 16.6
+}

@@ -1,0 +1,7 @@
+* text=auto eol=lf
+data/source.mARkdown -text
+reference/** -text
+deploy/seed/*.part* -text
+*.png -text
+*.jpg -text
+*.woff2 -text

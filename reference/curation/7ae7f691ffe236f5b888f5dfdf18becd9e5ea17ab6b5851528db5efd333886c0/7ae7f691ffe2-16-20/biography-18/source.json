@@ -1,0 +1,88 @@
+{
+  "biography_id": 18,
+  "source_ordinal": 18,
+  "heading": "18 - إياس بن أبي البكير بن عبد يا ليل الليثي **",
+  "source_char_start": 1635157,
+  "source_char_end": 1635388,
+  "full_text": "### $ 18 - إياس بن أبي البكير بن عبد يا ليل الليثي **\n# قال ابن سعد (3) : آخى رسول الله -صلى الله عليه وسلم- بينه وبين الحارث\n~~بن خزمة، وشهد بدرا والمشاهد كلها.\n# وشهد فتح مصر.\n# توفي سنة أربع وثلاثين. PageV01P186\n# أخوهم الرابع:\n",
+  "segments": [
+    {
+      "id": 8635,
+      "source_id": 1,
+      "section_id": 298,
+      "biography_id": 18,
+      "segment_ordinal": 1,
+      "text_original": "# قال ابن سعد (3) : آخى رسول الله -صلى الله عليه وسلم- بينه وبين الحارث\n~~بن خزمة، وشهد بدرا والمشاهد كلها.\n",
+      "normalized_search_text": "قال ابن سعد 3 اخي رسول الله صلي الله عليه وسلم بينه وبين الحارث بن خزمة وشهد بدرا والمشاهد كلها",
+      "source_char_start": 1635211,
+      "source_char_end": 1635319,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P186"
+    },
+    {
+      "id": 8636,
+      "source_id": 1,
+      "section_id": 298,
+      "biography_id": 18,
+      "segment_ordinal": 2,
+      "text_original": "# وشهد فتح مصر.\n",
+      "normalized_search_text": "وشهد فتح مصر",
+      "source_char_start": 1635319,
+      "source_char_end": 1635335,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P186"
+    },
+    {
+      "id": 8637,
+      "source_id": 1,
+      "section_id": 298,
+      "biography_id": 18,
+      "segment_ordinal": 3,
+      "text_original": "# توفي سنة أربع وثلاثين. PageV01P186\n",
+      "normalized_search_text": "توفي سنة اربع وثلاثين pagev01p186",
+      "source_char_start": 1635335,
+      "source_char_end": 1635372,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P186"
+    },
+    {
+      "id": 8638,
+      "source_id": 1,
+      "section_id": 298,
+      "biography_id": 18,
+      "segment_ordinal": 4,
+      "text_original": "# أخوهم الرابع:\n",
+      "normalized_search_text": "اخوهم الرابع",
+      "source_char_start": 1635372,
+      "source_char_end": 1635388,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P187"
+    }
+  ],
+  "existing_hits": [
+    {
+      "id": 816,
+      "topic_id": 68,
+      "segment_id": 8637,
+      "evidence_text": "توفي سنة",
+      "source_char_start": 1635337,
+      "source_char_end": 1635345,
+      "matched_phrase": "توفي سنة",
+      "method": "keyword_candidate",
+      "review_status": "candidate",
+      "confidence": 0.35,
+      "reviewer_note": null
+    }
+  ],
+  "footnote_candidates": [
+    {
+      "start": 1635225,
+      "end": 1635228,
+      "raw": "(3)"
+    }
+  ]
+}

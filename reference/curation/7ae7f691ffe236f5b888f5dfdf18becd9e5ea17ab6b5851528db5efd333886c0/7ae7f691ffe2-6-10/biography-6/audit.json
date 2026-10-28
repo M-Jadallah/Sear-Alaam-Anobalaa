@@ -1,0 +1,19 @@
+{
+  "authoring_sha256": "95559ae1f63e5b7b78ffd3007d51c8b8a252c873b266bf394a8befaf575b94f9",
+  "reviewer": "independent-reader-author-9-10",
+  "all_segments_checked": true,
+  "all_footnotes_checked": true,
+  "findings": [
+    {
+      "note": "وُسع شاهدا الوأد والخصومة ليشملا تفاصيل السؤالين، وسجلت أقوال وإبرازات مختارة، ووُضح بقاء رموز العنوان والتحويل؛ أعيد فحص النسخة المعدلة.",
+      "resolved": true
+    }
+  ],
+  "checks": {
+    "source_coverage": true,
+    "paragraphs": true,
+    "criticism_context": true,
+    "topic_evidence": true,
+    "negative_cases": true
+  }
+}

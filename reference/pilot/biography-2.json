@@ -1,0 +1,3304 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 2,
+  "source_char_start": 1501973,
+  "source_char_end": 1516215,
+  "reviewer": "مراجعة نصية بواسطة وكيل",
+  "segments": [
+    {
+      "segment_id": 6947,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الكنية والنسبة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "تعداد النسب والكنية لصاحب الترجمة.",
+          "relation_type": "description",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1502031,
+          "evidence_end": 1502164,
+          "context_start": 1502031,
+          "context_end": 1502164
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6948,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "المناقب والفضائل",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "النص يعده من العشرة المشهود لهم بالجنة.",
+          "relation_type": "description",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1502164,
+          "evidence_end": 1502244,
+          "context_start": 1502164,
+          "context_end": 1502244
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6949,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6950,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الرواية والسماع",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "عدد المرويات في الصحيحين كما يذكره النص.",
+          "relation_type": "discussion",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1502303,
+          "evidence_end": 1502383,
+          "context_start": 1502244,
+          "context_end": 1502383
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6951,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "التلاميذ",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "قائمة من رووا عن طلحة ومنهم أبناؤه.",
+          "relation_type": "description",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1502383,
+          "evidence_end": 1502587,
+          "context_start": 1502383,
+          "context_end": 1502587
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6952,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الصفة الخلقية",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "الوصف الأول لهيئته، مع الرواية التالية التي تختلف في لون بشرته.",
+          "relation_type": "description",
+          "subject_scope": "biography_subject",
+          "stance": "contested",
+          "evidence_start": 1502587,
+          "evidence_end": 1502718,
+          "context_start": 1502587,
+          "context_end": 1502973
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6953,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6954,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6955,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6956,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "السبق إلى الإسلام",
+          "category": "التراجم والرجال",
+          "aliases": [
+            "السابقون الأولون",
+            "المبادرة إلى الإسلام"
+          ],
+          "rationale": "السبق إلى الإسلام والأذى فيه في خبر صاحب الترجمة.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1502973,
+          "evidence_end": 1503161,
+          "context_start": 1502973,
+          "context_end": 1503161
+        },
+        {
+          "topic": "الهجرة",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "تصريح الخبر بهجرته بعد الأذى؛ لا يحدد هذا الموضع جهة الهجرة.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1502973,
+          "evidence_end": 1503161,
+          "context_start": 1502973,
+          "context_end": 1503161
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6957,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "القضاء والولايات",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "خبر جعل عمر طلحة على المهاجرين بالجابية.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1503161,
+          "evidence_end": 1503256,
+          "context_start": 1503161,
+          "context_end": 1503256
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6958,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "غزوة أحد",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "شلل يده مما وقى به النبي في الخبر.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1503256,
+          "evidence_end": 1503337,
+          "context_start": 1503256,
+          "context_end": 1503941
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6959,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6960,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6961,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6962,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": [
+        {
+          "hit_id": 726,
+          "decision": "exclude",
+          "reason": "ابن أبي الجود اسم راوٍ داخل الإسناد، ولا يثبت الكرم."
+        }
+      ]
+    },
+    {
+      "segment_id": 6963,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6964,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "المناقب والفضائل",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "نص أوجب طلحة مع وصف الإسناد السابق بأنه حسن.",
+          "relation_type": "saying",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1503737,
+          "evidence_end": 1503804,
+          "context_start": 1503514,
+          "context_end": 1503804
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6965,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6966,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "غزوة أحد",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "شهادة قيس في اليد التي وقى بها النبي.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1503837,
+          "evidence_end": 1503906,
+          "context_start": 1503804,
+          "context_end": 1503941
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6967,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6968,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6969,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6970,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6971,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6972,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6973,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6974,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6975,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6976,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6977,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6978,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6979,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6980,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6981,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6982,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6983,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6984,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "غزوة أحد",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "خبر قتال طلحة وقطع أصابعه، مع عبارة رواته ثقات التالية.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1504515,
+          "evidence_end": 1504561,
+          "context_start": 1503941,
+          "context_end": 1504709
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6985,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6986,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6987,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6988,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6989,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6990,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6991,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "غزوة أحد",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "خبر بقاء طلحة وسعد عند النبي في القتال.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1505003,
+          "evidence_end": 1505127,
+          "context_start": 1504709,
+          "context_end": 1505156
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6992,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6993,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6994,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6995,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الصحبة",
+          "category": "الأخلاق والآداب",
+          "aliases": [],
+          "rationale": "توقير الصحابة للنبي واستعانتهم بالأعرابي للسؤال.",
+          "relation_type": "description",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1505355,
+          "evidence_end": 1505426,
+          "context_start": 1505156,
+          "context_end": 1505795
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6996,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6997,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6998,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 6999,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7000,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7001,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7002,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7003,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7004,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "المناقب والفضائل",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "القول المنقول في النبي والصديق والشهيد على حراء.",
+          "relation_type": "saying",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1505948,
+          "evidence_end": 1506015,
+          "context_start": 1505795,
+          "context_end": 1506015
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7005,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7006,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7007,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7008,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الجنة والنار",
+          "category": "القلب والسلوك",
+          "aliases": [],
+          "rationale": "نص جوار طلحة والزبير في الجنة مع اختلاف الطريق اللاحق.",
+          "relation_type": "saying",
+          "subject_scope": "biography_subject",
+          "stance": "contested",
+          "evidence_start": 1506347,
+          "evidence_end": 1506439,
+          "context_start": 1506218,
+          "context_end": 1506568
+        }
+      ],
+      "existing_hits": [
+        {
+          "hit_id": 727,
+          "decision": "modify",
+          "reason": "قول الجوار في الجنة يحتاج إسناده واختلاف الطريق التالي."
+        }
+      ]
+    },
+    {
+      "segment_id": 7009,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7010,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7011,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7012,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الكرم",
+          "category": "الأخلاق والآداب",
+          "aliases": [],
+          "rationale": "شراء البئر وإطعام الناس؛ خبر في البذل لا مجرد لقب في اسم راوٍ.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1506648,
+          "evidence_end": 1506768,
+          "context_start": 1506568,
+          "context_end": 1506768
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7013,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7014,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الكرم",
+          "category": "الأخلاق والآداب",
+          "aliases": [],
+          "rationale": "الألقاب في خبر يليه نص إسناده لين؛ يُحفظ النقد معه.",
+          "relation_type": "description",
+          "subject_scope": "biography_subject",
+          "stance": "contested",
+          "evidence_start": 1506867,
+          "evidence_end": 1506999,
+          "context_start": 1506768,
+          "context_end": 1507013
+        }
+      ],
+      "existing_hits": [
+        {
+          "hit_id": 728,
+          "decision": "modify",
+          "reason": "لقب الجود وارد في خبر يليه إسناده لين، فيجب حفظ النقد معه."
+        }
+      ]
+    },
+    {
+      "segment_id": 7015,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "علل الحديث",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "نقد إسناد خبر ألقاب طلحة في المصدر.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "criticism",
+          "evidence_start": 1506999,
+          "evidence_end": 1507013,
+          "context_start": 1506768,
+          "context_end": 1507013
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7016,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7017,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الكرم",
+          "category": "الأخلاق والآداب",
+          "aliases": [],
+          "rationale": "شهادة قبيصة في كثرة عطائه بغير سؤال.",
+          "relation_type": "description",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1507060,
+          "evidence_end": 1507120,
+          "context_start": 1507013,
+          "context_end": 1507120
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7018,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7019,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7020,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7021,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7022,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "محاسبة النفس",
+          "category": "القلب والسلوك",
+          "aliases": [],
+          "rationale": "قلقه من مبيت المال في بيته ومحاسبته نفسه.",
+          "relation_type": "saying",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1507334,
+          "evidence_end": 1507405,
+          "context_start": 1507120,
+          "context_end": 1507765
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7023,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "النكاح والأسرة",
+          "category": "الفقه وأصوله",
+          "aliases": [],
+          "rationale": "مشورة الزوجة في توزيع المال وحوارهما في سياق الأسرة.",
+          "relation_type": "saying",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1507405,
+          "evidence_end": 1507474,
+          "context_start": 1507120,
+          "context_end": 1507765
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7024,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7025,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الكرم",
+          "category": "الأخلاق والآداب",
+          "aliases": [],
+          "rationale": "تفريق المال بين المهاجرين والأنصار بعد مشورة الزوجة.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1507542,
+          "evidence_end": 1507624,
+          "context_start": 1507120,
+          "context_end": 1507765
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7026,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7027,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7028,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7029,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7030,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7031,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7032,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "صلة الرحم",
+          "category": "الأخلاق والآداب",
+          "aliases": [
+            "بر الأقارب",
+            "الإحسان إلى الرحم"
+          ],
+          "rationale": "عرضه الأرض أو ثمنها على من سأله بالرحم.",
+          "relation_type": "saying",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1508059,
+          "evidence_end": 1508201,
+          "context_start": 1507765,
+          "context_end": 1508226
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7033,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7034,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7035,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7036,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7037,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الكرم",
+          "category": "الأخلاق والآداب",
+          "aliases": [],
+          "rationale": "عرض الحائط أو ثمنه في رواية يصفها المصدر بالانقطاع وضعف الكديمي.",
+          "relation_type": "saying",
+          "subject_scope": "biography_subject",
+          "stance": "contested",
+          "evidence_start": 1508347,
+          "evidence_end": 1508427,
+          "context_start": 1508226,
+          "context_end": 1508471
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7038,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "علل الحديث",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "حكم النص بالانقطاع وضعف الكديمي يرافق الخبر ولا ينشئ الوكيل تصحيحًا.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "criticism",
+          "evidence_start": 1508427,
+          "evidence_end": 1508471,
+          "context_start": 1508226,
+          "context_end": 1508471
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7039,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7040,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "غزوة أحد",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "تفصيل جراح طلحة وحمله النبي ومقاتلته دونه في الخبر.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1508588,
+          "evidence_end": 1508918,
+          "context_start": 1508471,
+          "context_end": 1508918
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7041,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7042,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7043,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7044,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7045,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7046,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الكرم",
+          "category": "الأخلاق والآداب",
+          "aliases": [],
+          "rationale": "توزيع المال على قومه بعد أن غمه وجوده.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1509152,
+          "evidence_end": 1509193,
+          "context_start": 1508918,
+          "context_end": 1509245
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7047,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7048,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7049,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7050,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الزهد",
+          "category": "القلب والسلوك",
+          "aliases": [],
+          "rationale": "خبر أرقه من مخافة المال ثم تفريقه؛ لا يستنتج أنه ترك التجارة.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1509276,
+          "evidence_end": 1509374,
+          "context_start": 1509245,
+          "context_end": 1509374
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7051,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7052,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7053,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "رعاية الفقراء",
+          "category": "الأخلاق والآداب",
+          "aliases": [
+            "كفاية المحتاج",
+            "إعانة المعوزين"
+          ],
+          "rationale": "إعالة المحتاجين من بني تيم وقضاء ديونهم ومواصلته عائشة.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1509529,
+          "evidence_end": 1509752,
+          "context_start": 1509374,
+          "context_end": 1509893
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7054,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "قضاء الديون",
+          "category": "الفقه وأصوله",
+          "aliases": [
+            "سداد الدين",
+            "الوفاء بالدين"
+          ],
+          "rationale": "خبر قضائه دين عبيد الله بن معمر وعبد الله بن عامر.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1509752,
+          "evidence_end": 1509893,
+          "context_start": 1509529,
+          "context_end": 1509893
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7055,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7056,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7057,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7058,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7059,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7060,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الثناء والنقد",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "ترحم معاوية وثناؤه على طلحة بعد ذكر تركته.",
+          "relation_type": "saying",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1510220,
+          "evidence_end": 1510262,
+          "context_start": 1510009,
+          "context_end": 1510262
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7061,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7062,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7063,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7064,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7065,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "المناقب والفضائل",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "أبيات في السابقين من الصحابة؛ شعر منقول لا تقرير مستقل.",
+          "relation_type": "saying",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1510445,
+          "evidence_end": 1510493,
+          "context_start": 1510262,
+          "context_end": 1510593
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7066,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7067,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7068,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7069,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الفتن والحروب",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "خروج طلحة والزبير وعائشة للمطالبة بدم عثمان كما يرويه الخبر.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1510705,
+          "evidence_end": 1510842,
+          "context_start": 1510593,
+          "context_end": 1511400
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7070,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7071,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7072,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "محاسبة النفس",
+          "category": "القلب والسلوك",
+          "aliases": [],
+          "rationale": "قول طلحة في انقسام الجماعة وشعوره بالمسؤولية عن أمر عثمان، مع تعليق النص بعده.",
+          "relation_type": "saying",
+          "subject_scope": "biography_subject",
+          "stance": "contested",
+          "evidence_start": 1511001,
+          "evidence_end": 1511205,
+          "context_start": 1510593,
+          "context_end": 1511400
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7073,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7074,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7075,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الفتن والحروب",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "محاولة كعب بن سور حقن الدماء يوم الجمل؛ الفعل يخص شخصًا مذكورًا.",
+          "relation_type": "event",
+          "subject_scope": "mentioned_person",
+          "stance": "reported",
+          "evidence_start": 1511490,
+          "evidence_end": 1511615,
+          "context_start": 1511400,
+          "context_end": 1511683
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7076,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7077,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7078,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7079,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7080,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7081,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7082,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الدعاء",
+          "category": "القلب والسلوك",
+          "aliases": [],
+          "rationale": "دعاء طلحة بشأن عثمان في سياق الفتنة، دون تقرير تاريخي جديد.",
+          "relation_type": "saying",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1511919,
+          "evidence_end": 1512040,
+          "context_start": 1511848,
+          "context_end": 1512040
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7083,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7084,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "روايات رمي مروان طلحة بالسهم مع تتمتها وتعليق المؤلف.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1512088,
+          "evidence_end": 1512181,
+          "context_start": 1512040,
+          "context_end": 1512511
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7085,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7086,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7087,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7088,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7089,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7090,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7091,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الثناء والنقد",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "حزن علي على طلحة بعد مقتله، مع شرح الأصمعي للعبارة.",
+          "relation_type": "saying",
+          "subject_scope": "mentioned_person",
+          "stance": "reported",
+          "evidence_start": 1512545,
+          "evidence_end": 1512697,
+          "context_start": 1512511,
+          "context_end": 1512753
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7092,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7093,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7094,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7095,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "علل الحديث",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "خبر ترحم علي يتلوه حكم النص بأنه مرسل؛ يظهر معه دون إسقاطه.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "criticism",
+          "evidence_start": 1512898,
+          "evidence_end": 1512962,
+          "context_start": 1512753,
+          "context_end": 1512970
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7096,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7097,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7098,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7099,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7100,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7101,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الرواية والسماع",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "تفسير طلحة كثرة سماع أبي هريرة لملازمته باب النبي.",
+          "relation_type": "saying",
+          "subject_scope": "mentioned_person",
+          "stance": "reported",
+          "evidence_start": 1513447,
+          "evidence_end": 1513752,
+          "context_start": 1513076,
+          "context_end": 1513752
+        },
+        {
+          "topic": "الصدق",
+          "category": "الأخلاق والآداب",
+          "aliases": [],
+          "rationale": "استبعاد طلحة تعمد صاحب الخير القول على النبي بما لم يقل، في سياق الدفاع عن أبي هريرة.",
+          "relation_type": "saying",
+          "subject_scope": "mentioned_person",
+          "stance": "reported",
+          "evidence_start": 1513447,
+          "evidence_end": 1513752,
+          "context_start": 1513076,
+          "context_end": 1513752
+        }
+      ],
+      "existing_hits": [
+        {
+          "hit_id": 729,
+          "decision": "keep",
+          "reason": "سياق صريح في سماع أبي هريرة وملازمته النبي؛ لا ينسب سماعه إلى طلحة."
+        },
+        {
+          "hit_id": 730,
+          "decision": "exclude",
+          "reason": "وجود سمع من في بيان ملازمة أبي هريرة لا يقدم فهرسًا لشيوخ طلحة."
+        }
+      ]
+    },
+    {
+      "segment_id": 7102,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7103,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7104,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الموت والآخرة",
+          "category": "القلب والسلوك",
+          "aliases": [],
+          "rationale": "انشغال طلحة بكلمة عند حضور الموت، مع سؤال عمر وجوابه.",
+          "relation_type": "saying",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1513944,
+          "evidence_end": 1514093,
+          "context_start": 1513752,
+          "context_end": 1514276
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7105,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7106,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7107,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7108,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7109,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7110,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7111,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7112,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7113,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "التفسير",
+          "category": "القرآن وعلومه",
+          "aliases": [],
+          "rationale": "استشهاد علي بآية نزع الغل وحديثه مع ابن طلحة، مع اعتراض الرجلين ورد علي.",
+          "relation_type": "saying",
+          "subject_scope": "mentioned_person",
+          "stance": "contested",
+          "evidence_start": 1514468,
+          "evidence_end": 1514562,
+          "context_start": 1514276,
+          "context_end": 1514771
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7114,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": [
+        {
+          "hit_id": 731,
+          "decision": "modify",
+          "reason": "هذه الجملة اعتراض رجلين، ويجب عرض رجاء علي وردّه معها بدل اعتماد الاعتراض."
+        }
+      ]
+    },
+    {
+      "segment_id": 7115,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الصحبة",
+          "category": "الأخلاق والآداب",
+          "aliases": [],
+          "rationale": "قول علي في رجائه الأخوة مع طلحة وترحيبه بابنه بعد الجمل، لا اعتماد اعتراض الرجلين.",
+          "relation_type": "saying",
+          "subject_scope": "mentioned_person",
+          "stance": "reported",
+          "evidence_start": 1514663,
+          "evidence_end": 1514771,
+          "context_start": 1514276,
+          "context_end": 1514771
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7116,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7117,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7118,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7119,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7120,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7121,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7122,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "غزوة أحد",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "قول طلحة في انتشار الجراح في جسده.",
+          "relation_type": "saying",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1515085,
+          "evidence_end": 1515141,
+          "context_start": 1514771,
+          "context_end": 1515141
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7123,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7124,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "التركة والأموال",
+          "category": "التراجم والرجال",
+          "aliases": [
+            "الأموال المتروكة",
+            "ميراث المال"
+          ],
+          "rationale": "مقدار الأموال والعقار في رواية المصدر مع تعليق الاستغراب التالي.",
+          "relation_type": "description",
+          "subject_scope": "biography_subject",
+          "stance": "contested",
+          "evidence_start": 1515293,
+          "evidence_end": 1515350,
+          "context_start": 1515141,
+          "context_end": 1515445
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7125,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7126,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7127,
+      "assessment": "uncertain",
+      "note": "خبر منام ونقل قبر مع اختلاف في صاحب الرؤيا؛ تُرك بلا وسم بحثي مستقل إلى المراجعة البشرية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7128,
+      "assessment": "uncertain",
+      "note": "خبر منام ونقل قبر مع اختلاف في صاحب الرؤيا؛ تُرك بلا وسم بحثي مستقل إلى المراجعة البشرية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7129,
+      "assessment": "uncertain",
+      "note": "خبر منام ونقل قبر مع اختلاف في صاحب الرؤيا؛ تُرك بلا وسم بحثي مستقل إلى المراجعة البشرية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7130,
+      "assessment": "uncertain",
+      "note": "خبر منام ونقل قبر مع اختلاف في صاحب الرؤيا؛ تُرك بلا وسم بحثي مستقل إلى المراجعة البشرية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7131,
+      "assessment": "uncertain",
+      "note": "خبر منام ونقل قبر مع اختلاف في صاحب الرؤيا؛ تُرك بلا وسم بحثي مستقل إلى المراجعة البشرية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7132,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "الروايات في تاريخ قتله وعمره مع موضع قبره.",
+          "relation_type": "description",
+          "subject_scope": "biography_subject",
+          "stance": "contested",
+          "evidence_start": 1515808,
+          "evidence_end": 1515856,
+          "context_start": 1515808,
+          "context_end": 1516025
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7133,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7134,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7135,
+      "assessment": "no_clear_topic",
+      "note": "فُحص النص ضمن سياقه المتصل؛ لم يُفرد لهذا الجزء وسم مستقل، ولا يعني ذلك خلوه من المعاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7136,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "العبادات",
+          "category": "الفقه وأصوله",
+          "aliases": [],
+          "rationale": "وصف محمد السجاد ابن طلحة بالعبادة؛ يخص شخصًا مذكورًا لا طلحة.",
+          "relation_type": "description",
+          "subject_scope": "mentioned_person",
+          "stance": "reported",
+          "evidence_start": 1516068,
+          "evidence_end": 1516104,
+          "context_start": 1516025,
+          "context_end": 1516215
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 7137,
+      "assessment": "supported",
+      "note": "فُحصت دلالة الشاهد في سياق الخبر؛ الربط اقتراح نصي ينتظر قرار الإنسان.",
+      "topics": [
+        {
+          "topic": "بر الوالدين",
+          "category": "الأخلاق والآداب",
+          "aliases": [],
+          "rationale": "قول علي في محمد السجاد صرعه بره بأبيه؛ لا يُنسب فعل الابن للأب.",
+          "relation_type": "saying",
+          "subject_scope": "mentioned_person",
+          "stance": "reported",
+          "evidence_start": 1516104,
+          "evidence_end": 1516215,
+          "context_start": 1516025,
+          "context_end": 1516215
+        }
+      ],
+      "existing_hits": []
+    }
+  ],
+  "presentation": {
+    "headings": [
+      {
+        "at": 1502031,
+        "label": "النسب والسابقة والرواية"
+      },
+      {
+        "at": 1502587,
+        "label": "الصفة ومشاهده الأولى"
+      },
+      {
+        "at": 1503337,
+        "label": "أخبار في الدفاع عن النبي يوم أحد"
+      },
+      {
+        "at": 1505156,
+        "label": "أقوال في مناقبه"
+      },
+      {
+        "at": 1506568,
+        "label": "أخبار البذل ومشاورة الأهل"
+      },
+      {
+        "at": 1508471,
+        "label": "جراح أحد وأخبار المال"
+      },
+      {
+        "at": 1510262,
+        "label": "أبيات في السابقين"
+      },
+      {
+        "at": 1510593,
+        "label": "خبر الفتنة ويوم الجمل"
+      },
+      {
+        "at": 1512511,
+        "label": "ما روي بعد مقتله"
+      },
+      {
+        "at": 1513076,
+        "label": "أقوال في الرواية والموت"
+      },
+      {
+        "at": 1514276,
+        "label": "ذكره بعد الجمل ومشاهد أحد"
+      },
+      {
+        "at": 1515141,
+        "label": "التركة والوفاة وولده"
+      }
+    ],
+    "quotes": [
+      {
+        "start": 1503382,
+        "end": 1503514
+      },
+      {
+        "start": 1503737,
+        "end": 1503804
+      },
+      {
+        "start": 1504033,
+        "end": 1504709
+      },
+      {
+        "start": 1505266,
+        "end": 1505795
+      },
+      {
+        "start": 1505832,
+        "end": 1506015
+      },
+      {
+        "start": 1506347,
+        "end": 1506568
+      },
+      {
+        "start": 1506648,
+        "end": 1506768
+      },
+      {
+        "start": 1507060,
+        "end": 1507120
+      },
+      {
+        "start": 1507237,
+        "end": 1507765
+      },
+      {
+        "start": 1508013,
+        "end": 1508226
+      },
+      {
+        "start": 1508287,
+        "end": 1508471
+      },
+      {
+        "start": 1508987,
+        "end": 1509245
+      },
+      {
+        "start": 1510705,
+        "end": 1511400
+      },
+      {
+        "start": 1511727,
+        "end": 1512040
+      },
+      {
+        "start": 1512088,
+        "end": 1512511
+      },
+      {
+        "start": 1512545,
+        "end": 1512753
+      },
+      {
+        "start": 1512799,
+        "end": 1512970
+      },
+      {
+        "start": 1513315,
+        "end": 1513752
+      },
+      {
+        "start": 1513752,
+        "end": 1514276
+      },
+      {
+        "start": 1514357,
+        "end": 1514771
+      },
+      {
+        "start": 1514788,
+        "end": 1514903
+      }
+    ],
+    "poetry": [
+      {
+        "start": 1510292,
+        "end": 1510593
+      },
+      {
+        "start": 1514918,
+        "end": 1515085
+      }
+    ],
+    "lists": [],
+    "bold": [
+      {
+        "start": 1503857,
+        "end": 1503870
+      },
+      {
+        "start": 1509326,
+        "end": 1509335
+      },
+      {
+        "start": 1509181,
+        "end": 1509191
+      },
+      {
+        "start": 1504697,
+        "end": 1504707
+      },
+      {
+        "start": 1507001,
+        "end": 1507011
+      },
+      {
+        "start": 1508429,
+        "end": 1508457
+      },
+      {
+        "start": 1512964,
+        "end": 1512969
+      }
+    ],
+    "keywords": [
+      {
+        "start": 1503328,
+        "end": 1503335
+      },
+      {
+        "start": 1503777,
+        "end": 1503784
+      },
+      {
+        "start": 1503892,
+        "end": 1503899
+      },
+      {
+        "start": 1504043,
+        "end": 1504050
+      },
+      {
+        "start": 1506877,
+        "end": 1506884
+      },
+      {
+        "start": 1508600,
+        "end": 1508607
+      },
+      {
+        "start": 1514838,
+        "end": 1514845
+      },
+      {
+        "start": 1515106,
+        "end": 1515113
+      },
+      {
+        "start": 1507577,
+        "end": 1507595
+      },
+      {
+        "start": 1509618,
+        "end": 1509632
+      },
+      {
+        "start": 1509635,
+        "end": 1509643
+      },
+      {
+        "start": 1506331,
+        "end": 1506340
+      },
+      {
+        "start": 1511504,
+        "end": 1511513
+      },
+      {
+        "start": 1516149,
+        "end": 1516158
+      }
+    ],
+    "names": [
+      {
+        "start": 1501983,
+        "end": 1502000
+      },
+      {
+        "start": 1502004,
+        "end": 1502009
+      },
+      {
+        "start": 1502044,
+        "end": 1502047
+      },
+      {
+        "start": 1502094,
+        "end": 1502098
+      },
+      {
+        "start": 1502400,
+        "end": 1502404
+      },
+      {
+        "start": 1502469,
+        "end": 1502474
+      },
+      {
+        "start": 1502541,
+        "end": 1502544
+      },
+      {
+        "start": 1502597,
+        "end": 1502613
+      },
+      {
+        "start": 1502725,
+        "end": 1502750
+      },
+      {
+        "start": 1502755,
+        "end": 1502774
+      },
+      {
+        "start": 1502798,
+        "end": 1502811
+      },
+      {
+        "start": 1502819,
+        "end": 1502831
+      },
+      {
+        "start": 1503339,
+        "end": 1503353
+      },
+      {
+        "start": 1503487,
+        "end": 1503504
+      },
+      {
+        "start": 1503542,
+        "end": 1503555
+      },
+      {
+        "start": 1503564,
+        "end": 1503575
+      },
+      {
+        "start": 1503586,
+        "end": 1503605
+      },
+      {
+        "start": 1503614,
+        "end": 1503629
+      },
+      {
+        "start": 1503651,
+        "end": 1503672
+      },
+      {
+        "start": 1503719,
+        "end": 1503723
+      },
+      {
+        "start": 1503792,
+        "end": 1503796
+      },
+      {
+        "start": 1503827,
+        "end": 1503830
+      },
+      {
+        "start": 1503847,
+        "end": 1503851
+      },
+      {
+        "start": 1503965,
+        "end": 1503969
+      },
+      {
+        "start": 1504011,
+        "end": 1504017
+      },
+      {
+        "start": 1504134,
+        "end": 1504138
+      },
+      {
+        "start": 1504213,
+        "end": 1504217
+      },
+      {
+        "start": 1504347,
+        "end": 1504351
+      },
+      {
+        "start": 1504470,
+        "end": 1504474
+      },
+      {
+        "start": 1504504,
+        "end": 1504508
+      },
+      {
+        "start": 1504523,
+        "end": 1504527
+      },
+      {
+        "start": 1504759,
+        "end": 1504776
+      },
+      {
+        "start": 1504796,
+        "end": 1504812
+      },
+      {
+        "start": 1504821,
+        "end": 1504839
+      },
+      {
+        "start": 1504883,
+        "end": 1504886
+      },
+      {
+        "start": 1504910,
+        "end": 1504917
+      },
+      {
+        "start": 1504984,
+        "end": 1504989
+      },
+      {
+        "start": 1505100,
+        "end": 1505104
+      },
+      {
+        "start": 1505181,
+        "end": 1505189
+      },
+      {
+        "start": 1505197,
+        "end": 1505209
+      },
+      {
+        "start": 1505214,
+        "end": 1505218
+      },
+      {
+        "start": 1505222,
+        "end": 1505226
+      },
+      {
+        "start": 1505249,
+        "end": 1505253
+      },
+      {
+        "start": 1505698,
+        "end": 1505704
+      },
+      {
+        "start": 1505756,
+        "end": 1505760
+      },
+      {
+        "start": 1506054,
+        "end": 1506060
+      },
+      {
+        "start": 1506074,
+        "end": 1506090
+      },
+      {
+        "start": 1506095,
+        "end": 1506100
+      },
+      {
+        "start": 1506206,
+        "end": 1506210
+      },
+      {
+        "start": 1506276,
+        "end": 1506288
+      },
+      {
+        "start": 1506298,
+        "end": 1506311
+      },
+      {
+        "start": 1506402,
+        "end": 1506406
+      },
+      {
+        "start": 1506453,
+        "end": 1506469
+      },
+      {
+        "start": 1506506,
+        "end": 1506514
+      },
+      {
+        "start": 1506570,
+        "end": 1506574
+      },
+      {
+        "start": 1506590,
+        "end": 1506594
+      },
+      {
+        "start": 1506625,
+        "end": 1506639
+      },
+      {
+        "start": 1506656,
+        "end": 1506660
+      },
+      {
+        "start": 1506749,
+        "end": 1506753
+      },
+      {
+        "start": 1506770,
+        "end": 1506784
+      },
+      {
+        "start": 1506788,
+        "end": 1506792
+      },
+      {
+        "start": 1506796,
+        "end": 1506808
+      },
+      {
+        "start": 1506839,
+        "end": 1506851
+      },
+      {
+        "start": 1506918,
+        "end": 1506922
+      },
+      {
+        "start": 1506958,
+        "end": 1506962
+      },
+      {
+        "start": 1506982,
+        "end": 1506986
+      },
+      {
+        "start": 1507040,
+        "end": 1507053
+      },
+      {
+        "start": 1507067,
+        "end": 1507071
+      },
+      {
+        "start": 1507149,
+        "end": 1507163
+      },
+      {
+        "start": 1507177,
+        "end": 1507181
+      },
+      {
+        "start": 1507521,
+        "end": 1507540
+      },
+      {
+        "start": 1507606,
+        "end": 1507609
+      },
+      {
+        "start": 1507774,
+        "end": 1507788
+      },
+      {
+        "start": 1507820,
+        "end": 1507831
+      },
+      {
+        "start": 1507887,
+        "end": 1507894
+      },
+      {
+        "start": 1507932,
+        "end": 1507947
+      },
+      {
+        "start": 1507977,
+        "end": 1507991
+      },
+      {
+        "start": 1507996,
+        "end": 1508006
+      },
+      {
+        "start": 1508030,
+        "end": 1508034
+      },
+      {
+        "start": 1508129,
+        "end": 1508134
+      },
+      {
+        "start": 1508176,
+        "end": 1508181
+      },
+      {
+        "start": 1508248,
+        "end": 1508255
+      },
+      {
+        "start": 1508263,
+        "end": 1508272
+      },
+      {
+        "start": 1508292,
+        "end": 1508296
+      },
+      {
+        "start": 1508477,
+        "end": 1508484
+      },
+      {
+        "start": 1508531,
+        "end": 1508537
+      },
+      {
+        "start": 1508553,
+        "end": 1508558
+      },
+      {
+        "start": 1508575,
+        "end": 1508579
+      },
+      {
+        "start": 1508934,
+        "end": 1508938
+      },
+      {
+        "start": 1508942,
+        "end": 1508946
+      },
+      {
+        "start": 1508960,
+        "end": 1508972
+      },
+      {
+        "start": 1508998,
+        "end": 1509002
+      },
+      {
+        "start": 1509262,
+        "end": 1509267
+      },
+      {
+        "start": 1509281,
+        "end": 1509298
+      },
+      {
+        "start": 1509384,
+        "end": 1509387
+      },
+      {
+        "start": 1509395,
+        "end": 1509406
+      },
+      {
+        "start": 1509468,
+        "end": 1509472
+      },
+      {
+        "start": 1509663,
+        "end": 1509668
+      },
+      {
+        "start": 1509758,
+        "end": 1509772
+      },
+      {
+        "start": 1509780,
+        "end": 1509785
+      },
+      {
+        "start": 1509804,
+        "end": 1509821
+      },
+      {
+        "start": 1509831,
+        "end": 1509848
+      },
+      {
+        "start": 1509983,
+        "end": 1509987
+      },
+      {
+        "start": 1510030,
+        "end": 1510043
+      },
+      {
+        "start": 1510048,
+        "end": 1510060
+      },
+      {
+        "start": 1510065,
+        "end": 1510071
+      },
+      {
+        "start": 1510183,
+        "end": 1510189
+      },
+      {
+        "start": 1510270,
+        "end": 1510277
+      },
+      {
+        "start": 1510447,
+        "end": 1510450
+      },
+      {
+        "start": 1510461,
+        "end": 1510467
+      },
+      {
+        "start": 1510595,
+        "end": 1510599
+      },
+      {
+        "start": 1510657,
+        "end": 1510671
+      },
+      {
+        "start": 1510678,
+        "end": 1510691
+      },
+      {
+        "start": 1510715,
+        "end": 1510719
+      },
+      {
+        "start": 1510747,
+        "end": 1510752
+      },
+      {
+        "start": 1510793,
+        "end": 1510807
+      },
+      {
+        "start": 1510855,
+        "end": 1510859
+      },
+      {
+        "start": 1511141,
+        "end": 1511146
+      },
+      {
+        "start": 1511231,
+        "end": 1511236
+      },
+      {
+        "start": 1511291,
+        "end": 1511296
+      },
+      {
+        "start": 1511339,
+        "end": 1511343
+      },
+      {
+        "start": 1511375,
+        "end": 1511380
+      },
+      {
+        "start": 1511520,
+        "end": 1511530
+      },
+      {
+        "start": 1511622,
+        "end": 1511626
+      },
+      {
+        "start": 1511652,
+        "end": 1511658
+      },
+      {
+        "start": 1511685,
+        "end": 1511689
+      },
+      {
+        "start": 1511712,
+        "end": 1511720
+      },
+      {
+        "start": 1511734,
+        "end": 1511738
+      },
+      {
+        "start": 1511854,
+        "end": 1511861
+      },
+      {
+        "start": 1511901,
+        "end": 1511913
+      },
+      {
+        "start": 1511925,
+        "end": 1511929
+      },
+      {
+        "start": 1511948,
+        "end": 1511953
+      },
+      {
+        "start": 1512078,
+        "end": 1512081
+      },
+      {
+        "start": 1512095,
+        "end": 1512109
+      },
+      {
+        "start": 1512118,
+        "end": 1512122
+      },
+      {
+        "start": 1512254,
+        "end": 1512259
+      },
+      {
+        "start": 1512313,
+        "end": 1512317
+      },
+      {
+        "start": 1512340,
+        "end": 1512343
+      },
+      {
+        "start": 1512351,
+        "end": 1512364
+      },
+      {
+        "start": 1512379,
+        "end": 1512394
+      },
+      {
+        "start": 1512399,
+        "end": 1512403
+      },
+      {
+        "start": 1512436,
+        "end": 1512440
+      },
+      {
+        "start": 1512467,
+        "end": 1512471
+      },
+      {
+        "start": 1512551,
+        "end": 1512554
+      },
+      {
+        "start": 1512555,
+        "end": 1512559
+      },
+      {
+        "start": 1512611,
+        "end": 1512614
+      },
+      {
+        "start": 1512703,
+        "end": 1512710
+      },
+      {
+        "start": 1512755,
+        "end": 1512772
+      },
+      {
+        "start": 1512785,
+        "end": 1512797
+      },
+      {
+        "start": 1512819,
+        "end": 1512823
+      },
+      {
+        "start": 1513063,
+        "end": 1513067
+      },
+      {
+        "start": 1513135,
+        "end": 1513138
+      },
+      {
+        "start": 1513167,
+        "end": 1513175
+      },
+      {
+        "start": 1513250,
+        "end": 1513259
+      },
+      {
+        "start": 1513293,
+        "end": 1513297
+      },
+      {
+        "start": 1513329,
+        "end": 1513333
+      },
+      {
+        "start": 1513934,
+        "end": 1513941
+      },
+      {
+        "start": 1514282,
+        "end": 1514288
+      },
+      {
+        "start": 1514307,
+        "end": 1514311
+      },
+      {
+        "start": 1514368,
+        "end": 1514371
+      },
+      {
+        "start": 1514375,
+        "end": 1514388
+      },
+      {
+        "start": 1514590,
+        "end": 1514603
+      },
+      {
+        "start": 1515091,
+        "end": 1515095
+      },
+      {
+        "start": 1515147,
+        "end": 1515154
+      },
+      {
+        "start": 1515167,
+        "end": 1515178
+      },
+      {
+        "start": 1515186,
+        "end": 1515199
+      },
+      {
+        "start": 1515209,
+        "end": 1515223
+      },
+      {
+        "start": 1515235,
+        "end": 1515239
+      },
+      {
+        "start": 1515414,
+        "end": 1515418
+      },
+      {
+        "start": 1515453,
+        "end": 1515472
+      },
+      {
+        "start": 1515477,
+        "end": 1515491
+      },
+      {
+        "start": 1515507,
+        "end": 1515521
+      },
+      {
+        "start": 1515533,
+        "end": 1515537
+      },
+      {
+        "start": 1515764,
+        "end": 1515772
+      },
+      {
+        "start": 1515777,
+        "end": 1515782
+      },
+      {
+        "start": 1515940,
+        "end": 1515952
+      },
+      {
+        "start": 1516002,
+        "end": 1516006
+      },
+      {
+        "start": 1516009,
+        "end": 1516023
+      },
+      {
+        "start": 1516055,
+        "end": 1516066
+      },
+      {
+        "start": 1516177,
+        "end": 1516180
+      }
+    ],
+    "footnotes": [
+      {
+        "start": 1502377,
+        "end": 1502380
+      },
+      {
+        "start": 1502712,
+        "end": 1502715
+      },
+      {
+        "start": 1502967,
+        "end": 1502970
+      },
+      {
+        "start": 1503004,
+        "end": 1503007
+      },
+      {
+        "start": 1503081,
+        "end": 1503084
+      },
+      {
+        "start": 1503155,
+        "end": 1503158
+      },
+      {
+        "start": 1503507,
+        "end": 1503510
+      },
+      {
+        "start": 1503673,
+        "end": 1503676
+      },
+      {
+        "start": 1503797,
+        "end": 1503800
+      },
+      {
+        "start": 1503923,
+        "end": 1503926
+      },
+      {
+        "start": 1504307,
+        "end": 1504310
+      },
+      {
+        "start": 1504689,
+        "end": 1504692
+      },
+      {
+        "start": 1504876,
+        "end": 1504879
+      },
+      {
+        "start": 1505121,
+        "end": 1505124
+      },
+      {
+        "start": 1505653,
+        "end": 1505656
+      },
+      {
+        "start": 1505775,
+        "end": 1505778
+      },
+      {
+        "start": 1506009,
+        "end": 1506012
+      },
+      {
+        "start": 1506211,
+        "end": 1506214
+      },
+      {
+        "start": 1506360,
+        "end": 1506363
+      },
+      {
+        "start": 1506432,
+        "end": 1506435
+      },
+      {
+        "start": 1506761,
+        "end": 1506764
+      },
+      {
+        "start": 1506820,
+        "end": 1506823
+      },
+      {
+        "start": 1506952,
+        "end": 1506955
+      },
+      {
+        "start": 1506993,
+        "end": 1506996
+      },
+      {
+        "start": 1507114,
+        "end": 1507117
+      },
+      {
+        "start": 1508236,
+        "end": 1508239
+      },
+      {
+        "start": 1508912,
+        "end": 1508915
+      },
+      {
+        "start": 1509017,
+        "end": 1509020
+      },
+      {
+        "start": 1509239,
+        "end": 1509242
+      },
+      {
+        "start": 1509513,
+        "end": 1509516
+      },
+      {
+        "start": 1509575,
+        "end": 1509578
+      },
+      {
+        "start": 1509721,
+        "end": 1509724
+      },
+      {
+        "start": 1509744,
+        "end": 1509747
+      },
+      {
+        "start": 1510003,
+        "end": 1510006
+      },
+      {
+        "start": 1510240,
+        "end": 1510243
+      },
+      {
+        "start": 1510256,
+        "end": 1510259
+      },
+      {
+        "start": 1511187,
+        "end": 1511190
+      },
+      {
+        "start": 1511639,
+        "end": 1511642
+      },
+      {
+        "start": 1511677,
+        "end": 1511680
+      },
+      {
+        "start": 1511842,
+        "end": 1511845
+      },
+      {
+        "start": 1512034,
+        "end": 1512037
+      },
+      {
+        "start": 1512187,
+        "end": 1512190
+      },
+      {
+        "start": 1512295,
+        "end": 1512298
+      },
+      {
+        "start": 1512505,
+        "end": 1512508
+      },
+      {
+        "start": 1512956,
+        "end": 1512959
+      },
+      {
+        "start": 1513366,
+        "end": 1513369
+      },
+      {
+        "start": 1513746,
+        "end": 1513749
+      },
+      {
+        "start": 1514270,
+        "end": 1514273
+      },
+      {
+        "start": 1514334,
+        "end": 1514337
+      },
+      {
+        "start": 1514476,
+        "end": 1514479
+      },
+      {
+        "start": 1514634,
+        "end": 1514637
+      },
+      {
+        "start": 1514707,
+        "end": 1514710
+      },
+      {
+        "start": 1514765,
+        "end": 1514768
+      },
+      {
+        "start": 1514896,
+        "end": 1514899
+      },
+      {
+        "start": 1515155,
+        "end": 1515158
+      },
+      {
+        "start": 1515266,
+        "end": 1515269
+      },
+      {
+        "start": 1515344,
+        "end": 1515347
+      },
+      {
+        "start": 1515928,
+        "end": 1515931
+      }
+    ]
+  },
+  "gold": [
+    {
+      "question": "رجل يقلق من بقاء ثروة في منزله، فتشير عليه زوجته أن يوزعها على أصحابه",
+      "start": 1507120,
+      "end": 1507765
+    },
+    {
+      "question": "رجل يكفل فقراء أقاربه ويسدد ديونهم ويصل غيرهم من ماله",
+      "start": 1509374,
+      "end": 1509893
+    },
+    {
+      "question": "صحابي يشرح سبب كثرة رواية صاحبه لأن صاحبه كان ملازمًا للنبي بينما كانوا يزورونه صباحًا ومساء",
+      "start": 1513076,
+      "end": 1513752
+    }
+  ]
+}

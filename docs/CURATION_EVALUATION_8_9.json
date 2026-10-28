@@ -1,0 +1,1046 @@
+{
+  "batch_id": "7ae7f691ffe2-8-9",
+  "revision": "2fb3d2bd2a67d1d2170934fd22ad4e6439478f64ee2e039b5a37d11874ac862e",
+  "gold_frozen_sha256": "8f12f7c84ab9fd8eeb91fed342dd1f37bfcbba5e2f8f2743dfc434ba59bc300e",
+  "database": "C:\\Users\\asala\\AppData\\Local\\Temp\\siyar-skill-forward-6_wo4j48\\work\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-8-9\\preview.sqlite3",
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "metric": "Top 10, same source and biography; overlap >= min(40, ceil(25% of anchor length))",
+  "development_gold_not_human_adjudicated": true,
+  "unavailable": [],
+  "suites": [
+    {
+      "scope": "global",
+      "questions": 6,
+      "hits_at_10": 6,
+      "hit_rate_percent": 100.0,
+      "p95_wall_ms": 4604.65675,
+      "mean_wall_ms": 4259.621666666667,
+      "results": [
+        {
+          "question": "خبر الدعاء عند فقد الزوج وطلب الأجر والخلف ثم الزواج بمن هو خير منه",
+          "biography_id": 8,
+          "anchor_start": 1609905,
+          "anchor_end": 1610451,
+          "first_hit_rank": 9,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4317.248,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 2146,
+              "source_char_start": 7391141,
+              "source_char_end": 7391208,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1380,
+              "source_char_start": 5605549,
+              "source_char_end": 5605711,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 410267,
+              "source_char_end": 411059,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1174,
+              "source_char_start": 4966867,
+              "source_char_end": 4967791,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 4501,
+              "source_char_start": 10669948,
+              "source_char_end": 10670031,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2013,
+              "source_char_start": 7087988,
+              "source_char_end": 7088023,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 4,
+              "source_char_start": 1556980,
+              "source_char_end": 1557442,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 308974,
+              "source_char_end": 309027,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1609905,
+              "source_char_end": 1610451,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2,
+              "source_char_start": 1507120,
+              "source_char_end": 1507765,
+              "match_type": "topic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "رجوع مهاجرين من الحبشة حين بلغهم إسلام أهل مكة عند نزول سورة النجم",
+          "biography_id": 8,
+          "anchor_start": 1609288,
+          "anchor_end": 1609463,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4100.84,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1609404,
+              "source_char_end": 1610236,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1608656,
+              "source_char_end": 1609588,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 404834,
+              "source_char_end": 405498,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 146386,
+              "source_char_end": 147317,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 275144,
+              "source_char_end": 276101,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 424195,
+              "source_char_end": 425174,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1735153,
+              "source_char_end": 1735991,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 173,
+              "source_char_start": 2264597,
+              "source_char_end": 2265515,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 145580,
+              "source_char_end": 146504,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 80,
+              "source_char_start": 1792196,
+              "source_char_end": 1792751,
+              "match_type": "keyword_candidate"
+            }
+          ]
+        },
+        {
+          "question": "رجوع رجل من سرية بني أسد ثم انتقاض جرحه واختلاف الروايات في سنة وفاته",
+          "biography_id": 8,
+          "anchor_start": 1610451,
+          "anchor_end": 1611117,
+          "first_hit_rank": 2,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4565.782,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 497164,
+              "source_char_end": 497933,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610451,
+              "source_char_end": 1610934,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 588296,
+              "source_char_end": 589030,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 3,
+              "source_char_start": 1525497,
+              "source_char_end": 1526017,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 110,
+              "source_char_start": 2113277,
+              "source_char_end": 2113313,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 5776,
+              "source_char_start": 12453313,
+              "source_char_end": 12454253,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 5830,
+              "source_char_start": 12539330,
+              "source_char_end": 12540316,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 3967,
+              "source_char_start": 9912320,
+              "source_char_end": 9913122,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1387,
+              "source_char_start": 5628081,
+              "source_char_end": 5628131,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 5,
+              "source_char_start": 1583885,
+              "source_char_end": 1584462,
+              "match_type": "topic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "خبر وضع صخرة علامة على قبر صاحب للنبي مع تعقيب أن الخبر مرسل",
+          "biography_id": 9,
+          "anchor_start": 1611395,
+          "anchor_end": 1611754,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 3593.269,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611395,
+              "source_char_end": 1611754,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1040637,
+              "source_char_end": 1041223,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 6,
+              "source_char_start": 1596000,
+              "source_char_end": 1596023,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 3327,
+              "source_char_start": 9159274,
+              "source_char_end": 9159303,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 56,
+              "source_char_start": 1720122,
+              "source_char_end": 1720176,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1430659,
+              "source_char_end": 1431544,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 3619,
+              "source_char_start": 9521533,
+              "source_char_end": 9522070,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 5348,
+              "source_char_start": 11847865,
+              "source_char_end": 11848748,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612063,
+              "source_char_end": 1612231,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 5019,
+              "source_char_start": 11323386,
+              "source_char_end": 11323504,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "رد التبتل والرغبة في الاختصاء والاقتداء بالنبي بدل الرهبانية",
+          "biography_id": 9,
+          "anchor_start": 1611754,
+          "anchor_end": 1611903,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4362.976,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611754,
+              "source_char_end": 1611903,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1248,
+              "source_char_start": 5176710,
+              "source_char_end": 5177477,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2359,
+              "source_char_start": 7768155,
+              "source_char_end": 7769046,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1980,
+              "source_char_start": 7029461,
+              "source_char_end": 7029953,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 4441,
+              "source_char_start": 10582641,
+              "source_char_end": 10583555,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1081614,
+              "source_char_end": 1082522,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 124088,
+              "source_char_end": 125025,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1430659,
+              "source_char_end": 1431544,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 547,
+              "source_char_start": 3390382,
+              "source_char_end": 3391053,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1613681,
+              "source_char_end": 1613857,
+              "match_type": "topic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "رجل اجتنب الشراب في الجاهلية وخبر يذكر كلامه عند التحريم ثم ينقده المؤلف لأن التحريم بعد وفاته",
+          "biography_id": 9,
+          "anchor_start": 1612231,
+          "anchor_end": 1612542,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4617.615,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612231,
+              "source_char_end": 1612542,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 3967,
+              "source_char_start": 9912320,
+              "source_char_end": 9913122,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 3376,
+              "source_char_start": 9218880,
+              "source_char_end": 9219849,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2134,
+              "source_char_start": 7370566,
+              "source_char_end": 7371169,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 217,
+              "source_char_start": 2448152,
+              "source_char_end": 2449148,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 4852,
+              "source_char_start": 11135437,
+              "source_char_end": 11135570,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1318,
+              "source_char_start": 5411258,
+              "source_char_end": 5412200,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 4363,
+              "source_char_start": 10482724,
+              "source_char_end": 10482781,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 5148,
+              "source_char_start": 11533387,
+              "source_char_end": 11534177,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2738,
+              "source_char_start": 8364171,
+              "source_char_end": 8364281,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "batch",
+      "questions": 6,
+      "hits_at_10": 6,
+      "hit_rate_percent": 100.0,
+      "p95_wall_ms": 2282.165,
+      "mean_wall_ms": 2064.323,
+      "results": [
+        {
+          "question": "خبر الدعاء عند فقد الزوج وطلب الأجر والخلف ثم الزواج بمن هو خير منه",
+          "biography_id": 8,
+          "anchor_start": 1609905,
+          "anchor_end": 1610451,
+          "first_hit_rank": 2,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 2033.233,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1608656,
+              "source_char_end": 1609588,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610075,
+              "source_char_end": 1610984,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1609905,
+              "source_char_end": 1610451,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1615737,
+              "source_char_end": 1615835,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1609404,
+              "source_char_end": 1610236,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614025,
+              "source_char_end": 1614064,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614844,
+              "source_char_end": 1615734,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614067,
+              "source_char_end": 1614990,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612636,
+              "source_char_end": 1613526,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1615838,
+              "source_char_end": 1615883,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "رجوع مهاجرين من الحبشة حين بلغهم إسلام أهل مكة عند نزول سورة النجم",
+          "biography_id": 8,
+          "anchor_start": 1609288,
+          "anchor_end": 1609463,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 1681.565,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1609404,
+              "source_char_end": 1610236,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1608656,
+              "source_char_end": 1609588,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614067,
+              "source_char_end": 1614990,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610075,
+              "source_char_end": 1610984,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610804,
+              "source_char_end": 1611116,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1613349,
+              "source_char_end": 1614244,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612636,
+              "source_char_end": 1613526,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1615838,
+              "source_char_end": 1615883,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611905,
+              "source_char_end": 1612788,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611123,
+              "source_char_end": 1612062,
+              "match_type": "topic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "رجوع رجل من سرية بني أسد ثم انتقاض جرحه واختلاف الروايات في سنة وفاته",
+          "biography_id": 8,
+          "anchor_start": 1610451,
+          "anchor_end": 1611117,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 1945.605,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610075,
+              "source_char_end": 1610984,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610804,
+              "source_char_end": 1611116,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1608656,
+              "source_char_end": 1609588,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614067,
+              "source_char_end": 1614990,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611905,
+              "source_char_end": 1612788,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612636,
+              "source_char_end": 1613526,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1609791,
+              "source_char_end": 1609843,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611123,
+              "source_char_end": 1612062,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1609733,
+              "source_char_end": 1609762,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1615836,
+              "source_char_end": 1616080,
+              "match_type": "topic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "خبر وضع صخرة علامة على قبر صاحب للنبي مع تعقيب أن الخبر مرسل",
+          "biography_id": 9,
+          "anchor_start": 1611395,
+          "anchor_end": 1611754,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 2224.001,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611123,
+              "source_char_end": 1612062,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611905,
+              "source_char_end": 1612788,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614950,
+              "source_char_end": 1614963,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612636,
+              "source_char_end": 1613526,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614844,
+              "source_char_end": 1614947,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614966,
+              "source_char_end": 1614990,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610075,
+              "source_char_end": 1610984,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1615179,
+              "source_char_end": 1615227,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1613349,
+              "source_char_end": 1614244,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1615230,
+              "source_char_end": 1615313,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "رد التبتل والرغبة في الاختصاء والاقتداء بالنبي بدل الرهبانية",
+          "biography_id": 9,
+          "anchor_start": 1611754,
+          "anchor_end": 1611903,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 2199.981,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611123,
+              "source_char_end": 1612062,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1609404,
+              "source_char_end": 1610236,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610075,
+              "source_char_end": 1610984,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611905,
+              "source_char_end": 1612788,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1613681,
+              "source_char_end": 1613857,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1608656,
+              "source_char_end": 1609588,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614194,
+              "source_char_end": 1614406,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612636,
+              "source_char_end": 1613526,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614966,
+              "source_char_end": 1614990,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614157,
+              "source_char_end": 1614193,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "رجل اجتنب الشراب في الجاهلية وخبر يذكر كلامه عند التحريم ثم ينقده المؤلف لأن التحريم بعد وفاته",
+          "biography_id": 9,
+          "anchor_start": 1612231,
+          "anchor_end": 1612542,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 2301.553,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1611905,
+              "source_char_end": 1612788,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1613304,
+              "source_char_end": 1613334,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612866,
+              "source_char_end": 1612894,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612791,
+              "source_char_end": 1612863,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1612897,
+              "source_char_end": 1612972,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610075,
+              "source_char_end": 1610984,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1613240,
+              "source_char_end": 1613301,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1610804,
+              "source_char_end": 1611116,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 8,
+              "source_char_start": 1608656,
+              "source_char_end": 1609588,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 9,
+              "source_char_start": 1614844,
+              "source_char_end": 1615734,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warmup": {
+    "wall_ms": 27808.947,
+    "mode": "hybrid",
+    "warning": null
+  },
+  "status": "measured"
+}

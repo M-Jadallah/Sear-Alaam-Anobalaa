@@ -1,0 +1,10 @@
+{
+  "database": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\library.sqlite3",
+  "baseline": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\backups\\library-before-pilot-20261028T112149103717Z.sqlite3",
+  "files": {
+    "data\\source.mARkdown": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+    "reference\\topic_dictionary.csv": "331d46eb419ed7d6625e29c08ce7f5830921408261ce9b4f9b61317b2acbc87e",
+    "reference\\legacy_indexer.html": "3693c84ae70e8848400e41988d01449f7c85207e9ab9b6c3a473aff17bf6735f"
+  },
+  "semantic_fingerprint": "100350c97cfdeb65d910de55031cabc2a42de58f64476d68ff42d7a8ce837223"
+}

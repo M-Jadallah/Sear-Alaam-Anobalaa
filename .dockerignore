@@ -1,0 +1,14 @@
+.git
+**/__pycache__
+.pytest_cache
+frontend/node_modules
+frontend/dist
+frontend/test-results
+data/*.sqlite3*
+data/backups
+data/models
+data/semantic
+reference/curation
+reference/reading-revisions
+.env*
+deploy/artifacts/**/*.tmp

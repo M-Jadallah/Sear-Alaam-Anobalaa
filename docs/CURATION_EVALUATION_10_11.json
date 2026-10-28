@@ -1,0 +1,395 @@
+{
+  "batch_id": "7ae7f691ffe2-10-11",
+  "revision": "fa891d46f75fdff9a5e2e3f5c60491bb7e54164b8ca987599390f1798134b82a",
+  "gold_frozen_sha256": "046951f02860d1cd54be01990e93e3f5e1acb6a41cff1cf88d1a905fd0e3e82c",
+  "database": "C:\\Users\\asala\\AppData\\Local\\Temp\\siyar-skill-forward-6_wo4j48\\work\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-10-11\\preview.sqlite3",
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "metric": "Top 10, same source and biography; overlap >= min(40, ceil(25% of anchor length))",
+  "development_gold_not_human_adjudicated": true,
+  "unavailable": [],
+  "suites": [
+    {
+      "scope": "global",
+      "questions": 3,
+      "hits_at_10": 3,
+      "hit_rate_percent": 100.0,
+      "p95_wall_ms": 4326.230500000001,
+      "mean_wall_ms": 4229.943,
+      "results": [
+        {
+          "question": "والٍ على البحرين شرب الخمر متأولًا آية فأقيم عليه الحد وعزل من الولاية",
+          "biography_id": 10,
+          "anchor_start": 1616399,
+          "anchor_end": 1616716,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4087.748,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 10,
+              "source_char_start": 1616220,
+              "source_char_end": 1616959,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1387,
+              "source_char_start": 5625784,
+              "source_char_end": 5626680,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 791,
+              "source_char_start": 3949800,
+              "source_char_end": 3950442,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 4124,
+              "source_char_start": 10109598,
+              "source_char_end": 10109653,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 81,
+              "source_char_start": 1795674,
+              "source_char_end": 1795705,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 5497,
+              "source_char_start": 12043941,
+              "source_char_end": 12044857,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 5787,
+              "source_char_start": 12496367,
+              "source_char_end": 12496393,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1947,
+              "source_char_start": 6954884,
+              "source_char_end": 6954940,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1227,
+              "source_char_start": 5126332,
+              "source_char_end": 5126408,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 506,
+              "source_char_start": 3283084,
+              "source_char_end": 3283118,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "تعقيب المؤلف على قول إن بدريًا واحدًا أقيم عليه حد الخمر بذكر نعيمان",
+          "biography_id": 10,
+          "anchor_start": 1616598,
+          "anchor_end": 1616716,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4269.553,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 10,
+              "source_char_start": 1616399,
+              "source_char_end": 1616716,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1093231,
+              "source_char_end": 1093979,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2627,
+              "source_char_start": 8167740,
+              "source_char_end": 8168648,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1332738,
+              "source_char_end": 1333619,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 194,
+              "source_char_start": 2350699,
+              "source_char_end": 2351643,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 11,
+              "source_char_start": 1617136,
+              "source_char_end": 1617319,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 36,
+              "source_char_start": 1663238,
+              "source_char_end": 1663275,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 2325,
+              "source_char_start": 7662650,
+              "source_char_end": 7663578,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 1169,
+              "source_char_start": 4917430,
+              "source_char_end": 4918375,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 134,
+              "source_char_start": 2186302,
+              "source_char_end": 2186334,
+              "match_type": "keyword_candidate"
+            }
+          ]
+        },
+        {
+          "question": "من آخى النبي بينه وبين سهل بن عبيد بن المعلى الأنصاري وكان ممن شهد بدرًا وأحدًا والخندق",
+          "biography_id": 11,
+          "anchor_start": 1617136,
+          "anchor_end": 1617257,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 4332.528,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 11,
+              "source_char_start": 1617138,
+              "source_char_end": 1617318,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 154,
+              "source_char_start": 2224655,
+              "source_char_end": 2225442,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 17,
+              "source_char_start": 1634987,
+              "source_char_end": 1635156,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 154,
+              "source_char_start": 2223276,
+              "source_char_end": 2224142,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 74,
+              "source_char_start": 1754461,
+              "source_char_end": 1755360,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 19,
+              "source_char_start": 1635394,
+              "source_char_end": 1635646,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 57,
+              "source_char_start": 1721285,
+              "source_char_end": 1721397,
+              "match_type": "semantic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 599341,
+              "source_char_end": 600234,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 163,
+              "source_char_start": 2247412,
+              "source_char_end": 2248003,
+              "match_type": "keyword_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": null,
+              "source_char_start": 1401709,
+              "source_char_end": 1402614,
+              "match_type": "keyword_candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "batch",
+      "questions": 3,
+      "hits_at_10": 3,
+      "hit_rate_percent": 100.0,
+      "p95_wall_ms": 637.1496,
+      "mean_wall_ms": 605.475,
+      "results": [
+        {
+          "question": "والٍ على البحرين شرب الخمر متأولًا آية فأقيم عليه الحد وعزل من الولاية",
+          "biography_id": 10,
+          "anchor_start": 1616399,
+          "anchor_end": 1616716,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 585.169,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 10,
+              "source_char_start": 1616220,
+              "source_char_end": 1616959,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 11,
+              "source_char_start": 1617138,
+              "source_char_end": 1617318,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 11,
+              "source_char_start": 1617021,
+              "source_char_end": 1617135,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "تعقيب المؤلف على قول إن بدريًا واحدًا أقيم عليه حد الخمر بذكر نعيمان",
+          "biography_id": 10,
+          "anchor_start": 1616598,
+          "anchor_end": 1616716,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 588.726,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 10,
+              "source_char_start": 1616220,
+              "source_char_end": 1616959,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 11,
+              "source_char_start": 1617138,
+              "source_char_end": 1617318,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 11,
+              "source_char_start": 1617021,
+              "source_char_end": 1617135,
+              "match_type": "semantic_candidate"
+            }
+          ]
+        },
+        {
+          "question": "من آخى النبي بينه وبين سهل بن عبيد بن المعلى الأنصاري وكان ممن شهد بدرًا وأحدًا والخندق",
+          "biography_id": 11,
+          "anchor_start": 1617136,
+          "anchor_end": 1617257,
+          "first_hit_rank": 1,
+          "hit_at_10": true,
+          "mode": "hybrid",
+          "cache_hit": false,
+          "wall_ms": 642.53,
+          "warning": null,
+          "returned_ranges": [
+            {
+              "source_id": 1,
+              "biography_id": 11,
+              "source_char_start": 1617138,
+              "source_char_end": 1617318,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 11,
+              "source_char_start": 1617019,
+              "source_char_end": 1617136,
+              "match_type": "topic_candidate"
+            },
+            {
+              "source_id": 1,
+              "biography_id": 10,
+              "source_char_start": 1616220,
+              "source_char_end": 1616959,
+              "match_type": "topic_candidate"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warmup": {
+    "wall_ms": 23671.672,
+    "mode": "hybrid",
+    "warning": null
+  },
+  "status": "measured"
+}

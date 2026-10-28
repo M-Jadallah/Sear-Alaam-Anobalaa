@@ -1,0 +1,7 @@
+interface:
+  display_name: "تحرير تراجم سير أعلام النبلاء"
+  short_description: "تشكيل كامل وفقرات سياقية وفهرسة موثقة مع حفظ الأصل"
+  default_prompt: "استخدم $siyar-biography-curation لتشكيل نطاق تراجم كاملًا وتنسيق فقراته بحسب السياق ومراجعة موضوعاته مع حفظ الأصل والإحالات والمراجعات."
+
+policy:
+  allow_implicit_invocation: true

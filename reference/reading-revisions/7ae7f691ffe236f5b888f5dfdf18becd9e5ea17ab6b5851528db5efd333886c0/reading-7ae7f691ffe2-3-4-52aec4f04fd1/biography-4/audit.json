@@ -1,0 +1,15 @@
+{
+  "authoring_sha256": "",
+  "reviewer": "",
+  "all_words_checked": false,
+  "all_paragraphs_checked": false,
+  "findings": [],
+  "checks": {
+    "source_coverage": false,
+    "paragraphs": false,
+    "criticism_context": false,
+    "negative_cases": false,
+    "diacritics": false,
+    "paragraph_context": false
+  }
+}

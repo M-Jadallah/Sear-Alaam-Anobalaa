@@ -1,0 +1,46 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 18,
+  "source_char_start": 1635157,
+  "source_char_end": 1635388,
+  "reviewer": "codex-team",
+  "version": "pilot-reading-v2",
+  "paragraph_groups": [
+    {
+      "start": 1635157,
+      "end": 1635211
+    },
+    {
+      "start": 1635211,
+      "end": 1635372
+    },
+    {
+      "start": 1635372,
+      "end": 1635388
+    }
+  ],
+  "paragraph_notes": [
+    {
+      "start": 1635157,
+      "end": 1635211,
+      "context_start": 1635157,
+      "context_end": 1635372,
+      "reason": "عنوان المصدر مستقل عن كلام ابن سعد الذي يليه."
+    },
+    {
+      "start": 1635211,
+      "end": 1635372,
+      "context_start": 1635157,
+      "context_end": 1635388,
+      "reason": "نقل المؤاخاة والمشاهد ثم فتح مصر والوفاة يتصل في ترجمة إياس، قبل انتقال المصدر إلى أخيه الرابع."
+    },
+    {
+      "start": 1635372,
+      "end": 1635388,
+      "context_start": 1635211,
+      "context_end": 1635388,
+      "reason": "عبارة المصدر تمهد للعنوان التالي وهي مستقلة عن وفاة إياس، وتبقى داخل النطاق المستخرج دون تغيير حدوده."
+    }
+  ],
+  "criticism": []
+}

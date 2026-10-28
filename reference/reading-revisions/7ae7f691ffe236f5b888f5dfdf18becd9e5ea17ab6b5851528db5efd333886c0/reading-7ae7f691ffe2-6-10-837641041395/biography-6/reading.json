@@ -1,0 +1,935 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 6,
+  "source_char_start": 1584562,
+  "source_char_end": 1602898,
+  "reviewer": "",
+  "version": "pilot-reading-v2",
+  "paragraph_groups": [
+    {
+      "start": 1584562,
+      "end": 1584613
+    },
+    {
+      "start": 1584613,
+      "end": 1584712
+    },
+    {
+      "start": 1584712,
+      "end": 1584818
+    },
+    {
+      "start": 1584818,
+      "end": 1584986
+    },
+    {
+      "start": 1584986,
+      "end": 1585065
+    },
+    {
+      "start": 1585065,
+      "end": 1585218
+    },
+    {
+      "start": 1585218,
+      "end": 1585746
+    },
+    {
+      "start": 1585746,
+      "end": 1586371
+    },
+    {
+      "start": 1586371,
+      "end": 1586811
+    },
+    {
+      "start": 1586811,
+      "end": 1587838
+    },
+    {
+      "start": 1587838,
+      "end": 1588812
+    },
+    {
+      "start": 1588812,
+      "end": 1589283
+    },
+    {
+      "start": 1589283,
+      "end": 1589449
+    },
+    {
+      "start": 1589449,
+      "end": 1589780
+    },
+    {
+      "start": 1589780,
+      "end": 1590026
+    },
+    {
+      "start": 1590026,
+      "end": 1590343
+    },
+    {
+      "start": 1590343,
+      "end": 1591085
+    },
+    {
+      "start": 1591085,
+      "end": 1591262
+    },
+    {
+      "start": 1591262,
+      "end": 1591467
+    },
+    {
+      "start": 1591467,
+      "end": 1591863
+    },
+    {
+      "start": 1591863,
+      "end": 1591988
+    },
+    {
+      "start": 1591988,
+      "end": 1592026
+    },
+    {
+      "start": 1592026,
+      "end": 1592079
+    },
+    {
+      "start": 1592079,
+      "end": 1592133
+    },
+    {
+      "start": 1592133,
+      "end": 1592198
+    },
+    {
+      "start": 1592198,
+      "end": 1592255
+    },
+    {
+      "start": 1592255,
+      "end": 1592440
+    },
+    {
+      "start": 1592440,
+      "end": 1592511
+    },
+    {
+      "start": 1592511,
+      "end": 1592945
+    },
+    {
+      "start": 1592945,
+      "end": 1594156
+    },
+    {
+      "start": 1594156,
+      "end": 1594792
+    },
+    {
+      "start": 1594792,
+      "end": 1594897
+    },
+    {
+      "start": 1594897,
+      "end": 1594957
+    },
+    {
+      "start": 1594957,
+      "end": 1595018
+    },
+    {
+      "start": 1595018,
+      "end": 1595078
+    },
+    {
+      "start": 1595078,
+      "end": 1595139
+    },
+    {
+      "start": 1595139,
+      "end": 1595201
+    },
+    {
+      "start": 1595201,
+      "end": 1595389
+    },
+    {
+      "start": 1595389,
+      "end": 1595438
+    },
+    {
+      "start": 1595438,
+      "end": 1595503
+    },
+    {
+      "start": 1595503,
+      "end": 1595689
+    },
+    {
+      "start": 1595689,
+      "end": 1595737
+    },
+    {
+      "start": 1595737,
+      "end": 1596234
+    },
+    {
+      "start": 1596234,
+      "end": 1596287
+    },
+    {
+      "start": 1596287,
+      "end": 1596348
+    },
+    {
+      "start": 1596348,
+      "end": 1596464
+    },
+    {
+      "start": 1596464,
+      "end": 1596882
+    },
+    {
+      "start": 1596882,
+      "end": 1596971
+    },
+    {
+      "start": 1596971,
+      "end": 1597054
+    },
+    {
+      "start": 1597054,
+      "end": 1597174
+    },
+    {
+      "start": 1597174,
+      "end": 1597439
+    },
+    {
+      "start": 1597439,
+      "end": 1597728
+    },
+    {
+      "start": 1597728,
+      "end": 1598154
+    },
+    {
+      "start": 1598154,
+      "end": 1598352
+    },
+    {
+      "start": 1598352,
+      "end": 1598532
+    },
+    {
+      "start": 1598532,
+      "end": 1598672
+    },
+    {
+      "start": 1598672,
+      "end": 1598752
+    },
+    {
+      "start": 1598752,
+      "end": 1598911
+    },
+    {
+      "start": 1598911,
+      "end": 1598958
+    },
+    {
+      "start": 1598958,
+      "end": 1599000
+    },
+    {
+      "start": 1599000,
+      "end": 1599070
+    },
+    {
+      "start": 1599070,
+      "end": 1599222
+    },
+    {
+      "start": 1599222,
+      "end": 1599855
+    },
+    {
+      "start": 1599855,
+      "end": 1599883
+    },
+    {
+      "start": 1599883,
+      "end": 1601912
+    },
+    {
+      "start": 1601912,
+      "end": 1601959
+    },
+    {
+      "start": 1601959,
+      "end": 1602056
+    },
+    {
+      "start": 1602056,
+      "end": 1602222
+    },
+    {
+      "start": 1602222,
+      "end": 1602358
+    },
+    {
+      "start": 1602358,
+      "end": 1602691
+    },
+    {
+      "start": 1602691,
+      "end": 1602718
+    },
+    {
+      "start": 1602718,
+      "end": 1602804
+    },
+    {
+      "start": 1602804,
+      "end": 1602898
+    }
+  ],
+  "criticism": [
+    {
+      "start": 1586124,
+      "end": 1586210,
+      "context_start": 1585746,
+      "context_end": 1586371,
+      "kind": "isnad",
+      "reason": "الصلاح مقيد بالانقطاع وسبب عدم السماع، مع الطريق المقابل."
+    },
+    {
+      "start": 1588676,
+      "end": 1588737,
+      "context_start": 1587838,
+      "context_end": 1588854,
+      "kind": "hadith",
+      "reason": "نقل ألفاظ التقويم مع التفرد والرواية كتابة."
+    },
+    {
+      "start": 1589160,
+      "end": 1589202,
+      "context_start": 1588812,
+      "context_end": 1589283,
+      "kind": "hadith",
+      "reason": "وصف الإرسال وتعليل المؤلف في قصة ورقة وبلال."
+    },
+    {
+      "start": 1589760,
+      "end": 1589778,
+      "context_start": 1589449,
+      "context_end": 1589869,
+      "kind": "narrator",
+      "reason": "نقد راو في طريق زيد الأب لا في صاحب الترجمة."
+    },
+    {
+      "start": 1590345,
+      "end": 1590374,
+      "context_start": 1590026,
+      "context_end": 1591085,
+      "kind": "report",
+      "reason": "تعليق المؤلف على اختلاف لفظ رواية السفرة مع تفسيره اللاحق."
+    },
+    {
+      "start": 1591218,
+      "end": 1591222,
+      "context_start": 1591085,
+      "context_end": 1591262,
+      "kind": "hadith",
+      "reason": "وصف الخبر عن زيد الأب بالغرابة."
+    },
+    {
+      "start": 1591865,
+      "end": 1591877,
+      "context_start": 1591863,
+      "context_end": 1591988,
+      "kind": "isnad",
+      "reason": "وصف إسناد خبر صلاة زيد الأب قبل متنه."
+    },
+    {
+      "start": 1598960,
+      "end": 1598998,
+      "context_start": 1598752,
+      "context_end": 1599070,
+      "kind": "report",
+      "reason": "تعليق على اختلاف موضع الوفاة وسنتها."
+    },
+    {
+      "start": 1599857,
+      "end": 1599881,
+      "context_start": 1599070,
+      "context_end": 1601959,
+      "kind": "hadith",
+      "reason": "تحذير صريح قبل متن المؤاخاة، ويتبعه نقد الحديث ووصفه بالموضوع."
+    },
+    {
+      "start": 1601924,
+      "end": 1601957,
+      "context_start": 1599855,
+      "context_end": 1602056,
+      "kind": "hadith",
+      "reason": "نقد زيد بن أبي أوفى في سياق الحديث الموصوف بالوضع، لا سعيد ولا زيد الأب."
+    },
+    {
+      "start": 1602693,
+      "end": 1602716,
+      "context_start": 1602056,
+      "context_end": 1602804,
+      "kind": "hadith",
+      "reason": "تفرد شبابة وعدم صحة طريق آخر للمؤاخاة، مع ذكر المحفوظ بعده."
+    }
+  ],
+  "paragraph_notes": [
+    {
+      "start": 1584562,
+      "end": 1584613,
+      "context_start": 1584562,
+      "context_end": 1584613,
+      "reason": ""
+    },
+    {
+      "start": 1584613,
+      "end": 1584712,
+      "context_start": 1584613,
+      "context_end": 1584712,
+      "reason": ""
+    },
+    {
+      "start": 1584712,
+      "end": 1584818,
+      "context_start": 1584712,
+      "context_end": 1584818,
+      "reason": ""
+    },
+    {
+      "start": 1584818,
+      "end": 1584986,
+      "context_start": 1584818,
+      "context_end": 1584986,
+      "reason": ""
+    },
+    {
+      "start": 1584986,
+      "end": 1585065,
+      "context_start": 1584986,
+      "context_end": 1585065,
+      "reason": ""
+    },
+    {
+      "start": 1585065,
+      "end": 1585218,
+      "context_start": 1585065,
+      "context_end": 1585218,
+      "reason": ""
+    },
+    {
+      "start": 1585218,
+      "end": 1585746,
+      "context_start": 1585218,
+      "context_end": 1585746,
+      "reason": ""
+    },
+    {
+      "start": 1585746,
+      "end": 1586371,
+      "context_start": 1585746,
+      "context_end": 1586371,
+      "reason": ""
+    },
+    {
+      "start": 1586371,
+      "end": 1586811,
+      "context_start": 1586371,
+      "context_end": 1586811,
+      "reason": ""
+    },
+    {
+      "start": 1586811,
+      "end": 1587838,
+      "context_start": 1586811,
+      "context_end": 1587838,
+      "reason": ""
+    },
+    {
+      "start": 1587838,
+      "end": 1588812,
+      "context_start": 1587838,
+      "context_end": 1588812,
+      "reason": ""
+    },
+    {
+      "start": 1588812,
+      "end": 1589283,
+      "context_start": 1588812,
+      "context_end": 1589283,
+      "reason": ""
+    },
+    {
+      "start": 1589283,
+      "end": 1589449,
+      "context_start": 1589283,
+      "context_end": 1589449,
+      "reason": ""
+    },
+    {
+      "start": 1589449,
+      "end": 1589780,
+      "context_start": 1589449,
+      "context_end": 1589780,
+      "reason": ""
+    },
+    {
+      "start": 1589780,
+      "end": 1590026,
+      "context_start": 1589780,
+      "context_end": 1590026,
+      "reason": ""
+    },
+    {
+      "start": 1590026,
+      "end": 1590343,
+      "context_start": 1590026,
+      "context_end": 1590343,
+      "reason": ""
+    },
+    {
+      "start": 1590343,
+      "end": 1591085,
+      "context_start": 1590343,
+      "context_end": 1591085,
+      "reason": ""
+    },
+    {
+      "start": 1591085,
+      "end": 1591262,
+      "context_start": 1591085,
+      "context_end": 1591262,
+      "reason": ""
+    },
+    {
+      "start": 1591262,
+      "end": 1591467,
+      "context_start": 1591262,
+      "context_end": 1591467,
+      "reason": ""
+    },
+    {
+      "start": 1591467,
+      "end": 1591863,
+      "context_start": 1591467,
+      "context_end": 1591863,
+      "reason": ""
+    },
+    {
+      "start": 1591863,
+      "end": 1591988,
+      "context_start": 1591863,
+      "context_end": 1591988,
+      "reason": ""
+    },
+    {
+      "start": 1591988,
+      "end": 1592026,
+      "context_start": 1591988,
+      "context_end": 1592026,
+      "reason": ""
+    },
+    {
+      "start": 1592026,
+      "end": 1592079,
+      "context_start": 1592026,
+      "context_end": 1592079,
+      "reason": ""
+    },
+    {
+      "start": 1592079,
+      "end": 1592133,
+      "context_start": 1592079,
+      "context_end": 1592133,
+      "reason": ""
+    },
+    {
+      "start": 1592133,
+      "end": 1592198,
+      "context_start": 1592133,
+      "context_end": 1592198,
+      "reason": ""
+    },
+    {
+      "start": 1592198,
+      "end": 1592255,
+      "context_start": 1592198,
+      "context_end": 1592255,
+      "reason": ""
+    },
+    {
+      "start": 1592255,
+      "end": 1592440,
+      "context_start": 1592255,
+      "context_end": 1592440,
+      "reason": ""
+    },
+    {
+      "start": 1592440,
+      "end": 1592511,
+      "context_start": 1592440,
+      "context_end": 1592511,
+      "reason": ""
+    },
+    {
+      "start": 1592511,
+      "end": 1592945,
+      "context_start": 1592511,
+      "context_end": 1592945,
+      "reason": ""
+    },
+    {
+      "start": 1592945,
+      "end": 1594156,
+      "context_start": 1592945,
+      "context_end": 1594156,
+      "reason": ""
+    },
+    {
+      "start": 1594156,
+      "end": 1594792,
+      "context_start": 1594156,
+      "context_end": 1594792,
+      "reason": ""
+    },
+    {
+      "start": 1594792,
+      "end": 1594897,
+      "context_start": 1594792,
+      "context_end": 1594897,
+      "reason": ""
+    },
+    {
+      "start": 1594897,
+      "end": 1594957,
+      "context_start": 1594897,
+      "context_end": 1594957,
+      "reason": ""
+    },
+    {
+      "start": 1594957,
+      "end": 1595018,
+      "context_start": 1594957,
+      "context_end": 1595018,
+      "reason": ""
+    },
+    {
+      "start": 1595018,
+      "end": 1595078,
+      "context_start": 1595018,
+      "context_end": 1595078,
+      "reason": ""
+    },
+    {
+      "start": 1595078,
+      "end": 1595139,
+      "context_start": 1595078,
+      "context_end": 1595139,
+      "reason": ""
+    },
+    {
+      "start": 1595139,
+      "end": 1595201,
+      "context_start": 1595139,
+      "context_end": 1595201,
+      "reason": ""
+    },
+    {
+      "start": 1595201,
+      "end": 1595389,
+      "context_start": 1595201,
+      "context_end": 1595389,
+      "reason": ""
+    },
+    {
+      "start": 1595389,
+      "end": 1595438,
+      "context_start": 1595389,
+      "context_end": 1595438,
+      "reason": ""
+    },
+    {
+      "start": 1595438,
+      "end": 1595503,
+      "context_start": 1595438,
+      "context_end": 1595503,
+      "reason": ""
+    },
+    {
+      "start": 1595503,
+      "end": 1595689,
+      "context_start": 1595503,
+      "context_end": 1595689,
+      "reason": ""
+    },
+    {
+      "start": 1595689,
+      "end": 1595737,
+      "context_start": 1595689,
+      "context_end": 1595737,
+      "reason": ""
+    },
+    {
+      "start": 1595737,
+      "end": 1596234,
+      "context_start": 1595737,
+      "context_end": 1596234,
+      "reason": ""
+    },
+    {
+      "start": 1596234,
+      "end": 1596287,
+      "context_start": 1596234,
+      "context_end": 1596287,
+      "reason": ""
+    },
+    {
+      "start": 1596287,
+      "end": 1596348,
+      "context_start": 1596287,
+      "context_end": 1596348,
+      "reason": ""
+    },
+    {
+      "start": 1596348,
+      "end": 1596464,
+      "context_start": 1596348,
+      "context_end": 1596464,
+      "reason": ""
+    },
+    {
+      "start": 1596464,
+      "end": 1596882,
+      "context_start": 1596464,
+      "context_end": 1596882,
+      "reason": ""
+    },
+    {
+      "start": 1596882,
+      "end": 1596971,
+      "context_start": 1596882,
+      "context_end": 1596971,
+      "reason": ""
+    },
+    {
+      "start": 1596971,
+      "end": 1597054,
+      "context_start": 1596971,
+      "context_end": 1597054,
+      "reason": ""
+    },
+    {
+      "start": 1597054,
+      "end": 1597174,
+      "context_start": 1597054,
+      "context_end": 1597174,
+      "reason": ""
+    },
+    {
+      "start": 1597174,
+      "end": 1597439,
+      "context_start": 1597174,
+      "context_end": 1597439,
+      "reason": ""
+    },
+    {
+      "start": 1597439,
+      "end": 1597728,
+      "context_start": 1597439,
+      "context_end": 1597728,
+      "reason": ""
+    },
+    {
+      "start": 1597728,
+      "end": 1598154,
+      "context_start": 1597728,
+      "context_end": 1598154,
+      "reason": ""
+    },
+    {
+      "start": 1598154,
+      "end": 1598352,
+      "context_start": 1598154,
+      "context_end": 1598352,
+      "reason": ""
+    },
+    {
+      "start": 1598352,
+      "end": 1598532,
+      "context_start": 1598352,
+      "context_end": 1598532,
+      "reason": ""
+    },
+    {
+      "start": 1598532,
+      "end": 1598672,
+      "context_start": 1598532,
+      "context_end": 1598672,
+      "reason": ""
+    },
+    {
+      "start": 1598672,
+      "end": 1598752,
+      "context_start": 1598672,
+      "context_end": 1598752,
+      "reason": ""
+    },
+    {
+      "start": 1598752,
+      "end": 1598911,
+      "context_start": 1598752,
+      "context_end": 1598911,
+      "reason": ""
+    },
+    {
+      "start": 1598911,
+      "end": 1598958,
+      "context_start": 1598911,
+      "context_end": 1598958,
+      "reason": ""
+    },
+    {
+      "start": 1598958,
+      "end": 1599000,
+      "context_start": 1598958,
+      "context_end": 1599000,
+      "reason": ""
+    },
+    {
+      "start": 1599000,
+      "end": 1599070,
+      "context_start": 1599000,
+      "context_end": 1599070,
+      "reason": ""
+    },
+    {
+      "start": 1599070,
+      "end": 1599222,
+      "context_start": 1599070,
+      "context_end": 1599222,
+      "reason": ""
+    },
+    {
+      "start": 1599222,
+      "end": 1599855,
+      "context_start": 1599222,
+      "context_end": 1599855,
+      "reason": ""
+    },
+    {
+      "start": 1599855,
+      "end": 1599883,
+      "context_start": 1599855,
+      "context_end": 1599883,
+      "reason": ""
+    },
+    {
+      "start": 1599883,
+      "end": 1601912,
+      "context_start": 1599883,
+      "context_end": 1601912,
+      "reason": ""
+    },
+    {
+      "start": 1601912,
+      "end": 1601959,
+      "context_start": 1601912,
+      "context_end": 1601959,
+      "reason": ""
+    },
+    {
+      "start": 1601959,
+      "end": 1602056,
+      "context_start": 1601959,
+      "context_end": 1602056,
+      "reason": ""
+    },
+    {
+      "start": 1602056,
+      "end": 1602222,
+      "context_start": 1602056,
+      "context_end": 1602222,
+      "reason": ""
+    },
+    {
+      "start": 1602222,
+      "end": 1602358,
+      "context_start": 1602222,
+      "context_end": 1602358,
+      "reason": ""
+    },
+    {
+      "start": 1602358,
+      "end": 1602691,
+      "context_start": 1602358,
+      "context_end": 1602691,
+      "reason": ""
+    },
+    {
+      "start": 1602691,
+      "end": 1602718,
+      "context_start": 1602691,
+      "context_end": 1602718,
+      "reason": ""
+    },
+    {
+      "start": 1602718,
+      "end": 1602804,
+      "context_start": 1602718,
+      "context_end": 1602804,
+      "reason": ""
+    },
+    {
+      "start": 1602804,
+      "end": 1602898,
+      "context_start": 1602804,
+      "context_end": 1602898,
+      "reason": ""
+    }
+  ],
+  "heading_labels": [
+    {
+      "at": 1584613,
+      "label": "النسب والسيرة"
+    },
+    {
+      "at": 1585218,
+      "label": "أحاديث سعيد"
+    },
+    {
+      "at": 1586371,
+      "label": "خبر زيد بن عمرو والد سعيد"
+    },
+    {
+      "at": 1595201,
+      "label": "سابقة سعيد ومشاهده"
+    },
+    {
+      "at": 1596464,
+      "label": "خبر أروى والأرض"
+    },
+    {
+      "at": 1597439,
+      "label": "أخبار سعيد ووفاته"
+    },
+    {
+      "at": 1599070,
+      "label": "خاتمة العشرة وحديث المؤاخاة"
+    }
+  ]
+}

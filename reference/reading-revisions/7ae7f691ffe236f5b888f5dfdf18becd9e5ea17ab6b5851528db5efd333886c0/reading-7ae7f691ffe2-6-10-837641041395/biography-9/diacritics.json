@@ -1,0 +1,5525 @@
+{
+  "version": "curation-diacritics-v1",
+  "biography_id": 9,
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "source_char_start": 1611117,
+  "source_char_end": 1616214,
+  "reviewer": "",
+  "insertions": [],
+  "words": [
+    {
+      "start": 1611123,
+      "end": 1611124,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1611127,
+      "end": 1611132,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611133,
+      "end": 1611135,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611136,
+      "end": 1611141,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611142,
+      "end": 1611144,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611145,
+      "end": 1611149,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611150,
+      "end": 1611152,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611153,
+      "end": 1611156,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611157,
+      "end": 1611163,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611168,
+      "end": 1611171,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611172,
+      "end": 1611177,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611178,
+      "end": 1611180,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611181,
+      "end": 1611184,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611185,
+      "end": 1611187,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611188,
+      "end": 1611192,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611193,
+      "end": 1611195,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611196,
+      "end": 1611200,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611201,
+      "end": 1611203,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611204,
+      "end": 1611207,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611208,
+      "end": 1611214,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611216,
+      "end": 1611219,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611220,
+      "end": 1611226,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611244,
+      "end": 1611246,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611247,
+      "end": 1611251,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611252,
+      "end": 1611261,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611263,
+      "end": 1611266,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611267,
+      "end": 1611273,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611274,
+      "end": 1611278,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611279,
+      "end": 1611286,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611288,
+      "end": 1611293,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611294,
+      "end": 1611299,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611300,
+      "end": 1611307,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611308,
+      "end": 1611310,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611313,
+      "end": 1611317,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611318,
+      "end": 1611323,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611325,
+      "end": 1611329,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611330,
+      "end": 1611335,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611339,
+      "end": 1611343,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611344,
+      "end": 1611347,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611348,
+      "end": 1611354,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611356,
+      "end": 1611359,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611360,
+      "end": 1611364,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611365,
+      "end": 1611368,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611370,
+      "end": 1611373,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611374,
+      "end": 1611376,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611377,
+      "end": 1611380,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611381,
+      "end": 1611388,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611390,
+      "end": 1611391,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1611397,
+      "end": 1611400,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611401,
+      "end": 1611405,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611406,
+      "end": 1611408,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611409,
+      "end": 1611412,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611413,
+      "end": 1611419,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611421,
+      "end": 1611423,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611424,
+      "end": 1611430,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611431,
+      "end": 1611433,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611434,
+      "end": 1611437,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611438,
+      "end": 1611442,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611444,
+      "end": 1611447,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611451,
+      "end": 1611454,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611455,
+      "end": 1611458,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611459,
+      "end": 1611464,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611466,
+      "end": 1611469,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611470,
+      "end": 1611474,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611475,
+      "end": 1611479,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611480,
+      "end": 1611484,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611486,
+      "end": 1611491,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611492,
+      "end": 1611494,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611495,
+      "end": 1611500,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611502,
+      "end": 1611505,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611506,
+      "end": 1611510,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611513,
+      "end": 1611516,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611517,
+      "end": 1611520,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611523,
+      "end": 1611529,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611531,
+      "end": 1611538,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611539,
+      "end": 1611542,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611543,
+      "end": 1611546,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611547,
+      "end": 1611550,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611552,
+      "end": 1611557,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611558,
+      "end": 1611561,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611563,
+      "end": 1611567,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611568,
+      "end": 1611572,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611573,
+      "end": 1611575,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611576,
+      "end": 1611580,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611581,
+      "end": 1611583,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611584,
+      "end": 1611588,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611594,
+      "end": 1611598,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611599,
+      "end": 1611604,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611606,
+      "end": 1611609,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611610,
+      "end": 1611615,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611617,
+      "end": 1611621,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611624,
+      "end": 1611628,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611629,
+      "end": 1611633,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611634,
+      "end": 1611638,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611644,
+      "end": 1611650,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611651,
+      "end": 1611655,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611656,
+      "end": 1611659,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611660,
+      "end": 1611664,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611665,
+      "end": 1611670,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611671,
+      "end": 1611675,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611676,
+      "end": 1611680,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611682,
+      "end": 1611685,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611686,
+      "end": 1611690,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611691,
+      "end": 1611695,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611696,
+      "end": 1611700,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611702,
+      "end": 1611705,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611706,
+      "end": 1611713,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611717,
+      "end": 1611720,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611721,
+      "end": 1611726,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611727,
+      "end": 1611730,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611731,
+      "end": 1611735,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611737,
+      "end": 1611738,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1611744,
+      "end": 1611747,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611748,
+      "end": 1611752,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611756,
+      "end": 1611759,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611760,
+      "end": 1611764,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611765,
+      "end": 1611767,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611768,
+      "end": 1611774,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611776,
+      "end": 1611780,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611781,
+      "end": 1611785,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611786,
+      "end": 1611790,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611794,
+      "end": 1611796,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611797,
+      "end": 1611801,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611802,
+      "end": 1611806,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611808,
+      "end": 1611811,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611812,
+      "end": 1611816,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611817,
+      "end": 1611821,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611822,
+      "end": 1611826,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611828,
+      "end": 1611831,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611832,
+      "end": 1611837,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611838,
+      "end": 1611840,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611841,
+      "end": 1611846,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611848,
+      "end": 1611849,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1611851,
+      "end": 1611857,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611859,
+      "end": 1611862,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611865,
+      "end": 1611868,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611870,
+      "end": 1611871,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1611873,
+      "end": 1611875,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611876,
+      "end": 1611884,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611886,
+      "end": 1611887,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1611905,
+      "end": 1611908,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611909,
+      "end": 1611912,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611913,
+      "end": 1611916,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611917,
+      "end": 1611923,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611925,
+      "end": 1611929,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611930,
+      "end": 1611933,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611934,
+      "end": 1611940,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611941,
+      "end": 1611944,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611945,
+      "end": 1611950,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611951,
+      "end": 1611954,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611955,
+      "end": 1611959,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611961,
+      "end": 1611966,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611969,
+      "end": 1611977,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611979,
+      "end": 1611984,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611985,
+      "end": 1611988,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611989,
+      "end": 1611992,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611994,
+      "end": 1611998,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1611999,
+      "end": 1612004,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612006,
+      "end": 1612007,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1612009,
+      "end": 1612015,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612017,
+      "end": 1612021,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612022,
+      "end": 1612024,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612026,
+      "end": 1612030,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612032,
+      "end": 1612036,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612037,
+      "end": 1612039,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612042,
+      "end": 1612046,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612047,
+      "end": 1612049,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612050,
+      "end": 1612056,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612058,
+      "end": 1612059,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1612065,
+      "end": 1612069,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612070,
+      "end": 1612072,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612073,
+      "end": 1612079,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612080,
+      "end": 1612084,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612085,
+      "end": 1612089,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612090,
+      "end": 1612092,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612093,
+      "end": 1612096,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612097,
+      "end": 1612101,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612103,
+      "end": 1612106,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612110,
+      "end": 1612113,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612114,
+      "end": 1612116,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612117,
+      "end": 1612120,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612121,
+      "end": 1612126,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612127,
+      "end": 1612133,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612134,
+      "end": 1612139,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612140,
+      "end": 1612142,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612143,
+      "end": 1612148,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612150,
+      "end": 1612154,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612155,
+      "end": 1612159,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612160,
+      "end": 1612164,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612166,
+      "end": 1612169,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612170,
+      "end": 1612174,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612175,
+      "end": 1612179,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612182,
+      "end": 1612186,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612188,
+      "end": 1612191,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612192,
+      "end": 1612196,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612197,
+      "end": 1612201,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612203,
+      "end": 1612207,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612210,
+      "end": 1612213,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612214,
+      "end": 1612217,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612218,
+      "end": 1612223,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612225,
+      "end": 1612226,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1612233,
+      "end": 1612237,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612238,
+      "end": 1612241,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612242,
+      "end": 1612245,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612246,
+      "end": 1612251,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612252,
+      "end": 1612254,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612255,
+      "end": 1612263,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612267,
+      "end": 1612270,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612271,
+      "end": 1612278,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612280,
+      "end": 1612282,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612283,
+      "end": 1612286,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612287,
+      "end": 1612289,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612290,
+      "end": 1612294,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612296,
+      "end": 1612298,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612299,
+      "end": 1612302,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612303,
+      "end": 1612307,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612311,
+      "end": 1612314,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612315,
+      "end": 1612320,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612321,
+      "end": 1612323,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612324,
+      "end": 1612329,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612331,
+      "end": 1612333,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612334,
+      "end": 1612338,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612339,
+      "end": 1612344,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612345,
+      "end": 1612349,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612350,
+      "end": 1612354,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612356,
+      "end": 1612361,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612362,
+      "end": 1612364,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612365,
+      "end": 1612367,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612368,
+      "end": 1612370,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612371,
+      "end": 1612375,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612376,
+      "end": 1612379,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612383,
+      "end": 1612390,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612391,
+      "end": 1612394,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612395,
+      "end": 1612397,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612398,
+      "end": 1612402,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612403,
+      "end": 1612409,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612413,
+      "end": 1612417,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612418,
+      "end": 1612422,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612423,
+      "end": 1612428,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612430,
+      "end": 1612433,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612435,
+      "end": 1612438,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612439,
+      "end": 1612442,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612444,
+      "end": 1612446,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612447,
+      "end": 1612450,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612451,
+      "end": 1612455,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612456,
+      "end": 1612460,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612461,
+      "end": 1612466,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612468,
+      "end": 1612469,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1612475,
+      "end": 1612478,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612479,
+      "end": 1612482,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612483,
+      "end": 1612488,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612489,
+      "end": 1612491,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612492,
+      "end": 1612496,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612498,
+      "end": 1612503,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612504,
+      "end": 1612508,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612509,
+      "end": 1612514,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612515,
+      "end": 1612518,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612519,
+      "end": 1612523,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612525,
+      "end": 1612526,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1612544,
+      "end": 1612549,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612550,
+      "end": 1612552,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612553,
+      "end": 1612557,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612559,
+      "end": 1612564,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612565,
+      "end": 1612568,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612569,
+      "end": 1612572,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612574,
+      "end": 1612576,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612577,
+      "end": 1612581,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612582,
+      "end": 1612584,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612585,
+      "end": 1612591,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612593,
+      "end": 1612598,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612599,
+      "end": 1612602,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612603,
+      "end": 1612608,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612610,
+      "end": 1612612,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612615,
+      "end": 1612619,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612621,
+      "end": 1612623,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612624,
+      "end": 1612627,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612628,
+      "end": 1612632,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612636,
+      "end": 1612638,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612639,
+      "end": 1612644,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612646,
+      "end": 1612649,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612650,
+      "end": 1612654,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612655,
+      "end": 1612659,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612660,
+      "end": 1612664,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612666,
+      "end": 1612669,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612670,
+      "end": 1612673,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612674,
+      "end": 1612679,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612680,
+      "end": 1612682,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612683,
+      "end": 1612688,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612689,
+      "end": 1612692,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612693,
+      "end": 1612696,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612698,
+      "end": 1612702,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612705,
+      "end": 1612709,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612711,
+      "end": 1612715,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612716,
+      "end": 1612720,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612722,
+      "end": 1612728,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612729,
+      "end": 1612733,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612734,
+      "end": 1612737,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612738,
+      "end": 1612744,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612748,
+      "end": 1612750,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612751,
+      "end": 1612754,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612755,
+      "end": 1612762,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612764,
+      "end": 1612766,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612767,
+      "end": 1612770,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612771,
+      "end": 1612775,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612777,
+      "end": 1612782,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612783,
+      "end": 1612787,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612791,
+      "end": 1612793,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612794,
+      "end": 1612797,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612798,
+      "end": 1612805,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612807,
+      "end": 1612811,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612812,
+      "end": 1612816,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612818,
+      "end": 1612821,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612822,
+      "end": 1612826,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612835,
+      "end": 1612841,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612842,
+      "end": 1612845,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612846,
+      "end": 1612850,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612852,
+      "end": 1612856,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612857,
+      "end": 1612862,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612866,
+      "end": 1612870,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612873,
+      "end": 1612875,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612877,
+      "end": 1612880,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612881,
+      "end": 1612883,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612884,
+      "end": 1612891,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612897,
+      "end": 1612899,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612900,
+      "end": 1612903,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612906,
+      "end": 1612912,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612913,
+      "end": 1612917,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612919,
+      "end": 1612922,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612923,
+      "end": 1612929,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612931,
+      "end": 1612934,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612935,
+      "end": 1612939,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612940,
+      "end": 1612944,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612945,
+      "end": 1612948,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612949,
+      "end": 1612953,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612954,
+      "end": 1612958,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612959,
+      "end": 1612963,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612967,
+      "end": 1612968,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1612975,
+      "end": 1612979,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612980,
+      "end": 1612982,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612983,
+      "end": 1612987,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612989,
+      "end": 1612991,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612992,
+      "end": 1612995,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612996,
+      "end": 1612998,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1612999,
+      "end": 1613002,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613004,
+      "end": 1613006,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613007,
+      "end": 1613011,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613012,
+      "end": 1613014,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613015,
+      "end": 1613020,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613022,
+      "end": 1613024,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613025,
+      "end": 1613028,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613029,
+      "end": 1613033,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613035,
+      "end": 1613038,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613042,
+      "end": 1613045,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613046,
+      "end": 1613049,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613050,
+      "end": 1613053,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613054,
+      "end": 1613059,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613061,
+      "end": 1613065,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613066,
+      "end": 1613072,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613074,
+      "end": 1613079,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613080,
+      "end": 1613082,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613083,
+      "end": 1613088,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613092,
+      "end": 1613096,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613097,
+      "end": 1613102,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613103,
+      "end": 1613107,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613108,
+      "end": 1613112,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613114,
+      "end": 1613117,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613118,
+      "end": 1613122,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613123,
+      "end": 1613127,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613128,
+      "end": 1613132,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613134,
+      "end": 1613137,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613138,
+      "end": 1613141,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613143,
+      "end": 1613147,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613150,
+      "end": 1613152,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613153,
+      "end": 1613158,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613165,
+      "end": 1613169,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613171,
+      "end": 1613176,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613177,
+      "end": 1613183,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613187,
+      "end": 1613190,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613193,
+      "end": 1613196,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613197,
+      "end": 1613201,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613202,
+      "end": 1613206,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613208,
+      "end": 1613211,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613212,
+      "end": 1613216,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613217,
+      "end": 1613219,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613220,
+      "end": 1613224,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613225,
+      "end": 1613227,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613228,
+      "end": 1613231,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613232,
+      "end": 1613234,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613240,
+      "end": 1613245,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613246,
+      "end": 1613251,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613252,
+      "end": 1613255,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613256,
+      "end": 1613261,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613262,
+      "end": 1613264,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613265,
+      "end": 1613270,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613272,
+      "end": 1613276,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613277,
+      "end": 1613283,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613285,
+      "end": 1613289,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613290,
+      "end": 1613293,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613294,
+      "end": 1613300,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613304,
+      "end": 1613308,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613311,
+      "end": 1613315,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613316,
+      "end": 1613318,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613319,
+      "end": 1613322,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613327,
+      "end": 1613329,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613330,
+      "end": 1613333,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613350,
+      "end": 1613355,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613356,
+      "end": 1613361,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613362,
+      "end": 1613369,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613371,
+      "end": 1613375,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613376,
+      "end": 1613379,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613380,
+      "end": 1613382,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613383,
+      "end": 1613388,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613389,
+      "end": 1613392,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613393,
+      "end": 1613397,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613398,
+      "end": 1613401,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613402,
+      "end": 1613408,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613410,
+      "end": 1613413,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613414,
+      "end": 1613417,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613420,
+      "end": 1613422,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613423,
+      "end": 1613427,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613428,
+      "end": 1613435,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613436,
+      "end": 1613439,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613440,
+      "end": 1613447,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613449,
+      "end": 1613450,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1613457,
+      "end": 1613461,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613462,
+      "end": 1613464,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613465,
+      "end": 1613469,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613471,
+      "end": 1613476,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613477,
+      "end": 1613485,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613487,
+      "end": 1613489,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613490,
+      "end": 1613493,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613494,
+      "end": 1613496,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613497,
+      "end": 1613502,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613504,
+      "end": 1613506,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613507,
+      "end": 1613512,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613513,
+      "end": 1613515,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613516,
+      "end": 1613521,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613522,
+      "end": 1613525,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613529,
+      "end": 1613531,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613532,
+      "end": 1613536,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613537,
+      "end": 1613541,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613543,
+      "end": 1613545,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613546,
+      "end": 1613549,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613550,
+      "end": 1613552,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613553,
+      "end": 1613556,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613557,
+      "end": 1613563,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613564,
+      "end": 1613569,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613573,
+      "end": 1613576,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613579,
+      "end": 1613582,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613589,
+      "end": 1613592,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613594,
+      "end": 1613600,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613601,
+      "end": 1613603,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613604,
+      "end": 1613607,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613611,
+      "end": 1613614,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613617,
+      "end": 1613619,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613620,
+      "end": 1613624,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613625,
+      "end": 1613627,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613628,
+      "end": 1613633,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613634,
+      "end": 1613636,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613637,
+      "end": 1613642,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613644,
+      "end": 1613649,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613650,
+      "end": 1613655,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613656,
+      "end": 1613659,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613665,
+      "end": 1613668,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613669,
+      "end": 1613674,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613676,
+      "end": 1613677,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1613683,
+      "end": 1613686,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613687,
+      "end": 1613690,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613691,
+      "end": 1613694,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613696,
+      "end": 1613698,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613699,
+      "end": 1613705,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613709,
+      "end": 1613711,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613712,
+      "end": 1613717,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613718,
+      "end": 1613720,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613721,
+      "end": 1613726,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613727,
+      "end": 1613731,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613732,
+      "end": 1613734,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613735,
+      "end": 1613740,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613742,
+      "end": 1613747,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613748,
+      "end": 1613750,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613751,
+      "end": 1613756,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613760,
+      "end": 1613764,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613765,
+      "end": 1613767,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613768,
+      "end": 1613773,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613775,
+      "end": 1613778,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613779,
+      "end": 1613783,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613784,
+      "end": 1613788,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613789,
+      "end": 1613793,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613797,
+      "end": 1613801,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613802,
+      "end": 1613804,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613805,
+      "end": 1613807,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613808,
+      "end": 1613812,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613813,
+      "end": 1613817,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613819,
+      "end": 1613823,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613824,
+      "end": 1613826,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613829,
+      "end": 1613833,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613834,
+      "end": 1613836,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613837,
+      "end": 1613842,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613843,
+      "end": 1613845,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613846,
+      "end": 1613849,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613851,
+      "end": 1613852,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1613859,
+      "end": 1613862,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613863,
+      "end": 1613868,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613869,
+      "end": 1613876,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613878,
+      "end": 1613880,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613881,
+      "end": 1613884,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613885,
+      "end": 1613889,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613893,
+      "end": 1613897,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613898,
+      "end": 1613903,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613904,
+      "end": 1613909,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613910,
+      "end": 1613912,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613913,
+      "end": 1613918,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613919,
+      "end": 1613922,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613923,
+      "end": 1613927,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613928,
+      "end": 1613933,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613935,
+      "end": 1613938,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613939,
+      "end": 1613943,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613944,
+      "end": 1613948,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613949,
+      "end": 1613953,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613955,
+      "end": 1613962,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613965,
+      "end": 1613969,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613970,
+      "end": 1613976,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613980,
+      "end": 1613984,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613985,
+      "end": 1613988,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613990,
+      "end": 1613992,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613993,
+      "end": 1613995,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1613997,
+      "end": 1614000,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614001,
+      "end": 1614003,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614004,
+      "end": 1614008,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614009,
+      "end": 1614013,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614014,
+      "end": 1614016,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614017,
+      "end": 1614021,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614025,
+      "end": 1614029,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614031,
+      "end": 1614034,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614035,
+      "end": 1614039,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614040,
+      "end": 1614045,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614047,
+      "end": 1614051,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614052,
+      "end": 1614057,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614058,
+      "end": 1614063,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614067,
+      "end": 1614072,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614073,
+      "end": 1614078,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614080,
+      "end": 1614083,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614084,
+      "end": 1614088,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614089,
+      "end": 1614093,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614094,
+      "end": 1614098,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614100,
+      "end": 1614104,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614107,
+      "end": 1614110,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614125,
+      "end": 1614127,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614128,
+      "end": 1614130,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614131,
+      "end": 1614135,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614142,
+      "end": 1614148,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614150,
+      "end": 1614151,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1614157,
+      "end": 1614160,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614162,
+      "end": 1614168,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614169,
+      "end": 1614172,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614173,
+      "end": 1614176,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614177,
+      "end": 1614181,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614182,
+      "end": 1614187,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614188,
+      "end": 1614192,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614196,
+      "end": 1614200,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614201,
+      "end": 1614203,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614204,
+      "end": 1614207,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614209,
+      "end": 1614214,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614215,
+      "end": 1614221,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614222,
+      "end": 1614224,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614225,
+      "end": 1614229,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614231,
+      "end": 1614233,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614234,
+      "end": 1614237,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614238,
+      "end": 1614243,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614247,
+      "end": 1614249,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614250,
+      "end": 1614255,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614256,
+      "end": 1614258,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614259,
+      "end": 1614264,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614265,
+      "end": 1614268,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614269,
+      "end": 1614274,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614276,
+      "end": 1614281,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614282,
+      "end": 1614287,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614289,
+      "end": 1614292,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614293,
+      "end": 1614297,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614298,
+      "end": 1614302,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614303,
+      "end": 1614307,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614309,
+      "end": 1614313,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614318,
+      "end": 1614320,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614321,
+      "end": 1614326,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614328,
+      "end": 1614330,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614331,
+      "end": 1614335,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614336,
+      "end": 1614338,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614339,
+      "end": 1614345,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614346,
+      "end": 1614356,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614358,
+      "end": 1614361,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614362,
+      "end": 1614365,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614366,
+      "end": 1614371,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614372,
+      "end": 1614375,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614376,
+      "end": 1614380,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614381,
+      "end": 1614389,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614392,
+      "end": 1614398,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614400,
+      "end": 1614401,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1614408,
+      "end": 1614410,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614411,
+      "end": 1614416,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614417,
+      "end": 1614420,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614421,
+      "end": 1614426,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614428,
+      "end": 1614432,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614436,
+      "end": 1614439,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614440,
+      "end": 1614445,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614447,
+      "end": 1614453,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614455,
+      "end": 1614459,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614460,
+      "end": 1614464,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614465,
+      "end": 1614468,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614469,
+      "end": 1614474,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614476,
+      "end": 1614481,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614482,
+      "end": 1614484,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614485,
+      "end": 1614491,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614494,
+      "end": 1614497,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614498,
+      "end": 1614504,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614509,
+      "end": 1614512,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614513,
+      "end": 1614516,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614517,
+      "end": 1614521,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614522,
+      "end": 1614524,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614525,
+      "end": 1614529,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614530,
+      "end": 1614538,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614542,
+      "end": 1614545,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614546,
+      "end": 1614553,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614555,
+      "end": 1614557,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614565,
+      "end": 1614570,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614571,
+      "end": 1614574,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614575,
+      "end": 1614579,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614580,
+      "end": 1614582,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614583,
+      "end": 1614589,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614590,
+      "end": 1614593,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614594,
+      "end": 1614600,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614602,
+      "end": 1614607,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614608,
+      "end": 1614614,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614615,
+      "end": 1614619,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614623,
+      "end": 1614624,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1614630,
+      "end": 1614633,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614634,
+      "end": 1614638,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614639,
+      "end": 1614643,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614644,
+      "end": 1614646,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614647,
+      "end": 1614651,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614653,
+      "end": 1614656,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614658,
+      "end": 1614660,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614661,
+      "end": 1614665,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614666,
+      "end": 1614670,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614672,
+      "end": 1614675,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614676,
+      "end": 1614680,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614681,
+      "end": 1614685,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614686,
+      "end": 1614690,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614692,
+      "end": 1614695,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614698,
+      "end": 1614703,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614704,
+      "end": 1614708,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614709,
+      "end": 1614714,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614715,
+      "end": 1614720,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614721,
+      "end": 1614729,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614731,
+      "end": 1614732,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1614750,
+      "end": 1614754,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614756,
+      "end": 1614758,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614759,
+      "end": 1614764,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614766,
+      "end": 1614769,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614770,
+      "end": 1614774,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614778,
+      "end": 1614784,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614786,
+      "end": 1614788,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614789,
+      "end": 1614793,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614794,
+      "end": 1614796,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614797,
+      "end": 1614801,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614802,
+      "end": 1614806,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614808,
+      "end": 1614809,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1614813,
+      "end": 1614815,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614816,
+      "end": 1614822,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614823,
+      "end": 1614825,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614826,
+      "end": 1614830,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614832,
+      "end": 1614834,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614835,
+      "end": 1614840,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614844,
+      "end": 1614846,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614847,
+      "end": 1614851,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614852,
+      "end": 1614856,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614858,
+      "end": 1614861,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614862,
+      "end": 1614866,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614867,
+      "end": 1614871,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614872,
+      "end": 1614876,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614878,
+      "end": 1614881,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614882,
+      "end": 1614887,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614888,
+      "end": 1614890,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614891,
+      "end": 1614896,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614897,
+      "end": 1614900,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614901,
+      "end": 1614904,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614906,
+      "end": 1614912,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614915,
+      "end": 1614919,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614920,
+      "end": 1614923,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614924,
+      "end": 1614926,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614927,
+      "end": 1614932,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614933,
+      "end": 1614935,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614936,
+      "end": 1614941,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614943,
+      "end": 1614944,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1614950,
+      "end": 1614954,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614955,
+      "end": 1614962,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614966,
+      "end": 1614970,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614972,
+      "end": 1614974,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614975,
+      "end": 1614978,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614979,
+      "end": 1614984,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614986,
+      "end": 1614989,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614993,
+      "end": 1614996,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1614997,
+      "end": 1614999,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615000,
+      "end": 1615006,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615007,
+      "end": 1615012,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615013,
+      "end": 1615015,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615016,
+      "end": 1615021,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615023,
+      "end": 1615026,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615027,
+      "end": 1615031,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615032,
+      "end": 1615036,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615038,
+      "end": 1615041,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615042,
+      "end": 1615046,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615047,
+      "end": 1615051,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615052,
+      "end": 1615056,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615062,
+      "end": 1615066,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615067,
+      "end": 1615070,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615071,
+      "end": 1615075,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615076,
+      "end": 1615080,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615081,
+      "end": 1615085,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615087,
+      "end": 1615088,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1615095,
+      "end": 1615102,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615103,
+      "end": 1615105,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615106,
+      "end": 1615109,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615111,
+      "end": 1615113,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615114,
+      "end": 1615117,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615118,
+      "end": 1615122,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615124,
+      "end": 1615126,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615127,
+      "end": 1615132,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615133,
+      "end": 1615135,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615136,
+      "end": 1615139,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615141,
+      "end": 1615143,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615144,
+      "end": 1615146,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615147,
+      "end": 1615153,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615154,
+      "end": 1615156,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615159,
+      "end": 1615168,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615170,
+      "end": 1615175,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615179,
+      "end": 1615181,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615182,
+      "end": 1615187,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615188,
+      "end": 1615190,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615191,
+      "end": 1615196,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615197,
+      "end": 1615202,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615203,
+      "end": 1615208,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615210,
+      "end": 1615217,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615218,
+      "end": 1615221,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615222,
+      "end": 1615226,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615230,
+      "end": 1615234,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615235,
+      "end": 1615239,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615240,
+      "end": 1615244,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615246,
+      "end": 1615249,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615250,
+      "end": 1615254,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615255,
+      "end": 1615259,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615260,
+      "end": 1615264,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615266,
+      "end": 1615270,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615272,
+      "end": 1615278,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615279,
+      "end": 1615283,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615284,
+      "end": 1615287,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615288,
+      "end": 1615294,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615296,
+      "end": 1615299,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615302,
+      "end": 1615307,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615308,
+      "end": 1615312,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615316,
+      "end": 1615320,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615321,
+      "end": 1615325,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615326,
+      "end": 1615330,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615333,
+      "end": 1615336,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615337,
+      "end": 1615342,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615349,
+      "end": 1615352,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615354,
+      "end": 1615356,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615357,
+      "end": 1615361,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615362,
+      "end": 1615366,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615367,
+      "end": 1615370,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615371,
+      "end": 1615375,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615376,
+      "end": 1615378,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615379,
+      "end": 1615383,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615384,
+      "end": 1615388,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615389,
+      "end": 1615392,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615396,
+      "end": 1615399,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615402,
+      "end": 1615405,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615406,
+      "end": 1615408,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615409,
+      "end": 1615412,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615413,
+      "end": 1615417,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615418,
+      "end": 1615424,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615426,
+      "end": 1615431,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615432,
+      "end": 1615435,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615436,
+      "end": 1615441,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615442,
+      "end": 1615444,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615445,
+      "end": 1615450,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615452,
+      "end": 1615456,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615457,
+      "end": 1615462,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615465,
+      "end": 1615469,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615471,
+      "end": 1615474,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615475,
+      "end": 1615479,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615480,
+      "end": 1615482,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615483,
+      "end": 1615487,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615488,
+      "end": 1615490,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615496,
+      "end": 1615500,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615502,
+      "end": 1615508,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615509,
+      "end": 1615511,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615512,
+      "end": 1615516,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615517,
+      "end": 1615521,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615522,
+      "end": 1615526,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615530,
+      "end": 1615534,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615536,
+      "end": 1615543,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615558,
+      "end": 1615561,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615563,
+      "end": 1615567,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615569,
+      "end": 1615574,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615575,
+      "end": 1615581,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615582,
+      "end": 1615586,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615587,
+      "end": 1615591,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615595,
+      "end": 1615601,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615602,
+      "end": 1615606,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615607,
+      "end": 1615611,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615613,
+      "end": 1615616,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615617,
+      "end": 1615621,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615622,
+      "end": 1615626,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615627,
+      "end": 1615631,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615633,
+      "end": 1615637,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615640,
+      "end": 1615643,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615644,
+      "end": 1615648,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615650,
+      "end": 1615651,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1615658,
+      "end": 1615662,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615663,
+      "end": 1615665,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615666,
+      "end": 1615670,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615672,
+      "end": 1615677,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615678,
+      "end": 1615681,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615682,
+      "end": 1615684,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615685,
+      "end": 1615688,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615690,
+      "end": 1615692,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615693,
+      "end": 1615697,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615698,
+      "end": 1615700,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615701,
+      "end": 1615706,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615708,
+      "end": 1615710,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615711,
+      "end": 1615714,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615715,
+      "end": 1615719,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615720,
+      "end": 1615725,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615729,
+      "end": 1615733,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615737,
+      "end": 1615741,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615742,
+      "end": 1615746,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615747,
+      "end": 1615750,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615751,
+      "end": 1615755,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615756,
+      "end": 1615760,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615762,
+      "end": 1615765,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615766,
+      "end": 1615770,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615771,
+      "end": 1615775,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615776,
+      "end": 1615780,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615782,
+      "end": 1615785,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615788,
+      "end": 1615793,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615795,
+      "end": 1615796,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1615798,
+      "end": 1615804,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615807,
+      "end": 1615812,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615814,
+      "end": 1615819,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615820,
+      "end": 1615822,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615823,
+      "end": 1615828,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615830,
+      "end": 1615831,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1615838,
+      "end": 1615845,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615847,
+      "end": 1615852,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615853,
+      "end": 1615857,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615859,
+      "end": 1615861,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615862,
+      "end": 1615868,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615870,
+      "end": 1615872,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615873,
+      "end": 1615877,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615878,
+      "end": 1615882,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615886,
+      "end": 1615888,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615889,
+      "end": 1615892,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615893,
+      "end": 1615896,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615898,
+      "end": 1615901,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615902,
+      "end": 1615906,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615907,
+      "end": 1615912,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615913,
+      "end": 1615915,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615916,
+      "end": 1615921,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615922,
+      "end": 1615925,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615926,
+      "end": 1615930,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615932,
+      "end": 1615935,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615936,
+      "end": 1615938,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615939,
+      "end": 1615943,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615945,
+      "end": 1615948,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615949,
+      "end": 1615953,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615956,
+      "end": 1615960,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615961,
+      "end": 1615965,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615967,
+      "end": 1615970,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615971,
+      "end": 1615975,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615976,
+      "end": 1615980,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615981,
+      "end": 1615985,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615990,
+      "end": 1615994,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1615996,
+      "end": 1615999,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616001,
+      "end": 1616003,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616004,
+      "end": 1616010,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616011,
+      "end": 1616017,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616019,
+      "end": 1616021,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616022,
+      "end": 1616026,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616027,
+      "end": 1616030,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616031,
+      "end": 1616034,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616038,
+      "end": 1616041,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616043,
+      "end": 1616047,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616048,
+      "end": 1616053,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616054,
+      "end": 1616056,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616057,
+      "end": 1616061,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616062,
+      "end": 1616065,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616066,
+      "end": 1616073,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616075,
+      "end": 1616076,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    },
+    {
+      "start": 1616082,
+      "end": 1616085,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616086,
+      "end": 1616091,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616092,
+      "end": 1616095,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616096,
+      "end": 1616101,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616103,
+      "end": 1616107,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616111,
+      "end": 1616114,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616115,
+      "end": 1616118,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616119,
+      "end": 1616124,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616125,
+      "end": 1616133,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616134,
+      "end": 1616136,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616137,
+      "end": 1616142,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616144,
+      "end": 1616147,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616148,
+      "end": 1616153,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616154,
+      "end": 1616158,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616159,
+      "end": 1616165,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616167,
+      "end": 1616171,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616172,
+      "end": 1616178,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616182,
+      "end": 1616185,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616186,
+      "end": 1616190,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616191,
+      "end": 1616194,
+      "status": "unexamined",
+      "reason": ""
+    },
+    {
+      "start": 1616197,
+      "end": 1616198,
+      "status": "not_applicable",
+      "reason": "عدد أو رمز/لفظ غير عربي؛ محفوظ حرفيًا."
+    }
+  ]
+}

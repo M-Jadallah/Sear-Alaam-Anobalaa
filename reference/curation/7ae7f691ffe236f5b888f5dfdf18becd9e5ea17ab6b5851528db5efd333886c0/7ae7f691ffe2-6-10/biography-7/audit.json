@@ -1,0 +1,19 @@
+{
+  "authoring_sha256": "9073671ae16ffdc66331dfbb65609d45b03ad7c44bd7dbe4338bff02303dacfd",
+  "reviewer": "root-independent-reader",
+  "all_segments_checked": true,
+  "all_footnotes_checked": true,
+  "findings": [
+    {
+      "note": "فُحص نص الترجمة ومقاطعها ومرشحات الحواشي وشواهدها؛ صُححت ملاحظة الحديث عن الحال اليوم بعد مراجعة جواب النبي، مع إبقاء ظن القاتل والإسناد المبهم.",
+      "resolved": true
+    }
+  ],
+  "checks": {
+    "source_coverage": true,
+    "paragraphs": true,
+    "criticism_context": true,
+    "topic_evidence": true,
+    "negative_cases": true
+  }
+}

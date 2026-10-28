@@ -1,0 +1,1765 @@
+{
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 15,
+  "source_char_start": 1624053,
+  "source_char_end": 1633869,
+  "reviewer": "codex-team",
+  "segments": [
+    {
+      "segment_id": 8482,
+      "assessment": "no_clear_topic",
+      "note": "تكملة نسب حمزة قبل أوصافه، وعلامة الصفحة خام.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8483,
+      "assessment": "no_clear_topic",
+      "note": "كنيتاه ونسبته وأوصافه قبل ذكر قرابته.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8484,
+      "assessment": "no_clear_topic",
+      "note": "بيان العمومة والرضاعة مع بقاء الرقم في موضعه.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8485,
+      "assessment": "no_clear_topic",
+      "note": "ابن إسحاق يروي أثر إسلام حمزة في كف قريش بعض الأذى.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8486,
+      "assessment": "no_clear_topic",
+      "note": "إسناد أبي إسحاق إلى علي يتصل بالقول الآتي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8487,
+      "assessment": "no_clear_topic",
+      "note": "أمر النبي لعلي بنداء حمزة ضمن الخبر الذي يتبعه السؤال.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8488,
+      "assessment": "no_clear_topic",
+      "note": "سؤال علي عن صاحب الجمل الأحمر ضمن الحوار.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8489,
+      "assessment": "supported",
+      "note": "جواب حمزة بتعيين عتبة وخبر مبارزته وقتله.",
+      "topics": [
+        {
+          "topic": "الفتن والحروب",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "خبر المبارزة وقتل عتبة في رواية علي.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1624618,
+          "evidence_end": 1624646,
+          "context_start": 1624457,
+          "context_end": 1624653
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8490,
+      "assessment": "no_clear_topic",
+      "note": "إسناد ابن عمر إلى خبر نساء الأنصار.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8491,
+      "assessment": "no_clear_topic",
+      "note": "سماع بكاء نساء الأنصار وقول النبي عن حمزة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8492,
+      "assessment": "no_clear_topic",
+      "note": "مجيء النساء وبكاؤهن وأمرهن، والجملة تتم بعد الصفحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8493,
+      "assessment": "no_clear_topic",
+      "note": "تمام قول النهي المتصل بما قبل علامة الصفحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8494,
+      "assessment": "no_clear_topic",
+      "note": "ذكر المستدرك مصدرًا لخبر جابر لا تقويمًا له.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8495,
+      "assessment": "no_clear_topic",
+      "note": "خبر سيد الشهداء عن جابر يليه حكم على سنده.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8496,
+      "assessment": "supported",
+      "note": "تعقيب المؤلف بضعف سند الخبر السابق.",
+      "topics": [
+        {
+          "topic": "الإسناد",
+          "category": "الحديث وعلومه",
+          "aliases": [],
+          "rationale": "نقد المؤلف لسند خبر المستدرك لا حكم مستقل من التطبيق.",
+          "relation_type": "discussion",
+          "subject_scope": "general_context",
+          "stance": "criticism",
+          "evidence_start": 1625029,
+          "evidence_end": 1625038,
+          "context_start": 1624901,
+          "context_end": 1625040
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8497,
+      "assessment": "no_clear_topic",
+      "note": "سند الدغولي إلى جابر تمهيد للمتن الآتي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8498,
+      "assessment": "no_clear_topic",
+      "note": "لفظ سيد الشهداء من الطريق الآخر يتبعه وصف الغرابة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8499,
+      "assessment": "no_clear_topic",
+      "note": "وصف الطريق السابق بالغريب دون حكم مستنتج.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8500,
+      "assessment": "no_clear_topic",
+      "note": "إسناد آخر لخبر البواكي عن ابن عمر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8501,
+      "assessment": "no_clear_topic",
+      "note": "رجوع النبي يوم أحد وسماع بكاء النساء في الرواية الثانية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8502,
+      "assessment": "no_clear_topic",
+      "note": "قول النبي عن حمزة ضمن الرواية المتصلة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8503,
+      "assessment": "no_clear_topic",
+      "note": "مجيء النساء وبكاؤهن ورقود النبي واستيقاظه.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8504,
+      "assessment": "no_clear_topic",
+      "note": "أمر النساء بالرجوع والنهي عن البكاء على هالك بعد اليوم.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8505,
+      "assessment": "no_clear_topic",
+      "note": "إسناد ابن إسحاق إلى جعفر بن عمرو قبل رحلة اللقاء.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8506,
+      "assessment": "no_clear_topic",
+      "note": "جعفر وعبيد الله يمران بحمص وفيها وحشي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8507,
+      "assessment": "no_clear_topic",
+      "note": "اقتراح ابن عدي سؤال وحشي عن مقتل حمزة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8508,
+      "assessment": "no_clear_topic",
+      "note": "دلالة السائلين على موضع وحشي ووصف حاله المروي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8509,
+      "assessment": "no_clear_topic",
+      "note": "لقاء وحشي صاحيًا ووصفه في رواية جعفر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8510,
+      "assessment": "no_clear_topic",
+      "note": "تعرف وحشي على عبيد الله في بداية الحوار.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8511,
+      "assessment": "no_clear_topic",
+      "note": "إجابة عبيد الله بنعم في الحوار نفسه.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8512,
+      "assessment": "no_clear_topic",
+      "note": "استدلال وحشي برؤية القدمين عند مناولته رضيعًا.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8513,
+      "assessment": "no_clear_topic",
+      "note": "طلب الرجلين من وحشي أن يحدثهما بمقتل حمزة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8514,
+      "assessment": "no_clear_topic",
+      "note": "وعد وحشي بأن يروي ما حدث به النبي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8515,
+      "assessment": "no_clear_topic",
+      "note": "يصف وحشي عبوديته لجبير ومقتل عم جبير ببدر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8516,
+      "assessment": "no_clear_topic",
+      "note": "بداية شرط جبير لعتق وحشي ويكتمل بعد الصفحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8517,
+      "assessment": "no_clear_topic",
+      "note": "جواب الشرط فأنت حر يتصل بالكلام قبل الصفحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8518,
+      "assessment": "no_clear_topic",
+      "note": "وصف وحشي مهارته وطلبه حمزة ورؤيته حتى تقدم سباع.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8519,
+      "assessment": "no_clear_topic",
+      "note": "مخاطبة حمزة سباعًا قبل ضربه في سرد وحشي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8520,
+      "assessment": "no_clear_topic",
+      "note": "وصف وحشي ضربة حمزة وسقوط رأس سباع.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8521,
+      "assessment": "supported",
+      "note": "وصف وحشي رمي حمزة ومماته وأخذه الحربة وانصرافه.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "في رواية وحشي عن رميه حمزة وانتظار موته، مع بقاء سياق خبره.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1626999,
+          "evidence_end": 1627010,
+          "context_start": 1626362,
+          "context_end": 1627092
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8522,
+      "assessment": "no_clear_topic",
+      "note": "يستأنف وحشي خبره بفتح مكة وهربه للطائف وحيرته.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8523,
+      "assessment": "no_clear_topic",
+      "note": "ينقل وحشي قول رجل بلفظ إن كما في المصدر؛ دلالة العبارة تحتاج مراجعة دون تصحيح.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8524,
+      "assessment": "no_clear_topic",
+      "note": "قدوم وحشي المدينة وسؤال النبي عنه ضمن الرواية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8525,
+      "assessment": "no_clear_topic",
+      "note": "إقرار وحشي جوابًا لسؤال النبي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8526,
+      "assessment": "no_clear_topic",
+      "note": "أمر النبي وحشيًا بذكر كيفية قتل حمزة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8527,
+      "assessment": "no_clear_topic",
+      "note": "يذكر وحشي أنه حدث النبي كما يحدث الرجلين.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8528,
+      "assessment": "no_clear_topic",
+      "note": "قول النبي لوحشي أن يغيب وجهه؛ يبقى في سياق الحوار.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8529,
+      "assessment": "no_clear_topic",
+      "note": "تنكب وحشي النبي إلى وفاته بحسب روايته.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8530,
+      "assessment": "no_clear_topic",
+      "note": "خروج وحشي إلى مسيلمة وتهيؤه مع رجل من الأنصار.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8531,
+      "assessment": "no_clear_topic",
+      "note": "رمي وحشي وضرب الأنصاري وترك الجزم بأيهما قتله.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8532,
+      "assessment": "no_clear_topic",
+      "note": "قول وحشي المشروط عن قتل مسيلمة وخير الناس وشرهم.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8533,
+      "assessment": "no_clear_topic",
+      "note": "إسناد سليمان بن يسار عن ابن عمر لرواية تالية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8534,
+      "assessment": "no_clear_topic",
+      "note": "سماع ابن عمر قول رجل في قاتل مسيلمة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8535,
+      "assessment": "no_clear_topic",
+      "note": "إسناد أسامة عن الزهري وأنس لخبر أحد.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8536,
+      "assessment": "no_clear_topic",
+      "note": "وقوف النبي على حمزة وقد مثل به في رواية أنس.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8537,
+      "assessment": "no_clear_topic",
+      "note": "قول النبي المقيد بمشاعر صفية في خبر حمزة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8538,
+      "assessment": "no_clear_topic",
+      "note": "خبر النمرة وعدم الصلاة على أحد من الشهداء في هذا الطريق.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8539,
+      "assessment": "no_clear_topic",
+      "note": "قول أنا شهيد عليكم في سياق شهداء أحد.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8540,
+      "assessment": "no_clear_topic",
+      "note": "جمع قتلى أحد في القبر وتقديم الأكثر قرآنًا.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8541,
+      "assessment": "no_clear_topic",
+      "note": "ذكر تكفين الرجلين والثلاثة في ثوب.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8542,
+      "assessment": "no_clear_topic",
+      "note": "إسناد ابن عون عن عمير إلى سعد قبل متن القتال.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8543,
+      "assessment": "supported",
+      "note": "رواية سعد قتال حمزة بسيفين وقوله أنا أسد الله.",
+      "topics": [
+        {
+          "topic": "الفتن والحروب",
+          "category": "التاريخ والمجتمع",
+          "aliases": [],
+          "rationale": "رواية سعد عن قتال حمزة يوم أحد.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1628632,
+          "evidence_end": 1628672,
+          "context_start": 1628576,
+          "context_end": 1628873
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8544,
+      "assessment": "no_clear_topic",
+      "note": "طريق يونس عن عمير موصوف بالإرسال، تليه زيادة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8545,
+      "assessment": "no_clear_topic",
+      "note": "الزيادة المرسلة في عثرة حمزة وطعنه.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8546,
+      "assessment": "no_clear_topic",
+      "note": "بداية إسناد ابن الماجشون وتتمته بعد الصفحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8547,
+      "assessment": "no_clear_topic",
+      "note": "تكملة الإسناد إلى جعفر دون قطع أثر الصفحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8548,
+      "assessment": "no_clear_topic",
+      "note": "جعفر يذكر سفره مع ابن الخيار وسؤالهما عن وحشي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8549,
+      "assessment": "no_clear_topic",
+      "note": "لقاء وحشي واعتجار ابن الخيار مع ظهور عينيه ورجليه.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8550,
+      "assessment": "no_clear_topic",
+      "note": "سؤال ابن الخيار وحشيًا إن كان يعرفه.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8551,
+      "assessment": "no_clear_topic",
+      "note": "جواب وحشي بقصة الرضاع والتعرف بالقدمين.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8552,
+      "assessment": "no_clear_topic",
+      "note": "كشف عبيد الله وجهه وسؤاله عن قتل حمزة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8553,
+      "assessment": "no_clear_topic",
+      "note": "جواب وحشي عن قتل طعيمة وقول مولاه جبير.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8554,
+      "assessment": "no_clear_topic",
+      "note": "شرط جبير بقتل حمزة لقاء الحرية في الطريق الآخر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8555,
+      "assessment": "no_clear_topic",
+      "note": "مكان عينين وشرح الاسم وسؤال سباع عن المبارز.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8556,
+      "assessment": "no_clear_topic",
+      "note": "قول حمزة لسباع في المبارزة قبل ضربه.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8557,
+      "assessment": "no_clear_topic",
+      "note": "ذكر شدة حمزة على سباع وخاتمة المبارزة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8558,
+      "assessment": "no_clear_topic",
+      "note": "وحشي يصف كمونه ورميه حمزة في الرواية الثانية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8559,
+      "assessment": "no_clear_topic",
+      "note": "استئناف قصة الطائف وقول نقل عن عدم تهييج الرسل.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8560,
+      "assessment": "no_clear_topic",
+      "note": "سؤال النبي وحشيًا عن اسمه بعد قدومه.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8561,
+      "assessment": "no_clear_topic",
+      "note": "جواب وحشي بنعم متصل بالسؤال السابق.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8562,
+      "assessment": "no_clear_topic",
+      "note": "سؤال النبي لوحشي عن قتله حمزة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8563,
+      "assessment": "no_clear_topic",
+      "note": "جواب وحشي بالإقرار بما بلغه.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8564,
+      "assessment": "no_clear_topic",
+      "note": "بداية سؤال النبي وتتمته بعد علامة الصفحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8565,
+      "assessment": "no_clear_topic",
+      "note": "تمام سؤال إغابة الوجه بعد الصفحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8566,
+      "assessment": "no_clear_topic",
+      "note": "ذكر رجوع وحشي بعد الحوار.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8567,
+      "assessment": "no_clear_topic",
+      "note": "وحشي يذكر خروجه إلى مسيلمة بقصد مكافأة قتل حمزة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8568,
+      "assessment": "no_clear_topic",
+      "note": "وصف رميه مسيلمة وضرب الأنصاري بعده في الطريق الثاني.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8569,
+      "assessment": "no_clear_topic",
+      "note": "سليمان يذكر سماعه ابن عمر قبل قول الجارية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8570,
+      "assessment": "no_clear_topic",
+      "note": "قول جارية إن العبد الأسود قتله، في سياق قتل مسيلمة لا ولاية.",
+      "topics": [],
+      "existing_hits": [
+        {
+          "hit_id": 813,
+          "decision": "exclude",
+          "reason": "قول الجارية في خبر قتل مسيلمة، ولا يثبت وحده موضوع الولاية أو القضاء."
+        }
+      ]
+    },
+    {
+      "segment_id": 8571,
+      "assessment": "no_clear_topic",
+      "note": "خبر موسى في التمثيل بالقتلى واستثناء حنظلة لأبيه.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8572,
+      "assessment": "no_clear_topic",
+      "note": "نقل بصيغة زعموا عن موقف أبي حنظلة من جثته.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8573,
+      "assessment": "no_clear_topic",
+      "note": "قول أبي حنظلة عند مقتله وفيه ثناؤه على صلته.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8574,
+      "assessment": "supported",
+      "note": "العثور على حمزة وخبر هند وكفنه وتغطية قدميه.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "خبر العثور عليه بعد المعركة وذكر كفنه.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1630803,
+          "evidence_end": 1630826,
+          "context_start": 1630482,
+          "context_end": 1630973
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8575,
+      "assessment": "no_clear_topic",
+      "note": "إسناد ابن إسحاق عن بريدة ومحمد بن كعب للخبر التالي.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8576,
+      "assessment": "no_clear_topic",
+      "note": "لفظ التمثيل بثلاثين منسوب للرسول في هذا الطريق.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8577,
+      "assessment": "no_clear_topic",
+      "note": "بداية ذكر أصحاب الرسول وتتمة الاسم بعد الصفحة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8578,
+      "assessment": "no_clear_topic",
+      "note": "تمام الجملة قبل قول الأصحاب واستمرار خبر الجزع.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8579,
+      "assessment": "no_clear_topic",
+      "note": "قول الأصحاب المشروط بالظفر في سياق التمثيل.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8580,
+      "assessment": "no_clear_topic",
+      "note": "ذكر الآية في سياق الرد على التمثيل.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8581,
+      "assessment": "no_clear_topic",
+      "note": "خبر العفو بعد ذكر الآية يتم السياق.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8582,
+      "assessment": "no_clear_topic",
+      "note": "إسناد ابن عباس من طريق يزيد بن أبي زياد قبل خبر صفية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8583,
+      "assessment": "no_clear_topic",
+      "note": "إقبال صفية ولقاؤها عليًا والزبير في هذا الخبر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8584,
+      "assessment": "no_clear_topic",
+      "note": "ذكر خوف النبي على عقل صفية بعد مجيئها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8585,
+      "assessment": "no_clear_topic",
+      "note": "دعاء النبي لصفية واسترجاعها وبكاؤها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8586,
+      "assessment": "no_clear_topic",
+      "note": "وقوف النبي على حمزة وقوله المقيد بجزع النساء.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8587,
+      "assessment": "no_clear_topic",
+      "note": "الصلاة على القتلى والعدد المذكور وفق هذا الطريق.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8588,
+      "assessment": "no_clear_topic",
+      "note": "نقد يزيد والمفاضلة بقول جابر يتصلان بخبر الصلاة السابق.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8589,
+      "assessment": "no_clear_topic",
+      "note": "الإشارة إلى الصحيحين وحديث عقبة تمهيد للمتن.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8590,
+      "assessment": "no_clear_topic",
+      "note": "صلاة النبي على قتلى أحد في خبر عقبة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8591,
+      "assessment": "no_clear_topic",
+      "note": "تعقيب زمن الصلاة قبل وفاة النبي بأيام.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8592,
+      "assessment": "no_clear_topic",
+      "note": "صيغة يروى لخبر ابن عباس وأبي هريرة عن السبعين.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8593,
+      "assessment": "no_clear_topic",
+      "note": "ذكر نزول الآية في الطريق السابق باختصار المصدر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8594,
+      "assessment": "no_clear_topic",
+      "note": "إسناد أبي بن كعب تمهيد لخبر أحد وفتح مكة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8595,
+      "assessment": "no_clear_topic",
+      "note": "إصابة سبعين من الأنصار والتمثيل بالقتلى في الخبر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8596,
+      "assessment": "no_clear_topic",
+      "note": "قول الأنصار المشروط بالظفر في سياق التمثيل.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8597,
+      "assessment": "no_clear_topic",
+      "note": "نداء رجل غير معروف يوم فتح مكة في الرواية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8598,
+      "assessment": "no_clear_topic",
+      "note": "ذكر نزول الآية ضمن الرواية مع إبقاء اختصارها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8599,
+      "assessment": "no_clear_topic",
+      "note": "أمر النبي بالكف عن القوم في سياق فتح مكة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8600,
+      "assessment": "no_clear_topic",
+      "note": "إسناد يونس بن بكير عن هشام وعروة لخبر الثوبين.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8601,
+      "assessment": "no_clear_topic",
+      "note": "مجيء صفية بالثوبين وإرسال الزبير إليها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8602,
+      "assessment": "no_clear_topic",
+      "note": "ذكر قتيل الأنصار المجاور وكراهة إيثار حمزة.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8603,
+      "assessment": "no_clear_topic",
+      "note": "الأمر بالإسهام بين حمزة والأنصاري في الثوبين.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8604,
+      "assessment": "supported",
+      "note": "نتيجة القرعة وتكفين كل منهما في ثوب.",
+      "topics": [
+        {
+          "topic": "الوفاة",
+          "category": "التراجم والرجال",
+          "aliases": [],
+          "rationale": "خبر قرعة الثوبين وتكفين حمزة والأنصاري.",
+          "relation_type": "event",
+          "subject_scope": "biography_subject",
+          "stance": "reported",
+          "evidence_start": 1632936,
+          "evidence_end": 1632968,
+          "context_start": 1632616,
+          "context_end": 1632993
+        }
+      ],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8605,
+      "assessment": "no_clear_topic",
+      "note": "إسناد ابن عباس لخبر أرواح شهداء أحد.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8606,
+      "assessment": "supported",
+      "note": "خبر الأرواح في أجواف الطير ومأكلها المروي.",
+      "topics": [
+        {
+          "topic": "الجنة والنار",
+          "category": "القلب والسلوك",
+          "aliases": [],
+          "rationale": "خبر مروي عن أرواح قتلى أحد، مع إبقاء لفظ الرواية وسياقها.",
+          "relation_type": "description",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1633147,
+          "evidence_end": 1633188,
+          "context_start": 1632993,
+          "context_end": 1633517
+        }
+      ],
+      "existing_hits": [
+        {
+          "hit_id": 814,
+          "decision": "keep",
+          "reason": "ترد الجنة في خبر أرواح قتلى أحد مع سياق الرواية؛ يبقى وسمًا مرشحًا لا تصحيحًا للخبر."
+        }
+      ]
+    },
+    {
+      "segment_id": 8607,
+      "assessment": "no_clear_topic",
+      "note": "ذكر وجدان الأرواح الطيب وبداية قولها.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8608,
+      "assessment": "supported",
+      "note": "سؤال الأرواح تبليغ الإخوة بحياتهم المروية.",
+      "topics": [
+        {
+          "topic": "الجنة والنار",
+          "category": "القلب والسلوك",
+          "aliases": [],
+          "rationale": "قول الأرواح في الرواية عن حياتها ورزقها في الجنة، في سياق خبر عام عن قتلى أحد، لا نسبة مستقلة إلى حمزة.",
+          "relation_type": "saying",
+          "subject_scope": "general_context",
+          "stance": "reported",
+          "evidence_start": 1633322,
+          "evidence_end": 1633346,
+          "context_start": 1632993,
+          "context_end": 1633517
+        }
+      ],
+      "existing_hits": [
+        {
+          "hit_id": 815,
+          "decision": "keep",
+          "reason": "ترد الجنة في خبر أرواح قتلى أحد مع سياق الرواية؛ يبقى وسمًا مرشحًا لا تصحيحًا للخبر."
+        }
+      ]
+    },
+    {
+      "segment_id": 8609,
+      "assessment": "no_clear_topic",
+      "note": "خاتمة القول بأن الله يبلغ عنهم في متن الرواية.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8610,
+      "assessment": "no_clear_topic",
+      "note": "ذكر الآية وإحالتها الخام بعد حديث الأرواح.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8611,
+      "assessment": "no_clear_topic",
+      "note": "إسناد جابر لحديث ذكر أصحاب أحد.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8612,
+      "assessment": "no_clear_topic",
+      "note": "نقل تمني النبي مع أصحاب فحص الجبل.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8613,
+      "assessment": "no_clear_topic",
+      "note": "تفسير اللفظ السابق بأنه قتل معهم.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8614,
+      "assessment": "no_clear_topic",
+      "note": "قيد ضعف إسناد الخبر الآتي عن جابر.",
+      "topics": [],
+      "existing_hits": []
+    },
+    {
+      "segment_id": 8615,
+      "assessment": "no_clear_topic",
+      "note": "خبر بكاء النبي ورؤيته التمثيل، مع بقاء قيد الإسناد السابق.",
+      "topics": [],
+      "existing_hits": []
+    }
+  ],
+  "presentation": {
+    "headings": [
+      {
+        "at": 1624457,
+        "label": "مُبَارَزَةُ عُتْبَةَ"
+      },
+      {
+        "at": 1625589,
+        "label": "رِوَايَةُ وَحْشِيٍّ"
+      },
+      {
+        "at": 1628873,
+        "label": "طَرِيقٌ آخَرُ لِخَبَرِ وَحْشِيٍّ"
+      },
+      {
+        "at": 1630973,
+        "label": "خَبَرُ التَّمْثِيلِ وَالْعَفْوِ"
+      },
+      {
+        "at": 1632993,
+        "label": "أَرْوَاحُ شُهَدَاءِ أُحُدٍ"
+      }
+    ],
+    "quotes": [
+      {
+        "start": 1624542,
+        "end": 1624550
+      },
+      {
+        "start": 1624778,
+        "end": 1624798
+      },
+      {
+        "start": 1627449,
+        "end": 1627475
+      },
+      {
+        "start": 1627510,
+        "end": 1627539
+      },
+      {
+        "start": 1632583,
+        "end": 1632596
+      }
+    ],
+    "poetry": [],
+    "lists": [],
+    "bold": [
+      {
+        "start": 1625241,
+        "end": 1625249
+      },
+      {
+        "start": 1631909,
+        "end": 1631925
+      }
+    ],
+    "keywords": [
+      {
+        "start": 1624172,
+        "end": 1624180
+      },
+      {
+        "start": 1624305,
+        "end": 1624312
+      },
+      {
+        "start": 1625029,
+        "end": 1625038
+      },
+      {
+        "start": 1626459,
+        "end": 1626466
+      },
+      {
+        "start": 1628695,
+        "end": 1628700
+      }
+    ],
+    "names": [
+      {
+        "start": 1624064,
+        "end": 1624068
+      },
+      {
+        "start": 1624261,
+        "end": 1624270
+      },
+      {
+        "start": 1624320,
+        "end": 1624329
+      },
+      {
+        "start": 1624345,
+        "end": 1624349
+      },
+      {
+        "start": 1624363,
+        "end": 1624372
+      },
+      {
+        "start": 1624410,
+        "end": 1624414
+      },
+      {
+        "start": 1624463,
+        "end": 1624472
+      },
+      {
+        "start": 1624477,
+        "end": 1624490
+      },
+      {
+        "start": 1624509,
+        "end": 1624518
+      },
+      {
+        "start": 1624546,
+        "end": 1624550
+      },
+      {
+        "start": 1624594,
+        "end": 1624598
+      },
+      {
+        "start": 1624603,
+        "end": 1624616
+      },
+      {
+        "start": 1624630,
+        "end": 1624634
+      },
+      {
+        "start": 1624635,
+        "end": 1624639
+      },
+      {
+        "start": 1624661,
+        "end": 1624673
+      },
+      {
+        "start": 1624678,
+        "end": 1624682
+      },
+      {
+        "start": 1624687,
+        "end": 1624694
+      },
+      {
+        "start": 1624707,
+        "end": 1624716
+      },
+      {
+        "start": 1624782,
+        "end": 1624786
+      },
+      {
+        "start": 1624820,
+        "end": 1624824
+      },
+      {
+        "start": 1624936,
+        "end": 1624940
+      },
+      {
+        "start": 1624963,
+        "end": 1624967
+      },
+      {
+        "start": 1625062,
+        "end": 1625074
+      },
+      {
+        "start": 1625082,
+        "end": 1625094
+      },
+      {
+        "start": 1625109,
+        "end": 1625113
+      },
+      {
+        "start": 1625127,
+        "end": 1625141
+      },
+      {
+        "start": 1625146,
+        "end": 1625150
+      },
+      {
+        "start": 1625155,
+        "end": 1625159
+      },
+      {
+        "start": 1625211,
+        "end": 1625215
+      },
+      {
+        "start": 1625265,
+        "end": 1625277
+      },
+      {
+        "start": 1625282,
+        "end": 1625286
+      },
+      {
+        "start": 1625291,
+        "end": 1625298
+      },
+      {
+        "start": 1625311,
+        "end": 1625320
+      },
+      {
+        "start": 1625409,
+        "end": 1625413
+      },
+      {
+        "start": 1625460,
+        "end": 1625464
+      },
+      {
+        "start": 1625591,
+        "end": 1625600
+      },
+      {
+        "start": 1625608,
+        "end": 1625644
+      },
+      {
+        "start": 1625649,
+        "end": 1625655
+      },
+      {
+        "start": 1625670,
+        "end": 1625697
+      },
+      {
+        "start": 1625716,
+        "end": 1625742
+      },
+      {
+        "start": 1625750,
+        "end": 1625756
+      },
+      {
+        "start": 1625785,
+        "end": 1625789
+      },
+      {
+        "start": 1625802,
+        "end": 1625809
+      },
+      {
+        "start": 1625839,
+        "end": 1625843
+      },
+      {
+        "start": 1626092,
+        "end": 1626101
+      },
+      {
+        "start": 1626105,
+        "end": 1626108
+      },
+      {
+        "start": 1626121,
+        "end": 1626124
+      },
+      {
+        "start": 1626132,
+        "end": 1626142
+      },
+      {
+        "start": 1626296,
+        "end": 1626300
+      },
+      {
+        "start": 1626330,
+        "end": 1626339
+      },
+      {
+        "start": 1626372,
+        "end": 1626384
+      },
+      {
+        "start": 1626395,
+        "end": 1626407
+      },
+      {
+        "start": 1626440,
+        "end": 1626444
+      },
+      {
+        "start": 1626559,
+        "end": 1626563
+      },
+      {
+        "start": 1626689,
+        "end": 1626693
+      },
+      {
+        "start": 1626727,
+        "end": 1626731
+      },
+      {
+        "start": 1626789,
+        "end": 1626793
+      },
+      {
+        "start": 1627105,
+        "end": 1627114
+      },
+      {
+        "start": 1627382,
+        "end": 1627391
+      },
+      {
+        "start": 1627420,
+        "end": 1627424
+      },
+      {
+        "start": 1627471,
+        "end": 1627475
+      },
+      {
+        "start": 1627560,
+        "end": 1627569
+      },
+      {
+        "start": 1627633,
+        "end": 1627639
+      },
+      {
+        "start": 1627672,
+        "end": 1627676
+      },
+      {
+        "start": 1627707,
+        "end": 1627713
+      },
+      {
+        "start": 1627948,
+        "end": 1627957
+      },
+      {
+        "start": 1628012,
+        "end": 1628026
+      },
+      {
+        "start": 1628031,
+        "end": 1628039
+      },
+      {
+        "start": 1628097,
+        "end": 1628103
+      },
+      {
+        "start": 1628120,
+        "end": 1628132
+      },
+      {
+        "start": 1628137,
+        "end": 1628143
+      },
+      {
+        "start": 1628148,
+        "end": 1628151
+      },
+      {
+        "start": 1628181,
+        "end": 1628190
+      },
+      {
+        "start": 1628216,
+        "end": 1628220
+      },
+      {
+        "start": 1628263,
+        "end": 1628267
+      },
+      {
+        "start": 1628578,
+        "end": 1628585
+      },
+      {
+        "start": 1628590,
+        "end": 1628594
+      },
+      {
+        "start": 1628608,
+        "end": 1628623
+      },
+      {
+        "start": 1628636,
+        "end": 1628640
+      },
+      {
+        "start": 1628663,
+        "end": 1628672
+      },
+      {
+        "start": 1628738,
+        "end": 1628750
+      },
+      {
+        "start": 1628755,
+        "end": 1628762
+      },
+      {
+        "start": 1628767,
+        "end": 1628771
+      },
+      {
+        "start": 1628875,
+        "end": 1628897
+      },
+      {
+        "start": 1628902,
+        "end": 1628910
+      },
+      {
+        "start": 1628924,
+        "end": 1628938
+      },
+      {
+        "start": 1628995,
+        "end": 1629005
+      },
+      {
+        "start": 1629027,
+        "end": 1629031
+      },
+      {
+        "start": 1629115,
+        "end": 1629125
+      },
+      {
+        "start": 1629151,
+        "end": 1629155
+      },
+      {
+        "start": 1629185,
+        "end": 1629189
+      },
+      {
+        "start": 1629232,
+        "end": 1629235
+      },
+      {
+        "start": 1629387,
+        "end": 1629396
+      },
+      {
+        "start": 1629432,
+        "end": 1629436
+      },
+      {
+        "start": 1629458,
+        "end": 1629470
+      },
+      {
+        "start": 1629501,
+        "end": 1629505
+      },
+      {
+        "start": 1629517,
+        "end": 1629521
+      },
+      {
+        "start": 1629616,
+        "end": 1629620
+      },
+      {
+        "start": 1629642,
+        "end": 1629646
+      },
+      {
+        "start": 1629728,
+        "end": 1629732
+      },
+      {
+        "start": 1629940,
+        "end": 1629944
+      },
+      {
+        "start": 1629978,
+        "end": 1629982
+      },
+      {
+        "start": 1630108,
+        "end": 1630114
+      },
+      {
+        "start": 1630156,
+        "end": 1630160
+      },
+      {
+        "start": 1630382,
+        "end": 1630396
+      },
+      {
+        "start": 1630404,
+        "end": 1630411
+      },
+      {
+        "start": 1630488,
+        "end": 1630500
+      },
+      {
+        "start": 1630575,
+        "end": 1630580
+      },
+      {
+        "start": 1630584,
+        "end": 1630592
+      },
+      {
+        "start": 1630604,
+        "end": 1630612
+      },
+      {
+        "start": 1630810,
+        "end": 1630814
+      },
+      {
+        "start": 1630835,
+        "end": 1630839
+      },
+      {
+        "start": 1630849,
+        "end": 1630852
+      },
+      {
+        "start": 1630975,
+        "end": 1630984
+      },
+      {
+        "start": 1630992,
+        "end": 1630997
+      },
+      {
+        "start": 1631002,
+        "end": 1631020
+      },
+      {
+        "start": 1631028,
+        "end": 1631037
+      },
+      {
+        "start": 1631344,
+        "end": 1631353
+      },
+      {
+        "start": 1631382,
+        "end": 1631397
+      },
+      {
+        "start": 1631402,
+        "end": 1631418
+      },
+      {
+        "start": 1631432,
+        "end": 1631440
+      },
+      {
+        "start": 1631457,
+        "end": 1631461
+      },
+      {
+        "start": 1631469,
+        "end": 1631473
+      },
+      {
+        "start": 1631492,
+        "end": 1631498
+      },
+      {
+        "start": 1631809,
+        "end": 1631813
+      },
+      {
+        "start": 1631903,
+        "end": 1631907
+      },
+      {
+        "start": 1631964,
+        "end": 1631968
+      },
+      {
+        "start": 1632096,
+        "end": 1632104
+      },
+      {
+        "start": 1632107,
+        "end": 1632116
+      },
+      {
+        "start": 1632234,
+        "end": 1632253
+      },
+      {
+        "start": 1632261,
+        "end": 1632272
+      },
+      {
+        "start": 1632298,
+        "end": 1632308
+      },
+      {
+        "start": 1632618,
+        "end": 1632630
+      },
+      {
+        "start": 1632635,
+        "end": 1632647
+      },
+      {
+        "start": 1632670,
+        "end": 1632674
+      },
+      {
+        "start": 1632695,
+        "end": 1632699
+      },
+      {
+        "start": 1632711,
+        "end": 1632720
+      },
+      {
+        "start": 1632755,
+        "end": 1632759
+      },
+      {
+        "start": 1632781,
+        "end": 1632787
+      },
+      {
+        "start": 1632825,
+        "end": 1632829
+      },
+      {
+        "start": 1632866,
+        "end": 1632870
+      },
+      {
+        "start": 1632957,
+        "end": 1632961
+      },
+      {
+        "start": 1632995,
+        "end": 1633004
+      },
+      {
+        "start": 1633009,
+        "end": 1633024
+      },
+      {
+        "start": 1633029,
+        "end": 1633039
+      },
+      {
+        "start": 1633044,
+        "end": 1633056
+      },
+      {
+        "start": 1633519,
+        "end": 1633528
+      },
+      {
+        "start": 1633552,
+        "end": 1633582
+      },
+      {
+        "start": 1633602,
+        "end": 1633611
+      },
+      {
+        "start": 1633764,
+        "end": 1633768
+      },
+      {
+        "start": 1633810,
+        "end": 1633814
+      }
+    ],
+    "footnotes": [],
+    "footnote_notice": "لم يظهر متن حاشية داخل الترجمة؛ بقيت الأرقام الملتبسة في مواضعها لعدم تحقق ربطها بحواشٍ."
+  }
+}

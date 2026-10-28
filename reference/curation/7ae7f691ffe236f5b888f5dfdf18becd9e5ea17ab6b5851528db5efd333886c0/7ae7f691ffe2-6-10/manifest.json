@@ -1,0 +1,61 @@
+{
+  "version": "curation-batch-v1",
+  "batch_id": "7ae7f691ffe2-6-10",
+  "source_id": 1,
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "start_ordinal": 6,
+  "end_ordinal": 10,
+  "curator": "curation-team",
+  "biographies": [
+    {
+      "id": 6,
+      "source_ordinal": 6,
+      "heading": "6 - سعيد بن زيد بن عمرو بن نفيل العدوي * (ع)",
+      "source_char_start": 1584562,
+      "source_char_end": 1602898,
+      "status": "pending",
+      "directory": "biography-6",
+      "baseline_sha256": "9b5e7110fcf8abd1080a1b7dec2ff52fc8242b7151d060718ce5ce2733ffa39b"
+    },
+    {
+      "id": 7,
+      "source_ordinal": 7,
+      "heading": "7 - مصعب بن عمير * بن هاشم بن عبد مناف البدري",
+      "source_char_start": 1604701,
+      "source_char_end": 1607196,
+      "status": "pending",
+      "directory": "biography-7",
+      "baseline_sha256": "b77724f36135a368f0cd59951a9451a3cfc8260bafbcf13b4b233a9c069e65be"
+    },
+    {
+      "id": 8,
+      "source_ordinal": 8,
+      "heading": "8 - أبو سلمة بن عبد الأسد بن هلال * (ت، ق)",
+      "source_char_start": 1608650,
+      "source_char_end": 1611117,
+      "status": "pending",
+      "directory": "biography-8",
+      "baseline_sha256": "f69272921a98723c26c0874392760f86281228e4a0ab3257894bd2946f47b3f0"
+    },
+    {
+      "id": 9,
+      "source_ordinal": 9,
+      "heading": "9 - عثمان بن مظعون بن حبيب بن وهب الجمحي *",
+      "source_char_start": 1611117,
+      "source_char_end": 1616214,
+      "status": "pending",
+      "directory": "biography-9",
+      "baseline_sha256": "bdf675faeacf3884a0f2c7b3396a589dd1201e3bde3515017fb35ba89e9b086d"
+    },
+    {
+      "id": 10,
+      "source_ordinal": 10,
+      "heading": "10 - قدامة بن مظعون أبو عمرو الجمحي *",
+      "source_char_start": 1616214,
+      "source_char_end": 1616972,
+      "status": "pending",
+      "directory": "biography-10",
+      "baseline_sha256": "b6cb61809d1ca1eb4e3d1c079927c3c60d2766ef26b703a4823101d1e6593884"
+    }
+  ]
+}

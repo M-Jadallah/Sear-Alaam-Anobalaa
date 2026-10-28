@@ -1,0 +1,807 @@
+{
+  "version": "pilot-reading-v2",
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "biography_id": 2,
+  "source_char_start": 1501973,
+  "source_char_end": 1516215,
+  "reviewer": "",
+  "paragraph_groups": [
+    {
+      "start": 1501973,
+      "end": 1502031
+    },
+    {
+      "start": 1502031,
+      "end": 1502164
+    },
+    {
+      "start": 1502164,
+      "end": 1502587
+    },
+    {
+      "start": 1502587,
+      "end": 1502718
+    },
+    {
+      "start": 1502718,
+      "end": 1502973
+    },
+    {
+      "start": 1502973,
+      "end": 1503161
+    },
+    {
+      "start": 1503161,
+      "end": 1503256
+    },
+    {
+      "start": 1503256,
+      "end": 1503337
+    },
+    {
+      "start": 1503337,
+      "end": 1503703
+    },
+    {
+      "start": 1503703,
+      "end": 1503804
+    },
+    {
+      "start": 1503804,
+      "end": 1503941
+    },
+    {
+      "start": 1503941,
+      "end": 1504709
+    },
+    {
+      "start": 1504709,
+      "end": 1505156
+    },
+    {
+      "start": 1505156,
+      "end": 1505660
+    },
+    {
+      "start": 1505660,
+      "end": 1505795
+    },
+    {
+      "start": 1505795,
+      "end": 1506015
+    },
+    {
+      "start": 1506015,
+      "end": 1506218
+    },
+    {
+      "start": 1506218,
+      "end": 1506568
+    },
+    {
+      "start": 1506568,
+      "end": 1506768
+    },
+    {
+      "start": 1506768,
+      "end": 1507013
+    },
+    {
+      "start": 1507013,
+      "end": 1507120
+    },
+    {
+      "start": 1507120,
+      "end": 1507765
+    },
+    {
+      "start": 1507765,
+      "end": 1508226
+    },
+    {
+      "start": 1508226,
+      "end": 1508471
+    },
+    {
+      "start": 1508471,
+      "end": 1508918
+    },
+    {
+      "start": 1508918,
+      "end": 1509245
+    },
+    {
+      "start": 1509245,
+      "end": 1509374
+    },
+    {
+      "start": 1509374,
+      "end": 1509752
+    },
+    {
+      "start": 1509752,
+      "end": 1509893
+    },
+    {
+      "start": 1509893,
+      "end": 1510009
+    },
+    {
+      "start": 1510009,
+      "end": 1510262
+    },
+    {
+      "start": 1510262,
+      "end": 1510292
+    },
+    {
+      "start": 1510292,
+      "end": 1510346
+    },
+    {
+      "start": 1510346,
+      "end": 1510396
+    },
+    {
+      "start": 1510396,
+      "end": 1510445
+    },
+    {
+      "start": 1510445,
+      "end": 1510493
+    },
+    {
+      "start": 1510493,
+      "end": 1510539
+    },
+    {
+      "start": 1510539,
+      "end": 1510593
+    },
+    {
+      "start": 1510593,
+      "end": 1511400
+    },
+    {
+      "start": 1511400,
+      "end": 1511683
+    },
+    {
+      "start": 1511683,
+      "end": 1511848
+    },
+    {
+      "start": 1511848,
+      "end": 1512040
+    },
+    {
+      "start": 1512040,
+      "end": 1512345
+    },
+    {
+      "start": 1512345,
+      "end": 1512511
+    },
+    {
+      "start": 1512511,
+      "end": 1512753
+    },
+    {
+      "start": 1512753,
+      "end": 1512970
+    },
+    {
+      "start": 1512970,
+      "end": 1513076
+    },
+    {
+      "start": 1513076,
+      "end": 1513752
+    },
+    {
+      "start": 1513752,
+      "end": 1514276
+    },
+    {
+      "start": 1514276,
+      "end": 1514771
+    },
+    {
+      "start": 1514771,
+      "end": 1514903
+    },
+    {
+      "start": 1514903,
+      "end": 1514918
+    },
+    {
+      "start": 1514918,
+      "end": 1514974
+    },
+    {
+      "start": 1514974,
+      "end": 1515027
+    },
+    {
+      "start": 1515027,
+      "end": 1515085
+    },
+    {
+      "start": 1515085,
+      "end": 1515141
+    },
+    {
+      "start": 1515141,
+      "end": 1515445
+    },
+    {
+      "start": 1515445,
+      "end": 1515808
+    },
+    {
+      "start": 1515808,
+      "end": 1515934
+    },
+    {
+      "start": 1515934,
+      "end": 1516025
+    },
+    {
+      "start": 1516025,
+      "end": 1516215
+    }
+  ],
+  "criticism": [
+    {
+      "start": 1503725,
+      "end": 1503736,
+      "context_start": 1503703,
+      "context_end": 1503804,
+      "kind": "isnad",
+      "reason": "وصف الإسناد بالحسن في النص نفسه، متصل بخبر «أوجب طلحة» دون تعميم على الأخبار المجاورة."
+    },
+    {
+      "start": 1504697,
+      "end": 1504708,
+      "context_start": 1503941,
+      "context_end": 1504709,
+      "kind": "narrator",
+      "reason": "تقويم رواة خبر الدفاع يوم أحد كما ورد؛ لا تُحوّل العبارة إلى ادعاء صحة جميع تفاصيل الرواية من الموقع."
+    },
+    {
+      "start": 1506502,
+      "end": 1506555,
+      "context_start": 1506218,
+      "context_end": 1506568,
+      "kind": "isnad",
+      "reason": "يذكر النص شذوذ صورة الإسناد عند أبي يعلى بعد ذكر رواية الآخرين؛ تُحفظ أسماء الطريق والمخالفة كما هي."
+    },
+    {
+      "start": 1507001,
+      "end": 1507012,
+      "context_start": 1506768,
+      "context_end": 1507013,
+      "kind": "isnad",
+      "reason": "الحكم المنقول في المصدر على إسناد خبر ألقاب طلحة، دون تعميمه على كل ما ورد في بابه."
+    },
+    {
+      "start": 1508429,
+      "end": 1508458,
+      "context_start": 1508226,
+      "context_end": 1508471,
+      "kind": "isnad",
+      "reason": "إبقاء النقد المركب كاملًا: انقطاع الإسناد وضعف الكديمي في الخبر السابق، دون إسقاط أحد القيدين."
+    },
+    {
+      "start": 1512964,
+      "end": 1512969,
+      "context_start": 1512753,
+      "context_end": 1512970,
+      "kind": "isnad",
+      "reason": "نقد إرسال الخبر الذي يصف ترحم علي على طلحة؛ يظل الإرسال مربوطًا بهذه الرواية ولا يُنسب إلى خبر مجاور."
+    },
+    {
+      "start": 1513449,
+      "end": 1513751,
+      "context_start": 1513076,
+      "context_end": 1513752,
+      "kind": "narrator",
+      "reason": "حجة طلحة المنقولة في سعة سماع أبي هريرة والرد على التشكيك فيه، بجميع تعليلها وسؤالها الختامي؛ ليست تصحيحًا آليًا لأحاديثه."
+    },
+    {
+      "start": 1515352,
+      "end": 1515444,
+      "context_start": 1515141,
+      "context_end": 1515445,
+      "kind": "report",
+      "reason": "استغراب صاحب النص مقدار التركة المنقول عن ابن الجوزي، في سياق الأرقام السابقة؛ لا يُستبدل الاستغراب بحكم جازم بالكذب."
+    },
+    {
+      "start": 1515759,
+      "end": 1515807,
+      "context_start": 1515445,
+      "context_end": 1515808,
+      "kind": "report",
+      "reason": "اختلاف منقول في تعيين من رأى المنام؛ يُعرض بوصفه اختلافًا في الرواية لا إثباتًا لصحة المنام أو الجزم بأحد النقلين."
+    }
+  ],
+  "paragraph_notes": [
+    {
+      "start": 1501973,
+      "end": 1502031,
+      "context_start": 1501973,
+      "context_end": 1502031,
+      "reason": ""
+    },
+    {
+      "start": 1502031,
+      "end": 1502164,
+      "context_start": 1502031,
+      "context_end": 1502164,
+      "reason": ""
+    },
+    {
+      "start": 1502164,
+      "end": 1502587,
+      "context_start": 1502164,
+      "context_end": 1502587,
+      "reason": ""
+    },
+    {
+      "start": 1502587,
+      "end": 1502718,
+      "context_start": 1502587,
+      "context_end": 1502718,
+      "reason": ""
+    },
+    {
+      "start": 1502718,
+      "end": 1502973,
+      "context_start": 1502718,
+      "context_end": 1502973,
+      "reason": ""
+    },
+    {
+      "start": 1502973,
+      "end": 1503161,
+      "context_start": 1502973,
+      "context_end": 1503161,
+      "reason": ""
+    },
+    {
+      "start": 1503161,
+      "end": 1503256,
+      "context_start": 1503161,
+      "context_end": 1503256,
+      "reason": ""
+    },
+    {
+      "start": 1503256,
+      "end": 1503337,
+      "context_start": 1503256,
+      "context_end": 1503337,
+      "reason": ""
+    },
+    {
+      "start": 1503337,
+      "end": 1503703,
+      "context_start": 1503337,
+      "context_end": 1503703,
+      "reason": ""
+    },
+    {
+      "start": 1503703,
+      "end": 1503804,
+      "context_start": 1503703,
+      "context_end": 1503804,
+      "reason": ""
+    },
+    {
+      "start": 1503804,
+      "end": 1503941,
+      "context_start": 1503804,
+      "context_end": 1503941,
+      "reason": ""
+    },
+    {
+      "start": 1503941,
+      "end": 1504709,
+      "context_start": 1503941,
+      "context_end": 1504709,
+      "reason": ""
+    },
+    {
+      "start": 1504709,
+      "end": 1505156,
+      "context_start": 1504709,
+      "context_end": 1505156,
+      "reason": ""
+    },
+    {
+      "start": 1505156,
+      "end": 1505660,
+      "context_start": 1505156,
+      "context_end": 1505660,
+      "reason": ""
+    },
+    {
+      "start": 1505660,
+      "end": 1505795,
+      "context_start": 1505660,
+      "context_end": 1505795,
+      "reason": ""
+    },
+    {
+      "start": 1505795,
+      "end": 1506015,
+      "context_start": 1505795,
+      "context_end": 1506015,
+      "reason": ""
+    },
+    {
+      "start": 1506015,
+      "end": 1506218,
+      "context_start": 1506015,
+      "context_end": 1506218,
+      "reason": ""
+    },
+    {
+      "start": 1506218,
+      "end": 1506568,
+      "context_start": 1506218,
+      "context_end": 1506568,
+      "reason": ""
+    },
+    {
+      "start": 1506568,
+      "end": 1506768,
+      "context_start": 1506568,
+      "context_end": 1506768,
+      "reason": ""
+    },
+    {
+      "start": 1506768,
+      "end": 1507013,
+      "context_start": 1506768,
+      "context_end": 1507013,
+      "reason": ""
+    },
+    {
+      "start": 1507013,
+      "end": 1507120,
+      "context_start": 1507013,
+      "context_end": 1507120,
+      "reason": ""
+    },
+    {
+      "start": 1507120,
+      "end": 1507765,
+      "context_start": 1507120,
+      "context_end": 1507765,
+      "reason": ""
+    },
+    {
+      "start": 1507765,
+      "end": 1508226,
+      "context_start": 1507765,
+      "context_end": 1508226,
+      "reason": ""
+    },
+    {
+      "start": 1508226,
+      "end": 1508471,
+      "context_start": 1508226,
+      "context_end": 1508471,
+      "reason": ""
+    },
+    {
+      "start": 1508471,
+      "end": 1508918,
+      "context_start": 1508471,
+      "context_end": 1508918,
+      "reason": ""
+    },
+    {
+      "start": 1508918,
+      "end": 1509245,
+      "context_start": 1508918,
+      "context_end": 1509245,
+      "reason": ""
+    },
+    {
+      "start": 1509245,
+      "end": 1509374,
+      "context_start": 1509245,
+      "context_end": 1509374,
+      "reason": ""
+    },
+    {
+      "start": 1509374,
+      "end": 1509752,
+      "context_start": 1509374,
+      "context_end": 1509752,
+      "reason": ""
+    },
+    {
+      "start": 1509752,
+      "end": 1509893,
+      "context_start": 1509752,
+      "context_end": 1509893,
+      "reason": ""
+    },
+    {
+      "start": 1509893,
+      "end": 1510009,
+      "context_start": 1509893,
+      "context_end": 1510009,
+      "reason": ""
+    },
+    {
+      "start": 1510009,
+      "end": 1510262,
+      "context_start": 1510009,
+      "context_end": 1510262,
+      "reason": ""
+    },
+    {
+      "start": 1510262,
+      "end": 1510292,
+      "context_start": 1510262,
+      "context_end": 1510292,
+      "reason": ""
+    },
+    {
+      "start": 1510292,
+      "end": 1510346,
+      "context_start": 1510292,
+      "context_end": 1510346,
+      "reason": ""
+    },
+    {
+      "start": 1510346,
+      "end": 1510396,
+      "context_start": 1510346,
+      "context_end": 1510396,
+      "reason": ""
+    },
+    {
+      "start": 1510396,
+      "end": 1510445,
+      "context_start": 1510396,
+      "context_end": 1510445,
+      "reason": ""
+    },
+    {
+      "start": 1510445,
+      "end": 1510493,
+      "context_start": 1510445,
+      "context_end": 1510493,
+      "reason": ""
+    },
+    {
+      "start": 1510493,
+      "end": 1510539,
+      "context_start": 1510493,
+      "context_end": 1510539,
+      "reason": ""
+    },
+    {
+      "start": 1510539,
+      "end": 1510593,
+      "context_start": 1510539,
+      "context_end": 1510593,
+      "reason": ""
+    },
+    {
+      "start": 1510593,
+      "end": 1511400,
+      "context_start": 1510593,
+      "context_end": 1511400,
+      "reason": ""
+    },
+    {
+      "start": 1511400,
+      "end": 1511683,
+      "context_start": 1511400,
+      "context_end": 1511683,
+      "reason": ""
+    },
+    {
+      "start": 1511683,
+      "end": 1511848,
+      "context_start": 1511683,
+      "context_end": 1511848,
+      "reason": ""
+    },
+    {
+      "start": 1511848,
+      "end": 1512040,
+      "context_start": 1511848,
+      "context_end": 1512040,
+      "reason": ""
+    },
+    {
+      "start": 1512040,
+      "end": 1512345,
+      "context_start": 1512040,
+      "context_end": 1512345,
+      "reason": ""
+    },
+    {
+      "start": 1512345,
+      "end": 1512511,
+      "context_start": 1512345,
+      "context_end": 1512511,
+      "reason": ""
+    },
+    {
+      "start": 1512511,
+      "end": 1512753,
+      "context_start": 1512511,
+      "context_end": 1512753,
+      "reason": ""
+    },
+    {
+      "start": 1512753,
+      "end": 1512970,
+      "context_start": 1512753,
+      "context_end": 1512970,
+      "reason": ""
+    },
+    {
+      "start": 1512970,
+      "end": 1513076,
+      "context_start": 1512970,
+      "context_end": 1513076,
+      "reason": ""
+    },
+    {
+      "start": 1513076,
+      "end": 1513752,
+      "context_start": 1513076,
+      "context_end": 1513752,
+      "reason": ""
+    },
+    {
+      "start": 1513752,
+      "end": 1514276,
+      "context_start": 1513752,
+      "context_end": 1514276,
+      "reason": ""
+    },
+    {
+      "start": 1514276,
+      "end": 1514771,
+      "context_start": 1514276,
+      "context_end": 1514771,
+      "reason": ""
+    },
+    {
+      "start": 1514771,
+      "end": 1514903,
+      "context_start": 1514771,
+      "context_end": 1514903,
+      "reason": ""
+    },
+    {
+      "start": 1514903,
+      "end": 1514918,
+      "context_start": 1514903,
+      "context_end": 1514918,
+      "reason": ""
+    },
+    {
+      "start": 1514918,
+      "end": 1514974,
+      "context_start": 1514918,
+      "context_end": 1514974,
+      "reason": ""
+    },
+    {
+      "start": 1514974,
+      "end": 1515027,
+      "context_start": 1514974,
+      "context_end": 1515027,
+      "reason": ""
+    },
+    {
+      "start": 1515027,
+      "end": 1515085,
+      "context_start": 1515027,
+      "context_end": 1515085,
+      "reason": ""
+    },
+    {
+      "start": 1515085,
+      "end": 1515141,
+      "context_start": 1515085,
+      "context_end": 1515141,
+      "reason": ""
+    },
+    {
+      "start": 1515141,
+      "end": 1515445,
+      "context_start": 1515141,
+      "context_end": 1515445,
+      "reason": ""
+    },
+    {
+      "start": 1515445,
+      "end": 1515808,
+      "context_start": 1515445,
+      "context_end": 1515808,
+      "reason": ""
+    },
+    {
+      "start": 1515808,
+      "end": 1515934,
+      "context_start": 1515808,
+      "context_end": 1515934,
+      "reason": ""
+    },
+    {
+      "start": 1515934,
+      "end": 1516025,
+      "context_start": 1515934,
+      "context_end": 1516025,
+      "reason": ""
+    },
+    {
+      "start": 1516025,
+      "end": 1516215,
+      "context_start": 1516025,
+      "context_end": 1516215,
+      "reason": ""
+    }
+  ],
+  "heading_labels": [
+    {
+      "at": 1502031,
+      "label": "النسب والسابقة والرواية"
+    },
+    {
+      "at": 1502587,
+      "label": "الصفة ومشاهده الأولى"
+    },
+    {
+      "at": 1503337,
+      "label": "أخبار في الدفاع عن النبي يوم أحد"
+    },
+    {
+      "at": 1505156,
+      "label": "أقوال في مناقبه"
+    },
+    {
+      "at": 1506568,
+      "label": "أخبار البذل ومشاورة الأهل"
+    },
+    {
+      "at": 1508471,
+      "label": "جراح أحد وأخبار المال"
+    },
+    {
+      "at": 1510262,
+      "label": "أبيات في السابقين"
+    },
+    {
+      "at": 1510593,
+      "label": "خبر الفتنة ويوم الجمل"
+    },
+    {
+      "at": 1512511,
+      "label": "ما روي بعد مقتله"
+    },
+    {
+      "at": 1513076,
+      "label": "أقوال في الرواية والموت"
+    },
+    {
+      "at": 1514276,
+      "label": "ذكره بعد الجمل ومشاهد أحد"
+    },
+    {
+      "at": 1515141,
+      "label": "التركة والوفاة وولده"
+    }
+  ]
+}

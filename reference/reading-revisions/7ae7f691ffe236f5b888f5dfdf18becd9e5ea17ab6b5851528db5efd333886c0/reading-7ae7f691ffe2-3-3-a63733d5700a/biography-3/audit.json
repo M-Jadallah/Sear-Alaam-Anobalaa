@@ -1,0 +1,20 @@
+{
+  "authoring_sha256": "5801c4bb8a92b5fe4f01ad3966865f429b682a35a826f5debc1ecfabd5609fa8",
+  "reviewer": "/root/vocalize_abu_talha",
+  "all_words_checked": true,
+  "all_paragraphs_checked": true,
+  "findings": [
+    {
+      "note": "قرأت الترجمة كاملة وتعليلات الفقرات113 والعناوين والمواضع الملتبسة. وجدت ضبط ستُّ في مركب ست عشرة فصححه المؤلف إلى ستَّ، وطلبت إبقاء ثمان في ابن ثمان سنين على أصلها لتعذر معالجة الياء الناقصة بالحركات؛ تحقق الإصلاحان في الملف النهائي. حافظت رواية الفتنة على النقد اللاحق بالإرسال والنكارة والتفويض وعدم الحكم بالخلود، وعلى القيود والأقوال المنسوبة إلى قائليها. راجعت كامل النص لغويًا دون ادعاء اعتماد بشري أو حسم الأسماء المشتركة.",
+      "resolved": true
+    }
+  ],
+  "checks": {
+    "source_coverage": true,
+    "paragraphs": true,
+    "criticism_context": true,
+    "negative_cases": true,
+    "diacritics": true,
+    "paragraph_context": true
+  }
+}

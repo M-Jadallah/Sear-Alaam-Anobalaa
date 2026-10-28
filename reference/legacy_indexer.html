@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>أداة فهرسة سير أعلام النبلاء - إصدار تجريبي</title>
+<style>
+:root{--navy:#1c3853;--mid:#46719b;--border:#dce2e9;--bg:#f3f5f9;--muted:#586979}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#1c2c3a;font-family:Tahoma,Arial,sans-serif;line-height:1.9}
+main{max-width:1120px;margin:auto;padding:24px}header{background:var(--navy);color:white;padding:24px;border-radius:15px}
+h1{font-size:26px;margin:0 0 7px}h2{font-size:20px;margin:0 0 14px}.muted{color:var(--muted)}header p{margin:0;opacity:.9}
+.panel{margin-top:18px;border:1px solid var(--border);background:white;padding:20px;border-radius:15px}
+.controls,.switches,.stats{display:flex;flex-wrap:wrap;align-items:center;gap:12px}.stats{margin-top:17px}
+.stat{padding:12px 18px;background:#f6f9fc;border:1px solid #dce8f2;border-radius:9px;min-width:150px}.stat strong{display:block;font-size:24px;color:#183b55}
+button,.filelabel{border:0;border-radius:8px;background:#205b89;color:white;padding:10px 17px;font-family:inherit;cursor:pointer;font-size:14px}button:disabled{background:#9ba6b1;cursor:not-allowed}button.secondary{background:#eef3f8;color:var(--navy);border:1px solid #cedae5}button.active{background:var(--navy);color:white}
+input[type=file]{max-width:100%;font-size:14px}input[type=search]{font:inherit;padding:8px 12px;border:1px solid #c8d4de;border-radius:8px;width:min(360px,100%)}
+.notice{padding:10px 14px;border-right:4px solid #d59e3b;background:#fff8ea;margin:12px 0;border-radius:6px;font-size:14px}
+.status{color:var(--navy);font-size:14px}table{border-collapse:collapse;width:100%;text-align:right;font-size:13px}th,td{border-bottom:1px solid #e6eaf0;padding:9px 12px;vertical-align:top}thead th{position:sticky;top:0;background:#eaf0f6;color:#233c50}.scroll{overflow:auto;max-height:570px;border:1px solid var(--border);border-radius:8px;margin-top:15px}
+small{color:#5a6b78}footer{padding:22px;text-align:center;color:#566875;font-size:12px}
+@media(max-width:600px){main{padding:10px}h1{font-size:20px}.panel{padding:13px}}
+</style>
+</head>
+<body><main>
+<header><h1>فهرسة «سير أعلام النبلاء»</h1><p>نسخة أولية محلية تعمل دون إنترنت، لاستخراج عناوين التراجم ومطابقة كلمات الموضوعات</p></header>
+<section class="panel">
+<h2>1. استيراد نص الكتاب</h2>
+<p>اختر ملف OpenITI الذي حمّلته بصيغة <code>.mARkdown</code>، ثم اضغط «ابدأ الفهرسة». لا يُرفع الملف إلى أي خادم.</p>
+<div class="controls"><input id="bookfile" type="file" accept=".mARkdown,.txt,.md,*/*"><button id="start">ابدأ الفهرسة</button></div>
+<div class="notice">تنبيه: النتائج آلية تجريبية، وليست فهرسًا علميًا محققًا؛ قد تسقط بعض التراجم أو تُنسب الموضوعات خطأً إلى مواضعها. علامات الصفحات المستخرجة تحتاج تحققًا في المصدر. لا تستخرج الأداة جميع الأشخاص المذكورين داخل كل ترجمة.</div>
+<div id="status" class="status" aria-live="polite">لم يتم استيراد ملف بعد.</div>
+<div class="stats"><div class="stat">عناوين التراجم <strong id="bioCount">—</strong></div><div class="stat">المطابقات الموضوعية <strong id="hitCount">—</strong></div><div class="stat">عدد الموضوعات المعرفة <strong id="topicCount">—</strong></div></div>
+</section>
+<section class="panel"><h2>2. البحث والفهرسة</h2>
+<div class="switches"><button class="active" id="tabBio">فهرس عناوين التراجم</button><button class="secondary" id="tabTopic">الفهرس الموضوعي</button><input id="search" type="search" placeholder="بحث داخل النتائج..." disabled><button id="export" disabled>تصدير CSV</button></div>
+<small id="countStatus">ستظهر النتائج بعد اختيار الملف وتشغيل الفهرسة.</small>
+<div class="scroll"><table><thead id="thead"></thead><tbody id="tbody"></tbody></table></div>
+<small>تظهر أول 200 نتيجة مطابقة فقط منعًا لإبطاء المتصفح. تصدير CSV يحفظ جميع النتائج المستخرجة.</small>
+</section>
+<section class="panel"><h2>3. حدود هذا الإصدار</h2>
+<p>يتعرف البرنامج على عناوين OpenITI الشبيهة بـ <code>### $</code>، ويقرن كل ترجمة بعلامات صفحات مجاورة إن وُجدت مثل <code>PageV01P001</code>. ثم يطابق عبارات من معجم موضوعي مقترح. كل مطابقة تحتاج مراجعة المعنى والسياق، ولا تُعادل فهرسة معنوية شاملة.</p>
+<p>ملف «معجم_المواضيع_المقترح.csv» الموجود في الحزمة للتوثيق والتحرير؛ الكلمات المدمجة في هذه الصفحة هي التي يستعملها الإصدار الحالي.</p>
+</section>
+<footer>إصدار تجريبي للاستخدام الشخصي في البحث والتنظيم، لا يتبع مشروع OpenITI.</footer></main>
+<script>
+"use strict";
+const TOPICS = [{"category": "العقيدة", "name": "التوحيد", "terms": ["التوحيد", "توحيد الله", "لا اله الا الله"]}, {"category": "العقيدة", "name": "الإيمان", "terms": ["الايمان", "حقيقة الايمان", "زيادة الايمان"]}, {"category": "العقيدة", "name": "القدر", "terms": ["القدر", "القضاء والقدر", "القدرية"]}, {"category": "العقيدة", "name": "صفات الله", "terms": ["صفات الله", "الصفات", "الاستواء"]}, {"category": "العقيدة", "name": "البدع", "terms": ["البدعة", "البدع", "المبتدع"]}, {"category": "العقيدة", "name": "السنة والجماعة", "terms": ["اهل السنة", "اهل الحديث", "الجماعة"]}, {"category": "العقيدة", "name": "الرفض والتشيع", "terms": ["الرافضة", "التشيع", "الشيعة"]}, {"category": "العقيدة", "name": "الاعتزال", "terms": ["المعتزلة", "الاعتزال"]}, {"category": "القلب والسلوك", "name": "الإخلاص", "terms": ["الاخلاص", "اخلاص النية", "خالصا لله", "اخلص لله", "مخلصا لله", "المخلصين"]}, {"category": "القلب والسلوك", "name": "النية", "terms": ["النية", "النيات", "نية العبد"]}, {"category": "القلب والسلوك", "name": "الرياء", "terms": ["الرياء", "مراءاة", "يرائي"]}, {"category": "القلب والسلوك", "name": "التوبة", "terms": ["التوبة", "تاب الى الله", "التائبين"]}, {"category": "القلب والسلوك", "name": "الزهد", "terms": ["الزهد", "الزاهد", "الزهاد", "زاهدا", "زهد في"]}, {"category": "القلب والسلوك", "name": "الورع", "terms": ["الورع", "الورعين", "تورع"]}, {"category": "القلب والسلوك", "name": "التقوى", "terms": ["التقوى", "اتق الله", "اتقى الله"]}, {"category": "القلب والسلوك", "name": "الخوف من الله", "terms": ["الخوف من الله", "خشية الله", "الخاشعين"]}, {"category": "القلب والسلوك", "name": "محبة الله", "terms": ["محبة الله", "حب الله", "محبته لله"]}, {"category": "القلب والسلوك", "name": "التوكل", "terms": ["التوكل", "التوكل على الله", "توكلت"]}, {"category": "القلب والسلوك", "name": "الصبر", "terms": ["الصبر", "الصابرين", "صبر على"]}, {"category": "القلب والسلوك", "name": "الشكر", "terms": ["الشكر", "شكر الله", "الشاكرين"]}, {"category": "القلب والسلوك", "name": "الرضا", "terms": ["الرضا", "الرضى", "الرضا بالله"]}, {"category": "القلب والسلوك", "name": "التواضع", "terms": ["التواضع", "المتواضعين", "تواضع"]}, {"category": "القلب والسلوك", "name": "الكبر", "terms": ["الكبر", "المتكبر", "التكبر"]}, {"category": "القلب والسلوك", "name": "الحسد", "terms": ["الحسد", "الحاسد", "يحسد"]}, {"category": "القلب والسلوك", "name": "العجب", "terms": ["العجب بالنفس", "اعجب بنفسه", "العجب"]}, {"category": "القلب والسلوك", "name": "محاسبة النفس", "terms": ["محاسبة النفس", "حاسب نفسك", "يحاسب نفسه"]}, {"category": "القلب والسلوك", "name": "الذكر", "terms": ["ذكر الله", "ذكر ربه", "الاذكار"]}, {"category": "القلب والسلوك", "name": "الدعاء", "terms": ["الدعاء", "دعا الله", "الدعوات"]}, {"category": "القلب والسلوك", "name": "الموت والآخرة", "terms": ["ذكر الموت", "سكرات الموت", "الدار الاخرة"]}, {"category": "القلب والسلوك", "name": "الجنة والنار", "terms": ["الجنة", "النار", "النعيم المقيم"]}, {"category": "القلب والسلوك", "name": "التصوف", "terms": ["الصوفية", "التصوف", "الصوفي"]}, {"category": "العلم والتعلم", "name": "طلب العلم", "terms": ["طلب العلم", "طلب الحديث", "الرحلة في طلب"]}, {"category": "العلم والتعلم", "name": "التعليم والتدريس", "terms": ["التدريس", "درس عليه", "كان يدرس"]}, {"category": "العلم والتعلم", "name": "التأليف", "terms": ["صنف كتاب", "له مصنفات", "تصانيف"]}, {"category": "العلم والتعلم", "name": "الحفظ", "terms": ["قوة الحفظ", "حفظ الحديث", "كان حافظا"]}, {"category": "العلم والتعلم", "name": "المناظرة", "terms": ["المناظرة", "ناظره", "المناظرات"]}, {"category": "العلم والتعلم", "name": "فتنة العلم والشهرة", "terms": ["حب الشهرة", "طلب الرياسة", "حب الرياسة"]}, {"category": "الحديث وعلومه", "name": "الرواية والسماع", "terms": ["سمع من", "روى عن", "حدث عن"]}, {"category": "الحديث وعلومه", "name": "الإسناد", "terms": ["الاسناد", "السند", "اسانيد"]}, {"category": "الحديث وعلومه", "name": "الجرح والتعديل", "terms": ["الجرح والتعديل", "ثقة ثبت", "صدوق", "متروك الحديث"]}, {"category": "الحديث وعلومه", "name": "الحفظ والضبط", "terms": ["ضابطا", "سوء الحفظ", "اختلط بآخره"]}, {"category": "الحديث وعلومه", "name": "التدليس", "terms": ["التدليس", "مدلس", "دلس"]}, {"category": "الحديث وعلومه", "name": "الوضع والكذب", "terms": ["حديث موضوع", "وضاع", "كذاب"]}, {"category": "الحديث وعلومه", "name": "علل الحديث", "terms": ["علل الحديث", "معلول", "حديث منكر"]}, {"category": "الحديث وعلومه", "name": "صحيح الحديث", "terms": ["صحيح الحديث", "حديث صحيح", "صحيح الاسناد"]}, {"category": "الحديث وعلومه", "name": "الأحاديث الضعيفة", "terms": ["حديث ضعيف", "اسناد ضعيف", "ضعيف الحديث"]}, {"category": "الفقه وأصوله", "name": "الفتوى", "terms": ["افتاء", "الفتوى", "المفتي"]}, {"category": "الفقه وأصوله", "name": "الاجتهاد والتقليد", "terms": ["الاجتهاد", "المجتهد", "التقليد"]}, {"category": "الفقه وأصوله", "name": "القضاء", "terms": ["تولى القضاء", "ولي القضاء", "القضاة"]}, {"category": "الفقه وأصوله", "name": "العبادات", "terms": ["العبادات", "الصلاة", "الصيام"]}, {"category": "الفقه وأصوله", "name": "الزكاة والصدقة", "terms": ["الزكاة", "الصدقة", "تصدق"]}, {"category": "الفقه وأصوله", "name": "الحج والعمرة", "terms": ["الحج", "العمرة", "حج البيت"]}, {"category": "الفقه وأصوله", "name": "المعاملات", "terms": ["البيع", "الشراء", "المعاملات"]}, {"category": "الفقه وأصوله", "name": "النكاح والأسرة", "terms": ["النكاح", "الزواج", "الزوجة"]}, {"category": "الفقه وأصوله", "name": "الخلاف الفقهي", "terms": ["اختلف الفقهاء", "خلاف فقهي", "مذهب الشافعي"]}, {"category": "القرآن وعلومه", "name": "تلاوة القرآن", "terms": ["تلاوة القران", "قرا القران", "ختم القران"]}, {"category": "القرآن وعلومه", "name": "التفسير", "terms": ["التفسير", "فسر الاية", "المفسر"]}, {"category": "القرآن وعلومه", "name": "القراءات", "terms": ["القراءات", "القراءة السبعية", "القراء السبعة"]}, {"category": "القرآن وعلومه", "name": "حفظ القرآن", "terms": ["حفظ القران", "حافظ للقران", "يحفظ القران"]}, {"category": "التراجم والرجال", "name": "الميلاد والنشأة", "terms": ["ولد سنة", "مولده", "نشاته"]}, {"category": "التراجم والرجال", "name": "الوفاة", "terms": ["توفي سنة", "مات سنة", "وفاته"]}, {"category": "التراجم والرجال", "name": "الشيوخ", "terms": ["شيوخه", "سمع من", "اخذ عن"]}, {"category": "التراجم والرجال", "name": "التلاميذ", "terms": ["تلامذته", "تلاميذه", "روى عنه"]}, {"category": "التراجم والرجال", "name": "المؤلفات", "terms": ["مصنفاته", "مؤلفاته", "تصانيفه"]}, {"category": "التراجم والرجال", "name": "الرحلات", "terms": ["رحل الى", "سافر الى", "رحل في"]}, {"category": "التراجم والرجال", "name": "الثناء والنقد", "terms": ["اثنى عليه", "قال فيه", "طعن فيه"]}, {"category": "التراجم والرجال", "name": "الكنية والنسبة", "terms": ["كنيته", "يكنى", "نسبته"]}, {"category": "التراجم والرجال", "name": "الطبقات", "terms": ["طبقة", "من الطبقة", "طبقات"]}, {"category": "التاريخ والمجتمع", "name": "الخلافة والسياسة", "terms": ["الخلافة", "الخليفة", "تولى الملك"]}, {"category": "التاريخ والمجتمع", "name": "الفتن والحروب", "terms": ["الفتنة", "القتال", "المعارك"]}, {"category": "التاريخ والمجتمع", "name": "المحن والسجون", "terms": ["سجن", "الحبس", "المحنة"]}, {"category": "التاريخ والمجتمع", "name": "القضاء والولايات", "terms": ["تولى ولاية", "ولاية القضاء", "امير"]}, {"category": "التاريخ والمجتمع", "name": "المدن والأمصار", "terms": ["بغداد", "دمشق", "المدينة المنورة"]}, {"category": "التاريخ والمجتمع", "name": "الوباء والمجاعة", "terms": ["الطاعون", "الوباء", "المجاعة"]}, {"category": "الأخلاق والآداب", "name": "الصدق", "terms": ["الصدق", "صادق", "صدق الحديث"]}, {"category": "الأخلاق والآداب", "name": "الأمانة", "terms": ["الامانة", "امين", "الخيانة"]}, {"category": "الأخلاق والآداب", "name": "العدل", "terms": ["العدل", "عادل", "الظلم"]}, {"category": "الأخلاق والآداب", "name": "الكرم", "terms": ["الكرم", "الجود", "السخاء"]}, {"category": "الأخلاق والآداب", "name": "بر الوالدين", "terms": ["بر الوالدين", "الوالدين", "امه وابوه"]}, {"category": "الأخلاق والآداب", "name": "الصحبة", "terms": ["صحبة", "صحبته", "الصاحب"]}, {"category": "الأخلاق والآداب", "name": "الغيبة", "terms": ["الغيبة", "اغتاب", "النميمة"]}];
+const $ = id => document.getElementById(id);
+let bios=[], hits=[], tab='bio';
+$('topicCount').textContent=TOPICS.length;
+function normalize(s){return (s||'').normalize('NFKC').replace(/[\u064b-\u065f\u0670\u0640]/g,'').replace(/[إأآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ؤ/g,'و').replace(/ئ/g,'ي').replace(/ة/g,'ه').toLowerCase().replace(/\s+/g,' ').trim();}
+const normTopics=TOPICS.map(t=>({...t,normTerms:[...new Set(t.terms.map(normalize).filter(x=>x.length>=3))]}));
+function pageFrom(line){const m=line.match(/PageV\d+P\d+/);return m?m[0]:null;}
+function h(s){return String(s ?? '').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function setTab(next){tab=next; $('tabBio').className=tab==='bio'?'active':'secondary';$('tabTopic').className=tab==='topic'?'active':'secondary';render();}
+$('tabBio').onclick=()=>setTab('bio');$('tabTopic').onclick=()=>setTab('topic');$('search').oninput=render;
+function render(){const q=normalize($('search').value), isBio=tab==='bio';const arr=isBio?bios:hits;
+const filtered=q?arr.filter(x=>normalize(Object.values(x).join(' ')).includes(q)):arr;
+$('countStatus').textContent=`النتائج المعروضة: ${Math.min(filtered.length,200).toLocaleString('ar')} من ${filtered.length.toLocaleString('ar')} نتيجة مطابقة`;
+$('thead').innerHTML=isBio?'<tr><th>#</th><th>عنوان الترجمة المستخرج</th><th>علامة الصفحة (تقريبية)</th><th>تسلسل السطر</th></tr>':'<tr><th>#</th><th>الباب</th><th>الموضوع</th><th>الترجمة</th><th>اللفظ المطابق</th><th>علامة الصفحة (تقريبية)</th></tr>';
+$('tbody').innerHTML=filtered.slice(0,200).map((x,i)=>isBio?`<tr><td>${i+1}</td><td>${h(x.title)}</td><td>${h(x.page)}</td><td>${x.line}</td></tr>`:`<tr><td>${i+1}</td><td>${h(x.category)}</td><td>${h(x.topic)}</td><td>${h(x.title)}</td><td>${h(x.term)}</td><td>${h(x.page)}</td></tr>`).join('');
+}
+function csvValue(s){return '"'+String(s??'').replace(/"/g,'""')+'"';}
+function downloadCSV(name,columns,rows){let csv='\ufeff'+[columns,...rows].map(r=>r.map(csvValue).join(',')).join('\r\n');let u=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=u;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),5000);}
+$('export').onclick=()=>{if(tab==='bio'){downloadCSV('فهرس_التراجم_آلي_أولي.csv',['التسلسل','عنوان الترجمة','علامة الصفحة - تقريبية','رقم السطر'],bios.map(x=>[x.id,x.title,x.page,x.line]));}else{downloadCSV('فهرس_الموضوعات_آلي_أولي.csv',['الباب','الموضوع','عنوان الترجمة','اللفظ المطابق','علامة الصفحة - تقريبية'],hits.map(x=>[x.category,x.topic,x.title,x.term,x.page]));}};
+$('start').onclick=async()=>{
+const file=$('bookfile').files[0];if(!file){$('status').textContent='اختر ملف الكتاب أولًا.';return;}
+$('start').disabled=true;$('search').disabled=true;$('export').disabled=true;
+$('status').textContent='قراءة الملف...';bios=[];hits=[];
+try{
+const raw=await file.text();let lines=raw.replace(/^\uFEFF/,'').split(/\r?\n/);
+const useDollar=lines.some(line=>/^###\s+\$/.test(line));
+const isTitle= useDollar?(s=>/^###\s+\$/.test(s)):(s=>/^###\s+[^|]/.test(s));
+let page='',current=null,body=[];
+function finish(){if(!current)return;const txt=normalize(body.join(' '));bios.push(current);
+for(const t of normTopics){for(const term of t.normTerms){if(txt.includes(term)){
+hits.push({category:t.category,topic:t.name,title:current.title,term,page:current.page});break;
+}}}body=[];}
+for(let i=0;i<lines.length;i++){
+const line=lines[i], pg=pageFrom(line);if(isTitle(line)){
+finish(); const title=line.replace(/^###\s+(?:\$\s*)?/,'').trim();current={id:bios.length+1,title:title||'(عنوان فارغ)',page:page||'غير محدد',line:i+1};
+}
+if(pg){page=pg;if(current && current.page==='غير محدد')current.page=pg;}
+if(current)body.push(line);
+if(i%25000===0){$('status').textContent=`جارٍ تحليل النص... ${Math.round(i*100/lines.length)}%`;await new Promise(resolve=>setTimeout(resolve,0));}
+}
+finish();
+$('bioCount').textContent=bios.length.toLocaleString('ar');$('hitCount').textContent=hits.length.toLocaleString('ar');
+$('search').disabled=false;$('export').disabled=false;
+$('status').textContent=`اكتملت المعالجة المحلية لملف ${file.name}، ${Math.round(file.size/1024/1024*10)/10} ميغابايت. ${useDollar?'استُخدمت عناوين ### $':'لم تُكتشف علامة ### $؛ استُخدمت عناوين ### العامة (تحتاج تحققًا)'}.`;
+render();if(!bios.length)$('status').textContent+=' لم يتم اكتشاف عناوين؛ قد تكون بنية الملف مختلفة عن القواعد الحالية.';
+}catch(err){$('status').textContent='حدث خطأ: '+err.message;}
+finally{$('start').disabled=false;}
+};
+render();
+</script></body></html>

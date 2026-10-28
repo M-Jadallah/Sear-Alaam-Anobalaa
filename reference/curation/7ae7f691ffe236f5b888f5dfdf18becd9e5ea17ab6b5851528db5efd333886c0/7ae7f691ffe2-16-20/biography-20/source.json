@@ -1,0 +1,140 @@
+{
+  "biography_id": 20,
+  "source_ordinal": 20,
+  "heading": "20 - مسطح بن أثاثة بن عباد بن المطلب المطلبي **",
+  "source_char_start": 1635647,
+  "source_char_end": 1636137,
+  "full_text": "### $ 20 - مسطح بن أثاثة بن عباد بن المطلب المطلبي **\n# ابن عبد مناف بن قصي، المطلبي، المهاجري، البدري، المذكور في قصة الإفك.\n~~PageV01P187\n# كان فقيرا، ينفق عليه أبو بكر (1) .\n# ذكره ابن سعد، فقال:\n# كان قصيرا، غائر العينين، شثن الأصابع، عاش ستا وخمسين سنة.\n# قال: وتوفي سنة أربع وثلاثين -رضي الله عنه-.\n# إياك يا جري (2) أن تنظر إلى هذا البدري شزرا لهفوة بدت منه، فإنها قد\n~~غفرت، وهو من أهل الجنة.\n# وإياك يا رافضي (3) أن تلوح بقذف أم المؤمنين بعد نزول النص في براءتها،\n~~فتجب لك النار.\n",
+  "segments": [
+    {
+      "id": 8643,
+      "source_id": 1,
+      "section_id": 300,
+      "biography_id": 20,
+      "segment_ordinal": 1,
+      "text_original": "# ابن عبد مناف بن قصي، المطلبي، المهاجري، البدري، المذكور في قصة الإفك.\n~~PageV01P187\n",
+      "normalized_search_text": "ابن عبد مناف بن قصي المطلبي المهاجري البدري المذكور في قصة الافك pagev01p187",
+      "source_char_start": 1635701,
+      "source_char_end": 1635787,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P187"
+    },
+    {
+      "id": 8644,
+      "source_id": 1,
+      "section_id": 300,
+      "biography_id": 20,
+      "segment_ordinal": 2,
+      "text_original": "# كان فقيرا، ينفق عليه أبو بكر (1) .\n",
+      "normalized_search_text": "كان فقيرا ينفق عليه ابو بكر 1",
+      "source_char_start": 1635787,
+      "source_char_end": 1635824,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P188"
+    },
+    {
+      "id": 8645,
+      "source_id": 1,
+      "section_id": 300,
+      "biography_id": 20,
+      "segment_ordinal": 3,
+      "text_original": "# ذكره ابن سعد، فقال:\n",
+      "normalized_search_text": "ذكره ابن سعد فقال",
+      "source_char_start": 1635824,
+      "source_char_end": 1635846,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P188"
+    },
+    {
+      "id": 8646,
+      "source_id": 1,
+      "section_id": 300,
+      "biography_id": 20,
+      "segment_ordinal": 4,
+      "text_original": "# كان قصيرا، غائر العينين، شثن الأصابع، عاش ستا وخمسين سنة.\n",
+      "normalized_search_text": "كان قصيرا غائر العينين شثن الاصابع عاش ستا وخمسين سنة",
+      "source_char_start": 1635846,
+      "source_char_end": 1635906,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P188"
+    },
+    {
+      "id": 8647,
+      "source_id": 1,
+      "section_id": 300,
+      "biography_id": 20,
+      "segment_ordinal": 5,
+      "text_original": "# قال: وتوفي سنة أربع وثلاثين -رضي الله عنه-.\n",
+      "normalized_search_text": "قال وتوفي سنة اربع وثلاثين رضي الله عنه",
+      "source_char_start": 1635906,
+      "source_char_end": 1635952,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P188"
+    },
+    {
+      "id": 8648,
+      "source_id": 1,
+      "section_id": 300,
+      "biography_id": 20,
+      "segment_ordinal": 6,
+      "text_original": "# إياك يا جري (2) أن تنظر إلى هذا البدري شزرا لهفوة بدت منه، فإنها قد\n~~غفرت، وهو من أهل الجنة.\n",
+      "normalized_search_text": "اياك يا جري 2 ان تنظر الي هذا البدري شزرا لهفوة بدت منه فانها قد غفرت وهو من اهل الجنة",
+      "source_char_start": 1635952,
+      "source_char_end": 1636048,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P188"
+    },
+    {
+      "id": 8649,
+      "source_id": 1,
+      "section_id": 300,
+      "biography_id": 20,
+      "segment_ordinal": 7,
+      "text_original": "# وإياك يا رافضي (3) أن تلوح بقذف أم المؤمنين بعد نزول النص في براءتها،\n~~فتجب لك النار.\n",
+      "normalized_search_text": "واياك يا رافضي 3 ان تلوح بقذف ام المؤمنين بعد نزول النص في براءتها فتجب لك النار",
+      "source_char_start": 1636048,
+      "source_char_end": 1636137,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P188"
+    }
+  ],
+  "existing_hits": [
+    {
+      "id": 817,
+      "topic_id": 32,
+      "segment_id": 8648,
+      "evidence_text": "الجنة",
+      "source_char_start": 1636041,
+      "source_char_end": 1636046,
+      "matched_phrase": "الجنة",
+      "method": "keyword_candidate",
+      "review_status": "candidate",
+      "confidence": 0.35,
+      "reviewer_note": null
+    }
+  ],
+  "footnote_candidates": [
+    {
+      "start": 1635818,
+      "end": 1635821,
+      "raw": "(1)"
+    },
+    {
+      "start": 1635966,
+      "end": 1635969,
+      "raw": "(2)"
+    },
+    {
+      "start": 1636065,
+      "end": 1636068,
+      "raw": "(3)"
+    }
+  ]
+}

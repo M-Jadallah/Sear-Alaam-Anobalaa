@@ -1,0 +1,1038 @@
+{
+  "evaluation_version": "known-passages-v1",
+  "gold_sha256": "f8f6cb71c5605366a49929b565b272d2b4c4a76e3b9b39c536e333c494114b93",
+  "execution_environment": {
+    "method": "in-process synchronous smart_search worker function; excludes HTTP/browser transport",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.6",
+    "logical_cpu_count": 12,
+    "inference_cpu_threads": 4
+  },
+  "source_sha256": [
+    "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0"
+  ],
+  "query_count": 30,
+  "category_counts": {
+    "paraphrase": 15,
+    "negation_or_alternative": 5,
+    "name_variant": 5,
+    "outside_dictionary": 5
+  },
+  "top_k": 10,
+  "metric_definition": "A result must share source/section and overlap at least min(40,ceil(25% of gold span length)) literal Unicode characters with a known relevant passage. These are curated known-passage hits, not precision/exhaustive recall or historical authentication.",
+  "selection_protocol": "Explicit original question as meaning; no gold-specific term expansion; first results page; one uncached run per distinct question after separate model warm-up.",
+  "baseline": {
+    "queries": 30,
+    "known_hits": 0,
+    "known_passage_hit_at_10": 0.0,
+    "p95_ms": 21.13047499824461,
+    "mean_ms": 15.373046666839704
+  },
+  "smart": {
+    "queries": 30,
+    "known_hits": 15,
+    "known_passage_hit_at_10": 0.5,
+    "p95_ms": 4069.8962399990705,
+    "mean_ms": 3670.4219766664514
+  },
+  "by_category": {
+    "name_variant": {
+      "baseline": {
+        "queries": 5,
+        "known_hits": 0,
+        "known_passage_hit_at_10": 0.0,
+        "p95_ms": 21.594959999492858,
+        "mean_ms": 17.20130000030622
+      },
+      "smart": {
+        "queries": 5,
+        "known_hits": 3,
+        "known_passage_hit_at_10": 0.6,
+        "p95_ms": 4086.775939999643,
+        "mean_ms": 3946.118800000113
+      }
+    },
+    "negation_or_alternative": {
+      "baseline": {
+        "queries": 5,
+        "known_hits": 0,
+        "known_passage_hit_at_10": 0.0,
+        "p95_ms": 20.963939998910064,
+        "mean_ms": 20.321039999544155
+      },
+      "smart": {
+        "queries": 5,
+        "known_hits": 2,
+        "known_passage_hit_at_10": 0.4,
+        "p95_ms": 3883.324380000704,
+        "mean_ms": 3332.766039999842
+      }
+    },
+    "outside_dictionary": {
+      "baseline": {
+        "queries": 5,
+        "known_hits": 0,
+        "known_passage_hit_at_10": 0.0,
+        "p95_ms": 20.27942000058829,
+        "mean_ms": 13.415080000413582
+      },
+      "smart": {
+        "queries": 5,
+        "known_hits": 5,
+        "known_passage_hit_at_10": 1.0,
+        "p95_ms": 3874.512759999925,
+        "mean_ms": 3525.9400399998412
+      }
+    },
+    "paraphrase": {
+      "baseline": {
+        "queries": 15,
+        "known_hits": 0,
+        "known_passage_hit_at_10": 0.0,
+        "p95_ms": 20.971079997252673,
+        "mean_ms": 13.766953333591422
+      },
+      "smart": {
+        "queries": 15,
+        "known_hits": 5,
+        "known_passage_hit_at_10": 0.3333333333333333,
+        "p95_ms": 4026.7164000011685,
+        "mean_ms": 3739.235659999637
+      }
+    }
+  },
+  "descriptive_questions": {
+    "queries": 20,
+    "known_hits": 10,
+    "known_passage_hit_at_10": 0.5,
+    "p95_ms": 3960.457900002075,
+    "mean_ms": 3685.911754999688
+  },
+  "semantic_status": {
+    "ready": true,
+    "semantic_coverage": true,
+    "network_at_query_time": false,
+    "cpu_threads": 4,
+    "model": "intfloat/multilingual-e5-small",
+    "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "runtime": "onnxruntime-cpu-int8-v1",
+    "reranker": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "reranker_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "sources": [
+      {
+        "id": 1,
+        "sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+        "parser_version": "openiti-conservative-1",
+        "char_count": 12665488
+      }
+    ],
+    "window_tokens": 320,
+    "overlap_tokens": 64,
+    "status": "ready",
+    "window_count": 30887,
+    "fingerprint": "c57dd806a10571ab9059a39a07574aa32558d2558ca5f367f2341fcc2b2d0d0d",
+    "model_fingerprint": "c51f94bc8bc947865ef740bfa4fe430710eab4b1bed5cbec46f09586e7657396",
+    "directory": "C:\\My-Project\\Sear-Alaam-Anobalaa\\data\\semantic\\version-c57dd806a10571ab9059",
+    "created_at": 1793055457.0426366,
+    "reason": "الفهرس الدلالي المحلي جاهز؛ النتائج اقتراحات تحتاج مراجعة."
+  },
+  "all_queries_used_hybrid": true,
+  "warmup_ms": [
+    17305.830999997852
+  ],
+  "cache_hits": 0,
+  "goals": {
+    "descriptive_hit_at_10_at_least_80_percent": false,
+    "warm_p95_at_most_8000_ms": true,
+    "not_measured_as_hybrid_if_fallback": false
+  },
+  "review_log_before": 0,
+  "review_log_after": 0,
+  "queries": [
+    {
+      "id": "Q01",
+      "category": "paraphrase",
+      "query": "صعوبة مجاهدة الإنسان لنفسه وتقلبها عليه",
+      "baseline": {
+        "elapsed_ms": 13.598800000181654,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3439.168699998845,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q02",
+      "category": "paraphrase",
+      "query": "عابد يرى أن كف اللسان أصعب أنواع العبادة",
+      "baseline": {
+        "elapsed_ms": 12.45070000004489,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3783.0565000003844,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q03",
+      "category": "paraphrase",
+      "query": "إمام يسامح الخليفة الذي آذاه مستدلا بآية العفو",
+      "baseline": {
+        "elapsed_ms": 8.72230000095442,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 4212.240199998632,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q04",
+      "category": "paraphrase",
+      "query": "طالب باع ميراثه لينفقه على العلم ويحمل كتبه ماشيا",
+      "baseline": {
+        "elapsed_ms": 13.53690000178176,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3947.206200002256,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 202,
+          "required_overlap_chars": 40,
+          "expected_start": 11578251,
+          "result_start": 11577530,
+          "result_end": 11578453
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q05",
+      "category": "paraphrase",
+      "query": "عالم امتنع عن الشبع سنوات طويلة وتقيأ حين شبع مرة",
+      "baseline": {
+        "elapsed_ms": 18.59160000094562,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3733.556800001679,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 114,
+          "required_overlap_chars": 29,
+          "expected_start": 5883367,
+          "result_start": 5883315,
+          "result_end": 5884259
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q06",
+      "category": "paraphrase",
+      "query": "معلم يتنقل بين متجره والمصحف والمقبرة باكيا",
+      "baseline": {
+        "elapsed_ms": 8.423700001003454,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3654.2045999995025,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 40,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q07",
+      "category": "paraphrase",
+      "query": "قاض رد هدايا الحاكم كما هي ثم استمر في التدريس من سجنه",
+      "baseline": {
+        "elapsed_ms": 19.202800001949072,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3841.143599998759,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q08",
+      "category": "paraphrase",
+      "query": "فقيه لم يقم للملك ووزع المال الذي أرسله على أصحابه",
+      "baseline": {
+        "elapsed_ms": 10.36509999903501,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3946.5675999999803,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q09",
+      "category": "paraphrase",
+      "query": "شيخ يقضي نهاره كله مع الطلاب وتقرأ عليه الكتب ليلا",
+      "baseline": {
+        "elapsed_ms": 20.845199996983865,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3895.217400000547,
+        "returned": 10,
+        "known_hit": {
+          "rank": 2,
+          "overlap_chars": 404,
+          "required_overlap_chars": 40,
+          "expected_start": 12565001,
+          "result_start": 12565003,
+          "result_end": 12565885
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q10",
+      "category": "paraphrase",
+      "query": "كيف يواجه المرء إعجابه بكلامه أو بسكوته",
+      "baseline": {
+        "elapsed_ms": 6.611200002225814,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3762.786399998731,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 61,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q11",
+      "category": "paraphrase",
+      "query": "التلميذ يميز بين معلم يصلح خطأه وآخر يعيره به",
+      "baseline": {
+        "elapsed_ms": 10.671100000763545,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3319.1452999999456,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q12",
+      "category": "paraphrase",
+      "query": "متكلم ندم على خوضه في المباحث ورجع إلى إيمان العجائز",
+      "baseline": {
+        "elapsed_ms": 20.241999998688698,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3171.758899999986,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 446,
+          "required_overlap_chars": 40,
+          "expected_start": 10406872,
+          "result_start": 10406525,
+          "result_end": 10407450
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q13",
+      "category": "paraphrase",
+      "query": "طالب يتحدث بحضور شيخه الذي يعده بتصحيح خطئه",
+      "baseline": {
+        "elapsed_ms": 9.54950000232202,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3713.4348999970825,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q14",
+      "category": "paraphrase",
+      "query": "زاهد يجمع الطعام من بيوت أصحابه عندما يستقبل ضيفا",
+      "baseline": {
+        "elapsed_ms": 12.428599999111611,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3795.0333999979193,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 202,
+          "required_overlap_chars": 40,
+          "expected_start": 11607107,
+          "result_start": 11606567,
+          "result_end": 11607442
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q15",
+      "category": "paraphrase",
+      "query": "تحذير من اتهام الآخرين بما لا أجر في صوابه وإثم في خطئه",
+      "baseline": {
+        "elapsed_ms": 21.26479999787989,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3874.0144000003056,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q16",
+      "category": "negation_or_alternative",
+      "query": "موقف عفو عن المعتصم لا انتقام ممن تسبب في الأذى",
+      "baseline": {
+        "elapsed_ms": 20.954499999788823,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3910.5796000003465,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 235,
+          "required_overlap_chars": 40,
+          "expected_start": 6672510,
+          "result_start": 6672132,
+          "result_end": 6673009
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q17",
+      "category": "negation_or_alternative",
+      "query": "الإنفاق على تحصيل المعرفة بدلا من الاحتفاظ بالثروة الموروثة",
+      "baseline": {
+        "elapsed_ms": 19.083499999396736,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 1848.515800000314,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q18",
+      "category": "negation_or_alternative",
+      "query": "العلم ليس مجرد كثرة الروايات بل نور في القلب مع الاتباع",
+      "baseline": {
+        "elapsed_ms": 20.38869999887538,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3774.3035000021337,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 135,
+          "required_overlap_chars": 34,
+          "expected_start": 7760515,
+          "result_start": 7760059,
+          "result_end": 7760973
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q19",
+      "category": "negation_or_alternative",
+      "query": "عالم رفض قبول منصب القضاء رغم الضرب والحبس",
+      "baseline": {
+        "elapsed_ms": 20.966299998690374,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3379.6763999998802,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q20",
+      "category": "negation_or_alternative",
+      "query": "ليس المطلوب الصمت دائما بل مقاومة الإعجاب بالنفس في الكلام والصمت",
+      "baseline": {
+        "elapsed_ms": 20.21220000096946,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3750.7548999965366,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q21",
+      "category": "name_variant",
+      "query": "أبو عبد الله أحمد إمام المحنة وصفحه عن المعتصم",
+      "baseline": {
+        "elapsed_ms": 19.95309999983874,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 4032.760899997811,
+        "returned": 10,
+        "known_hit": {
+          "rank": 3,
+          "overlap_chars": 235,
+          "required_overlap_chars": 40,
+          "expected_start": 6672510,
+          "result_start": 6672132,
+          "result_end": 6673009
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q22",
+      "category": "name_variant",
+      "query": "ابن إدريس الشافعي وترك الشبع سنين طويلة",
+      "baseline": {
+        "elapsed_ms": 20.86799999960931,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 4100.279700000101,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 121,
+          "required_overlap_chars": 31,
+          "expected_start": 5934230,
+          "result_start": 5934128,
+          "result_end": 5934998
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q23",
+      "category": "name_variant",
+      "query": "بشر الحافي وما قاله لمن يعجب بكلامه أو بصمته",
+      "baseline": {
+        "elapsed_ms": 18.488800000341143,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3882.412700000714,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q24",
+      "category": "name_variant",
+      "query": "النعمان بن ثابت وامتناعه عن ولاية القضاء",
+      "baseline": {
+        "elapsed_ms": 21.776699999463744,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3838.3979000027466,
+        "returned": 10,
+        "known_hit": null,
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q25",
+      "category": "name_variant",
+      "query": "أبو جعفر الطبري وكتابته أربعين ورقة يوميا",
+      "baseline": {
+        "elapsed_ms": 4.919900002278155,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3876.7427999991924,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 66,
+          "required_overlap_chars": 17,
+          "expected_start": 8221460,
+          "result_start": 8221033,
+          "result_end": 8221936
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q26",
+      "category": "outside_dictionary",
+      "query": "رصد سقوط كوكبين مضيئين غلب ضوؤهما ضوء القمر والنهار",
+      "baseline": {
+        "elapsed_ms": 3.5878000016964506,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3836.7405999997573,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 131,
+          "required_overlap_chars": 33,
+          "expected_start": 12147017,
+          "result_start": 12146956,
+          "result_end": 12147741
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q27",
+      "category": "outside_dictionary",
+      "query": "محاولة انتشال سفينة غارقة بالحبال والدواليب ثم انقطاع الحبال",
+      "baseline": {
+        "elapsed_ms": 18.568700001196703,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3027.7093999975477,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 379,
+          "required_overlap_chars": 40,
+          "expected_start": 11036596,
+          "result_start": 11036382,
+          "result_end": 11037030
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q28",
+      "category": "outside_dictionary",
+      "query": "المأمون ولعب الشطرنج وتسميته تناقلا",
+      "baseline": {
+        "elapsed_ms": 18.309200000658166,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3773.500300001615,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 113,
+          "required_overlap_chars": 29,
+          "expected_start": 6072031,
+          "result_start": 6071392,
+          "result_end": 6072303
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q29",
+      "category": "outside_dictionary",
+      "query": "زلزال أسقط رؤوس المآذن بدمشق وهدم مدن الساحل",
+      "baseline": {
+        "elapsed_ms": 5.9025999980804045,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3107.7941000003193,
+        "returned": 10,
+        "known_hit": {
+          "rank": 2,
+          "overlap_chars": 176,
+          "required_overlap_chars": 40,
+          "expected_start": 12154228,
+          "result_start": 12153712,
+          "result_end": 12154564
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    },
+    {
+      "id": "Q30",
+      "category": "outside_dictionary",
+      "query": "تعلم لغة أجنبية في سبعة عشر يوما لأغراض المراسلة",
+      "baseline": {
+        "elapsed_ms": 20.707100000436185,
+        "returned": 0,
+        "known_hit": null
+      },
+      "smart": {
+        "elapsed_ms": 3883.955799999967,
+        "returned": 10,
+        "known_hit": {
+          "rank": 1,
+          "overlap_chars": 162,
+          "required_overlap_chars": 40,
+          "expected_start": 2303897,
+          "result_start": 2303789,
+          "result_end": 2304568
+        },
+        "mode": "hybrid",
+        "cache_hit": false,
+        "ranking": {
+          "lexical_candidates": 100,
+          "semantic_candidates": 100,
+          "reranked": 40,
+          "rrf_k": 60,
+          "dedup_overlap": 0.7,
+          "result_pool_limit": 40
+        },
+        "warning": null
+      }
+    }
+  ]
+}

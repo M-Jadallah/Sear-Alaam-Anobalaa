@@ -1,0 +1,154 @@
+{
+  "biography_id": 12,
+  "source_ordinal": 12,
+  "heading": "12 - السائب بن عثمان بن مظعون الجمحي **",
+  "source_char_start": 1617319,
+  "source_char_end": 1617900,
+  "full_text": "### $ 12 - السائب بن عثمان بن مظعون الجمحي **\n# وأمه: خولة بنت حكيم السلمية.\n# وأمها: ضعيفة بنت العاص بن أمية بن عبد شمس.\n# هاجر إلى الحبشة، وكان من الرماة المذكورين، وآخى رسول الله -صلى الله\n~~عليه وسلم- بينه وبين حارثة بن سراقة الأنصاري، المقتول ببدر، الذي أصاب\n~~الفردوس (3) . PageV01P163\n# قال ابن سعد (1) : وشهد السائب بن عثمان بدرا في رواية ابن إسحاق، وأبي\n~~معشر، والواقدي.\n# ولم يذكره ابن عقبة.\n# وكان هشام بن الكلبي يقول: الذي شهدها هو السائب بن مظعون، أخو عثمان\n~~لأبويه.\n# قال ابن سعد (2) : هذا وهم.\n# إلى أن قال: وأصابه سهم يوم اليمامة سنة اثنتي عشرة.\n# قال: ومات منه.\n",
+  "segments": [
+    {
+      "id": 8389,
+      "source_id": 1,
+      "section_id": 291,
+      "biography_id": 12,
+      "segment_ordinal": 1,
+      "text_original": "# وأمه: خولة بنت حكيم السلمية.\n",
+      "normalized_search_text": "وامه خولة بنت حكيم السلمية",
+      "source_char_start": 1617365,
+      "source_char_end": 1617396,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P163"
+    },
+    {
+      "id": 8390,
+      "source_id": 1,
+      "section_id": 291,
+      "biography_id": 12,
+      "segment_ordinal": 2,
+      "text_original": "# وأمها: ضعيفة بنت العاص بن أمية بن عبد شمس.\n",
+      "normalized_search_text": "وامها ضعيفة بنت العاص بن امية بن عبد شمس",
+      "source_char_start": 1617396,
+      "source_char_end": 1617441,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P163"
+    },
+    {
+      "id": 8391,
+      "source_id": 1,
+      "section_id": 291,
+      "biography_id": 12,
+      "segment_ordinal": 3,
+      "text_original": "# هاجر إلى الحبشة، وكان من الرماة المذكورين، وآخى رسول الله -صلى الله\n~~عليه وسلم- بينه وبين حارثة بن سراقة الأنصاري، المقتول ببدر، الذي أصاب\n~~الفردوس (3) . PageV01P163\n",
+      "normalized_search_text": "هاجر الي الحبشة وكان من الرماة المذكورين واخي رسول الله صلي الله عليه وسلم بينه وبين حارثة بن سراقة الانصاري المقتول ببدر الذي اصاب الفردوس 3 pagev01p163",
+      "source_char_start": 1617441,
+      "source_char_end": 1617611,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P163"
+    },
+    {
+      "id": 8392,
+      "source_id": 1,
+      "section_id": 291,
+      "biography_id": 12,
+      "segment_ordinal": 4,
+      "text_original": "# قال ابن سعد (1) : وشهد السائب بن عثمان بدرا في رواية ابن إسحاق، وأبي\n~~معشر، والواقدي.\n",
+      "normalized_search_text": "قال ابن سعد 1 وشهد السائب بن عثمان بدرا في رواية ابن اسحاق وابي معشر والواقدي",
+      "source_char_start": 1617611,
+      "source_char_end": 1617700,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P164"
+    },
+    {
+      "id": 8393,
+      "source_id": 1,
+      "section_id": 291,
+      "biography_id": 12,
+      "segment_ordinal": 5,
+      "text_original": "# ولم يذكره ابن عقبة.\n",
+      "normalized_search_text": "ولم يذكره ابن عقبة",
+      "source_char_start": 1617700,
+      "source_char_end": 1617722,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P164"
+    },
+    {
+      "id": 8394,
+      "source_id": 1,
+      "section_id": 291,
+      "biography_id": 12,
+      "segment_ordinal": 6,
+      "text_original": "# وكان هشام بن الكلبي يقول: الذي شهدها هو السائب بن مظعون، أخو عثمان\n~~لأبويه.\n",
+      "normalized_search_text": "وكان هشام بن الكلبي يقول الذي شهدها هو السائب بن مظعون اخو عثمان لابويه",
+      "source_char_start": 1617722,
+      "source_char_end": 1617801,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P164"
+    },
+    {
+      "id": 8395,
+      "source_id": 1,
+      "section_id": 291,
+      "biography_id": 12,
+      "segment_ordinal": 7,
+      "text_original": "# قال ابن سعد (2) : هذا وهم.\n",
+      "normalized_search_text": "قال ابن سعد 2 هذا وهم",
+      "source_char_start": 1617801,
+      "source_char_end": 1617830,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P164"
+    },
+    {
+      "id": 8396,
+      "source_id": 1,
+      "section_id": 291,
+      "biography_id": 12,
+      "segment_ordinal": 8,
+      "text_original": "# إلى أن قال: وأصابه سهم يوم اليمامة سنة اثنتي عشرة.\n",
+      "normalized_search_text": "الي ان قال واصابه سهم يوم اليمامة سنة اثنتي عشرة",
+      "source_char_start": 1617830,
+      "source_char_end": 1617883,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P164"
+    },
+    {
+      "id": 8397,
+      "source_id": 1,
+      "section_id": 291,
+      "biography_id": 12,
+      "segment_ordinal": 9,
+      "text_original": "# قال: ومات منه.\n",
+      "normalized_search_text": "قال ومات منه",
+      "source_char_start": 1617883,
+      "source_char_end": 1617900,
+      "segment_type": "paragraph",
+      "segmentation_status": "candidate",
+      "page_marker": "PageV01P164"
+    }
+  ],
+  "existing_hits": [],
+  "footnote_candidates": [
+    {
+      "start": 1617593,
+      "end": 1617596,
+      "raw": "(3)"
+    },
+    {
+      "start": 1617625,
+      "end": 1617628,
+      "raw": "(1)"
+    },
+    {
+      "start": 1617815,
+      "end": 1617818,
+      "raw": "(2)"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "authoring_sha256": "4269f466343fe5c5e62a47f0639acfa25c966998d5328d2347253b9b568def81",
+  "reviewer": "root-independent-reader",
+  "all_segments_checked": true,
+  "all_footnotes_checked": true,
+  "findings": [
+    {
+      "note": "فُحص الأصل والمقاطع والأقواس والشواهد والفقرات، وحفظ اختلاف رواية سنة الوفاة وسياق أم سلمة وخبر السرية.",
+      "resolved": true
+    }
+  ],
+  "checks": {
+    "source_coverage": true,
+    "paragraphs": true,
+    "criticism_context": true,
+    "topic_evidence": true,
+    "negative_cases": true
+  }
+}

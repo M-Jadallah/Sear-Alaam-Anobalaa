@@ -1,0 +1,553 @@
+{
+  "author": "/root/vocalization_skill_trial",
+  "final_independent_reviewer": "/root",
+  "initial_independent_code_and_text_reader": "/root/vocalization_audit",
+  "initial_reviewer_final_signature": false,
+  "records": [
+    {
+      "biography_id": 8,
+      "coverage": {
+        "total_words": 445,
+        "checked_words": 445,
+        "complete_words": 430,
+        "uncertain_words": 2,
+        "not_applicable": 13
+      },
+      "insertion_sites": 1367,
+      "added_marks": 1469,
+      "paragraph_groups": 10,
+      "audit": {
+        "authoring_sha256": "ff6b29b663077dee5545f55dd5a9fcc6bd30c0990ba124dadb7d291447e3d193",
+        "reviewer": "/root",
+        "all_segments_checked": true,
+        "all_footnotes_checked": true,
+        "findings": [
+          {
+            "note": "قرأ المراجع الرئيسي النص المقابل كاملًا وضبطه وسياق الأخبار وأسباب الفقرات، مستقلًا عن وكيل التأليف؛ تظل هذه مراجعة وكيل وليست اعتمادًا بشريًا.",
+            "resolved": true
+          },
+          {
+            "note": "فصلت جملة الكهولة وتاريخ الوفاة عن خبر أم سلمة، مع إبقاء اختلاف السنة اللاحق وعدم ترجيحه.",
+            "resolved": true
+          }
+        ],
+        "checks": {
+          "source_coverage": true,
+          "paragraphs": true,
+          "criticism_context": true,
+          "topic_evidence": true,
+          "negative_cases": true,
+          "diacritics": true,
+          "paragraph_context": true
+        }
+      },
+      "source_topic_segments_footnotes_gold_unchanged": true,
+      "uncertainties": [
+        {
+          "start": 1610108,
+          "end": 1610114,
+          "status": "uncertain",
+          "reason": "لم يحسم المصدر ضبط صيغة الأمر في هذا الموضع بين أوجه النطق المتداولة؛ أبقيت الكلمة كلها على أصلها دون استبدال الهمزة أو تخمين الحركات.",
+          "literal": "فأجرني"
+        },
+        {
+          "start": 1610857,
+          "end": 1610860,
+          "status": "uncertain",
+          "reason": "اسم موضع في خبر السرية؛ المصدر غير مشكول والسياق يحدد وظيفته ولا يحسم نطقه، فلم أنقل إليه ضبط اسم آخر.",
+          "literal": "قطن"
+        }
+      ]
+    },
+    {
+      "biography_id": 9,
+      "coverage": {
+        "total_words": 919,
+        "checked_words": 919,
+        "complete_words": 887,
+        "uncertain_words": 5,
+        "not_applicable": 27
+      },
+      "insertion_sites": 2710,
+      "added_marks": 2957,
+      "paragraph_groups": 23,
+      "audit": {
+        "authoring_sha256": "e3d20fa992a2e4b26b22211670b655929885c2c68191c9ade5f7fc51ea4e9672",
+        "reviewer": "/root",
+        "all_segments_checked": true,
+        "all_footnotes_checked": true,
+        "findings": [
+          {
+            "note": "قرأ المراجع الرئيسي النص المقابل كاملًا وضبطه وسياق الأخبار وأسباب الفقرات، مستقلًا عن وكيل التأليف؛ تظل هذه مراجعة وكيل وليست اعتمادًا بشريًا.",
+            "resolved": true
+          },
+          {
+            "note": "أبقي موضعا تلبس على الأصل مع تعليل الالتباس، بدل حسم الباب الصرفي بالحدس.",
+            "resolved": true
+          },
+          {
+            "note": "حُذف وصف الدعاء من سبب فقرة الرهبانية لأنه لا يوجد دعاء في متنها؛ بقي وصف الخطاب.",
+            "resolved": true
+          },
+          {
+            "note": "تحقق بدء أمر الالتحاق باِلْحَقِي في النص المؤلف، كما نبه المدقق الفرعي الأولي، وحفظ لفظ المصدر وحروفه.",
+            "resolved": true
+          }
+        ],
+        "checks": {
+          "source_coverage": true,
+          "paragraphs": true,
+          "criticism_context": true,
+          "topic_evidence": true,
+          "negative_cases": true,
+          "diacritics": true,
+          "paragraph_context": true
+        }
+      },
+      "source_topic_segments_footnotes_gold_unchanged": true,
+      "uncertainties": [
+        {
+          "start": 1611768,
+          "end": 1611774,
+          "status": "uncertain",
+          "reason": "ضبط اسم الأب يحتاج تثبتًا مستقلًا لا يفصله هذا السياق غير المشكول؛ أبقيته دون حركات إضافية.",
+          "literal": "المسيب"
+        },
+        {
+          "start": 1612949,
+          "end": 1612953,
+          "status": "uncertain",
+          "reason": "يحتمل اللفظ معنى الملابسة أو اللبس؛ لا أحسم حركة عين الفعل من هذا السياق وحده، فحفظت ضبط المصدر بلا إضافات.",
+          "literal": "تلبس"
+        },
+        {
+          "start": 1614035,
+          "end": 1614039,
+          "status": "uncertain",
+          "reason": "تقدير الابتداء أو الظرفية في جملة أما ليله فقائم غير مصرح به في المصدر؛ أبقيت الكلمة حتى المراجعة بدل فرض وجه إعرابي.",
+          "literal": "ليله"
+        },
+        {
+          "start": 1614052,
+          "end": 1614057,
+          "status": "uncertain",
+          "reason": "تتبع جملة نهاره فصائم تقدير قرينتها ليله فقائم؛ تركت اللفظ الأصلي كاملًا دون حسم موضع الخلاف الإعرابي.",
+          "literal": "نهاره"
+        },
+        {
+          "start": 1615071,
+          "end": 1615075,
+          "status": "uncertain",
+          "reason": "يحتمل اللفظ معنى الملابسة أو اللبس؛ لا أحسم حركة عين الفعل من هذا السياق وحده، فحفظت ضبط المصدر بلا إضافات.",
+          "literal": "تلبس"
+        }
+      ]
+    },
+    {
+      "biography_id": 10,
+      "coverage": {
+        "total_words": 122,
+        "checked_words": 122,
+        "complete_words": 115,
+        "uncertain_words": 0,
+        "not_applicable": 7
+      },
+      "insertion_sites": 406,
+      "added_marks": 435,
+      "paragraph_groups": 5,
+      "audit": {
+        "authoring_sha256": "89bd51b4949df02fc234fd535ba2b9a42bbda599bd2e304d0b33af62427f50cd",
+        "reviewer": "/root",
+        "all_segments_checked": true,
+        "all_footnotes_checked": true,
+        "findings": [
+          {
+            "note": "قرأ المراجع الرئيسي النص المقابل كاملًا وضبطه وسياق الأخبار وأسباب الفقرات، مستقلًا عن وكيل التأليف؛ تظل هذه مراجعة وكيل وليست اعتمادًا بشريًا.",
+            "resolved": true
+          }
+        ],
+        "checks": {
+          "source_coverage": true,
+          "paragraphs": true,
+          "criticism_context": true,
+          "topic_evidence": true,
+          "negative_cases": true,
+          "diacritics": true,
+          "paragraph_context": true
+        }
+      },
+      "source_topic_segments_footnotes_gold_unchanged": true,
+      "uncertainties": []
+    },
+    {
+      "biography_id": 11,
+      "coverage": {
+        "total_words": 61,
+        "checked_words": 61,
+        "complete_words": 58,
+        "uncertain_words": 0,
+        "not_applicable": 3
+      },
+      "insertion_sites": 189,
+      "added_marks": 203,
+      "paragraph_groups": 4,
+      "audit": {
+        "authoring_sha256": "54f60d89af45779a10f381fec8e8f2dc76582986bc1883e93c454510fd650922",
+        "reviewer": "/root",
+        "all_segments_checked": true,
+        "all_footnotes_checked": true,
+        "findings": [
+          {
+            "note": "قرأ المراجع الرئيسي النص المقابل كاملًا وضبطه وسياق الأخبار وأسباب الفقرات، مستقلًا عن وكيل التأليف؛ تظل هذه مراجعة وكيل وليست اعتمادًا بشريًا.",
+            "resolved": true
+          },
+          {
+            "note": "سبب الفصل الأخير انتقال إلى تاريخ الوفاة والعمر، مع بقاء خبر المؤاخاة وإسناده متصلين.",
+            "resolved": true
+          }
+        ],
+        "checks": {
+          "source_coverage": true,
+          "paragraphs": true,
+          "criticism_context": true,
+          "topic_evidence": true,
+          "negative_cases": true,
+          "diacritics": true,
+          "paragraph_context": true
+        }
+      },
+      "source_topic_segments_footnotes_gold_unchanged": true,
+      "uncertainties": []
+    }
+  ],
+  "scientific_human_approval": false,
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "source_characters": 8669,
+  "source_segments": 118,
+  "actual_project_publication": false,
+  "isolated_library": "C:\\Users\\asala\\AppData\\Local\\Temp\\siyar-diacritics-trial-h54sy2n1\\library.sqlite3",
+  "status": "completed isolated two-batch linguistic/paragraph/browser/publication trial",
+  "batches": [
+    {
+      "batch_id": "7ae7f691ffe2-8-9",
+      "revision": "7396822678d37e9788499bcb6e34f3021e3f4bc1cfe5cb6a3853b3e5c179c7c1",
+      "gold_frozen_sha256": "8f12f7c84ab9fd8eeb91fed342dd1f37bfcbba5e2f8f2743dfc434ba59bc300e",
+      "status": {
+        "status": "published",
+        "batch": "C:\\Users\\asala\\AppData\\Local\\Temp\\siyar-diacritics-trial-h54sy2n1\\work\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-8-9",
+        "batch_id": "7ae7f691ffe2-8-9",
+        "revision": "7396822678d37e9788499bcb6e34f3021e3f4bc1cfe5cb6a3853b3e5c179c7c1",
+        "published_revision": "7396822678d37e9788499bcb6e34f3021e3f4bc1cfe5cb6a3853b3e5c179c7c1",
+        "authoring": [
+          {
+            "biography_id": 8,
+            "authoring_sha256": "ff6b29b663077dee5545f55dd5a9fcc6bd30c0990ba124dadb7d291447e3d193"
+          },
+          {
+            "biography_id": 9,
+            "authoring_sha256": "e3d20fa992a2e4b26b22211670b655929885c2c68191c9ade5f7fc51ea4e9672"
+          }
+        ],
+        "skipped": [],
+        "validation": {
+          "valid": true,
+          "status": "published",
+          "revision": "7396822678d37e9788499bcb6e34f3021e3f4bc1cfe5cb6a3853b3e5c179c7c1",
+          "biographies": []
+        },
+        "gates": {
+          "authoring_valid": true,
+          "audit_valid": true,
+          "preview_current": true,
+          "qa_current": true,
+          "published": true
+        },
+        "counts": {
+          "requested": 2,
+          "pending": 2,
+          "skipped": 0
+        },
+        "coverage": [
+          {
+            "biography_id": 8,
+            "total_segments": 30,
+            "assessed_segments": 30,
+            "total_footnote_candidates": 12,
+            "assessed_footnote_candidates": 12,
+            "total_words": 445,
+            "checked_words": 445,
+            "uncertain_words": 2
+          },
+          {
+            "biography_id": 9,
+            "total_segments": 78,
+            "assessed_segments": 78,
+            "total_footnote_candidates": 33,
+            "assessed_footnote_candidates": 33,
+            "total_words": 919,
+            "checked_words": 919,
+            "uncertain_words": 5
+          }
+        ],
+        "phase": "published",
+        "remaining": [],
+        "reasons": {}
+      },
+      "qa": {
+        "batch_id": "7ae7f691ffe2-8-9",
+        "reviewer": "/root",
+        "browser": "Chromium desktop1440x1000/mobile390x844",
+        "biographies": [
+          {
+            "id": 8,
+            "coverage": {
+              "total_words": 445,
+              "checked_words": 445,
+              "complete_words": 430,
+              "uncertain_words": 2,
+              "not_applicable": 13
+            },
+            "insertion_sites": 1367,
+            "paragraph_groups": 10,
+            "unicode_source_length": 2467,
+            "copy": true,
+            "source_roundtrip": true,
+            "highlight": true
+          },
+          {
+            "id": 9,
+            "coverage": {
+              "total_words": 919,
+              "checked_words": 919,
+              "complete_words": 887,
+              "uncertain_words": 5,
+              "not_applicable": 27
+            },
+            "insertion_sites": 2710,
+            "paragraph_groups": 23,
+            "unicode_source_length": 5097,
+            "copy": true,
+            "source_roundtrip": true,
+            "highlight": true
+          }
+        ],
+        "checks": {
+          "desktop": true,
+          "mobile": true,
+          "keyboard": true,
+          "copy_raw": true,
+          "copy_formatted": true,
+          "highlight": true,
+          "footnotes": true,
+          "no_horizontal_overflow": true,
+          "no_console_errors": true,
+          "unchanged_outside_batch": true,
+          "diacritics_toggle": true
+        },
+        "screenshots": [
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-8-vocalized-desktop.png",
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-8-vocalized-mobile35.png",
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-9-vocalized-desktop.png",
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-9-vocalized-mobile35.png"
+        ],
+        "console_errors": [],
+        "revision": "7396822678d37e9788499bcb6e34f3021e3f4bc1cfe5cb6a3853b3e5c179c7c1",
+        "gold_frozen_sha256": "8f12f7c84ab9fd8eeb91fed342dd1f37bfcbba5e2f8f2743dfc434ba59bc300e"
+      },
+      "repeat_publication": {
+        "status": "unchanged",
+        "batch_id": "7ae7f691ffe2-8-9",
+        "revision": "7396822678d37e9788499bcb6e34f3021e3f4bc1cfe5cb6a3853b3e5c179c7c1"
+      }
+    },
+    {
+      "batch_id": "7ae7f691ffe2-10-11",
+      "revision": "177934838ff68ac7711ea9ff13cb56fe9ec4eed37cbbf96cb1d95db45122bdd6",
+      "gold_frozen_sha256": "046951f02860d1cd54be01990e93e3f5e1acb6a41cff1cf88d1a905fd0e3e82c",
+      "status": {
+        "status": "published",
+        "batch": "C:\\Users\\asala\\AppData\\Local\\Temp\\siyar-diacritics-trial-h54sy2n1\\work\\7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0\\7ae7f691ffe2-10-11",
+        "batch_id": "7ae7f691ffe2-10-11",
+        "revision": "177934838ff68ac7711ea9ff13cb56fe9ec4eed37cbbf96cb1d95db45122bdd6",
+        "published_revision": "177934838ff68ac7711ea9ff13cb56fe9ec4eed37cbbf96cb1d95db45122bdd6",
+        "authoring": [
+          {
+            "biography_id": 10,
+            "authoring_sha256": "89bd51b4949df02fc234fd535ba2b9a42bbda599bd2e304d0b33af62427f50cd"
+          },
+          {
+            "biography_id": 11,
+            "authoring_sha256": "54f60d89af45779a10f381fec8e8f2dc76582986bc1883e93c454510fd650922"
+          }
+        ],
+        "skipped": [],
+        "validation": {
+          "valid": true,
+          "status": "published",
+          "revision": "177934838ff68ac7711ea9ff13cb56fe9ec4eed37cbbf96cb1d95db45122bdd6",
+          "biographies": []
+        },
+        "gates": {
+          "authoring_valid": true,
+          "audit_valid": true,
+          "preview_current": true,
+          "qa_current": true,
+          "published": true
+        },
+        "counts": {
+          "requested": 2,
+          "pending": 2,
+          "skipped": 0
+        },
+        "coverage": [
+          {
+            "biography_id": 10,
+            "total_segments": 7,
+            "assessed_segments": 7,
+            "total_footnote_candidates": 5,
+            "assessed_footnote_candidates": 5,
+            "total_words": 122,
+            "checked_words": 122,
+            "uncertain_words": 0
+          },
+          {
+            "biography_id": 11,
+            "total_segments": 3,
+            "assessed_segments": 3,
+            "total_footnote_candidates": 2,
+            "assessed_footnote_candidates": 2,
+            "total_words": 61,
+            "checked_words": 61,
+            "uncertain_words": 0
+          }
+        ],
+        "phase": "published",
+        "remaining": [],
+        "reasons": {}
+      },
+      "qa": {
+        "batch_id": "7ae7f691ffe2-10-11",
+        "reviewer": "/root",
+        "browser": "Chromium desktop1440x1000/mobile390x844",
+        "biographies": [
+          {
+            "id": 10,
+            "coverage": {
+              "total_words": 122,
+              "checked_words": 122,
+              "complete_words": 115,
+              "uncertain_words": 0,
+              "not_applicable": 7
+            },
+            "insertion_sites": 406,
+            "paragraph_groups": 5,
+            "unicode_source_length": 758,
+            "copy": true,
+            "source_roundtrip": true,
+            "highlight": true
+          },
+          {
+            "id": 11,
+            "coverage": {
+              "total_words": 61,
+              "checked_words": 61,
+              "complete_words": 58,
+              "uncertain_words": 0,
+              "not_applicable": 3
+            },
+            "insertion_sites": 189,
+            "paragraph_groups": 4,
+            "unicode_source_length": 347,
+            "copy": true,
+            "source_roundtrip": true,
+            "highlight": true
+          }
+        ],
+        "checks": {
+          "desktop": true,
+          "mobile": true,
+          "keyboard": true,
+          "copy_raw": true,
+          "copy_formatted": true,
+          "highlight": true,
+          "footnotes": true,
+          "no_horizontal_overflow": true,
+          "no_console_errors": true,
+          "unchanged_outside_batch": true,
+          "diacritics_toggle": true
+        },
+        "screenshots": [
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-10-vocalized-desktop.png",
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-10-vocalized-mobile35.png",
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-11-vocalized-desktop.png",
+          "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-11-vocalized-mobile35.png"
+        ],
+        "console_errors": [],
+        "revision": "177934838ff68ac7711ea9ff13cb56fe9ec4eed37cbbf96cb1d95db45122bdd6",
+        "gold_frozen_sha256": "046951f02860d1cd54be01990e93e3f5e1acb6a41cff1cf88d1a905fd0e3e82c"
+      },
+      "repeat_publication": {
+        "status": "unchanged",
+        "batch_id": "7ae7f691ffe2-10-11",
+        "revision": "177934838ff68ac7711ea9ff13cb56fe9ec4eed37cbbf96cb1d95db45122bdd6"
+      }
+    }
+  ],
+  "paragraph_before_after": [
+    {
+      "biography_id": 8,
+      "before": 9,
+      "after": 10,
+      "change": "فصل إشعار الكهولة والتاريخ عن خبر الزوجة دون ترجيح السنة"
+    },
+    {
+      "biography_id": 9,
+      "before": 23,
+      "after": 23,
+      "change": "حفظ اتصال الأسانيد والنقد والحوار عبر الصفحات مع أسباب لكل فقرة"
+    },
+    {
+      "biography_id": 10,
+      "before": 5,
+      "after": 5,
+      "change": "حفظ دعوى الانفراد وتصويبها في السياق نفسه"
+    },
+    {
+      "biography_id": 11,
+      "before": 3,
+      "after": 4,
+      "change": "فصل انتقال خبر الوفاة والعمر عن خبر المؤاخاة"
+    }
+  ],
+  "totals": {
+    "total_words": 1547,
+    "checked_words": 1547,
+    "complete_words": 1490,
+    "uncertain_words": 7,
+    "not_applicable": 50,
+    "insertion_sites": 4672,
+    "added_marks": 5064,
+    "paragraph_groups": 42
+  },
+  "visual_inspection": {
+    "reviewer": "/root",
+    "screenshots": [
+      "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-10-vocalized-desktop.png",
+      "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-10-vocalized-mobile35.png",
+      "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-11-vocalized-desktop.png",
+      "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-11-vocalized-mobile35.png",
+      "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-8-vocalized-desktop.png",
+      "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-8-vocalized-mobile35.png",
+      "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-9-vocalized-desktop.png",
+      "C:\\Users\\asala\\.codex\\visualizations\\siyar-diacritics-20261028\\reader-9-vocalized-mobile35.png"
+    ],
+    "all_images_viewed": true,
+    "physical_mobile_or_firefox_safari": false
+  },
+  "limitations": [
+    "Full-word review is agent linguistic judgment, not a human scholarly certification.",
+    "Seven word occurrences retain source vocalization with explicit uncertainty.",
+    "Appendix context excerpts remain literal; added vowels affect the source-backed reading body and authored headings.",
+    "No new search-quality or performance claim; source search and semantic vectors unchanged."
+  ]
+}

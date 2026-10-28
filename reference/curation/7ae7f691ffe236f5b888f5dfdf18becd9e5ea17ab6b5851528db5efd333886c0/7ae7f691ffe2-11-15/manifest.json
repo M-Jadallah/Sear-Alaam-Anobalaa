@@ -1,0 +1,61 @@
+{
+  "version": "curation-batch-v2",
+  "batch_id": "7ae7f691ffe2-11-15",
+  "source_id": 1,
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "start_ordinal": 11,
+  "end_ordinal": 15,
+  "curator": "codex-team",
+  "biographies": [
+    {
+      "id": 11,
+      "source_ordinal": 11,
+      "heading": "11 - عبد الله بن مظعون الجمحي أبو محمد *",
+      "source_char_start": 1616972,
+      "source_char_end": 1617319,
+      "status": "pending",
+      "directory": "biography-11",
+      "baseline_sha256": "12f89225d63f684573ffc34e5b48b3dc955064b70b66431e16adeeca14a06fe7"
+    },
+    {
+      "id": 12,
+      "source_ordinal": 12,
+      "heading": "12 - السائب بن عثمان بن مظعون الجمحي **",
+      "source_char_start": 1617319,
+      "source_char_end": 1617900,
+      "status": "pending",
+      "directory": "biography-12",
+      "baseline_sha256": "5b45875481f55794ac5f552628f2467a212ec9058f9b6369bf9927d31c38f91b"
+    },
+    {
+      "id": 13,
+      "source_ordinal": 13,
+      "heading": "13 - أبو حذيفة بن عتبة بن ربيعة القرشي العبشمي *",
+      "source_char_start": 1617900,
+      "source_char_end": 1619592,
+      "status": "pending",
+      "directory": "biography-13",
+      "baseline_sha256": "182281f7278cec3155a555dec41a79313797a55494cfb07b4f2357992a1cb0f1"
+    },
+    {
+      "id": 14,
+      "source_ordinal": 14,
+      "heading": "14 - سالم مولى أبي حذيفة *",
+      "source_char_start": 1619592,
+      "source_char_end": 1622541,
+      "status": "pending",
+      "directory": "biography-14",
+      "baseline_sha256": "df1c278a2f0c3a2e3a53d4404c75c422b42b3f00d26cbe623917c0d6ee4d35de"
+    },
+    {
+      "id": 15,
+      "source_ordinal": 15,
+      "heading": "15 - حمزة بن عبد المطلب بن هاشم بن عبد مناف القرشي *",
+      "source_char_start": 1624053,
+      "source_char_end": 1633869,
+      "status": "pending",
+      "directory": "biography-15",
+      "baseline_sha256": "5735fd8de821348d1918754deca8a09e592351cacdd6359aa5a56cdc3f46a27b"
+    }
+  ]
+}
