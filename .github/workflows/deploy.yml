@@ -71,7 +71,6 @@ jobs:
           SIYAR_ONNX_TOKENIZER: rust
         run: |
           python scripts/evaluate_semantic.py --require-hybrid --output deploy/test-output/semantic-evaluation.json
-          python -c "import json; d=json.load(open('deploy/test-output/semantic-evaluation.json')); assert d['goals']['descriptive_hit_at_10_at_least_80_percent'], d['descriptive_questions']"
           python -m pytest tests/test_semantic_offline.py tests/test_onnx_lightweight.py -q
           python -m pytest tests/test_rust_tokenizer.py -q
       - name: Build AMD64 images locally on CI
@@ -80,6 +79,8 @@ jobs:
           docker build --platform linux/amd64 -f deploy/web.Dockerfile -t ghcr.io/m-jadallah/sear-alaam-anobalaa-web:sha-${{ github.sha }} .
       - name: Exercise actual memory-limited offline containers
         run: python scripts/container_qa.py --api ghcr.io/m-jadallah/sear-alaam-anobalaa-api:sha-${{ github.sha }} --web ghcr.io/m-jadallah/sear-alaam-anobalaa-web:sha-${{ github.sha }}
+      - name: Enforce the 80 percent retrieval release gate
+        run: python -c "import json; d=json.load(open('deploy/test-output/semantic-evaluation.json')); assert d['goals']['descriptive_hit_at_10_at_least_80_percent'], d['descriptive_questions']"
       - name: Login to private GHCR
         uses: docker/login-action@v3
         with:
