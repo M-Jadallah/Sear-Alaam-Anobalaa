@@ -8,6 +8,7 @@ import type { TopicAudit } from './pilot-types';
 import { FormattedText } from './formatted-text';
 import type { ReadingView } from './api';
 import { useCurationBatches } from './curation-batches';
+import { useAuth } from './auth';
 
 interface AuditPage extends Omit<List, 'items'> { items: TopicAudit[] }
 interface CoverageRow {
@@ -18,7 +19,8 @@ interface CoverageRow {
 }
 interface CoveragePage extends Omit<List, 'items'> { items: CoverageRow[] }
 function CoverageReview({ item, batchId, saved }: { item: CoverageRow; batchId?: string; saved: () => void }) {
-  const [reviewer, setReviewer] = useState(''), [note, setNote] = useState('');
+  const { session } = useAuth();
+  const [reviewer, setReviewer] = useState(session?.mode === 'production' ? session.username ?? '' : ''), [note, setNote] = useState('');
   const [busy, setBusy] = useState(false), [error, setError] = useState('');
   const save = async () => {
     setBusy(true); setError('');
@@ -42,7 +44,8 @@ function AuditReview({ item, topics, batchId, saved }: { item: TopicAudit; topic
   const [topicId, setTopicId] = useState(item.topic_id);
   const [start, setStart] = useState(String(item.source_char_start));
   const [end, setEnd] = useState(String(item.source_char_end));
-  const [reviewer, setReviewer] = useState('');
+  const { session } = useAuth();
+  const [reviewer, setReviewer] = useState(session?.mode === 'production' ? session.username ?? '' : '');
   const [note, setNote] = useState('');
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');

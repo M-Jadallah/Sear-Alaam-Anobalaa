@@ -1,10 +1,36 @@
 """CPU adapter checks use only fake sessions, tokenizers and isolated manifests."""
 import json
+import io
 import sys
 from types import SimpleNamespace
 
 import pytest
 np=pytest.importorskip("numpy")
+
+
+def test_portable_model_download_does_not_require_or_fetch_torch_weights(monkeypatch, tmp_path):
+    from backend import semantic, semantic_onnx
+    monkeypatch.setattr(semantic, "MODEL_DIR", tmp_path)
+    monkeypatch.setattr(semantic, "runtime_backend", lambda: semantic_onnx.PORTABLE_RUNTIME)
+    fetched = []
+    class Response(io.BytesIO):
+        headers = {}
+        status = 200
+    def open_url(url, **kwargs):
+        url = getattr(url, "full_url", url)
+        fetched.append(url)
+        if "/api/models/" in url:
+            return Response(json.dumps({"siblings": [{"rfilename": name} for name in ["config.json", "tokenizer.json", "model.safetensors"]]}).encode())
+        return Response(b"{}")
+    monkeypatch.setattr(semantic.urllib.request, "urlopen", open_url)
+    quantized = []
+    monkeypatch.setattr(semantic_onnx, "download_onnx_models", lambda: quantized.append(True))
+    monkeypatch.setattr(semantic, "effective_model_manifest", lambda value: value)
+    result = semantic.download_models()
+    assert quantized == [True]
+    assert not any("safetensors" in url for url in fetched)
+    assert len(result["models"]) == 2
+    assert all({row["path"] for row in model["files"]} == {"config.json", "tokenizer.json"} for model in result["models"])
 
 
 class FakeTokenizer:

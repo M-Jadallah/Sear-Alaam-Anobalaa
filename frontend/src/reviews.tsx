@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { Check, X, Save, History } from "lucide-react";
 import { useApi, params, postReview, number, useAllTopics } from "./api";
+import { useAuth } from './auth';
 import type { Row, List } from "./api";
 import {
   Empty,
@@ -23,7 +24,9 @@ function ReviewForm({
   kind: string;
   saved: () => void;
 }) {
-  const [reviewer, setReviewer] = useState("");
+  const { session } = useAuth();
+  const isAdmin = session?.mode === 'production';
+  const [reviewer, setReviewer] = useState(isAdmin ? session?.username ?? '' : '');
   const [note, setNote] = useState("");
   const [topic, setTopic] = useState(item.topic_id ?? 0);
   const [person, setPerson] = useState(item.person_id ?? 0);
@@ -83,6 +86,7 @@ function ReviewForm({
           <input
             aria-label="اسم المراجع"
             value={reviewer}
+            readOnly={isAdmin}
             onChange={(e) => setReviewer(e.target.value)}
             placeholder="اسمك في سجل التدقيق"
             maxLength={100}

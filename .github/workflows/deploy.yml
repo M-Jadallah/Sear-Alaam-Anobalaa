@@ -45,7 +45,8 @@ jobs:
           npx playwright install --with-deps chromium
           npm run test:e2e -- production-auth.spec.ts
       - name: Cache versioned offline assets
-        uses: actions/cache@v4
+        id: offline-cache
+        uses: actions/cache/restore@v4
         with:
           path: deploy/artifacts
           key: portable-int8-v2-${{ runner.os }}-${{ hashFiles('backend/semantic*.py', 'backend/reading*.py', 'backend/diacritics.py', 'requirements-production.txt', 'deploy/seed/manifest.json') }}
@@ -67,6 +68,12 @@ jobs:
           python -c "import json; d=json.load(open('deploy/test-output/semantic-evaluation.json')); assert d['goals']['descriptive_hit_at_10_at_least_80_percent'], d['descriptive_questions']"
           python -m pytest tests/test_semantic_offline.py -q
           python -m pytest tests/test_rust_tokenizer.py -q
+      - name: Save completed assets before container testing
+        if: steps.offline-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: deploy/artifacts
+          key: ${{ steps.offline-cache.outputs.cache-primary-key }}
       - name: Build AMD64 images locally on CI
         run: |
           docker build --platform linux/amd64 -f deploy/api.Dockerfile -t ghcr.io/m-jadallah/sear-alaam-anobalaa-api:sha-${{ github.sha }} .

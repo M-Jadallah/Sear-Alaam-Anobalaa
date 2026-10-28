@@ -198,7 +198,10 @@ def download_models():
         for path in sorted(destination.rglob("*")):
             if path.is_file() and ".cache" not in path.parts:
                 files.append({"path": path.relative_to(destination).as_posix(), "size": path.stat().st_size, "sha256": file_sha256(path)})
-        if not any(item["path"].endswith(".safetensors") for item in files):
+        if runtime_backend() == "onnxruntime-cpu-int8-portable-v2":
+            if not {"tokenizer.json", "config.json"}.issubset({item["path"] for item in files}):
+                raise RuntimeError("ملفات محول النص المحلي غير مكتملة.")
+        elif not any(item["path"].endswith(".safetensors") for item in files):
             raise RuntimeError("لم يُنزّل ملف safetensors للنموذج؛ لا يُنشر فهرس ناقص.")
         models.append({"kind": kind, "model": name, "revision": revision, "files": files, "fingerprint": _json_hash(files)})
     manifest = {"models": models, "fingerprint": _json_hash(models)}
