@@ -1,5 +1,6 @@
 """Container-only read/search/auth acceptance against disposable CI volumes."""
 import json
+from concurrent.futures import ThreadPoolExecutor
 import os
 from pathlib import Path
 import statistics
@@ -44,6 +45,9 @@ def main():
     # Warmup is outside the timed sample; query response transport is measured.
     warm = request("/api/search/smart", {"q": "العلم والإخلاص"})
     assert warm[0] == 200 and warm[2]["mode"] == "hybrid", warm
+    with ThreadPoolExecutor(max_workers=10) as readers:
+        requests = list(readers.map(lambda _: request("/api/sources/1/text?start=0&end=1000")[0], range(10)))
+        assert all(code == 200 for code in requests), requests
     for query in queries:
         start = time.monotonic()
         code, _, result = request("/api/search/smart", {"q": query})

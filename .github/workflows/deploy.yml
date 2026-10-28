@@ -66,7 +66,7 @@ jobs:
         run: |
           python scripts/evaluate_semantic.py --require-hybrid --output deploy/test-output/semantic-evaluation.json
           python -c "import json; d=json.load(open('deploy/test-output/semantic-evaluation.json')); assert d['goals']['descriptive_hit_at_10_at_least_80_percent'], d['descriptive_questions']"
-          python -m pytest tests/test_semantic_offline.py -q
+          python -m pytest tests/test_semantic_offline.py tests/test_onnx_lightweight.py -q
           python -m pytest tests/test_rust_tokenizer.py -q
       - name: Save completed assets before container testing
         if: steps.offline-cache.outputs.cache-hit != 'true'

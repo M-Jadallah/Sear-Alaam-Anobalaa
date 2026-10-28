@@ -104,6 +104,13 @@ def create_app(db_path=None, source_path=None):
     auth = Auth(AuthSettings.from_environment(database))
     app.state.auth = auth
     auth.install(app)
+    if auth.settings.production:
+        async def bound_database_threads():
+            import anyio.to_thread
+            # Source reads materialize the canonical text. Bound concurrent
+            # SQLite handlers as well as inference on the shared 2GB server.
+            anyio.to_thread.current_default_thread_limiter().total_tokens = 2
+        app.add_event_handler("startup", bound_database_threads)
     app.include_router(reading_router(database))
     app.include_router(smart_router(database))
     app.include_router(pilot_router(database))
