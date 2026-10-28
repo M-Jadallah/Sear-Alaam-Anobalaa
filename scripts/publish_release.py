@@ -11,6 +11,34 @@ def run(*args, **kwargs):
     return subprocess.run(args, check=True, text=True, capture_output=True, **kwargs).stdout.strip()
 
 
+def github(path, method="GET"):
+    req = urllib.request.Request("https://api.github.com/" + path, method=method,
+          headers={"Authorization": "Bearer " + os.environ["GH_TOKEN"], "Accept": "application/vnd.github+json", "User-Agent": "siyar-release"})
+    with urllib.request.urlopen(req, timeout=30) as response:
+        return None if response.status == 204 else json.load(response)
+
+
+def prune_images(images, previous):
+    """Delete only this repository's SHA tags, retaining the two deployed releases."""
+    deleted = []
+    for kind in ("api", "web"):
+        package = "sear-alaam-anobalaa-" + kind
+        path = "users/M-Jadallah/packages/container/" + package
+        details = github(path)
+        if details.get("visibility") != "private" or details.get("repository", {}).get("full_name", "").lower() != "m-jadallah/sear-alaam-anobalaa":
+            continue
+        keep = {images[kind].split("@", 1)[1]}
+        if previous.get(kind):
+            keep.add(previous[kind].split("@", 1)[1])
+        for version in github(path + "/versions?per_page=100"):
+            tags = version.get("metadata", {}).get("container", {}).get("tags", [])
+            if version["name"] in keep or not tags or not all(re.fullmatch(r"sha-[a-f0-9]{40}", tag) for tag in tags):
+                continue
+            github(path + "/versions/" + str(int(version["id"])), "DELETE")
+            deleted.append({"package": package, "id": version["id"]})
+    return deleted
+
+
 def main():
     sha = os.environ["RELEASE_SHA"]
     if not re.fullmatch("[a-f0-9]{40}", sha):
@@ -48,11 +76,20 @@ def main():
     tree = run("git", "write-tree")
     run("git", "fetch", "origin")
     previous = subprocess.run(["git", "rev-parse", "--verify", "origin/production"], text=True, capture_output=True)
+    previous_images = {}
+    if previous.returncode == 0:
+        previous_images = json.loads(run("git", "show", "origin/production:deploy/release.json"))["images"]
     command = ["git", "commit-tree", tree, "-p", sha]
     if previous.returncode == 0:
         command += ["-p", previous.stdout.strip()]
     commit = run(*command, input="Deploy verified release " + sha + "\n")
     run("git", "push", "origin", commit + ":refs/heads/production")
+    try:
+        release["registry_cleanup"] = prune_images(images, previous_images)
+    except Exception as error:
+        # Retaining extra images is preferable to failing an already-published
+        # release or deleting unrelated versions with uncertain permissions.
+        release["registry_cleanup_warning"] = str(error)
     print(json.dumps(release))
 
 
