@@ -1,0 +1,39 @@
+name: Withdraw images that failed the private publication gate
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  packages: write
+jobs:
+  withdraw:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Remove only this rejected release from GHCR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import urllib.request,json,os,urllib.error
+          token=os.environ['GH_TOKEN']
+          def api(path,method='GET'):
+              request=urllib.request.Request('https://api.github.com/'+path,headers={'Authorization':'Bearer '+token,'Accept':'application/vnd.github+json','User-Agent':'siyar-withdraw-rejected-release'},method=method)
+              with urllib.request.urlopen(request,timeout=30) as response:
+                  return None if response.status==204 else json.load(response)
+          expected='sha-08591cfd42201f4615b6964b25f1432b147918f8'
+          for kind in ('api','web'):
+              path='users/M-Jadallah/packages/container/sear-alaam-anobalaa-'+kind
+              package=api(path)
+              assert package['visibility']=='public'
+              assert package['repository']['full_name'].lower()=='m-jadallah/sear-alaam-anobalaa'
+              versions=api(path+'/versions?per_page=100')
+              matching=[version for version in versions if version['metadata']['container']['tags']==[expected]]
+              assert matching, 'Rejected version not found'
+              if len(matching)==len(versions)==package['version_count']:
+                  api(path,'DELETE')
+                  print(json.dumps({'withdrawn_package':package['name'],'version_ids':[v['id'] for v in matching]}))
+              else:
+                  for version in matching:
+                      api(path+'/versions/'+str(version['id']),'DELETE')
+                      print(json.dumps({'withdrawn_version':version['id'],'package':package['name']}))
+          PY
