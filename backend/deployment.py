@@ -1,5 +1,6 @@
 """Verified bootstrap/backup commands; never overwrite an existing library."""
 import argparse
+import codecs
 from contextlib import closing
 from datetime import datetime, timezone
 import gzip
@@ -46,16 +47,29 @@ def _flush_disk_cache(stream):
         os.posix_fadvise(stream.fileno(), 0, 0, os.POSIX_FADV_DONTNEED)
 
 
+class _SQLiteText:
+    def __init__(self, db, rowid):
+        self.db, self.rowid = db, rowid
+
+    def chunks(self):
+        decoder = codecs.getincrementaldecoder("utf-8")()
+        with self.db.blobopen("sources", "full_text", self.rowid, readonly=True) as stream:
+            while raw := stream.read(65536):
+                yield decoder.decode(raw)
+            yield decoder.decode(b"", final=True)
+
+
 def _hash_row(digest, row):
     """Preserve the v1 JSON bytes without duplicating the whole book string."""
     digest.update(b"[")
     for index, value in enumerate(row):
         if index:
             digest.update(b",")
-        if isinstance(value, str):
+        if isinstance(value, (str, _SQLiteText)):
             digest.update(b'"')
-            for start in range(0, len(value), 65536):
-                escaped = json.dumps(value[start:start + 65536], ensure_ascii=False)
+            chunks = value.chunks() if isinstance(value, _SQLiteText) else (value[start:start + 65536] for start in range(0, len(value), 65536))
+            for chunk in chunks:
+                escaped = json.dumps(chunk, ensure_ascii=False)
                 digest.update(escaped[1:-1].encode("utf-8"))
             digest.update(b'"')
         else:
@@ -74,7 +88,19 @@ def inventory(path):
             digest = hashlib.sha256()
             count = 0
             # Names come only from the fixed allowlist above, never from input.
-            for row in db.execute('SELECT * FROM "' + table + '" ORDER BY rowid'):
+            if table == "sources":
+                columns = [item[1] for item in db.execute('PRAGMA table_info("sources")')]
+                text_index = columns.index("full_text")
+                selection = ",".join("NULL" if name == "full_text" else '"' + name.replace('"', '""') + '"' for name in columns)
+                def source_rows():
+                    for raw in db.execute('SELECT rowid,' + selection + ' FROM sources ORDER BY rowid'):
+                        values = list(raw[1:])
+                        values[text_index] = _SQLiteText(db, raw[0])
+                        yield values
+                rows = source_rows()
+            else:
+                rows = db.execute('SELECT * FROM "' + table + '" ORDER BY rowid')
+            for row in rows:
                 _hash_row(digest, row)
                 count += 1
             result[table] = {"rows": count, "sha256": digest.hexdigest()}
@@ -108,13 +134,21 @@ def verify_library(database, source, *, full=True):
 
 def snapshot(database, destination):
     deadline = time.monotonic() + 120
+    flushed_pages = 0
     def progress(status, remaining, total):
+        nonlocal flushed_pages
         if status not in (sqlite3.SQLITE_OK, sqlite3.SQLITE_DONE, sqlite3.SQLITE_BUSY, sqlite3.SQLITE_LOCKED):
             raise RuntimeError(f"SQLite backup failed with status {status}")
         if time.monotonic() > deadline:
             raise TimeoutError("SQLite backup did not complete within 120 seconds")
+        copied = total - remaining
+        if os.name == "posix" and (copied - flushed_pages) * page_size >= 16 * 1024 * 1024:
+            _flush_disk_cache(staged)
+            flushed_pages = copied
     with closing(readonly(database)) as original, closing(sqlite3.connect(destination)) as target:
-        original.backup(target, pages=256, sleep=0.01, progress=progress)
+        page_size = original.execute("PRAGMA page_size").fetchone()[0]
+        with Path(destination).open("rb") as staged:
+            original.backup(target, pages=256, sleep=0.01, progress=progress)
 
 
 def package(database, source, folder):
