@@ -1,0 +1,24 @@
+name: Inspect registry privacy without publishing
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  packages: read
+jobs:
+  registry:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Read package privacy metadata
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import urllib.request,json,os
+          for kind in ('api','web'):
+              for version in ('2022-11-28','2026-03-10'):
+                  request=urllib.request.Request('https://api.github.com/users/M-Jadallah/packages/container/sear-alaam-anobalaa-'+kind,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','X-GitHub-Api-Version':version,'User-Agent':'siyar-registry-inspection'})
+                  with urllib.request.urlopen(request,timeout=30) as response:
+                      data=json.load(response)
+                  print(json.dumps({'package':kind,'api_version':version,'keys':list(data),'visibility':data.get('visibility'),'name':data.get('name'),'repository':(data.get('repository') or {}).get('full_name')}))
+          PY
