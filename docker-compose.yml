@@ -108,7 +108,9 @@ services:
     environment: *runtime
     depends_on:
       api: {condition: service_healthy}
-    volumes: [library:/state:ro, backups:/backups]
+    # SQLite opens the database read-only, but must maintain WAL shared-memory
+    # files while taking a consistent online snapshot.
+    volumes: [library:/state, backups:/backups]
     networks: [private]
     restart: unless-stopped
     mem_limit: 96m

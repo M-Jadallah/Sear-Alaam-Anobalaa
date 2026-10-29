@@ -99,8 +99,14 @@ def verify_library(database, source, *, full=True):
 
 
 def snapshot(database, destination):
+    deadline = time.monotonic() + 120
+    def progress(status, remaining, total):
+        if status not in (sqlite3.SQLITE_OK, sqlite3.SQLITE_DONE, sqlite3.SQLITE_BUSY, sqlite3.SQLITE_LOCKED):
+            raise RuntimeError(f"SQLite backup failed with status {status}")
+        if time.monotonic() > deadline:
+            raise TimeoutError("SQLite backup did not complete within 120 seconds")
     with closing(readonly(database)) as original, closing(sqlite3.connect(destination)) as target:
-        original.backup(target, pages=256, sleep=0.01)
+        original.backup(target, pages=256, sleep=0.01, progress=progress)
 
 
 def package(database, source, folder):

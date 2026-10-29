@@ -48,7 +48,7 @@ def main():
         print('{"stage":"services_ready"}', flush=True)
         # Check static routes and the actual public POST path through nginx.
         for path in ["/", "/login", "/reader/1", "/topics", "/healthz"]:
-            with urllib.request.urlopen("http://127.0.0.1:18080" + path) as response:
+            with urllib.request.urlopen("http://127.0.0.1:18080" + path, timeout=15) as response:
                 assert response.status == 200
         # API has no public host port and no external network route.
         ids = compose("ps", "-q", "--status", "running").stdout.split()
@@ -89,6 +89,7 @@ def main():
         assert set(report["cgroups"]) == {"api", "web", "backup"}, report["cgroups"]
         report["cgroup_peak_sum_mib"] = sum(item["peak_bytes"] for item in report["cgroups"].values()) / 1024**2
         assert report["cgroup_peak_sum_mib"] <= 1229, report
+        (folder / "container-partial-qa.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
         print('{"stage":"memory_checks_complete"}', flush=True)
         # A committed review must survive normal reconciliation and recreation.
         before = compose("exec", "-T", "api", "python", "-c", "import sqlite3;print(sqlite3.connect('/state/library.sqlite3').execute('SELECT COUNT(*) FROM review_log').fetchone()[0])").stdout.strip()

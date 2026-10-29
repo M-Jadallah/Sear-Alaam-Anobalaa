@@ -43,6 +43,20 @@ def transport(book):
     return book
 
 
+def test_streamed_source_comparison_preserves_bom_unicode_and_rejects_changed_text(transport):
+    from pathlib import Path
+    source = Path(transport["source"])
+    raw = source.read_bytes()
+    source.write_bytes(b"\xef\xbb\xbf" + raw.removeprefix(b"\xef\xbb\xbf"))
+    with closing(sqlite3.connect(transport["database"])) as db, db:
+        db.execute("UPDATE sources SET sha256=?", (sha256(source),))
+    assert verify_library(transport["database"], source)["source_sha256"] == sha256(source)
+    with closing(sqlite3.connect(transport["database"])) as db, db:
+        db.execute("UPDATE sources SET full_text=full_text || ?", ("إضافة مصطنعة للاختبار",))
+    with pytest.raises(ValueError, match="حرفيًا"):
+        verify_library(transport["database"], source)
+
+
 def test_seed_preserves_all_rows_and_never_overwrites_later_edits(transport, tmp_path):
     folder = tmp_path / "seed"
     manifest = package(transport["database"], transport["source"], folder)
