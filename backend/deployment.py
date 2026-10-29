@@ -9,6 +9,7 @@ import os
 from pathlib import Path
 import shutil
 import sqlite3
+import sys
 import tempfile
 import time
 
@@ -17,6 +18,12 @@ from .db import ROOT, DEFAULT_DB, DEFAULT_SOURCE
 TABLES = ("sources", "biographies", "segments", "topic_hits", "person_mentions", "review_log",
           "curation_batches", "curation_batch_members", "curation_diacritics", "reading_revision_batches",
           "reading_revision_history", "pilot_documents", "pilot_evidence", "pilot_events", "pilot_reading_overlays")
+
+
+def _progress(stage):
+    if os.environ.get("SIYAR_DEPLOYMENT_DIAGNOSTICS") == "1":
+        import resource
+        print(json.dumps({"deployment_stage": stage, "peak_rss_kib": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss}), file=sys.stderr, flush=True)
 
 
 def sha256(path):
@@ -70,8 +77,7 @@ def verify_library(database, source, *, full=True):
     if not Path(database).is_file() or not Path(source).is_file():
         raise ValueError("اختر data/source.mARkdown وقاعدة المكتبة الأصلية؛ البيانات مفقودة.")
     with closing(readonly(database)) as db:
-        columns = "sha256,is_synthetic,full_text" if full else "sha256,is_synthetic"
-        rows = db.execute("SELECT " + columns + " FROM sources").fetchall()
+        rows = db.execute("SELECT sha256,is_synthetic,rowid FROM sources").fetchall()
         if len(rows) != 1 or rows[0][1]:
             raise ValueError("يجب أن تحتوي حزمة الإنتاج مصدرًا حقيقيًا واحدًا.")
         if sha256(source) != rows[0][0]:
@@ -79,9 +85,16 @@ def verify_library(database, source, *, full=True):
         if full:
             if db.execute("PRAGMA integrity_check").fetchone()[0] != "ok" or db.execute("PRAGMA foreign_key_check").fetchone():
                 raise ValueError("فشل فحص سلامة SQLite.")
-            text = Path(source).read_bytes().decode("utf-8-sig")
-            if rows[0][2] != text:
-                raise ValueError("النص المخزن ليس مطابقًا للمصدر حرفيًا.")
+            # Incremental BLOB I/O also accepts SQLite TEXT and returns its UTF-8
+            # bytes. Compare without creating several whole-book strings.
+            with db.blobopen("sources", "full_text", rows[0][2], readonly=True) as stored, Path(source).open("rb") as original:
+                if original.read(3) != b"\xef\xbb\xbf":
+                    original.seek(0)
+                while chunk := original.read(65536):
+                    if stored.read(len(chunk)) != chunk:
+                        raise ValueError("النص المخزن ليس مطابقًا للمصدر حرفيًا.")
+                if stored.read(1):
+                    raise ValueError("النص المخزن ليس مطابقًا للمصدر حرفيًا.")
         return {"source_sha256": rows[0][0]}
 
 
@@ -139,6 +152,7 @@ def unpack(folder, database, source):
                 with path.open("rb") as stream:
                     shutil.copyfileobj(stream, target, length=1024 * 1024)
         staged = Path(temporary) / "library.sqlite3"
+        _progress("seed_parts_verified")
         with gzip.open(zipped, "rb") as src, staged.open("wb") as dst:
             remaining = manifest["database_bytes"]
             while chunk := src.read(min(1024 * 1024, remaining + 1)):
@@ -148,9 +162,12 @@ def unpack(folder, database, source):
                 dst.write(chunk)
         if remaining != 0 or sha256(staged) != manifest["database_sha256"]:
             raise ValueError("بصمة قاعدة التهيئة غير صالحة.")
+        _progress("seed_database_verified")
         verify_library(staged, source)
+        _progress("seed_source_verified")
         if inventory(staged) != manifest["tables"]:
             raise ValueError("تغيرت الطبقات أو سجلات المراجعة أثناء النقل.")
+        _progress("seed_inventory_verified")
         # Bootstrap has one writer (Compose init). Never replace a live DB.
         if database.exists():
             raise ValueError("ظهرت قاعدة أثناء التهيئة؛ رفض استبدالها.")
@@ -207,13 +224,17 @@ def main():
     if args.command == "package":
         result = package(args.db, args.source, args.folder)
     elif args.command == "init":
+        _progress("init_started")
         result = unpack(args.folder, args.db, args.source)
+        _progress("unpack_complete")
         if result["status"] == "preserved":
             backup(args.db, Path(os.environ.get("SIYAR_BACKUP_DIR", args.db.parent / "backups")), kind="before-migration")
         # Initialization touches schema only in the isolated persistent copy.
         from .db import initialize
         initialize(args.db)
+        _progress("schema_complete")
         verify_library(args.db, args.source)
+        _progress("init_complete")
     elif args.command == "verify":
         result = verify_library(args.db, args.source)
     elif args.command == "restore":

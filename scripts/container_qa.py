@@ -30,6 +30,8 @@ def main():
                 "networks": {"coolify": {"name": network}}}
     override["services"]["web"] = {"image": args.web, "ports": ["127.0.0.1:18080:8080"]}
     override["services"]["api"]["environment"] = {"SIYAR_DISPOSABLE_QA": "1"}
+    for service in ("init", "backup"):
+        override["services"][service]["environment"] = {"SIYAR_DEPLOYMENT_DIAGNOSTICS": "1"}
     config = folder / "compose-qa.json"
     config.write_text(json.dumps(override), encoding="utf-8")
     os.environ.update(SIYAR_ADMIN_USERNAME="ci-admin", SIYAR_ADMIN_PASSWORD=secrets.token_urlsafe(32))
@@ -110,6 +112,10 @@ def main():
         details = str(error)
         if isinstance(error, subprocess.CalledProcessError):
             details += "\n" + (error.stdout or "") + "\n" + (error.stderr or "")
+        states = compose("ps", "-a", "-q", check=False).stdout.split()
+        for identifier in states:
+            state = json.loads(run("docker", "inspect", identifier).stdout)[0]
+            details += "\n" + json.dumps({"service": state["Config"]["Labels"]["com.docker.compose.service"], "state": state["State"], "restarts": state["RestartCount"]})
         logs = details + "\n" + compose("logs", "--no-color", "--tail", "60", check=False).stdout
         print(details.replace(os.environ["SIYAR_ADMIN_PASSWORD"], "[REDACTED]"), flush=True)
         (folder / "container-failure.log").write_text(logs.replace(os.environ["SIYAR_ADMIN_PASSWORD"], "[REDACTED]"), encoding="utf-8")
