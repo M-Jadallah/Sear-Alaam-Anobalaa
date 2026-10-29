@@ -25,6 +25,8 @@ def request(path, payload=None, headers=None):
 
 
 def main():
+    if os.environ.get("SIYAR_DISPOSABLE_QA") != "1":
+        raise RuntimeError("This acceptance probe writes test reviews and requires explicitly disposable CI volumes.")
     assert request("/api/ready")[0] == 200
     semantic = request("/api/semantic/status")[2]
     assert semantic["ready"] and semantic["paragraph_status"]["ready"], semantic

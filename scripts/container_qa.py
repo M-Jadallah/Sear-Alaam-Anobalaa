@@ -27,6 +27,7 @@ def main():
                 "volumes": {"library": {"name": network + "-data"}, "backups": {"name": network + "-backups"}},
                 "networks": {"coolify": {"name": network}}}
     override["services"]["web"] = {"image": args.web, "ports": ["127.0.0.1:18080:8080"]}
+    override["services"]["api"]["environment"] = {"SIYAR_DISPOSABLE_QA": "1"}
     config = folder / "compose-qa.json"
     config.write_text(json.dumps(override), encoding="utf-8")
     os.environ.update(SIYAR_ADMIN_USERNAME="ci-admin", SIYAR_ADMIN_PASSWORD=secrets.token_urlsafe(32))
