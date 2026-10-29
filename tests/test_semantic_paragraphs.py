@@ -69,6 +69,27 @@ def _assert_vectors(work):
     assert np.isfinite(vectors).all()
 
 
+def test_morphology_sidecar_preserves_bounds_scope_and_detects_corruption(book, paragraph_index):
+    pytest.importorskip("nltk")
+    from backend import morphology
+    semantic, paragraphs, directory, _ = paragraph_index
+    paragraphs.prepare_paragraphs(book["database"], directory, batch_size=2)
+    status = semantic.semantic_status(book["database"], directory)
+    report = morphology.prepare(status)
+    rows = morphology.candidates("الاخلاص", status)
+    assert rows
+    assert all(0 <= row["source_char_start"] < row["source_char_end"] <= len(book["text"]) for row in rows)
+    assert morphology.candidates("الاخلاص", {**status, "pilot_biography_ids": []}) == []
+    biography = rows[0]["biography_id"]
+    scoped = morphology.candidates("الاخلاص", {**status, "pilot_biography_ids": [biography]})
+    assert scoped and all(row["biography_id"] == biography for row in scoped)
+    target = Path(status["paragraph_status"]["directory"]) / report["file"]
+    with target.open("ab") as output:
+        output.write(b"corrupted-synthetic-sidecar")
+    with pytest.raises(RuntimeError, match="بصمة"):
+        morphology.candidates("الاخلاص", status)
+
+
 def test_all_nonempty_synthetic_segments_are_indexed_without_crossing_source_bounds(book, paragraph_index):
     from backend.reading import reading_plain_with_map
 

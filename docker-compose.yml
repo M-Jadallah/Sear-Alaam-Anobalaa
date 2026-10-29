@@ -9,6 +9,7 @@ x-runtime: &runtime
   SIYAR_BACKUP_DIR: /backups
   SIYAR_SOURCE: /app/data/source.mARkdown
   SIYAR_MODEL_DIR: /opt/siyar/models
+  SIYAR_MODEL_PROFILE: arabic-retrieval-v1
   SIYAR_SEMANTIC_DIR: /opt/siyar/semantic
   SIYAR_CPU_THREADS: '1'
   SIYAR_RERANK_BATCH: '1'

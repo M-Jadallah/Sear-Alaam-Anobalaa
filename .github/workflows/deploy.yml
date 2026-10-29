@@ -3,6 +3,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      prepare_only:
+        description: Prepare and cache Linux assets without publishing images
+        type: boolean
+        default: false
 permissions:
   contents: write
   packages: write
@@ -10,13 +15,15 @@ concurrency:
   group: production-release
   cancel-in-progress: false
 jobs:
-  release:
+  context:
     runs-on: ubuntu-24.04
     timeout-minutes: 360
+    permissions:
+      contents: read
+    outputs:
+      cache_key: ${{ steps.asset-key.outputs.key }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -30,6 +37,7 @@ jobs:
       - name: Install runtime and build-only dependencies
         run: |
           python -m pip install -r requirements-production.txt -r requirements.txt onnx==1.23.2 transformers==5.21.0
+          python -m pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
           python -m pip check
       - name: Restore verified current library without reimporting
         run: python -m backend.deployment init
@@ -37,52 +45,118 @@ jobs:
         run: |
           mkdir -p deploy/test-output
           python -m pytest -q --junitxml=deploy/test-output/python-tests.xml
-      - name: Frontend compile
+      - name: Frontend and HTTPS production authentication
         run: |
           npm --prefix frontend ci
           npm --prefix frontend run build
           cd frontend
           npx playwright install --with-deps chromium
           npm run test:e2e -- production-auth.spec.ts
-      - name: Cache versioned offline assets
+      - name: Derive source and model asset cache key
+        id: asset-key
+        env:
+          SIYAR_MODEL_PROFILE: arabic-retrieval-v1
+        run: python scripts/asset_cache_key.py >> "$GITHUB_OUTPUT"
+      - uses: actions/cache/restore@v4
         id: offline-cache
-        uses: actions/cache/restore@v4
         with:
           path: deploy/artifacts
-          key: rowwise-int8-v3-${{ runner.os }}-${{ hashFiles('backend/semantic*.py', 'backend/reading*.py', 'backend/diacritics.py', 'requirements-production.txt', 'deploy/seed/manifest.json') }}
-      - name: Prepare both indexes outside VPS
+          key: arabic-complete-v3-${{ runner.os }}-${{ steps.asset-key.outputs.key }}
+          restore-keys: arabic-context-v3-${{ runner.os }}-${{ steps.asset-key.outputs.key }}
+      - name: Prepare portable models and context index outside VPS
         env:
           SIYAR_MODEL_DIR: ${{ github.workspace }}/deploy/artifacts/models
+          SIYAR_MODEL_PROFILE: arabic-retrieval-v1
           SIYAR_CPU_THREADS: '2'
           SIYAR_ONNX_TOKENIZER: rust
-        run: python -m backend.semantic prepare --runtime onnx-portable --directory deploy/artifacts/semantic --batch-size 8
-      - name: Save completed assets before evaluation and container testing
-        if: steps.offline-cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v4
+        run: python -m backend.semantic prepare --context-only --runtime onnx-portable --directory deploy/artifacts/semantic --batch-size 16
+      - uses: actions/cache/save@v4
+        if: steps.offline-cache.outputs.cache-matched-key == ''
         with:
           path: deploy/artifacts
-          key: ${{ steps.offline-cache.outputs.cache-primary-key }}
+          key: arabic-context-v3-${{ runner.os }}-${{ steps.asset-key.outputs.key }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: deployment-source-verification-${{ github.sha }}
+          path: deploy/test-output/
+          retention-days: 14
+  paragraphs:
+    needs: context
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    permissions:
+      contents: read
+    outputs:
+      cache_key: ${{ needs.context.outputs.cache_key }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-production.txt
+      - run: python -m pip install -r requirements-production.txt
+      - run: python -m backend.deployment init
+      - uses: actions/cache/restore@v4
+        id: offline-cache
+        with:
+          path: deploy/artifacts
+          key: arabic-complete-v3-${{ runner.os }}-${{ needs.context.outputs.cache_key }}
+          restore-keys: arabic-context-v3-${{ runner.os }}-${{ needs.context.outputs.cache_key }}
+          fail-on-cache-miss: true
+      - name: Complete paragraphs and morphological sidecar
+        env:
+          SIYAR_MODEL_DIR: ${{ github.workspace }}/deploy/artifacts/models
+          SIYAR_MODEL_PROFILE: arabic-retrieval-v1
+          SIYAR_CPU_THREADS: '2'
+          SIYAR_ONNX_TOKENIZER: rust
+        run: python -m backend.semantic prepare --offline --runtime onnx-portable --directory deploy/artifacts/semantic --batch-size 16
+      - uses: actions/cache/save@v4
+        if: steps.offline-cache.outputs.cache-hit != 'true'
+        with:
+          path: deploy/artifacts
+          key: arabic-complete-v3-${{ runner.os }}-${{ needs.context.outputs.cache_key }}
+  release:
+    needs: paragraphs
+    if: ${{ !inputs.prepare_only }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-production.txt -r requirements.txt transformers==5.21.0
+      - run: python -m backend.deployment init
+      - uses: actions/cache/restore@v4
+        with:
+          path: deploy/artifacts
+          key: arabic-complete-v3-${{ runner.os }}-${{ needs.paragraphs.outputs.cache_key }}
+          fail-on-cache-miss: true
       - name: Verify retrieval accuracy and offline operation
         env:
           SIYAR_MODEL_DIR: ${{ github.workspace }}/deploy/artifacts/models
+          SIYAR_MODEL_PROFILE: arabic-retrieval-v1
           SIYAR_SEMANTIC_DIR: ${{ github.workspace }}/deploy/artifacts/semantic
           SIYAR_CPU_THREADS: '1'
           SIYAR_RERANK_BATCH: '1'
           SIYAR_ONNX_TOKENIZER: rust
         run: |
+          mkdir -p deploy/test-output
           python scripts/evaluate_semantic.py --require-hybrid --output deploy/test-output/semantic-evaluation.json
-          python -m pytest tests/test_semantic_offline.py tests/test_onnx_lightweight.py -q
-          python -m pytest tests/test_rust_tokenizer.py -q
+          python -m pytest tests/test_semantic_offline.py tests/test_onnx_lightweight.py tests/test_rust_tokenizer.py -q
+      - name: Enforce the 80 percent retrieval release gate
+        run: python -c "import json; d=json.load(open('deploy/test-output/semantic-evaluation.json')); assert d['goals']['descriptive_hit_at_10_at_least_80_percent'], d['descriptive_questions']"
       - name: Build AMD64 images locally on CI
         run: |
           docker build --platform linux/amd64 -f deploy/api.Dockerfile -t ghcr.io/m-jadallah/sear-alaam-anobalaa-api:sha-${{ github.sha }} .
           docker build --platform linux/amd64 -f deploy/web.Dockerfile -t ghcr.io/m-jadallah/sear-alaam-anobalaa-web:sha-${{ github.sha }} .
       - name: Exercise actual memory-limited offline containers
         run: python scripts/container_qa.py --api ghcr.io/m-jadallah/sear-alaam-anobalaa-api:sha-${{ github.sha }} --web ghcr.io/m-jadallah/sear-alaam-anobalaa-web:sha-${{ github.sha }}
-      - name: Enforce the 80 percent retrieval release gate
-        run: python -c "import json; d=json.load(open('deploy/test-output/semantic-evaluation.json')); assert d['goals']['descriptive_hit_at_10_at_least_80_percent'], d['descriptive_questions']"
-      - name: Login to private GHCR
-        uses: docker/login-action@v3
+      - uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
@@ -92,9 +166,8 @@ jobs:
           RELEASE_SHA: ${{ github.sha }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/publish_release.py
-      - name: Upload verification evidence
+      - uses: actions/upload-artifact@v4
         if: always()
-        uses: actions/upload-artifact@v4
         with:
           name: deployment-verification-${{ github.sha }}
           path: deploy/test-output/

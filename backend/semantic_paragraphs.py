@@ -107,6 +107,7 @@ def prepare_paragraphs(db_path=base.DEFAULT_DB, semantic_dir=None, batch_size=64
         if models["fingerprint"] != status["model_fingerprint"]:
             raise RuntimeError("بصمة النموذج لا تطابق الفهرس السياقي.")
         embed, _ = base.load_models(False)
+        geometry = base.window_tokenizer(embed.tokenizer)
         sidecar = work / "windows.sqlite3"
         db = sqlite3.connect(sidecar); db.row_factory = sqlite3.Row
         db.executescript(Path(__file__).with_name("semantic_schema.sql").read_text(encoding="utf-8"))
@@ -125,8 +126,8 @@ def prepare_paragraphs(db_path=base.DEFAULT_DB, semantic_dir=None, batch_size=64
                     # so the final paragraph is never silently omitted.
                     clean = clean.rstrip()
                     positions = positions[:len(clean)]
-                    for window in base.token_windows(clean, positions, embed.tokenizer):
-                        length = len(embed.tokenizer("passage: " + window["clean_text"], add_special_tokens=True, truncation=False)["input_ids"])
+                    for window in base.token_windows(clean, positions, geometry):
+                        length = len(embed.tokenizer(base.PASSAGE_PREFIX + window["clean_text"], add_special_tokens=True, truncation=False)["input_ids"])
                         if length > 512:
                             raise RuntimeError("فقرة تتجاوز حد النموذج؛ لم تبتر.")
                         count += 1
@@ -149,19 +150,22 @@ def prepare_paragraphs(db_path=base.DEFAULT_DB, semantic_dir=None, batch_size=64
             raise RuntimeError("نقطة استئناف الفقرات لا تطابق المصدر أو النموذج أو ترتيب التضمين.")
         vector_path = work / "vectors.npy"
         if not vector_path.exists(): cursor = 0
-        vectors = np.lib.format.open_memmap(vector_path,mode="r+" if vector_path.exists() else "w+",dtype="float32",shape=(count,base.DIMENSION))
+        vectors = np.lib.format.open_memmap(vector_path,mode="r+" if vector_path.exists() else "w+",dtype=base.VECTOR_DTYPE,shape=(count,base.DIMENSION))
         progress("paragraph_encode", encoded=cursor, windows=count)
         for begin in range(cursor,count,batch_size):
             indices=order[begin:begin+batch_size]
             texts=[db.execute("SELECT clean_text FROM windows WHERE id=?",(index+1,)).fetchone()[0] for index in indices]
-            embeddings=embed.encode(["passage: "+text for text in texts],batch_size=batch_size,normalize_embeddings=True,show_progress_bar=False,convert_to_numpy=True)
+            embeddings=embed.encode([base.PASSAGE_PREFIX+text for text in texts],batch_size=batch_size,normalize_embeddings=True,show_progress_bar=False,convert_to_numpy=True)
             if embeddings.shape!=(len(indices),base.DIMENSION) or not np.isfinite(embeddings).all():raise RuntimeError("تضمين فقرة غير صالح.")
-            vectors[indices]=embeddings;vectors.flush()
+            from .vector_storage import quantize_rows
+            vectors[indices]=quantize_rows(embeddings) if base.VECTOR_DTYPE == "int8" else embeddings
+            vectors.flush()
             base.atomic_json(checkpoint,{"encoded":begin+len(indices),"fingerprint":fingerprint,"model_fingerprint":models["fingerprint"],"order_fingerprint":order_fp})
             if begin % (batch_size*30)==0 or begin+len(indices)==count:progress("paragraph_encode",encoded=begin+len(indices),windows=count)
         for begin in range(0,count,4096):
             chunk=vectors[begin:begin+4096];norms=np.linalg.norm(chunk,axis=1)
-            if not np.isfinite(chunk).all() or not np.all((norms>0.99)&(norms<1.01)):raise RuntimeError("متجهات فقرات ناقصة؛ لم ينشر الفهرس.")
+            valid_norms = norms > 0 if base.VECTOR_DTYPE == "int8" else (norms > 0.99) & (norms < 1.01)
+            if not np.isfinite(chunk).all() or not np.all(valid_norms):raise RuntimeError("متجهات فقرات ناقصة؛ لم ينشر الفهرس.")
         del vectors;db.close()
         latest=base.semantic_status(db_path,directory,include_paragraphs=False)
         if not latest.get("ready") or configuration!=paragraph_configuration(db_path,latest):raise RuntimeError("تغير المصدر أو الفهرس السياقي أثناء تجهيز الفقرات.")

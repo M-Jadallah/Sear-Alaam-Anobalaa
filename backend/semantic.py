@@ -24,15 +24,19 @@ from concurrent.futures import ThreadPoolExecutor
 from .db import DEFAULT_DB, ROOT
 from .normalization import normalize_arabic
 
-EMBED_MODEL = "intfloat/multilingual-e5-small"
-EMBED_REVISION = "614241f622f53c4eeff9890bdc4f31cfecc418b3"
-RERANK_MODEL = "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1"
-RERANK_REVISION = "1427fd652930e4ba29e8149678df786c240d8825"
+from .retrieval_profiles import PROFILE_ID, PROFILE, GEOMETRY_MODEL, GEOMETRY_REVISION
+EMBED_MODEL = PROFILE["embed"]
+EMBED_REVISION = PROFILE["embed_revision"]
+RERANK_MODEL = PROFILE["rerank"]
+RERANK_REVISION = PROFILE["rerank_revision"]
+QUERY_PREFIX = PROFILE["query_prefix"]
+PASSAGE_PREFIX = PROFILE["passage_prefix"]
+VECTOR_DTYPE = "int8" if PROFILE["storage"] == "row-int8-unit-v1" else "float32"
 INDEX_VERSION = "siyar-semantic-v2"
 WINDOW_TOKENS = 320
 OVERLAP_TOKENS = 64
 THREADS = max(1, min(4, int(os.environ.get("SIYAR_CPU_THREADS", "4"))))
-DIMENSION = 384
+DIMENSION = PROFILE["dimension"]
 DEFAULT_SEMANTIC_DIR = ROOT / "data" / "semantic"
 MODEL_DIR = Path(os.environ.get("SIYAR_MODEL_DIR", ROOT / "data" / "models"))
 
@@ -71,6 +75,25 @@ def atomic_json(path, value):
             if attempt == 14:
                 raise
             time.sleep(min(0.05 * (attempt + 1), 0.5))
+
+
+def fetch_artifact(url, target):
+    """Build-time pinned downloads only; incomplete files are never accepted."""
+    target = Path(target)
+    if target.is_file():
+        return
+    target.parent.mkdir(parents=True, exist_ok=True)
+    partial = target.with_name(target.name + ".incomplete")
+    offset = partial.stat().st_size if partial.exists() else 0
+    headers = {"Range": "bytes=" + str(offset) + "-"} if offset else {}
+    with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=120) as response:
+        expected, received = int(response.headers.get("Content-Length", "0")), 0
+        with partial.open("ab" if offset and response.status == 206 else "wb") as output:
+            for chunk in iter(lambda: response.read(1024 * 1024), b""):
+                output.write(chunk); received += len(chunk)
+        if expected and received != expected:
+            raise RuntimeError("تنزيل أصل غير مكتمل.")
+    os.replace(partial, target)
 
 
 def sources_fingerprint(db_path):
@@ -114,6 +137,7 @@ def model_artifact_stamps():
         manifest = effective_model_manifest()
         paths = [model_path(model["kind"]) / item["path"] for model in manifest["models"] for item in model["files"]]
         paths.extend(MODEL_DIR / item["file"] for item in manifest.get("onnx_models", []))
+        paths.extend(MODEL_DIR / item["file"] for item in manifest.get("geometry", []))
         return [(str(path), path.stat().st_size, path.stat().st_mtime_ns) for path in paths]
     except (OSError, ValueError, KeyError, RuntimeError):
         return None
@@ -128,12 +152,25 @@ def _safe_version_path(directory, relative):
 
 
 def index_configuration(db_path):
-    return {"index_version": INDEX_VERSION, "sources": sources_fingerprint(db_path),
+    result = {"index_version": INDEX_VERSION, "sources": sources_fingerprint(db_path),
             "renderer_version": renderer_version(), "window_tokens": WINDOW_TOKENS,
             "runtime": runtime_backend(),
             "overlap_tokens": OVERLAP_TOKENS, "dimension": DIMENSION,
             "embed_model": EMBED_MODEL, "embed_revision": EMBED_REVISION,
             "rerank_model": RERANK_MODEL, "rerank_revision": RERANK_REVISION}
+    if PROFILE_ID != "legacy-e5":
+        result.update(profile=PROFILE_ID, vector_storage=PROFILE["storage"],
+                      query_prefix=QUERY_PREFIX, passage_prefix=PASSAGE_PREFIX,
+                      geometry_model=GEOMETRY_MODEL, geometry_revision=GEOMETRY_REVISION,
+                      geometry_policy="e5-transformers5-fast-v1", encoder_tokenizer_policy="raw-json-v1")
+    return result
+
+
+def window_tokenizer(encoder_tokenizer):
+    if PROFILE_ID == "legacy-e5":
+        return encoder_tokenizer
+    from .semantic_onnx import RustTokenizer
+    return RustTokenizer(MODEL_DIR / ("geometry-" + GEOMETRY_REVISION))
 
 
 def model_path(kind):
@@ -206,6 +243,13 @@ def download_models():
             raise RuntimeError("لم يُنزّل ملف safetensors للنموذج؛ لا يُنشر فهرس ناقص.")
         models.append({"kind": kind, "model": name, "revision": revision, "files": files, "fingerprint": _json_hash(files)})
     manifest = {"models": models, "fingerprint": _json_hash(models)}
+    if PROFILE_ID != "legacy-e5":
+        manifest["geometry"] = []
+        for filename in ("tokenizer.json", "README.md"):
+            relative = Path("geometry-" + GEOMETRY_REVISION) / filename
+            fetch_artifact("https://huggingface.co/" + GEOMETRY_MODEL + "/resolve/" + GEOMETRY_REVISION + "/" + filename, MODEL_DIR / relative)
+            manifest["geometry"].append({"file": relative.as_posix(), "sha256": file_sha256(MODEL_DIR / relative), "size": (MODEL_DIR / relative).stat().st_size})
+        manifest["fingerprint"] = _json_hash({"models": models, "geometry": manifest["geometry"]})
     atomic_json(model_manifest_path(), manifest)
     if runtime_backend().startswith("onnxruntime-cpu-int8-"):
         from .semantic_onnx import download_onnx_models
@@ -223,6 +267,14 @@ def verify_model_files():
             path = model_path(model["kind"]) / item["path"]
             if not path.is_file() or path.stat().st_size != item["size"] or file_sha256(path) != item["sha256"]:
                 raise RuntimeError("فشل تحقق بصمة ملف النموذج: " + item["path"])
+    if PROFILE_ID != "legacy-e5":
+        geometry = manifest.get("geometry", [])
+        expected = {"geometry-" + GEOMETRY_REVISION + "/" + name for name in ("tokenizer.json", "README.md")}
+        if len(geometry) != 2 or {item.get("file") for item in geometry} != expected:
+            raise RuntimeError("محول نطاقات المصدر غير مكتمل.")
+        for item in geometry:
+            if file_sha256(MODEL_DIR / item["file"]) != item["sha256"]:
+                raise RuntimeError("تغير محول نطاقات المصدر.")
     return effective_model_manifest(manifest, verify=True)
 
 
@@ -354,7 +406,7 @@ def semantic_status(db_path=DEFAULT_DB, semantic_dir=None, include_paragraphs=Tr
                 path = model_path(model["kind"]) / item["path"]
                 if not path.is_file() or path.stat().st_size != item["size"]:
                     return {**base, "status": "missing", "reason": "ملف نموذج محلي مفقود أو غير مكتمل؛ أعد تنزيل النماذج."}
-        for item in local_models.get("onnx_models", []):
+        for item in [*local_models.get("onnx_models", []), *local_models.get("geometry", [])]:
             path = MODEL_DIR / item["file"]
             if not path.is_file() or path.stat().st_size != item["size"]:
                 return {**base, "status": "missing", "reason": "ملف نموذج ONNX محلي مفقود أو غير مكتمل."}
@@ -419,6 +471,7 @@ def _prepare_locked(db_path, directory, download, batch_size):
     progress("models")
     models = download_models() if download else verify_model_files()
     embed, _ = load_models(with_reranker=False)
+    geometry = window_tokenizer(embed.tokenizer)
     from .reading import reading_plain_with_map
     import numpy as np
     sidecar = work / "windows.sqlite3"
@@ -441,9 +494,9 @@ def _prepare_locked(db_path, directory, download, batch_size):
             for section_index, section in enumerate(sections, 1):
                 text = section["full_text"]
                 clean, positions = reading_plain_with_map(text, section["source_char_start"], starts_at_line_start=True)
-                for window in token_windows(clean, positions, embed.tokenizer):
+                for window in token_windows(clean, positions, geometry):
                     # Explicitly reject overlong model inputs; encode must never truncate.
-                    model_length = len(embed.tokenizer("passage: " + window["clean_text"], add_special_tokens=True, truncation=False)["input_ids"])
+                    model_length = len(embed.tokenizer(PASSAGE_PREFIX + window["clean_text"], add_special_tokens=True, truncation=False)["input_ids"])
                     if model_length > 512:
                         raise RuntimeError("نافذة تتجاوز حد النموذج؛ أوقف البناء بدل بتر النص.")
                     count += 1
@@ -483,15 +536,16 @@ def _prepare_locked(db_path, directory, download, batch_size):
     order_fingerprint = _json_hash(order)
     if checkpoint_state.get("order_fingerprint", order_fingerprint) != order_fingerprint:
         raise RuntimeError("تغير ترتيب التضمين منذ نقطة الاستئناف؛ لم ينشر الفهرس.")
-    vectors = np.lib.format.open_memmap(vectors_path, mode="r+" if vectors_path.exists() else "w+", dtype="float32", shape=(count, DIMENSION))
+    vectors = np.lib.format.open_memmap(vectors_path, mode="r+" if vectors_path.exists() else "w+", dtype=VECTOR_DTYPE, shape=(count, DIMENSION))
     progress("encode", encoded=encoded, windows=count)
     for begin in range(encoded, count, batch_size):
         indices = order[begin:begin+batch_size]
         rows = [db.execute("SELECT clean_text FROM windows WHERE id=?", (index + 1,)).fetchone() for index in indices]
-        embeddings = embed.encode(["passage: " + row[0] for row in rows], batch_size=batch_size, normalize_embeddings=True, show_progress_bar=False, convert_to_numpy=True)
+        embeddings = embed.encode([PASSAGE_PREFIX + row[0] for row in rows], batch_size=batch_size, normalize_embeddings=True, show_progress_bar=False, convert_to_numpy=True)
         if embeddings.shape != (len(rows), DIMENSION) or not np.isfinite(embeddings).all():
             raise RuntimeError("نتيجة تضمين غير صالحة؛ لم ينشر الفهرس.")
-        vectors[indices] = embeddings
+        from .vector_storage import quantize_rows
+        vectors[indices] = quantize_rows(embeddings) if VECTOR_DTYPE == "int8" else embeddings
         vectors.flush()
         atomic_json(checkpoint, {"encoded": begin + len(rows), "fingerprint": fingerprint, "model_fingerprint": models["fingerprint"], "order_fingerprint": order_fingerprint})
         if begin % (batch_size * 10) == 0 or begin + len(rows) == count:
@@ -499,7 +553,8 @@ def _prepare_locked(db_path, directory, download, batch_size):
     for begin in range(0, count, 4096):
         chunk = vectors[begin:begin+4096]
         norms = np.linalg.norm(chunk, axis=1)
-        if not np.isfinite(chunk).all() or not np.all((norms > 0.99) & (norms < 1.01)):
+        valid_norms = norms > 0 if VECTOR_DTYPE == "int8" else (norms > 0.99) & (norms < 1.01)
+        if not np.isfinite(chunk).all() or not np.all(valid_norms):
             raise RuntimeError("متجهات ناقصة أو غير مطبعة؛ لم ينشر الفهرس.")
     del vectors
     db.close()
@@ -537,6 +592,9 @@ def main():
             from .semantic_paragraphs import prepare_paragraphs
             paragraphs = prepare_paragraphs(args.db,args.directory,max(args.batch_size,64))
             result = {"context":result,"paragraphs":paragraphs,"status":semantic_status(args.db,args.directory)}
+            if PROFILE_ID != "legacy-e5":
+                from .morphology import prepare as prepare_morphology
+                result["morphology"] = prepare_morphology(result["status"])
         print(json.dumps(result, ensure_ascii=False, indent=2))
     except Exception as error:
         print(str(error), file=sys.stderr)

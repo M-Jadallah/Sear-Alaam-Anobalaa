@@ -97,7 +97,7 @@ def validate_onnx_manifest(manifest):
 
 
 def download_onnx_models():
-    from .semantic import MODEL_DIR, EMBED_MODEL, EMBED_REVISION, RERANK_MODEL, RERANK_REVISION, file_sha256, atomic_json, _json_hash, runtime_backend
+    from .semantic import MODEL_DIR, EMBED_MODEL, EMBED_REVISION, RERANK_MODEL, RERANK_REVISION, file_sha256, atomic_json, _json_hash, runtime_backend, PROFILE_ID
     portable = runtime_backend() == PORTABLE_RUNTIME
     entries = []
     for kind, name, revision, filename in (("embed", EMBED_MODEL, EMBED_REVISION, "model_qint8_avx512_vnni.onnx"), ("rerank", RERANK_MODEL, RERANK_REVISION, "model_quint8_avx2.onnx")):
@@ -106,6 +106,13 @@ def download_onnx_models():
         directory = MODEL_DIR / ("onnx-" + kind + "-" + revision)
         directory.mkdir(parents=True, exist_ok=True)
         target = directory / filename
+        if PROFILE_ID != "legacy-e5" and not portable:
+            raise RuntimeError("النموذج العربي يتطلب تشغيل ONNX المحمول.")
+        if PROFILE_ID != "legacy-e5" and not target.exists():
+            from .model_export import export_pinned_bert
+            staged = target.with_suffix(".building.onnx")
+            export_pinned_bert(kind, name, revision, staged)
+            os.replace(staged, target)
         if not target.exists():
             temporary = target.with_name(target.name + ".incomplete")
             offset = temporary.stat().st_size if temporary.exists() else 0
@@ -229,7 +236,8 @@ class OnnxEmbedding(OnnxBase):
     def encode(self, texts, batch_size=16, normalize_embeddings=True, **kwargs):
         import numpy as np
         if not texts:
-            return np.zeros((0, 384), dtype=np.float32)
+            from .semantic import DIMENSION
+            return np.zeros((0, DIMENSION), dtype=np.float32)
         vectors = []
         for start in range(0, len(texts), batch_size):
             outputs, tokens = self.run(texts[start:start+batch_size])

@@ -12,3 +12,6 @@ reference/curation
 reference/reading-revisions
 .env*
 deploy/artifacts/**/*.tmp
+deploy/artifacts/**/*.incomplete
+deploy/test-output
+.agents

@@ -21,7 +21,7 @@ from pydantic import BaseModel, ConfigDict, Field, StringConstraints, field_vali
 from .normalization import normalize_arabic
 from .semantic import (DEFAULT_DB, DEFAULT_SEMANTIC_DIR, canonical_connection, semantic_status,
                        load_models, file_sha256)
-from .semantic import model_artifact_stamps
+from .semantic import model_artifact_stamps, DIMENSION, VECTOR_DTYPE, QUERY_PREFIX, PROFILE_ID
 from .smart_interpret import interpret_query, query_terms
 
 LEXICAL_CANDIDATES = 100
@@ -142,6 +142,45 @@ def rrf_fuse(lexical, semantic, k=RRF_K, topical=None):
     return sorted(fused.values(), key=lambda row: row["scores"]["rrf"], reverse=True)
 
 
+def balanced_pool(lexical, semantic, morphological, topical=(), maximum=100, seed=20):
+    """Reserve recall from each retrieval channel before final cross-encoding."""
+    channels = {"lexical": lexical, "morphology": morphological,
+                "context": [row for row in semantic if row.get("granularity") != "paragraph"],
+                "paragraph": [row for row in semantic if row.get("granularity") == "paragraph"]}
+    if topical:
+        channels["topic"] = topical
+    fused, reserved = {}, set()
+    for kind, rows in channels.items():
+        seen = set()
+        for row in rows:
+            key = (row["source_id"], row["source_char_start"], row["source_char_end"])
+            if key in seen:
+                continue
+            seen.add(key)
+            rank = len(seen)
+            if rank > 40:
+                break
+            target = fused.setdefault(key, {**row, "scores": {"rrf": 0.0}})
+            target["scores"]["rrf"] += 1 / (RRF_K + rank)
+            target["scores"][kind + "_rank"] = rank
+            if kind in ("context", "paragraph"):
+                target["scores"]["semantic_rank"] = min(rank, target["scores"].get("semantic_rank", rank))
+                target["scores"]["cosine"] = row.get("cosine")
+            if kind == "topic":
+                _attach_topic_context(target, row)
+            if rank <= seed:
+                reserved.add(key)
+    ranked = sorted(fused.items(), key=lambda pair: pair[1]["scores"]["rrf"], reverse=True)
+    selected = [pair for pair in ranked if pair[0] in reserved][:maximum]
+    keys = {pair[0] for pair in selected}
+    for pair in ranked:
+        if len(selected) >= maximum:
+            break
+        if pair[0] not in keys:
+            selected.append(pair); keys.add(pair[0])
+    return [row for _, row in selected]
+
+
 def deduplicate_overlaps(rows, threshold=0.70):
     selected = []
     for row in rows:
@@ -219,7 +258,7 @@ def _vectors(status):
         if not manifest.get("complete") or file_sha256(directory / "vectors.npy") != manifest["vectors_sha256"] or file_sha256(directory / "windows.sqlite3") != manifest["windows_sha256"]:
             raise RuntimeError("فشل تحقق سلامة الفهرس الدلالي؛ لا تستخدم نتائجه قبل إعادة البناء.")
         vectors = np.load(directory / "vectors.npy", mmap_mode="r", allow_pickle=False)
-        if vectors.shape != (manifest["window_count"], 384) or vectors.dtype != np.float32:
+        if vectors.shape != (manifest["window_count"], DIMENSION) or vectors.dtype != np.dtype(VECTOR_DTYPE):
             raise RuntimeError("أبعاد الفهرس الدلالي أو نوعه غير صالح.")
         _VECTOR_CACHE.clear()
         _VECTOR_CACHE[key] = vectors
@@ -229,12 +268,13 @@ def _vectors(status):
 def _semantic_candidates(query, status):
     import numpy as np
     embed, _ = _models(status.get("model_fingerprint"))
-    inputs = embed.tokenizer("query: " + query, add_special_tokens=True, truncation=False)
+    inputs = embed.tokenizer(QUERY_PREFIX + query, add_special_tokens=True, truncation=False)
     if len(inputs["input_ids"]) > 512:
         raise ValueError("الاستعلام أطول من حد النموذج المحلي. اختصر خطة البحث؛ صياغتك الأصلية محفوظة ولم تُبتر.")
-    vector = embed.encode(["query: " + query], normalize_embeddings=True, show_progress_bar=False, convert_to_numpy=True)[0]
+    vector = embed.encode([QUERY_PREFIX + query], normalize_embeddings=True, show_progress_bar=False, convert_to_numpy=True)[0]
     vectors = _vectors(status)
-    scores = vectors @ vector
+    from .vector_storage import cosine_scores
+    scores = cosine_scores(vectors, vector)
     scope=status.get('pilot_biography_ids')
     def scoped_indices(directory, values, count):
         if scope is None:
@@ -264,7 +304,7 @@ def _semantic_candidates(query, status):
             rows.append(row)
     if use_paragraphs:
         paragraph_vectors = _paragraph_vectors(paragraph)
-        paragraph_scores = paragraph_vectors @ vector
+        paragraph_scores = cosine_scores(paragraph_vectors, vector)
         take = min(50,len(paragraph_scores))
         selected = scoped_indices(paragraph['directory'],paragraph_scores,take)
         paragraph_rows=[]
@@ -296,7 +336,7 @@ def _paragraph_vectors(status):
         if not manifest.get("complete") or file_sha256(directory/"vectors.npy")!=manifest["vectors_sha256"] or file_sha256(directory/"windows.sqlite3")!=manifest["windows_sha256"]:
             raise RuntimeError("فشل تحقق سلامة فهرس الفقرات؛ أعد تجهيزه.")
         vectors=np.load(directory/"vectors.npy",mmap_mode="r",allow_pickle=False)
-        if vectors.shape!=(manifest["window_count"],384) or vectors.dtype!=np.float32:raise RuntimeError("أبعاد متجهات الفقرات غير صالحة.")
+        if vectors.shape!=(manifest["window_count"],DIMENSION) or vectors.dtype!=np.dtype(VECTOR_DTYPE):raise RuntimeError("أبعاد متجهات الفقرات غير صالحة.")
         _PARAGRAPH_VECTOR_CACHE.clear();_PARAGRAPH_VECTOR_CACHE[key]=vectors
     return _PARAGRAPH_VECTOR_CACHE[key]
 
@@ -344,10 +384,11 @@ def _literal_results(rows, db_path, hybrid):
             if item["match_type"] == "semantic_candidate":
                 item["reason"] = ("اقتراح اجتمع فيه الاسترجاع الدلالي واللفظي" if item["scores"].get("lexical_rank") else "اقتراح استرجاع دلالي") + "؛ الترتيب لا يثبت صحة المعنى أو الإسناد."
             else:
-                item["reason"] = "استرجاع لفظي بالألفاظ المحددة؛ الدلالة تحتاج مراجعة السياق."
+                item["reason"] = ("اقتراح لفظي باشتقاق صيغ الكلمات" if item["scores"].get("morphology_rank") else "استرجاع لفظي بالألفاظ المحددة") + "؛ الدلالة تحتاج مراجعة السياق."
             methods=[]
             if item['scores'].get('lexical_rank'):methods.append('lexical')
             if item['scores'].get('semantic_rank'):methods.append('semantic')
+            if item['scores'].get('morphology_rank'):methods.append('morphology')
             if item['scores'].get('topic_rank'):
                 methods.append('topic_candidate')
                 item['match_type']='topic_candidate'
@@ -392,9 +433,12 @@ def _cache_revision(db_path, status):
     paragraph_artifacts=None
     if status.get("paragraph_status",{}).get("directory"):
         directory=Path(status["paragraph_status"]["directory"])
-        paragraph_artifacts=[(path.stat().st_size,path.stat().st_mtime_ns) for path in (directory/"vectors.npy",directory/"windows.sqlite3",directory/"manifest.json") if path.exists()]
+        paths = [directory/"vectors.npy",directory/"windows.sqlite3",directory/"manifest.json"]
+        if PROFILE_ID != "legacy-e5":
+            paths.extend([directory/"morphology.json", *directory.glob("morphology-*.sqlite3")])
+        paragraph_artifacts=[(str(path.name),path.stat().st_size,path.stat().st_mtime_ns) for path in paths if path.exists()]
     dictionary_fingerprint = hashlib.sha256(json.dumps(dictionary, ensure_ascii=False).encode()).hexdigest()
-    return {"index": status.get("fingerprint"), "model_fingerprint": status.get("model_fingerprint"), "model_artifacts": model_artifact_stamps(), "dictionary": dictionary_fingerprint, "artifacts": artifacts,"paragraph_artifacts":paragraph_artifacts, "status": status["status"], "sources": status["sources"], "review_log": review,'pilot':pilot}
+    return {"index": status.get("fingerprint"), "profile": PROFILE_ID, "model_fingerprint": status.get("model_fingerprint"), "model_artifacts": model_artifact_stamps(), "dictionary": dictionary_fingerprint, "artifacts": artifacts,"paragraph_artifacts":paragraph_artifacts, "status": status["status"], "sources": status["sources"], "review_log": review,'pilot':pilot}
 
 
 def smart_search(payload, db_path=DEFAULT_DB, semantic_dir=None):
@@ -437,7 +481,7 @@ def smart_search(payload, db_path=DEFAULT_DB, semantic_dir=None):
         lexical_query = _lexical_query(selected_meaning, plan, topic_terms)
         lexical = scope_rows(_include(_exclude(_lexical_candidates(db_path, lexical_query, status), plan), plan))
         topical=scope_rows(_include(_exclude(topic_candidates(db_path,lexical_query,plan),plan),plan))
-        semantic, warning = [], integrity_warning
+        semantic, morphological, warning = [], [], integrity_warning
         # An edited description is authoritative. The original request remains
         # returned as query for audit; it must not silently override the edit.
         query_text = selected_meaning
@@ -448,12 +492,25 @@ def smart_search(payload, db_path=DEFAULT_DB, semantic_dir=None):
         if hybrid:
             try:
                 semantic = scope_rows(_include(_exclude(_semantic_candidates(query_text, status), plan), plan))
+                if PROFILE_ID != "legacy-e5":
+                    from .morphology import candidates as morphology_candidates
+                    morphological = scope_rows(_include(_exclude(morphology_candidates(selected_meaning, status), plan), plan))
             except ValueError:
                 raise
             except Exception as error:
                 hybrid = False
+                semantic, morphological = [], []
                 warning = "تعذر الاستدلال الدلالي المحلي؛ عُرض البحث اللفظي فقط. " + str(error)
-        fused = deduplicate_overlaps(rrf_fuse(lexical, semantic, topical=topical))[:RERANK_CANDIDATES]
+        balanced = hybrid and PROFILE_ID != "legacy-e5"
+        pool_limit = 100 if balanced else RERANK_CANDIDATES
+        if balanced:
+            # The manually curated topic pilot covers a small part of the book.
+            # It supplies candidates when explicitly selected; otherwise only
+            # attach its qualification to a retrieved overlapping witness.
+            explicit_topics = topical if plan.get("topic_ids") or plan.get("pilot_only") or plan.get("reviewed_only") or plan.get("batch_id") else []
+            fused = balanced_pool(lexical, semantic, morphological, explicit_topics, maximum=pool_limit)
+        else:
+            fused = deduplicate_overlaps(rrf_fuse(lexical, semantic, topical=topical))[:pool_limit]
         reranked = 0
         if hybrid:
             try:
@@ -461,11 +518,19 @@ def smart_search(payload, db_path=DEFAULT_DB, semantic_dir=None):
                 reranked = sum("rerank" in row["scores"] for row in fused)
             except Exception as error:
                 warning = "عمل الاسترجاع الدلالي وتعذر إعادة الترتيب؛ الترتيب الحالي RRF. " + str(error)
+        if balanced:
+            fused = deduplicate_overlaps(fused)
+            for row in fused:
+                for topic in topical:
+                    intersection = min(row["source_char_end"], topic["source_char_end"]) - max(row["source_char_start"], topic["source_char_start"])
+                    minimum = min(row["source_char_end"] - row["source_char_start"], topic["source_char_end"] - topic["source_char_start"])
+                    if row["source_id"] == topic["source_id"] and minimum > 0 and intersection / minimum >= 0.7:
+                        _attach_topic_context(row, topic)
         all_items = _literal_results(fused, db_path, hybrid)
         metadata = {"mode": "hybrid" if hybrid else "lexical_only", "semantic_status": status,
             "interpretation": plan, "warning": warning or (None if hybrid else status["reason"]),
-            "ranking": {"lexical_candidates": len(lexical), "semantic_candidates": len(semantic), 'topic_candidates':len(topical), "reranked": reranked,
-                        "rrf_k": RRF_K, "dedup_overlap": 0.70, "result_pool_limit": RERANK_CANDIDATES},
+            "ranking": {"lexical_candidates": len(lexical), "semantic_candidates": len(semantic), "morphology_candidates": len(morphological), 'topic_candidates':len(topical), "reranked": reranked,
+                        "rrf_k": RRF_K, "dedup_overlap": 0.70, "result_pool_limit": pool_limit},
             "total_scope": "retrieved_candidates_not_book_coverage"}
         _CACHE[cache_key] = (time.monotonic(), copy.deepcopy(all_items), copy.deepcopy(metadata))
         for old in list(_CACHE):
