@@ -8,7 +8,7 @@ import pytest
 from backend.deployment import backup, inventory, package, restore, sha256, unpack, verify_library
 
 
-def test_inventory_hash_is_compatible_and_streams_large_unicode_strings(monkeypatch):
+def test_inventory_hash_is_compatible_and_streams_large_unicode_strings(monkeypatch, tmp_path):
     from backend import deployment
     value = ('عَرَبِيٌّ 🧪 " \\ \r\n\t\x00' * 12000) + 'خاتمة مصطنعة للاختبار'
     row = (1, None, 2.5, value, "")
@@ -25,6 +25,12 @@ def test_inventory_hash_is_compatible_and_streams_large_unicode_strings(monkeypa
     deployment._hash_row(digest, row)
     assert digest.hexdigest() == expected
     assert len(sizes) > 1
+    database = tmp_path / "synthetic-unicode.sqlite3"
+    with closing(sqlite3.connect(database)) as db, db:
+        db.execute("CREATE TABLE sources(id INTEGER PRIMARY KEY, full_text TEXT)")
+        db.execute("INSERT INTO sources VALUES (?,?)", (1, value))
+    expected = hashlib.sha256(dumps((1, value), ensure_ascii=False, separators=(",", ":")).encode() + b"\n").hexdigest()
+    assert inventory(database)["sources"] == {"rows": 1, "sha256": expected}
 
 
 def test_production_verification_rejects_synthetic_or_missing_source(book):

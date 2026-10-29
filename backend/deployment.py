@@ -272,7 +272,14 @@ def restore(archive, destination):
     temporary = destination.with_suffix(".restore-tmp")
     try:
         with gzip.open(archive, "rb") as src, temporary.open("xb") as dst:
-            shutil.copyfileobj(src, dst, length=1024 * 1024)
+            pending_flush = 0
+            while chunk := src.read(1024 * 1024):
+                dst.write(chunk)
+                pending_flush += len(chunk)
+                if pending_flush >= 16 * 1024 * 1024:
+                    _flush_disk_cache(dst)
+                    pending_flush = 0
+            _flush_disk_cache(dst)
         with closing(readonly(temporary)) as db:
             if db.execute("PRAGMA integrity_check").fetchone()[0] != "ok":
                 raise ValueError("النسخة المستعادة غير سليمة.")
