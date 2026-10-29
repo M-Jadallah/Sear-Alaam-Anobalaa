@@ -126,6 +126,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Require verified private packages before release work
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -c "from scripts.publish_release import require_private_packages; require_private_packages()"
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'

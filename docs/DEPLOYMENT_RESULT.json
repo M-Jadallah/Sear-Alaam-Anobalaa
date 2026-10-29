@@ -1,0 +1,186 @@
+{
+  "date_utc": "2026-10-29",
+  "status": "container_acceptance_passed_publication_blocked",
+  "verified_application_source_commit": "08591cfd42201f4615b6964b25f1432b147918f8",
+  "verification_run": "https://github.com/M-Jadallah/Sear-Alaam-Anobalaa/actions/runs/40894770960",
+  "linux_tests": {
+    "passed": 284,
+    "skipped_before_model_restore": 5,
+    "failed": 0,
+    "frontend_https": "passed"
+  },
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "seed_database_sha256": "0e6ab65b31319201ccd3bbb8c98fbb88017923e1246730899a7876de0086c9c9",
+  "preserved_tables": {
+    "sources": {
+      "rows": 1,
+      "sha256": "1028d73a5978b46abec8c1db8537cc2c3ef51c8037edd471228f92be49059f0e"
+    },
+    "biographies": {
+      "rows": 5943,
+      "sha256": "4373c314c00dd826a25a6389f3a4faae30a641a65db16819edd626e97d3e8880"
+    },
+    "segments": {
+      "rows": 129006,
+      "sha256": "c17e939b1edcf87d79b6827a7100ede994578366813c8701d12ce6115f78b13c"
+    },
+    "topic_hits": {
+      "rows": 19869,
+      "sha256": "2e78562d6bdc1f58b419ddc4f4ae19693d1bcfe520dbe96208ea130935af826d"
+    },
+    "person_mentions": {
+      "rows": 46642,
+      "sha256": "a355eb2184e742f1cea4bb1a1afd376e3ed237b29ef41bc57e4750fea5b8fa71"
+    },
+    "review_log": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "curation_batches": {
+      "rows": 4,
+      "sha256": "318666c11ebed76e29cf832d9fa0ed1c93b785428359f15f0548a351b2d6f44a"
+    },
+    "curation_batch_members": {
+      "rows": 20,
+      "sha256": "fecc096c4e1a10083c3721f009de42bec91131cf1523c7a4d3783d6e1f33acce"
+    },
+    "curation_diacritics": {
+      "rows": 20,
+      "sha256": "31a56ad27c331b201dfc7d2e2fb5937a8694248d58b487da5a58e1596490ee4a"
+    },
+    "reading_revision_batches": {
+      "rows": 5,
+      "sha256": "77f634092d6519cf204516a2b5c74ca34317432918d2b998008780b1b646ee17"
+    },
+    "reading_revision_history": {
+      "rows": 10,
+      "sha256": "ddf8426766a6b323ef997ad44cb659a2cff984a414e70fac2fbb2b708be1ee7d"
+    },
+    "pilot_documents": {
+      "rows": 20,
+      "sha256": "66c2a81bb6ac213543c2f9ddc2b6a1b94f8ead8516e7400d1260562c994b9338"
+    },
+    "pilot_evidence": {
+      "rows": 426,
+      "sha256": "87714f98d47ed2ae09a5688bd2fe3352c1175ece7685a749d22c759c3149ab3d"
+    },
+    "pilot_events": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "pilot_reading_overlays": {
+      "rows": 20,
+      "sha256": "69e28987ee33051c4a107b91f8e86a1eb82cde0c85eb16ef501b3840e614b3c0"
+    }
+  },
+  "retrieval": {
+    "gold_sha256": "9e901b8e5327bff3d4a3f9b14753afda424ef7faf766fcef9dc34367e6c478d9",
+    "execution_environment": {
+      "method": "in-process synchronous smart_search worker function; excludes HTTP/browser transport",
+      "platform": "Linux-7.0.0-1017-azure-x86_64-with-glibc2.39",
+      "processor": "x86_64",
+      "python": "3.12.15",
+      "logical_cpu_count": 4,
+      "inference_cpu_threads": 1
+    },
+    "descriptive_questions": {
+      "queries": 20,
+      "known_hits": 16,
+      "known_passage_hit_at_10": 0.8,
+      "p95_ms": 24310.814261500018,
+      "mean_ms": 18180.927619950005
+    },
+    "smart": {
+      "queries": 30,
+      "known_hits": 25,
+      "known_passage_hit_at_10": 0.8333333333333334,
+      "p95_ms": 24245.995844850022,
+      "mean_ms": 18400.09982140001
+    }
+  },
+  "container_acceptance": {
+    "runtime_probe": {
+      "queries": 30,
+      "warm_p95_seconds": 24.830840867999996,
+      "median_seconds": 18.511130695500015,
+      "offline_network": "internal Docker network; no Internet",
+      "auth": "passed",
+      "literal_witnesses": "passed"
+    },
+    "stack_peak_mib": 764.623,
+    "sample_count": 100,
+    "cgroups": {
+      "api": {
+        "peak_bytes": 813539328,
+        "events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        }
+      },
+      "backup": {
+        "peak_bytes": 100663296,
+        "events": {
+          "low": 0,
+          "high": 0,
+          "max": 3576,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        }
+      },
+      "web": {
+        "peak_bytes": 7598080,
+        "events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        }
+      }
+    },
+    "cgroup_peak_sum_mib": 879.09765625,
+    "recreate_and_restore": "passed",
+    "images": {
+      "api": "ghcr.io/m-jadallah/sear-alaam-anobalaa-api:sha-08591cfd42201f4615b6964b25f1432b147918f8",
+      "web": "ghcr.io/m-jadallah/sear-alaam-anobalaa-web:sha-08591cfd42201f4615b6964b25f1432b147918f8"
+    },
+    "image_ids": {
+      "api": "sha256:6b51a3560099b9662cc7b077fe50d7830fcae24cab5bcfe502827263b7a6557b",
+      "web": "sha256:8be43da1813bee37bd333a630a9b6346c558b6949d18991c425eb34a9f819aed"
+    },
+    "image_sizes_bytes": {
+      "api": 1129680812,
+      "web": 55227525
+    },
+    "library_bytes": 276647936,
+    "backup_bytes": 348302626
+  },
+  "registry": {
+    "status": "public_images_withdrawn",
+    "repository_visibility_at_inspection": "public",
+    "production_branch_created": false,
+    "withdrawal_run": "https://github.com/M-Jadallah/Sear-Alaam-Anobalaa/actions/runs/40901159998",
+    "anonymous_pull_after_withdrawal": {
+      "api": 403,
+      "web": 403
+    },
+    "empty_probe_run": "https://github.com/M-Jadallah/Sear-Alaam-Anobalaa/actions/runs/40901589639",
+    "empty_probe_status": "new_empty_package_was_public_and_was_withdrawn",
+    "private_images_verified": false
+  },
+  "vps": {
+    "deployed": false,
+    "host_memory_margin_measured": false,
+    "reboot_and_rollback_verified": false,
+    "coolify_access_available": false
+  }
+}

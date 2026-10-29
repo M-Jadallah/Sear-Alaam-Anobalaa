@@ -19,14 +19,14 @@ def github(path, method="GET"):
         return None if response.status == 204 else json.load(response)
 
 
-def require_private_packages(allow_missing=False):
+def require_private_packages():
     for kind in ("api", "web"):
         package = "sear-alaam-anobalaa-" + kind
         try:
             details = github("users/M-Jadallah/packages/container/" + package)
         except urllib.error.HTTPError as error:
-            if allow_missing and error.code == 404:
-                continue
+            if error.code == 404:
+                raise RuntimeError("A private GHCR package must exist before uploading application data: " + package) from error
             raise
         if details.get("visibility") != "private":
             raise RuntimeError("Refusing to publish to a non-private package: " + package)
@@ -74,7 +74,7 @@ def main():
         image = "ghcr.io/m-jadallah/sear-alaam-anobalaa-" + kind + ":sha-" + sha
         if container_qa["image_ids"][kind] != run("docker", "image", "inspect", image, "--format", "{{.Id}}"):
             raise RuntimeError("The image differs from the container tested by QA")
-    require_private_packages(allow_missing=True)
+    require_private_packages()
     replacements = {}
     images = {}
     for kind in ("api", "web"):
