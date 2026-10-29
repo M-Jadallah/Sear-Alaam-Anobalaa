@@ -199,18 +199,31 @@ def unpack(folder, database, source):
 def backup(database, folder, *, kind="daily"):
     folder = Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
+    # Coordinate periodic and manual backups across processes. The lock is a
+    # separate tiny SQLite database, never a write transaction on the library.
+    with closing(sqlite3.connect(folder / ".backup-coordination.sqlite3", timeout=120)) as lock:
+        lock.execute("BEGIN IMMEDIATE")
+        return _backup_locked(database, folder, kind=kind)
+
+
+def _backup_locked(database, folder, *, kind):
+    _progress("backup_snapshot_started")
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
     with tempfile.TemporaryDirectory(dir=folder) as temporary:
         staged = Path(temporary) / "library.sqlite3"
         snapshot(database, staged)
+        _progress("backup_snapshot_complete")
         with closing(readonly(staged)) as db:
             if db.execute("PRAGMA quick_check").fetchone()[0] != "ok":
                 raise ValueError("فشل فحص النسخة الاحتياطية.")
         output = folder / f"{Path(database).stem}-{kind}-{stamp}.sqlite3.gz"
         working = output.with_suffix(".tmp")
-        with staged.open("rb") as src, gzip.open(working, "wb") as dst:
+        # Explicit level is stable across Python versions (3.14 changed the
+        # gzip default). Runtime backups share only 0.1 CPU on the VPS.
+        with staged.open("rb") as src, gzip.open(working, "wb", compresslevel=3) as dst:
             shutil.copyfileobj(src, dst, length=1024 * 1024)
         os.replace(working, output)
+        _progress("backup_compression_complete")
     previous = sorted(folder.glob(f"{Path(database).stem}-{kind}-*.sqlite3.gz"), reverse=True)
     for old in previous[3 if kind == "daily" else 1:]:
         old.unlink()
