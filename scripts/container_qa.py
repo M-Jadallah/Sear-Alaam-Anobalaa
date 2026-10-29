@@ -97,8 +97,12 @@ def main():
         report["backup_bytes"] = int(compose("exec", "-T", "backup", "python", "-c", "from pathlib import Path;print(sum(p.stat().st_size for p in Path('/backups').glob('*') if p.is_file()))").stdout.strip())
         (folder / "container-qa.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
         print(json.dumps(report))
-    except Exception:
-        logs = compose("logs", "--no-color", "--tail", "60", check=False).stdout
+    except Exception as error:
+        details = str(error)
+        if isinstance(error, subprocess.CalledProcessError):
+            details += "\n" + (error.stdout or "") + "\n" + (error.stderr or "")
+        logs = details + "\n" + compose("logs", "--no-color", "--tail", "60", check=False).stdout
+        print(details.replace(os.environ["SIYAR_ADMIN_PASSWORD"], "[REDACTED]"), flush=True)
         (folder / "container-failure.log").write_text(logs.replace(os.environ["SIYAR_ADMIN_PASSWORD"], "[REDACTED]"), encoding="utf-8")
         raise
     finally:
