@@ -44,7 +44,7 @@ def main():
             with urllib.request.urlopen("http://127.0.0.1:18080" + path) as response:
                 assert response.status == 200
         # API has no public host port and no external network route.
-        ids = compose("ps", "-q").stdout.split()
+        ids = compose("ps", "-q", "--status", "running").stdout.split()
         with ThreadPoolExecutor(max_workers=1) as executor:
             probe = executor.submit(compose, "exec", "-T", "api", "python", "-m", "backend.production_probe")
             while not probe.done():
@@ -68,9 +68,19 @@ def main():
             result = probe.result()
         report = {"runtime_probe": json.loads(result.stdout.strip().splitlines()[-1]), "stack_peak_mib": peak, "sample_count": len(samples)}
         assert peak <= 1229, report
+        report["cgroups"] = {}
         for identifier in ids:
             state = json.loads(run("docker", "inspect", identifier).stdout)[0]
             assert not state["State"]["OOMKilled"] and state["RestartCount"] == 0
+            service = state["Config"]["Labels"]["com.docker.compose.service"]
+            events = dict((key, int(value)) for key, value in (line.split() for line in run("docker", "exec", identifier, "cat", "/sys/fs/cgroup/memory.events").stdout.splitlines()))
+            assert {"oom", "oom_kill"}.issubset(events), events
+            assert not any(events.get(key, 0) for key in ("oom", "oom_kill", "oom_group_kill")), events
+            cgroup_peak = int(run("docker", "exec", identifier, "cat", "/sys/fs/cgroup/memory.peak").stdout.strip())
+            report["cgroups"][service] = {"peak_bytes": cgroup_peak, "events": events}
+        assert set(report["cgroups"]) == {"api", "web", "backup"}, report["cgroups"]
+        report["cgroup_peak_sum_mib"] = sum(item["peak_bytes"] for item in report["cgroups"].values()) / 1024**2
+        assert report["cgroup_peak_sum_mib"] <= 1229, report
         # A committed review must survive normal reconciliation and recreation.
         before = compose("exec", "-T", "api", "python", "-c", "import sqlite3;print(sqlite3.connect('/state/library.sqlite3').execute('SELECT COUNT(*) FROM review_log').fetchone()[0])").stdout.strip()
         compose("up", "-d", "--wait", "--force-recreate", "--wait-timeout", "300")
@@ -82,6 +92,9 @@ def main():
         report["recreate_and_restore"] = "passed"
         report["images"] = {"api": args.api, "web": args.web}
         report["image_ids"] = {kind: run("docker", "image", "inspect", image, "--format", "{{.Id}}").stdout.strip() for kind, image in report["images"].items()}
+        report["image_sizes_bytes"] = {kind: int(run("docker", "image", "inspect", image, "--format", "{{.Size}}").stdout.strip()) for kind, image in report["images"].items()}
+        report["library_bytes"] = int(compose("exec", "-T", "api", "python", "-c", "from pathlib import Path;print(sum(p.stat().st_size for p in Path('/state').glob('*') if p.is_file()))").stdout.strip())
+        report["backup_bytes"] = int(compose("exec", "-T", "backup", "python", "-c", "from pathlib import Path;print(sum(p.stat().st_size for p in Path('/backups').glob('*') if p.is_file()))").stdout.strip())
         (folder / "container-qa.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
         print(json.dumps(report))
     except Exception:

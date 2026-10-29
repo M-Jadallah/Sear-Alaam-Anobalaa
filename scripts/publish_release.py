@@ -64,9 +64,12 @@ def main():
     if evaluation.get("goals", {}).get("descriptive_hit_at_10_at_least_80_percent") is not True:
         raise RuntimeError("Retrieval release gate failed")
     container_qa = json.loads(Path("deploy/test-output/container-qa.json").read_text())
-    if (container_qa["stack_peak_mib"] > 1229 or container_qa["runtime_probe"]["warm_p95_seconds"] > 30
+    if (container_qa["stack_peak_mib"] > 1229 or container_qa["cgroup_peak_sum_mib"] > 1229
+            or container_qa["runtime_probe"]["warm_p95_seconds"] > 30
             or container_qa.get("recreate_and_restore") != "passed"):
         raise RuntimeError("Container acceptance gate failed")
+    if any(item["events"].get(event, 0) for item in container_qa["cgroups"].values() for event in ("oom", "oom_kill", "oom_group_kill")):
+        raise RuntimeError("A process was OOM-killed in the tested container group")
     for kind in ("api", "web"):
         image = "ghcr.io/m-jadallah/sear-alaam-anobalaa-" + kind + ":sha-" + sha
         if container_qa["image_ids"][kind] != run("docker", "image", "inspect", image, "--format", "{{.Id}}"):
