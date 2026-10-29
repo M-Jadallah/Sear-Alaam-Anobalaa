@@ -1,0 +1,53 @@
+name: Verify private GHCR creation using empty images
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  packages: write
+jobs:
+  privacy:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Bootstrap only private packages without application data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import urllib.request,urllib.error,json,os,subprocess,tempfile,pathlib
+          def api(path,method='GET'):
+              request=urllib.request.Request('https://api.github.com/'+path,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'siyar-private-bootstrap'},method=method)
+              with urllib.request.urlopen(request,timeout=30) as response:
+                  return None if response.status==204 else json.load(response)
+          tag='privacy-probe-'+os.environ['GITHUB_RUN_ID']
+          with tempfile.TemporaryDirectory() as temporary:
+              root=pathlib.Path(temporary)
+              (root/'Dockerfile').write_text('FROM scratch\nLABEL org.opencontainers.image.source="https://github.com/M-Jadallah/Sear-Alaam-Anobalaa"\nLABEL org.opencontainers.image.description="Empty privacy probe; no application data"\n')
+              for kind in ('api','web'):
+                  path='users/M-Jadallah/packages/container/sear-alaam-anobalaa-'+kind
+                  try:
+                      details=api(path)
+                  except urllib.error.HTTPError as error:
+                      if error.code!=404:raise
+                      details=None
+                  if details:
+                      assert details['visibility']=='private', 'Existing package is not private'
+                      print(json.dumps({'package':kind,'visibility':'private','created':False}))
+                      continue
+                  image='ghcr.io/m-jadallah/sear-alaam-anobalaa-'+kind+':'+tag
+                  subprocess.run(['docker','build','-t',image,str(root)],check=True)
+                  subprocess.run(['docker','push',image],check=True)
+                  details=api(path)
+                  print(json.dumps({'package':kind,'visibility':details['visibility'],'created_at':details['created_at'],'updated_at':details['updated_at']}))
+                  if details['visibility']!='private':
+                      versions=api(path+'/versions?per_page=100')
+                      assert versions and all(v['metadata']['container']['tags']==[tag] for v in versions)
+                      assert len(versions)==details['version_count']
+                      api(path,'DELETE')
+                      raise RuntimeError('New empty package was not private and has been withdrawn; no application data uploaded')
+          PY
