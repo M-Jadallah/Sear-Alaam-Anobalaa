@@ -4,6 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
 import os
 from pathlib import Path
 import statistics
+import sys
 import time
 import urllib.error
 import urllib.request
@@ -27,6 +28,9 @@ def request(path, payload=None, headers=None):
 def main():
     if os.environ.get("SIYAR_DISPOSABLE_QA") != "1":
         raise RuntimeError("This acceptance probe writes test reviews and requires explicitly disposable CI volumes.")
+    def progress(stage, **values):
+        print(json.dumps({"stage": stage, **values}), file=sys.stderr, flush=True)
+    progress("runtime_probe_started")
     assert request("/api/ready")[0] == 200
     semantic = request("/api/semantic/status")[2]
     assert semantic["ready"] and semantic["paragraph_status"]["ready"], semantic
@@ -45,15 +49,18 @@ def main():
     # This mutation is only executed against the randomly named CI library volume.
     assert request(path, {"review_status": "reviewed", "reviewer": "spoofed"}, protected)[0] == 200
     assert request("/api/review-log", headers=protected)[2]["items"][0]["reviewer"] == os.environ["SIYAR_ADMIN_USERNAME"]
+    progress("auth_checks_complete")
     durations = []
     queries = [json.loads(line)["query"] for line in (Path("/app/fixtures/semantic_evaluation.jsonl")).read_text(encoding="utf-8").splitlines() if line.strip()]
     # Warmup is outside the timed sample; query response transport is measured.
     warm = request("/api/search/smart", {"q": "العلم والإخلاص"})
     assert warm[0] == 200 and warm[2]["mode"] == "hybrid", warm
+    progress("warmup_complete")
     with ThreadPoolExecutor(max_workers=10) as readers:
         requests = list(readers.map(lambda _: request("/api/sources/1/text?start=0&end=1000")[0], range(10)))
         assert all(code == 200 for code in requests), requests
-    for query in queries:
+    progress("concurrent_readers_complete")
+    for index, query in enumerate(queries, 1):
         start = time.monotonic()
         code, _, result = request("/api/search/smart", {"q": query})
         durations.append(time.monotonic() - start)
@@ -61,6 +68,7 @@ def main():
         for row in result["items"]:
             literal = request(f"/api/sources/{row['source_id']}/text?start={row['source_char_start']}&end={row['source_char_end']}")[2]
             assert row["text_original"] == literal["text_original"]
+        progress("query_complete", index=index, seconds=round(durations[-1], 3))
     p95 = sorted(durations)[max(0, int(len(durations) * .95 + .9999) - 1)]
     assert p95 <= 30, f"Warm search p95 exceeds 30s: {p95}"
     assert request("/api/auth/logout", {}, protected)[0] == 200

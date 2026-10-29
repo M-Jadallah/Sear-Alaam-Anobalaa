@@ -11,7 +11,9 @@ import urllib.request
 
 
 def run(*args, check=True, **kwargs):
-    return subprocess.run(args, check=check, text=True, capture_output=True, **kwargs)
+    kwargs.setdefault("timeout", 600)
+    return subprocess.run(args, check=check, text=True, stdout=subprocess.PIPE,
+                          stderr=kwargs.pop("stderr", subprocess.PIPE), **kwargs)
 
 
 def main():
@@ -33,12 +35,15 @@ def main():
     os.environ.update(SIYAR_ADMIN_USERNAME="ci-admin", SIYAR_ADMIN_PASSWORD=secrets.token_urlsafe(32))
     command = ["docker", "compose", "-p", network, "-f", "docker-compose.yml", "-f", str(config)]
     def compose(*values, **kw):
+        print(json.dumps({"stage": "compose", "command": values[0], "elapsed_seconds": round(time.monotonic() - started, 1)}), flush=True)
         return run(*command, *values, **kw)
+    started = time.monotonic()
     run("docker", "network", "create", network)
     peak = 0
     samples = []
     try:
         compose("up", "-d", "--wait", "--wait-timeout", "300")
+        print('{"stage":"services_ready"}', flush=True)
         # Check static routes and the actual public POST path through nginx.
         for path in ["/", "/login", "/reader/1", "/topics", "/healthz"]:
             with urllib.request.urlopen("http://127.0.0.1:18080" + path) as response:
@@ -46,7 +51,7 @@ def main():
         # API has no public host port and no external network route.
         ids = compose("ps", "-q", "--status", "running").stdout.split()
         with ThreadPoolExecutor(max_workers=1) as executor:
-            probe = executor.submit(compose, "exec", "-T", "api", "python", "-m", "backend.production_probe")
+            probe = executor.submit(compose, "exec", "-T", "api", "python", "-m", "backend.production_probe", timeout=1200, stderr=None)
             while not probe.done():
                 current = 0
                 for identifier in ids:
@@ -66,6 +71,7 @@ def main():
                 samples.append(current)
                 time.sleep(.5)
             result = probe.result()
+        print('{"stage":"runtime_probe_complete"}', flush=True)
         report = {"runtime_probe": json.loads(result.stdout.strip().splitlines()[-1]), "stack_peak_mib": peak, "sample_count": len(samples)}
         assert peak <= 1229, report
         report["cgroups"] = {}
@@ -81,12 +87,15 @@ def main():
         assert set(report["cgroups"]) == {"api", "web", "backup"}, report["cgroups"]
         report["cgroup_peak_sum_mib"] = sum(item["peak_bytes"] for item in report["cgroups"].values()) / 1024**2
         assert report["cgroup_peak_sum_mib"] <= 1229, report
+        print('{"stage":"memory_checks_complete"}', flush=True)
         # A committed review must survive normal reconciliation and recreation.
         before = compose("exec", "-T", "api", "python", "-c", "import sqlite3;print(sqlite3.connect('/state/library.sqlite3').execute('SELECT COUNT(*) FROM review_log').fetchone()[0])").stdout.strip()
         compose("up", "-d", "--wait", "--force-recreate", "--wait-timeout", "300")
         after = compose("exec", "-T", "api", "python", "-c", "import sqlite3;print(sqlite3.connect('/state/library.sqlite3').execute('SELECT COUNT(*) FROM review_log').fetchone()[0])").stdout.strip()
         assert before == after and int(after) > 0
+        print('{"stage":"recreate_complete"}', flush=True)
         compose("exec", "-T", "backup", "python", "-m", "backend.deployment", "backup", "--folder", "/backups")
+        print('{"stage":"backup_complete"}', flush=True)
         restore = "from pathlib import Path;from backend.deployment import restore,inventory;import os;restore(sorted(Path('/backups').glob('library-daily-*.gz'))[-1],'/backups/restored.sqlite3');assert inventory('/backups/restored.sqlite3')==inventory('/state/library.sqlite3');os.unlink('/backups/restored.sqlite3')"
         compose("exec", "-T", "backup", "python", "-c", restore)
         report["recreate_and_restore"] = "passed"
