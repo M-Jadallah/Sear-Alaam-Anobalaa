@@ -119,7 +119,7 @@ def evaluate(db_path, gold_path, *, semantic_dir=None, top_k=10, baseline_only=F
         status = None
         search = None
         if not baseline_only:
-            from backend.semantic import semantic_status
+            from backend.semantic import THREADS, semantic_status
             from backend.smart_search import smart_search
             search = smart_search
             status = semantic_status(db_path, semantic_dir)
@@ -166,7 +166,7 @@ def evaluate(db_path, gold_path, *, semantic_dir=None, top_k=10, baseline_only=F
         all_hybrid = len(hybrid_only) == len(results) and bool(results)
         smart_metrics = aggregate(results, "smart", top_k)
         return {"evaluation_version": "known-passages-v1", "gold_sha256": hashlib.sha256(Path(gold_path).read_bytes()).hexdigest(),
-                "execution_environment": {"method": "in-process synchronous smart_search worker function; excludes HTTP/browser transport", "platform": platform.platform(), "processor": platform.processor(), "python": platform.python_version(), "logical_cpu_count": os.cpu_count(), "inference_cpu_threads": 4},
+                "execution_environment": {"method": "in-process synchronous smart_search worker function; excludes HTTP/browser transport", "platform": platform.platform(), "processor": platform.processor(), "python": platform.python_version(), "logical_cpu_count": os.cpu_count(), "inference_cpu_threads": THREADS},
                 "source_sha256": sorted({case["source_sha256"] for case in gold}), "query_count": len(gold),
                 "category_counts": dict(Counter(case["category"] for case in gold)), "top_k": top_k,
                 "metric_definition": "A result must share source/section and overlap at least min(40,ceil(25% of gold span length)) literal Unicode characters with a known relevant passage. These are curated known-passage hits, not precision/exhaustive recall or historical authentication.",
