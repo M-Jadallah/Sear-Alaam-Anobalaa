@@ -31,9 +31,27 @@ def readonly(path):
     return sqlite3.connect(Path(path).resolve().as_uri() + "?mode=ro", uri=True, timeout=60)
 
 
+def _hash_row(digest, row):
+    """Preserve the v1 JSON bytes without duplicating the whole book string."""
+    digest.update(b"[")
+    for index, value in enumerate(row):
+        if index:
+            digest.update(b",")
+        if isinstance(value, str):
+            digest.update(b'"')
+            for start in range(0, len(value), 65536):
+                escaped = json.dumps(value[start:start + 65536], ensure_ascii=False)
+                digest.update(escaped[1:-1].encode("utf-8"))
+            digest.update(b'"')
+        else:
+            digest.update(json.dumps(value, ensure_ascii=False, separators=(",", ":")).encode("utf-8"))
+    digest.update(b"]\n")
+
+
 def inventory(path):
     result = {}
     with closing(readonly(path)) as db:
+        db.execute("BEGIN")
         tables = {r[0] for r in db.execute("SELECT name FROM sqlite_master WHERE type='table'")}
         for table in TABLES:
             if table not in tables:
@@ -42,8 +60,7 @@ def inventory(path):
             count = 0
             # Names come only from the fixed allowlist above, never from input.
             for row in db.execute('SELECT * FROM "' + table + '" ORDER BY rowid'):
-                digest.update(json.dumps(row, ensure_ascii=False, separators=(",", ":")).encode())
-                digest.update(b"\n")
+                _hash_row(digest, row)
                 count += 1
             result[table] = {"rows": count, "sha256": digest.hexdigest()}
     return result

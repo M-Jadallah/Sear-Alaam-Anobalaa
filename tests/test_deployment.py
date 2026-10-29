@@ -1,10 +1,30 @@
 """Transport tests use clearly labelled synthetic data in temporary paths only."""
 import json
+import hashlib
 import sqlite3
 from contextlib import closing
 
 import pytest
 from backend.deployment import backup, inventory, package, restore, sha256, unpack, verify_library
+
+
+def test_inventory_hash_is_compatible_and_streams_large_unicode_strings(monkeypatch):
+    from backend import deployment
+    value = ('عَرَبِيٌّ 🧪 " \\ \r\n\t\x00' * 12000) + 'خاتمة مصطنعة للاختبار'
+    row = (1, None, 2.5, value, "")
+    dumps = json.dumps
+    expected = hashlib.sha256(dumps(row, ensure_ascii=False, separators=(",", ":")).encode() + b"\n").hexdigest()
+    sizes = []
+    def bounded(value, *args, **kwargs):
+        if isinstance(value, str):
+            sizes.append(len(value))
+            assert len(value) <= 65536
+        return dumps(value, *args, **kwargs)
+    monkeypatch.setattr(deployment.json, "dumps", bounded)
+    digest = hashlib.sha256()
+    deployment._hash_row(digest, row)
+    assert digest.hexdigest() == expected
+    assert len(sizes) > 1
 
 
 def test_production_verification_rejects_synthetic_or_missing_source(book):
