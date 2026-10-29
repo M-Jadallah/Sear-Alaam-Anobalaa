@@ -20,6 +20,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--api", required=True)
     parser.add_argument("--web", required=True)
+    parser.add_argument("--maintenance-only", action="store_true", help="Diagnose backups only; never produces a release acceptance report")
     args = parser.parse_args()
     suffix = secrets.token_hex(5)
     folder = Path("deploy/test-output")
@@ -52,6 +53,17 @@ def main():
                 assert response.status == 200
         # API has no public host port and no external network route.
         ids = compose("ps", "-q", "--status", "running").stdout.split()
+        if args.maintenance_only:
+            compose("exec", "-T", "backup", "python", "-m", "backend.deployment", "backup", "--folder", "/backups", stderr=None)
+            restore = "from pathlib import Path;from backend.deployment import restore,inventory;import os;restore(sorted(Path('/backups').glob('library-daily-*.gz'))[-1],'/backups/restored.sqlite3');assert inventory('/backups/restored.sqlite3')==inventory('/state/library.sqlite3');os.unlink('/backups/restored.sqlite3')"
+            compose("exec", "-T", "backup", "python", "-c", restore, stderr=None)
+            for identifier in ids:
+                state = json.loads(run("docker", "inspect", identifier).stdout)[0]
+                assert not state["State"]["OOMKilled"] and state["RestartCount"] == 0
+                events = dict((key, int(value)) for key, value in (line.split() for line in run("docker", "exec", identifier, "cat", "/sys/fs/cgroup/memory.events").stdout.splitlines()))
+                assert not any(events.get(key, 0) for key in ("oom", "oom_kill", "oom_group_kill")), events
+            print('{"stage":"maintenance_only_passed","release_acceptance":false}', flush=True)
+            return
         with ThreadPoolExecutor(max_workers=1) as executor:
             probe = executor.submit(compose, "exec", "-T", "api", "python", "-m", "backend.production_probe", timeout=1200, stderr=None)
             while not probe.done():

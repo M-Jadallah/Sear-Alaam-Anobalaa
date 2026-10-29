@@ -1,6 +1,11 @@
 name: Diagnose offline containers without publishing
 on:
   workflow_dispatch:
+    inputs:
+      maintenance_only:
+        type: boolean
+        default: false
+        description: Diagnose backup and restore without repeating search acceptance
 permissions:
   contents: read
 concurrency:
@@ -33,7 +38,7 @@ jobs:
           docker build --platform linux/amd64 -f deploy/api.Dockerfile -t siyar-diagnostic-api:local .
           docker build --platform linux/amd64 -f deploy/web.Dockerfile -t siyar-diagnostic-web:local .
       - name: Exercise disposable offline containers with phase diagnostics
-        run: python scripts/container_qa.py --api siyar-diagnostic-api:local --web siyar-diagnostic-web:local
+        run: python scripts/container_qa.py --api siyar-diagnostic-api:local --web siyar-diagnostic-web:local ${{ inputs.maintenance_only && '--maintenance-only' || '' }}
       - uses: actions/upload-artifact@v4
         if: always()
         with:
