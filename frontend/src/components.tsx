@@ -271,7 +271,7 @@ export function Evidence({
         <p className="result-reason">{item.explanation ?? item.reason}</p>
       )}
       {!!item.retrieval_methods?.length && <div className="pilot-audit-meta" aria-label="طريقة العثور على الشاهد">
-        {item.retrieval_methods.map(method => <span key={method} className="status">{method === 'lexical' ? 'استرجاع لفظي' : method === 'semantic' ? 'استرجاع دلالي' : method === 'topic_candidate' ? 'من الفهرس الموضوعي' : method}</span>)}
+        {item.retrieval_methods.map(method => <span key={method} className="status">{method === 'lexical' ? 'استرجاع لفظي' : method === 'semantic' ? 'استرجاع دلالي' : method === 'morphology' ? 'تقارب صيغ الكلمات' : method === 'topic_candidate' ? 'من الفهرس الموضوعي' : method}</span>)}
         {item.topic_audit_id && <span>{item.topic_review_status === 'reviewed' ? 'الوسم معتمد بشريًا' : 'فحص الوكيل النصي — بانتظار اعتمادك'}</span>}
       </div>}
       {item.topic_audit_id !== undefined && (item.subject_scope || ['contested', 'criticism', 'accusation', 'negated'].includes(item.stance ?? '')) && <div className="pilot-audit-meta" aria-label="دلالة الشاهد الموضوعي">

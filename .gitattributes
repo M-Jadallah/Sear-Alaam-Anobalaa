@@ -1,5 +1,6 @@
 * text=auto eol=lf
 data/source.mARkdown -text
+fixtures/semantic_evaluation.jsonl -text
 reference/** -text
 deploy/seed/*.part* -text
 *.png -text

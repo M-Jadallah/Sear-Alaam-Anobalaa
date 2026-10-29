@@ -12,6 +12,7 @@ import os
 from pathlib import Path
 import re
 import sqlite3
+import sys
 import time
 from typing import Annotated, Literal
 
@@ -30,6 +31,7 @@ RRF_K = 60
 RERANK_CANDIDATES = 40
 CACHE_SECONDS = 15 * 60
 CACHE_LIMIT = 64
+CACHE_BYTES_LIMIT = 64 * 1024 * 1024
 RERANK_BATCH = max(1, min(8, int(os.environ.get("SIYAR_RERANK_BATCH", "8"))))
 _CACHE = {}
 _MODEL_CACHE = None
@@ -37,6 +39,19 @@ _VECTOR_CACHE = {}
 _PARAGRAPH_VECTOR_CACHE = {}
 _EXECUTOR = None
 SearchTerm = Annotated[str, StringConstraints(strip_whitespace=True, min_length=1, max_length=160)]
+
+
+def _memory_size(value, seen=None):
+    seen = set() if seen is None else seen
+    if id(value) in seen:
+        return 0
+    seen.add(id(value))
+    size = sys.getsizeof(value)
+    if isinstance(value, dict):
+        size += sum(_memory_size(k, seen) + _memory_size(v, seen) for k, v in value.items())
+    elif isinstance(value, (list, tuple, set, frozenset)):
+        size += sum(_memory_size(item, seen) for item in value)
+    return size
 
 
 class MeaningPlan(BaseModel):
@@ -142,7 +157,7 @@ def rrf_fuse(lexical, semantic, k=RRF_K, topical=None):
     return sorted(fused.values(), key=lambda row: row["scores"]["rrf"], reverse=True)
 
 
-def balanced_pool(lexical, semantic, morphological, topical=(), maximum=100, seed=20):
+def balanced_pool(lexical, semantic, morphological, topical=(), maximum=160, seed=40):
     """Reserve recall from each retrieval channel before final cross-encoding."""
     channels = {"lexical": lexical, "morphology": morphological,
                 "context": [row for row in semantic if row.get("granularity") != "paragraph"],
@@ -492,9 +507,12 @@ def smart_search(payload, db_path=DEFAULT_DB, semantic_dir=None):
         if hybrid:
             try:
                 semantic = scope_rows(_include(_exclude(_semantic_candidates(query_text, status), plan), plan))
-                if PROFILE_ID != "legacy-e5":
+                if PROFILE_ID != "legacy-e5" and status.get("paragraph_status", {}).get("ready"):
                     from .morphology import candidates as morphology_candidates
-                    morphological = scope_rows(_include(_exclude(morphology_candidates(selected_meaning, status), plan), plan))
+                    try:
+                        morphological = scope_rows(_include(_exclude(morphology_candidates(selected_meaning, status), plan), plan))
+                    except Exception as error:
+                        warning = ((warning + " ") if warning else "") + "تعذر فهرس اشتقاق الصيغ؛ يعمل الاسترجاع بالنص والدلالة المتاحين فقط. " + str(error)
             except ValueError:
                 raise
             except Exception as error:
@@ -502,13 +520,14 @@ def smart_search(payload, db_path=DEFAULT_DB, semantic_dir=None):
                 semantic, morphological = [], []
                 warning = "تعذر الاستدلال الدلالي المحلي؛ عُرض البحث اللفظي فقط. " + str(error)
         balanced = hybrid and PROFILE_ID != "legacy-e5"
-        pool_limit = 100 if balanced else RERANK_CANDIDATES
+        pool_limit = 160 if balanced else RERANK_CANDIDATES
         if balanced:
             # The manually curated topic pilot covers a small part of the book.
             # It supplies candidates when explicitly selected; otherwise only
             # attach its qualification to a retrieved overlapping witness.
             explicit_topics = topical if plan.get("topic_ids") or plan.get("pilot_only") or plan.get("reviewed_only") or plan.get("batch_id") else []
-            fused = balanced_pool(lexical, semantic, morphological, explicit_topics, maximum=pool_limit)
+            fused = balanced_pool(lexical, semantic, morphological, explicit_topics,
+                                  maximum=pool_limit, seed=32 if explicit_topics else 40)
         else:
             fused = deduplicate_overlaps(rrf_fuse(lexical, semantic, topical=topical))[:pool_limit]
         reranked = 0
@@ -532,11 +551,14 @@ def smart_search(payload, db_path=DEFAULT_DB, semantic_dir=None):
             "ranking": {"lexical_candidates": len(lexical), "semantic_candidates": len(semantic), "morphology_candidates": len(morphological), 'topic_candidates':len(topical), "reranked": reranked,
                         "rrf_k": RRF_K, "dedup_overlap": 0.70, "result_pool_limit": pool_limit},
             "total_scope": "retrieved_candidates_not_book_coverage"}
-        _CACHE[cache_key] = (time.monotonic(), copy.deepcopy(all_items), copy.deepcopy(metadata))
+        entry = (time.monotonic(), copy.deepcopy(all_items), copy.deepcopy(metadata))
+        weight = _memory_size(entry)
+        if weight <= CACHE_BYTES_LIMIT:
+            _CACHE[cache_key] = (*entry, weight)
         for old in list(_CACHE):
             if time.monotonic() - _CACHE[old][0] >= CACHE_SECONDS:
                 del _CACHE[old]
-        while len(_CACHE) > CACHE_LIMIT:
+        while len(_CACHE) > CACHE_LIMIT or sum(entry[3] for entry in _CACHE.values()) > CACHE_BYTES_LIMIT:
             del _CACHE[next(iter(_CACHE))]
         cache_hit = False
     begin = (request.page - 1) * request.page_size

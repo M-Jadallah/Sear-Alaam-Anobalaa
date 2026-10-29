@@ -1,0 +1,2202 @@
+{
+  "status": "full-corpus local prototype; Linux API, container and VPS acceptance still pending",
+  "source_sha256": "7ae7f691ffe236f5b888f5dfdf18becd9e5ea17ab6b5851528db5efd333886c0",
+  "fixture_sha256": "f8f6cb71c5605366a49929b565b272d2b4c4a76e3b9b39c536e333c494114b93",
+  "query_count": 30,
+  "descriptive_questions": {
+    "hits_at_10": 16,
+    "total": 20,
+    "hit_at_10": 0.8
+  },
+  "all_questions": {
+    "hits_at_10": 25,
+    "total": 30
+  },
+  "algorithm": {
+    "model_profile": "arabic-retrieval-v1",
+    "per_channel_candidates": 40,
+    "maximum_pool": 160,
+    "deduplication": "after reranking, 70% source-span overlap",
+    "vector_storage": "row-int8-unit-v1"
+  },
+  "experimental_models": {
+    "encoder_sha256": "a7b492c71314feca4c3f681a29052995ea98bf7f4092a53a3c279e0261bfe189",
+    "reranker_sha256": "e84351f718d36bdecbcd96f57da2c53daf87ff9085f8869aec4e15e69f36d860"
+  },
+  "context_manifest": {
+    "model_sha256": "a7b492c71314feca4c3f681a29052995ea98bf7f4092a53a3c279e0261bfe189",
+    "source_windows_sha256": "6ce298a51033339a68c53bab665b4067a2751076f1ac7f13ef17ce14e6c9eb19",
+    "tokenizer_sha256": "a9590eb6eb53432923e9798af9e063cd2fb759cda80d67394da01b38a7f1901a",
+    "rows": 32217,
+    "dimension": 768,
+    "prefix": "",
+    "order_sha256": "b65c3f9a078e35114d0ca2decc24b11b0fa94689c004266e41e9a5ac80b157d5",
+    "vectors_file": "all-context-vectors.npy",
+    "vectors_sha256": "25ab4f820f5ef4861d49c941fefae3cad943a63c9b3abd0abc3758f0114ac4f9"
+  },
+  "paragraph_manifest": {
+    "model_sha256": "a7b492c71314feca4c3f681a29052995ea98bf7f4092a53a3c279e0261bfe189",
+    "source_windows_sha256": "9fc3fa2a323410a9971bb97b13ecbf6ff67faf5dcf96b04c3345306a4ba82dd6",
+    "tokenizer_sha256": "a9590eb6eb53432923e9798af9e063cd2fb759cda80d67394da01b38a7f1901a",
+    "rows": 129146,
+    "dimension": 768,
+    "prefix": "",
+    "order_sha256": "a41da648b5168e529a3239a7988029792024d01ae5e8454da369f7e0e677b282",
+    "vectors_file": "all-paragraph-vectors.npy",
+    "vectors_sha256": "794760155c6f79319a74fe1faae2689164ed8a8550cc57746d9d12e720021e13"
+  },
+  "timing_diagnostic_only": {
+    "threads": 1,
+    "median_seconds": 13.6859701499925,
+    "p95_seconds": 18.047122799995122,
+    "maximum_seconds": 18.119519600004423,
+    "note": "Other local verification ran during the first queries; this is not the VPS performance gate."
+  },
+  "cases": [
+    {
+      "id": "Q01",
+      "category": "paraphrase",
+      "seconds": 13.914217299985467,
+      "channels": {
+        "surface": null,
+        "morph": null,
+        "context": null,
+        "paragraph": null
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 59,
+          "rank": null
+        },
+        "balanced_24": {
+          "pool": 91,
+          "rank": null
+        },
+        "balanced_32": {
+          "pool": 122,
+          "rank": null
+        },
+        "balanced_40": {
+          "pool": 154,
+          "rank": null
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": null
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": null
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": null
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": null
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": null
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": null
+        }
+      }
+    },
+    {
+      "id": "Q02",
+      "category": "paraphrase",
+      "seconds": 12.413139999989653,
+      "channels": {
+        "surface": {
+          "rank": 38,
+          "overlap_chars": 115,
+          "required_overlap_chars": 29,
+          "expected_start": 3799889,
+          "result_start": 3799436,
+          "result_end": 3800378
+        },
+        "morph": {
+          "rank": 34,
+          "overlap_chars": 112,
+          "required_overlap_chars": 29,
+          "expected_start": 3799889,
+          "result_start": 3799891,
+          "result_end": 3800003
+        },
+        "context": null,
+        "paragraph": {
+          "rank": 73,
+          "overlap_chars": 112,
+          "required_overlap_chars": 29,
+          "expected_start": 3799889,
+          "result_start": 3799891,
+          "result_end": 3800003
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 62,
+          "rank": null
+        },
+        "balanced_24": {
+          "pool": 92,
+          "rank": null
+        },
+        "balanced_32": {
+          "pool": 123,
+          "rank": null
+        },
+        "balanced_40": {
+          "pool": 153,
+          "rank": 2
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": null
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": null
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": null
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": null
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": null
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": null
+        }
+      }
+    },
+    {
+      "id": "Q03",
+      "category": "paraphrase",
+      "seconds": 17.603940800006967,
+      "channels": {
+        "surface": null,
+        "morph": null,
+        "context": {
+          "rank": 5,
+          "overlap_chars": 235,
+          "required_overlap_chars": 40,
+          "expected_start": 6672510,
+          "result_start": 6672080,
+          "result_end": 6673009
+        },
+        "paragraph": {
+          "rank": 5,
+          "overlap_chars": 232,
+          "required_overlap_chars": 40,
+          "expected_start": 6672510,
+          "result_start": 6672512,
+          "result_end": 6672744
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 62,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 91,
+          "rank": 2
+        },
+        "balanced_32": {
+          "pool": 123,
+          "rank": 2
+        },
+        "balanced_40": {
+          "pool": 154,
+          "rank": 2
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 2
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 2
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 2
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 2
+        }
+      }
+    },
+    {
+      "id": "Q04",
+      "category": "paraphrase",
+      "seconds": 14.773143400001572,
+      "channels": {
+        "surface": {
+          "rank": 1,
+          "overlap_chars": 202,
+          "required_overlap_chars": 40,
+          "expected_start": 11578251,
+          "result_start": 11577530,
+          "result_end": 11578453
+        },
+        "morph": {
+          "rank": 1,
+          "overlap_chars": 200,
+          "required_overlap_chars": 40,
+          "expected_start": 11578251,
+          "result_start": 11578253,
+          "result_end": 11578453
+        },
+        "context": {
+          "rank": 119,
+          "overlap_chars": 202,
+          "required_overlap_chars": 40,
+          "expected_start": 11578251,
+          "result_start": 11577530,
+          "result_end": 11578453
+        },
+        "paragraph": {
+          "rank": 1,
+          "overlap_chars": 200,
+          "required_overlap_chars": 40,
+          "expected_start": 11578251,
+          "result_start": 11578253,
+          "result_end": 11578453
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 62,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 94,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 124,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 151,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q05",
+      "category": "paraphrase",
+      "seconds": 15.023618999985047,
+      "channels": {
+        "surface": {
+          "rank": 15,
+          "overlap_chars": 114,
+          "required_overlap_chars": 29,
+          "expected_start": 5883367,
+          "result_start": 5883315,
+          "result_end": 5884259
+        },
+        "morph": {
+          "rank": 6,
+          "overlap_chars": 111,
+          "required_overlap_chars": 29,
+          "expected_start": 5883367,
+          "result_start": 5883369,
+          "result_end": 5883480
+        },
+        "context": {
+          "rank": 5,
+          "overlap_chars": 114,
+          "required_overlap_chars": 29,
+          "expected_start": 5883367,
+          "result_start": 5883315,
+          "result_end": 5884259
+        },
+        "paragraph": {
+          "rank": 18,
+          "overlap_chars": 111,
+          "required_overlap_chars": 29,
+          "expected_start": 5883367,
+          "result_start": 5883369,
+          "result_end": 5883480
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 59,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 87,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 117,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 147,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q06",
+      "category": "paraphrase",
+      "seconds": 16.60893709998345,
+      "channels": {
+        "surface": null,
+        "morph": {
+          "rank": 6,
+          "overlap_chars": 227,
+          "required_overlap_chars": 40,
+          "expected_start": 4273934,
+          "result_start": 4273936,
+          "result_end": 4274163
+        },
+        "context": null,
+        "paragraph": null
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 62,
+          "rank": 7
+        },
+        "balanced_24": {
+          "pool": 91,
+          "rank": 8
+        },
+        "balanced_32": {
+          "pool": 121,
+          "rank": 8
+        },
+        "balanced_40": {
+          "pool": 152,
+          "rank": 10
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 5
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 7
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 7
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 8
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 7
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 8
+        }
+      }
+    },
+    {
+      "id": "Q07",
+      "category": "paraphrase",
+      "seconds": 11.548870300001,
+      "channels": {
+        "surface": null,
+        "morph": null,
+        "context": null,
+        "paragraph": null
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 64,
+          "rank": null
+        },
+        "balanced_24": {
+          "pool": 96,
+          "rank": null
+        },
+        "balanced_32": {
+          "pool": 127,
+          "rank": null
+        },
+        "balanced_40": {
+          "pool": 158,
+          "rank": null
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": null
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": null
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": null
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": null
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": null
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": null
+        }
+      }
+    },
+    {
+      "id": "Q08",
+      "category": "paraphrase",
+      "seconds": 14.84623220001231,
+      "channels": {
+        "surface": null,
+        "morph": {
+          "rank": 1,
+          "overlap_chars": 277,
+          "required_overlap_chars": 40,
+          "expected_start": 10637451,
+          "result_start": 10637453,
+          "result_end": 10637730
+        },
+        "context": {
+          "rank": 10,
+          "overlap_chars": 280,
+          "required_overlap_chars": 40,
+          "expected_start": 10637451,
+          "result_start": 10637370,
+          "result_end": 10638243
+        },
+        "paragraph": {
+          "rank": 9,
+          "overlap_chars": 277,
+          "required_overlap_chars": 40,
+          "expected_start": 10637451,
+          "result_start": 10637453,
+          "result_end": 10637730
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 63,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 95,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 123,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 154,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q09",
+      "category": "paraphrase",
+      "seconds": 12.87963260000106,
+      "channels": {
+        "surface": {
+          "rank": 1,
+          "overlap_chars": 404,
+          "required_overlap_chars": 40,
+          "expected_start": 12565001,
+          "result_start": 12565003,
+          "result_end": 12565885
+        },
+        "morph": {
+          "rank": 22,
+          "overlap_chars": 391,
+          "required_overlap_chars": 40,
+          "expected_start": 12565001,
+          "result_start": 12565003,
+          "result_end": 12565394
+        },
+        "context": null,
+        "paragraph": null
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 61,
+          "rank": 3
+        },
+        "balanced_24": {
+          "pool": 92,
+          "rank": 3
+        },
+        "balanced_32": {
+          "pool": 124,
+          "rank": 4
+        },
+        "balanced_40": {
+          "pool": 156,
+          "rank": 4
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 3
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 3
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 3
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 4
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 3
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 4
+        }
+      }
+    },
+    {
+      "id": "Q10",
+      "category": "paraphrase",
+      "seconds": 18.119519600004423,
+      "channels": {
+        "surface": null,
+        "morph": {
+          "rank": 18,
+          "overlap_chars": 49,
+          "required_overlap_chars": 16,
+          "expected_start": 6231315,
+          "result_start": 6231317,
+          "result_end": 6231366
+        },
+        "context": null,
+        "paragraph": {
+          "rank": 2,
+          "overlap_chars": 49,
+          "required_overlap_chars": 16,
+          "expected_start": 6231315,
+          "result_start": 6231317,
+          "result_end": 6231366
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 63,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 93,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 125,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 157,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q11",
+      "category": "paraphrase",
+      "seconds": 11.768213800009107,
+      "channels": {
+        "surface": null,
+        "morph": null,
+        "context": null,
+        "paragraph": {
+          "rank": 5,
+          "overlap_chars": 62,
+          "required_overlap_chars": 17,
+          "expected_start": 5692458,
+          "result_start": 5692460,
+          "result_end": 5692522
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 62,
+          "rank": 2
+        },
+        "balanced_24": {
+          "pool": 92,
+          "rank": 2
+        },
+        "balanced_32": {
+          "pool": 124,
+          "rank": 2
+        },
+        "balanced_40": {
+          "pool": 154,
+          "rank": 2
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 2
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 2
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 2
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 2
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 2
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 2
+        }
+      }
+    },
+    {
+      "id": "Q12",
+      "category": "paraphrase",
+      "seconds": 13.638836500002071,
+      "channels": {
+        "surface": {
+          "rank": 16,
+          "overlap_chars": 445,
+          "required_overlap_chars": 40,
+          "expected_start": 10406872,
+          "result_start": 10406384,
+          "result_end": 10407317
+        },
+        "morph": {
+          "rank": 81,
+          "overlap_chars": 443,
+          "required_overlap_chars": 40,
+          "expected_start": 10406872,
+          "result_start": 10406874,
+          "result_end": 10407317
+        },
+        "context": null,
+        "paragraph": null
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 64,
+          "rank": 3
+        },
+        "balanced_24": {
+          "pool": 95,
+          "rank": 6
+        },
+        "balanced_32": {
+          "pool": 127,
+          "rank": 8
+        },
+        "balanced_40": {
+          "pool": 156,
+          "rank": 8
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": null
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": null
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 4
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 6
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 4
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 6
+        }
+      }
+    },
+    {
+      "id": "Q13",
+      "category": "paraphrase",
+      "seconds": 11.655628200009232,
+      "channels": {
+        "surface": null,
+        "morph": null,
+        "context": null,
+        "paragraph": null
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 63,
+          "rank": null
+        },
+        "balanced_24": {
+          "pool": 94,
+          "rank": null
+        },
+        "balanced_32": {
+          "pool": 124,
+          "rank": null
+        },
+        "balanced_40": {
+          "pool": 151,
+          "rank": null
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": null
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": null
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": null
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": null
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": null
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": null
+        }
+      }
+    },
+    {
+      "id": "Q14",
+      "category": "paraphrase",
+      "seconds": 15.657527600007597,
+      "channels": {
+        "surface": {
+          "rank": 1,
+          "overlap_chars": 202,
+          "required_overlap_chars": 40,
+          "expected_start": 11607107,
+          "result_start": 11606567,
+          "result_end": 11607442
+        },
+        "morph": {
+          "rank": 1,
+          "overlap_chars": 199,
+          "required_overlap_chars": 40,
+          "expected_start": 11607107,
+          "result_start": 11607109,
+          "result_end": 11607308
+        },
+        "context": {
+          "rank": 70,
+          "overlap_chars": 202,
+          "required_overlap_chars": 40,
+          "expected_start": 11607107,
+          "result_start": 11606567,
+          "result_end": 11607442
+        },
+        "paragraph": {
+          "rank": 44,
+          "overlap_chars": 199,
+          "required_overlap_chars": 40,
+          "expected_start": 11607107,
+          "result_start": 11607109,
+          "result_end": 11607308
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 61,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 92,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 123,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 154,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q15",
+      "category": "paraphrase",
+      "seconds": 18.047122799995122,
+      "channels": {
+        "surface": null,
+        "morph": null,
+        "context": null,
+        "paragraph": {
+          "rank": 1,
+          "overlap_chars": 83,
+          "required_overlap_chars": 22,
+          "expected_start": 3438442,
+          "result_start": 3438444,
+          "result_end": 3438527
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 63,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 94,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 124,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 156,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q16",
+      "category": "negation_or_alternative",
+      "seconds": 14.43325959998765,
+      "channels": {
+        "surface": {
+          "rank": 25,
+          "overlap_chars": 235,
+          "required_overlap_chars": 40,
+          "expected_start": 6672510,
+          "result_start": 6672080,
+          "result_end": 6673009
+        },
+        "morph": {
+          "rank": 11,
+          "overlap_chars": 232,
+          "required_overlap_chars": 40,
+          "expected_start": 6672510,
+          "result_start": 6672512,
+          "result_end": 6672744
+        },
+        "context": {
+          "rank": 1,
+          "overlap_chars": 235,
+          "required_overlap_chars": 40,
+          "expected_start": 6672510,
+          "result_start": 6672080,
+          "result_end": 6673009
+        },
+        "paragraph": {
+          "rank": 5,
+          "overlap_chars": 232,
+          "required_overlap_chars": 40,
+          "expected_start": 6672510,
+          "result_start": 6672512,
+          "result_end": 6672744
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 60,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 87,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 117,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 148,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q17",
+      "category": "negation_or_alternative",
+      "seconds": 10.165164099977119,
+      "channels": {
+        "surface": null,
+        "morph": null,
+        "context": null,
+        "paragraph": {
+          "rank": 11,
+          "overlap_chars": 200,
+          "required_overlap_chars": 40,
+          "expected_start": 11578251,
+          "result_start": 11578253,
+          "result_end": 11578453
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 62,
+          "rank": null
+        },
+        "balanced_24": {
+          "pool": 93,
+          "rank": null
+        },
+        "balanced_32": {
+          "pool": 124,
+          "rank": null
+        },
+        "balanced_40": {
+          "pool": 154,
+          "rank": null
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": null
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": null
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": null
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": null
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": null
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": null
+        }
+      }
+    },
+    {
+      "id": "Q18",
+      "category": "negation_or_alternative",
+      "seconds": 14.562339399999473,
+      "channels": {
+        "surface": {
+          "rank": 1,
+          "overlap_chars": 135,
+          "required_overlap_chars": 34,
+          "expected_start": 7760515,
+          "result_start": 7760059,
+          "result_end": 7760973
+        },
+        "morph": {
+          "rank": 1,
+          "overlap_chars": 132,
+          "required_overlap_chars": 34,
+          "expected_start": 7760515,
+          "result_start": 7760517,
+          "result_end": 7760649
+        },
+        "context": {
+          "rank": 58,
+          "overlap_chars": 135,
+          "required_overlap_chars": 34,
+          "expected_start": 7760515,
+          "result_start": 7760059,
+          "result_end": 7760973
+        },
+        "paragraph": {
+          "rank": 1,
+          "overlap_chars": 132,
+          "required_overlap_chars": 34,
+          "expected_start": 7760515,
+          "result_start": 7760517,
+          "result_end": 7760649
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 59,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 91,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 123,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 154,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q19",
+      "category": "negation_or_alternative",
+      "seconds": 10.767310700000962,
+      "channels": {
+        "surface": null,
+        "morph": {
+          "rank": 1,
+          "overlap_chars": 85,
+          "required_overlap_chars": 22,
+          "expected_start": 4433384,
+          "result_start": 4433386,
+          "result_end": 4433471
+        },
+        "context": {
+          "rank": 6,
+          "overlap_chars": 82,
+          "required_overlap_chars": 21,
+          "expected_start": 4431664,
+          "result_start": 4431666,
+          "result_end": 4432623
+        },
+        "paragraph": {
+          "rank": 2,
+          "overlap_chars": 85,
+          "required_overlap_chars": 22,
+          "expected_start": 4433384,
+          "result_start": 4433386,
+          "result_end": 4433471
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 61,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 93,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 121,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 152,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q20",
+      "category": "negation_or_alternative",
+      "seconds": 16.382431999983964,
+      "channels": {
+        "surface": {
+          "rank": 23,
+          "overlap_chars": 64,
+          "required_overlap_chars": 16,
+          "expected_start": 6231315,
+          "result_start": 6230854,
+          "result_end": 6231743
+        },
+        "morph": {
+          "rank": 1,
+          "overlap_chars": 49,
+          "required_overlap_chars": 16,
+          "expected_start": 6231315,
+          "result_start": 6231317,
+          "result_end": 6231366
+        },
+        "context": {
+          "rank": 192,
+          "overlap_chars": 64,
+          "required_overlap_chars": 16,
+          "expected_start": 6231315,
+          "result_start": 6230854,
+          "result_end": 6231743
+        },
+        "paragraph": {
+          "rank": 1,
+          "overlap_chars": 49,
+          "required_overlap_chars": 16,
+          "expected_start": 6231315,
+          "result_start": 6231317,
+          "result_end": 6231366
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 57,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 88,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 118,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 148,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q21",
+      "category": "name_variant",
+      "seconds": 16.301322000013897,
+      "channels": {
+        "surface": {
+          "rank": 1,
+          "overlap_chars": 235,
+          "required_overlap_chars": 40,
+          "expected_start": 6672510,
+          "result_start": 6672080,
+          "result_end": 6673009
+        },
+        "morph": {
+          "rank": 26,
+          "overlap_chars": 235,
+          "required_overlap_chars": 40,
+          "expected_start": 6672510,
+          "result_start": 6672080,
+          "result_end": 6673009
+        },
+        "context": {
+          "rank": 5,
+          "overlap_chars": 235,
+          "required_overlap_chars": 40,
+          "expected_start": 6672510,
+          "result_start": 6672080,
+          "result_end": 6673009
+        },
+        "paragraph": {
+          "rank": 59,
+          "overlap_chars": 232,
+          "required_overlap_chars": 40,
+          "expected_start": 6672510,
+          "result_start": 6672512,
+          "result_end": 6672744
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 57,
+          "rank": 5
+        },
+        "balanced_24": {
+          "pool": 87,
+          "rank": 6
+        },
+        "balanced_32": {
+          "pool": 116,
+          "rank": 6
+        },
+        "balanced_40": {
+          "pool": 144,
+          "rank": 6
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 4
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 5
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 5
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 6
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 5
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 6
+        }
+      }
+    },
+    {
+      "id": "Q22",
+      "category": "name_variant",
+      "seconds": 14.100097999995342,
+      "channels": {
+        "surface": {
+          "rank": 4,
+          "overlap_chars": 114,
+          "required_overlap_chars": 29,
+          "expected_start": 5883367,
+          "result_start": 5883315,
+          "result_end": 5884259
+        },
+        "morph": {
+          "rank": 5,
+          "overlap_chars": 111,
+          "required_overlap_chars": 29,
+          "expected_start": 5883367,
+          "result_start": 5883369,
+          "result_end": 5883480
+        },
+        "context": {
+          "rank": 1,
+          "overlap_chars": 114,
+          "required_overlap_chars": 29,
+          "expected_start": 5883367,
+          "result_start": 5883315,
+          "result_end": 5884259
+        },
+        "paragraph": {
+          "rank": 5,
+          "overlap_chars": 111,
+          "required_overlap_chars": 29,
+          "expected_start": 5883367,
+          "result_start": 5883369,
+          "result_end": 5883480
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 57,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 88,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 117,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 146,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q23",
+      "category": "name_variant",
+      "seconds": 13.733103799982928,
+      "channels": {
+        "surface": null,
+        "morph": {
+          "rank": 65,
+          "overlap_chars": 49,
+          "required_overlap_chars": 16,
+          "expected_start": 6231315,
+          "result_start": 6231317,
+          "result_end": 6231366
+        },
+        "context": {
+          "rank": 4,
+          "overlap_chars": 64,
+          "required_overlap_chars": 16,
+          "expected_start": 6231315,
+          "result_start": 6230854,
+          "result_end": 6231743
+        },
+        "paragraph": null
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 54,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 84,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 113,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 141,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q24",
+      "category": "name_variant",
+      "seconds": 11.583195100014564,
+      "channels": {
+        "surface": null,
+        "morph": null,
+        "context": {
+          "rank": 1,
+          "overlap_chars": 82,
+          "required_overlap_chars": 21,
+          "expected_start": 4431664,
+          "result_start": 4431666,
+          "result_end": 4432623
+        },
+        "paragraph": {
+          "rank": 9,
+          "overlap_chars": 81,
+          "required_overlap_chars": 21,
+          "expected_start": 4431664,
+          "result_start": 4431666,
+          "result_end": 4431747
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 59,
+          "rank": 2
+        },
+        "balanced_24": {
+          "pool": 90,
+          "rank": 2
+        },
+        "balanced_32": {
+          "pool": 121,
+          "rank": 2
+        },
+        "balanced_40": {
+          "pool": 153,
+          "rank": 2
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 2
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 2
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 2
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 2
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 2
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 2
+        }
+      }
+    },
+    {
+      "id": "Q25",
+      "category": "name_variant",
+      "seconds": 10.11746419998235,
+      "channels": {
+        "surface": {
+          "rank": 3,
+          "overlap_chars": 66,
+          "required_overlap_chars": 17,
+          "expected_start": 8221460,
+          "result_start": 8221282,
+          "result_end": 8222181
+        },
+        "morph": {
+          "rank": 2,
+          "overlap_chars": 63,
+          "required_overlap_chars": 17,
+          "expected_start": 8221460,
+          "result_start": 8221462,
+          "result_end": 8221525
+        },
+        "context": {
+          "rank": 5,
+          "overlap_chars": 66,
+          "required_overlap_chars": 17,
+          "expected_start": 8221460,
+          "result_start": 8221282,
+          "result_end": 8222181
+        },
+        "paragraph": {
+          "rank": 1,
+          "overlap_chars": 63,
+          "required_overlap_chars": 17,
+          "expected_start": 8221460,
+          "result_start": 8221462,
+          "result_end": 8221525
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 57,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 88,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 116,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 142,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q26",
+      "category": "outside_dictionary",
+      "seconds": 11.66176039999118,
+      "channels": {
+        "surface": {
+          "rank": 1,
+          "overlap_chars": 131,
+          "required_overlap_chars": 33,
+          "expected_start": 12147017,
+          "result_start": 12146956,
+          "result_end": 12147741
+        },
+        "morph": {
+          "rank": 1,
+          "overlap_chars": 128,
+          "required_overlap_chars": 33,
+          "expected_start": 12147017,
+          "result_start": 12147019,
+          "result_end": 12147147
+        },
+        "context": {
+          "rank": 80,
+          "overlap_chars": 131,
+          "required_overlap_chars": 33,
+          "expected_start": 12147017,
+          "result_start": 12146956,
+          "result_end": 12147741
+        },
+        "paragraph": {
+          "rank": 1,
+          "overlap_chars": 128,
+          "required_overlap_chars": 33,
+          "expected_start": 12147017,
+          "result_start": 12147019,
+          "result_end": 12147147
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 54,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 82,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 112,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 139,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q27",
+      "category": "outside_dictionary",
+      "seconds": 8.54040320002241,
+      "channels": {
+        "surface": {
+          "rank": 1,
+          "overlap_chars": 379,
+          "required_overlap_chars": 40,
+          "expected_start": 11036596,
+          "result_start": 11036382,
+          "result_end": 11037030
+        },
+        "morph": {
+          "rank": 4,
+          "overlap_chars": 376,
+          "required_overlap_chars": 40,
+          "expected_start": 11036596,
+          "result_start": 11036598,
+          "result_end": 11036974
+        },
+        "context": null,
+        "paragraph": {
+          "rank": 45,
+          "overlap_chars": 376,
+          "required_overlap_chars": 40,
+          "expected_start": 11036596,
+          "result_start": 11036598,
+          "result_end": 11036974
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 58,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 87,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 112,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 140,
+          "rank": 2
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q28",
+      "category": "outside_dictionary",
+      "seconds": 10.80720320000546,
+      "channels": {
+        "surface": {
+          "rank": 1,
+          "overlap_chars": 113,
+          "required_overlap_chars": 29,
+          "expected_start": 6072031,
+          "result_start": 6071735,
+          "result_end": 6072433
+        },
+        "morph": {
+          "rank": 1,
+          "overlap_chars": 110,
+          "required_overlap_chars": 29,
+          "expected_start": 6072031,
+          "result_start": 6072033,
+          "result_end": 6072143
+        },
+        "context": {
+          "rank": 1,
+          "overlap_chars": 113,
+          "required_overlap_chars": 29,
+          "expected_start": 6072031,
+          "result_start": 6071735,
+          "result_end": 6072433
+        },
+        "paragraph": {
+          "rank": 1,
+          "overlap_chars": 110,
+          "required_overlap_chars": 29,
+          "expected_start": 6072031,
+          "result_start": 6072033,
+          "result_end": 6072143
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 57,
+          "rank": 1
+        },
+        "balanced_24": {
+          "pool": 80,
+          "rank": 1
+        },
+        "balanced_32": {
+          "pool": 106,
+          "rank": 1
+        },
+        "balanced_40": {
+          "pool": 134,
+          "rank": 1
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 1
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 1
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 1
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 1
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 1
+        }
+      }
+    },
+    {
+      "id": "Q29",
+      "category": "outside_dictionary",
+      "seconds": 9.833999399997992,
+      "channels": {
+        "surface": {
+          "rank": 1,
+          "overlap_chars": 176,
+          "required_overlap_chars": 40,
+          "expected_start": 12154228,
+          "result_start": 12153712,
+          "result_end": 12154564
+        },
+        "morph": {
+          "rank": 1,
+          "overlap_chars": 173,
+          "required_overlap_chars": 40,
+          "expected_start": 12154228,
+          "result_start": 12154230,
+          "result_end": 12154403
+        },
+        "context": {
+          "rank": 16,
+          "overlap_chars": 176,
+          "required_overlap_chars": 40,
+          "expected_start": 12154228,
+          "result_start": 12153712,
+          "result_end": 12154564
+        },
+        "paragraph": {
+          "rank": 1,
+          "overlap_chars": 173,
+          "required_overlap_chars": 40,
+          "expected_start": 12154228,
+          "result_start": 12154230,
+          "result_end": 12154403
+        }
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 58,
+          "rank": 2
+        },
+        "balanced_24": {
+          "pool": 88,
+          "rank": 2
+        },
+        "balanced_32": {
+          "pool": 115,
+          "rank": 2
+        },
+        "balanced_40": {
+          "pool": 145,
+          "rank": 2
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": 2
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": 2
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": 2
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": 2
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": 2
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": 2
+        }
+      }
+    },
+    {
+      "id": "Q30",
+      "category": "outside_dictionary",
+      "seconds": 9.293662400014,
+      "channels": {
+        "surface": {
+          "rank": 27,
+          "overlap_chars": 162,
+          "required_overlap_chars": 40,
+          "expected_start": 2303897,
+          "result_start": 2303778,
+          "result_end": 2304568
+        },
+        "morph": {
+          "rank": 141,
+          "overlap_chars": 162,
+          "required_overlap_chars": 40,
+          "expected_start": 2303897,
+          "result_start": 2303778,
+          "result_end": 2304568
+        },
+        "context": {
+          "rank": 3,
+          "overlap_chars": 162,
+          "required_overlap_chars": 40,
+          "expected_start": 2303897,
+          "result_start": 2303778,
+          "result_end": 2304568
+        },
+        "paragraph": null
+      },
+      "variants": {
+        "balanced_16": {
+          "pool": 62,
+          "rank": null
+        },
+        "balanced_24": {
+          "pool": 93,
+          "rank": null
+        },
+        "balanced_32": {
+          "pool": 124,
+          "rank": null
+        },
+        "balanced_40": {
+          "pool": 152,
+          "rank": null
+        },
+        "rrf_40": {
+          "pool": 40,
+          "rank": null
+        },
+        "rrf_60": {
+          "pool": 60,
+          "rank": null
+        },
+        "rrf_80": {
+          "pool": 80,
+          "rank": null
+        },
+        "rrf_100": {
+          "pool": 100,
+          "rank": null
+        },
+        "seeds_80": {
+          "pool": 80,
+          "rank": null
+        },
+        "seeds_100": {
+          "pool": 100,
+          "rank": null
+        }
+      }
+    }
+  ],
+  "git_fixture_sha256": "9e901b8e5327bff3d4a3f9b14753afda424ef7faf766fcef9dc34367e6c478d9",
+  "fixture_line_endings_note": "Local execution used CRLF; the existing Git fixture is LF. Parsed cases are identical. The working fixture now matches the original Git bytes exactly."
+}

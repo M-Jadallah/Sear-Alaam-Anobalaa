@@ -1,4 +1,29 @@
 from scripts import publish_release as release
+import pytest
+from urllib.error import HTTPError
+
+
+def test_release_refuses_public_registry_before_upload(monkeypatch):
+    monkeypatch.setattr(release, "github", lambda path: {"visibility": "public"})
+    with pytest.raises(RuntimeError, match="non-private"):
+        release.require_private_packages(allow_missing=True)
+
+
+def test_release_accepts_missing_packages_only_before_first_upload(monkeypatch):
+    def missing(path):
+        raise HTTPError("https://api.github.com/" + path, 404, "Not found", {}, None)
+    monkeypatch.setattr(release, "github", missing)
+    release.require_private_packages(allow_missing=True)
+    with pytest.raises(HTTPError):
+        release.require_private_packages()
+
+
+def test_registry_authorization_errors_are_not_treated_as_missing(monkeypatch):
+    def forbidden(path):
+        raise HTTPError("https://api.github.com/" + path, 403, "Forbidden", {}, None)
+    monkeypatch.setattr(release, "github", forbidden)
+    with pytest.raises(HTTPError):
+        release.require_private_packages(allow_missing=True)
 
 
 def test_registry_cleanup_keeps_current_previous_and_nonrelease_tags(monkeypatch):

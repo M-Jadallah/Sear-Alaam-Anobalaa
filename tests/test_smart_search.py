@@ -185,6 +185,23 @@ def test_cache_has_page_independence_deep_copy_ttl_and_review_log_invalidation(b
     assert expired["cache_hit"] is False
 
 
+def test_result_cache_obeys_heap_budget_and_skips_an_oversized_entry(book, smart_module, monkeypatch):
+    module = smart_module
+    first = {"q": "الإخلاص"}
+    module.smart_search(first, book["database"])
+    size = next(iter(module._CACHE.values()))[3]
+    monkeypatch.setattr(module, "CACHE_BYTES_LIMIT", int(size * 1.6))
+    module.smart_search({"q": "الإخلاص الصدق"}, book["database"])
+    assert sum(entry[3] for entry in module._CACHE.values()) <= module.CACHE_BYTES_LIMIT
+    assert len(module._CACHE) == 1
+    assert module.smart_search(first, book["database"])["cache_hit"] is False
+    module._CACHE.clear()
+    monkeypatch.setattr(module, "CACHE_BYTES_LIMIT", 1)
+    assert module.smart_search(first, book["database"])["items"]
+    assert not module._CACHE
+    assert module.smart_search(first, book["database"])["cache_hit"] is False
+
+
 def test_cache_invalidates_for_model_source_and_index_revision(book, smart_module, monkeypatch):
     original_status = smart_module.semantic_status(book["database"])
     mutable = {**original_status, "model_fingerprint": "model-a", "fingerprint": "index-a"}
@@ -281,3 +298,33 @@ def test_broken_worker_returns_503_and_next_request_creates_a_new_worker(book, m
         assert len(created) == fresh.submitted == 1
         assert created[0]["max_workers"] == 1
     module.shutdown_search_worker()
+
+
+@pytest.mark.parametrize("paragraph_ready", [False, True])
+def test_arabic_profile_keeps_valid_context_search_when_optional_sidecar_is_unavailable(book, smart_module, monkeypatch, tmp_path, paragraph_ready):
+    from backend import morphology
+    module = smart_module
+    status = module.semantic_status(book["database"])
+    original_lexical = module._lexical_candidates
+    rows = original_lexical(book["database"], module._lexical_query("الإخلاص", {}), {"ready": False})
+    semantic = [{**row, "granularity": "context", "cosine": .8} for row in rows]
+    state = {**status, "ready": True, "status": "ready", "fingerprint": "synthetic-context",
+             "model_fingerprint": "synthetic-model", "paragraph_status": {"ready": paragraph_ready, "directory": str(tmp_path)}}
+    monkeypatch.setattr(module, "PROFILE_ID", "arabic-retrieval-v1")
+    monkeypatch.setattr(module, "semantic_status", lambda *args: copy.deepcopy(state))
+    monkeypatch.setattr(module, "_vectors", lambda ignored: None)
+    monkeypatch.setattr(module, "_paragraph_vectors", lambda ignored: None)
+    monkeypatch.setattr(module, "_lexical_candidates", lambda path, query, ignored: original_lexical(path, query, {"ready": False}))
+    monkeypatch.setattr(module, "_semantic_candidates", lambda *args: copy.deepcopy(semantic))
+    monkeypatch.setattr(module, "_rerank", lambda query, values, fingerprint: values)
+    def unavailable(*args):
+        if not paragraph_ready:
+            pytest.fail("A paragraph-dependent sidecar was consulted without a valid paragraph index")
+        raise RuntimeError("synthetic damaged sidecar")
+    monkeypatch.setattr(morphology, "candidates", unavailable)
+    result = module.smart_search({"q": "الإخلاص"}, book["database"])
+    assert result["mode"] == "hybrid" and result["items"]
+    assert all(row["evidence_text"] == book["text"][row["source_char_start"]:row["source_char_end"]] for row in result["items"])
+    assert any(row["match_type"] == "semantic_candidate" for row in result["items"])
+    if paragraph_ready:
+        assert "اشتقاق" in result["warning"]

@@ -79,6 +79,8 @@ def main():
         restore = "from pathlib import Path;from backend.deployment import restore,inventory;import os;restore(sorted(Path('/backups').glob('library-daily-*.gz'))[-1],'/backups/restored.sqlite3');assert inventory('/backups/restored.sqlite3')==inventory('/state/library.sqlite3');os.unlink('/backups/restored.sqlite3')"
         compose("exec", "-T", "backup", "python", "-c", restore)
         report["recreate_and_restore"] = "passed"
+        report["images"] = {"api": args.api, "web": args.web}
+        report["image_ids"] = {kind: run("docker", "image", "inspect", image, "--format", "{{.Id}}").stdout.strip() for kind, image in report["images"].items()}
         (folder / "container-qa.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
         print(json.dumps(report))
     except Exception:

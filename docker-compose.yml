@@ -32,6 +32,7 @@ services:
     networks: [private]
     restart: 'no'
     mem_limit: 256m
+    memswap_limit: 256m
     cpus: 0.5
     read_only: true
     tmpfs: ['/tmp:size=16m,mode=1777']
@@ -52,6 +53,7 @@ services:
     restart: unless-stopped
     init: true
     mem_limit: 1024m
+    memswap_limit: 1024m
     cpus: 1.0
     pids_limit: 96
     read_only: true
@@ -74,6 +76,7 @@ services:
     expose: ['8080']
     restart: unless-stopped
     mem_limit: 64m
+    memswap_limit: 64m
     cpus: 0.1
     read_only: true
     tmpfs: ['/tmp:size=16m,mode=1777']
@@ -109,6 +112,7 @@ services:
     networks: [private]
     restart: unless-stopped
     mem_limit: 96m
+    memswap_limit: 96m
     cpus: 0.1
     read_only: true
     tmpfs: ['/tmp:size=8m,mode=1777']

@@ -136,6 +136,13 @@ jobs:
           path: deploy/artifacts
           key: arabic-complete-v3-${{ runner.os }}-${{ needs.paragraphs.outputs.cache_key }}
           fail-on-cache-miss: true
+      - name: Verify restored source-bound assets without network
+        env:
+          SIYAR_MODEL_DIR: ${{ github.workspace }}/deploy/artifacts/models
+          SIYAR_MODEL_PROFILE: arabic-retrieval-v1
+          SIYAR_CPU_THREADS: '1'
+          SIYAR_ONNX_TOKENIZER: rust
+        run: python -m backend.semantic prepare --offline --runtime onnx-portable --directory deploy/artifacts/semantic --batch-size 16
       - name: Verify retrieval accuracy and offline operation
         env:
           SIYAR_MODEL_DIR: ${{ github.workspace }}/deploy/artifacts/models

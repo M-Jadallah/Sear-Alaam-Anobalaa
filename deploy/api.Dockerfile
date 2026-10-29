@@ -1,4 +1,5 @@
 FROM python:3.12-slim-bookworm
+LABEL org.opencontainers.image.source="https://github.com/M-Jadallah/Sear-Alaam-Anobalaa"
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1 SIYAR_MODE=production SIYAR_MODEL_PROFILE=arabic-retrieval-v1
 WORKDIR /app
 COPY requirements-production.txt /app/requirements-production.txt
