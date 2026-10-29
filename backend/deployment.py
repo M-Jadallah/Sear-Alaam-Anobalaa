@@ -38,6 +38,14 @@ def readonly(path):
     return sqlite3.connect(Path(path).resolve().as_uri() + "?mode=ro", uri=True, timeout=60)
 
 
+def _flush_disk_cache(stream):
+    """Bound dirty page cache charged to the small bootstrap cgroup on Linux."""
+    stream.flush()
+    os.fsync(stream.fileno())
+    if hasattr(os, "posix_fadvise"):
+        os.posix_fadvise(stream.fileno(), 0, 0, os.POSIX_FADV_DONTNEED)
+
+
 def _hash_row(digest, row):
     """Preserve the v1 JSON bytes without duplicating the whole book string."""
     digest.update(b"[")
@@ -157,15 +165,22 @@ def unpack(folder, database, source):
                     raise ValueError("جزء حزمة تالف: " + name)
                 with path.open("rb") as stream:
                     shutil.copyfileobj(stream, target, length=1024 * 1024)
+                _flush_disk_cache(target)
         staged = Path(temporary) / "library.sqlite3"
         _progress("seed_parts_verified")
         with gzip.open(zipped, "rb") as src, staged.open("wb") as dst:
             remaining = manifest["database_bytes"]
+            pending_flush = 0
             while chunk := src.read(min(1024 * 1024, remaining + 1)):
                 remaining -= len(chunk)
                 if remaining < 0:
                     raise ValueError("حجم الحزمة يتجاوز البيان.")
                 dst.write(chunk)
+                pending_flush += len(chunk)
+                if pending_flush >= 16 * 1024 * 1024:
+                    _flush_disk_cache(dst)
+                    pending_flush = 0
+            _flush_disk_cache(dst)
         if remaining != 0 or sha256(staged) != manifest["database_sha256"]:
             raise ValueError("بصمة قاعدة التهيئة غير صالحة.")
         _progress("seed_database_verified")
